@@ -3,7 +3,7 @@ import PyPDF2
 import re
 
 ABSOLUTE_PATH = "/Users/boydkane/PycharmProjects/MemosToNotes"
-FILE_NAME_WITH_EXTENSION = "file.pdf"
+FILE_NAME_WITH_EXTENSION = "file1.pdf"
 FILE_PATH = os.path.join(ABSOLUTE_PATH, FILE_NAME_WITH_EXTENSION)
 
 pdf = open(FILE_PATH, 'rb')
@@ -37,4 +37,8 @@ for section in data:
 for i in range(len(data)):
     data[i] = [question for question in data[i] if len(question) >= 7]
 
-pass
+for section in data:
+    print ("\n\n=================== New Section ===================\n\n")
+    for question in section:
+        print ("-------- New Question -------- \n")
+        print ("\t" + question)
