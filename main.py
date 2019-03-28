@@ -47,6 +47,6 @@ for section in data:
     print ("\n\n=================== New Section ===================\n\n")
     for question in section:
         print ("-------- New Question -------- \n")
-        print ("\t" + question)
+        print ("\t{}...".format(question[:100]))
 
 
