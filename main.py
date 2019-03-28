@@ -26,9 +26,15 @@ Regex: (\s\([a-z]\)\s+[A-Z])
 * \s+[A-Z] to match a capital letter after the (), questions always start with capital letters
 * all wrapped in a () to include the matched text in the output
 """
+REGEX = "\\s\\([a-z]\\)\\s+[A-Z]"
+
 for question in questions:
     # TODO figure out how to include the matched text in the split
-    data.append(re.split("(\\s\\([a-z]\\)\\s+[A-Z])", question))
+    pattern = re.compile(REGEX)
+    split_locations = [match.start() for match in pattern.finditer(question)]
+    split_locations.insert(0, 0)
+    # split the question string based off of the values in split location
+    data.append([question[split_locations[i]:split_locations[i + 1]] for i in range(len(split_locations)-1)])
 
 for section in data:
     for i in range(len(section)):
@@ -42,3 +48,5 @@ for section in data:
     for question in section:
         print ("-------- New Question -------- \n")
         print ("\t" + question)
+
+
