@@ -2,6 +2,14 @@ import os
 import PyPDF2
 import re
 
+"""
+
+"""
+
+
+# TODO Create Docstring
+# TODO Create Class for QuestionPaper objects
+
 ABSOLUTE_PATH = "/Users/boydkane/PycharmProjects/MemosToNotes"
 FILE_NAME_WITH_EXTENSION = "file1.pdf"
 FILE_PATH = os.path.join(ABSOLUTE_PATH, FILE_NAME_WITH_EXTENSION)
@@ -29,7 +37,6 @@ Regex: (\s\([a-z]\)\s+[A-Z])
 REGEX = "\\s\\([a-z]\\)\\s+[A-Z]"
 
 for question in questions:
-    # TODO figure out how to include the matched text in the split
     pattern = re.compile(REGEX)
     split_locations = [match.start() for match in pattern.finditer(question)]
     split_locations.insert(0, 0)
@@ -47,6 +54,5 @@ for section in data:
     print ("\n\n=================== New Section ===================\n\n")
     for question in section:
         print ("-------- New Question -------- \n")
-        print ("\t{}...".format(question[:100]))
-
+        print ("\t{}...".format(question[:100]))    #TODO Sort out the error: UnicodeEncodeError: 'ascii' codec can't encode character u'\ufb01' in position 41: ordinal not in range(128)
 
