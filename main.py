@@ -1,6 +1,7 @@
 import os
-import PyPDF2
 import re
+
+import PyPDF2
 
 """
 
@@ -8,24 +9,35 @@ import re
 
 
 # TODO Create Docstring
-# TODO Create Class for QuestionPaper objects
+# TODO Finish Class for QuestionPaper objects
 
 class QuestionPaper(object):
     def __init__(self, filename):
+        """
+        Initialise the QuestionPaper class.
+        QuestionPapers can be
+            .read(): to get the data into variables
+        :param filename: the filename + extension of the QuestionPaper to act on
+        """
         FILE_NAME_WITH_EXTENSION = filename
         ABSOLUTE_PATH = os.getcwd()
-        self.FILE_PATH = os.path.join(ABSOLUTE_PATH, FILE_NAME_WITH_EXTENSION)
-        pdf = open(self.FILE_PATH, 'rb')
-        self.reader = PyPDF2.PdfFileReader(pdf)
+        self.FILE_PATH = os.path.join(ABSOLUTE_PATH, FILE_NAME_WITH_EXTENSION)  # calculate the absolute file path
+        pdf = open(self.FILE_PATH, 'rb')  # open the specified file in binary mode
+        self.reader = PyPDF2.PdfFileReader(pdf)  # use PyPDF2 to read the pdf file
 
         """
-        Regex: (\s\([a-z]\)\s+[A-Z])
-        * \\ to escape Python's go over of the string
-        * \s to match whitespace before the question
-        * ([a-z]) to match the start, middle and end of a '(a-z)' type question
-        * \s+[A-Z] to match a capital letter after the (), questions always start with capital letters
+        Explanation of the regex used: 
+        Note: All backslashes have to be doubled up, as both python and regex uses them as escape characters
+            (\s\([a-z]\)\s+[A-Z])
+                * \s to match whitespace before the question
+                * ([a-z]) to match the start, middle and end of a '(a-z)' type question
+                * \s+[A-Z] to match a capital letter after the (), questions always start with capital letters
+            Question \d+"
+                * Question to match with any CSC question title.
+                * 
+                
         """
-        self.REGEX_SECTION = "Question \\d+"
+        self.REGEX_SECTION = "Question \\d+"  # TODO expand this out to also catch other Section headers
         self.REGEX_QUESTION = "\\s\\([a-z]\\)\\s+[A-Z]"
 
     def read(self):
@@ -45,6 +57,24 @@ class QuestionPaper(object):
             split_locations.insert(0, 0)
             # split the question string based off of the values in split location
             data.append([question[split_locations[i]:split_locations[i + 1]] for i in range(len(split_locations) - 1)])
+
+        for section in data:
+            for i in range(len(section)):
+                if len(section[i]) < 7 and i + 2 < len(section):
+                    section[i + 1] = section[i] + section[i + 1]
+        for i in range(len(data)):
+            data[i] = [question for question in data[i] if len(question) >= 7]
+
+    def __repr__(self):
+        output = []
+        for section in data:
+            output.append("\n\n=================== New Section ===================\n\n")
+            for question in section:
+                output.append("-------- New Question -------- \n")
+                output.append("\t{}...".format(question[
+                                               :100]))  # TODO Sort out the error: UnicodeEncodeError: 'ascii' codec can't encode character u'\ufb01' in position 41: ordinal not in range(128)
+        for line in output:
+            print (line)
 
 
 ABSOLUTE_PATH = "/Users/boydkane/PycharmProjects/MemosToNotes"
