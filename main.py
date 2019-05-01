@@ -55,6 +55,8 @@ class QuestionPaper(object):
 
         section = re.split(self.REGEX_SECTION, pdf_string)  # split the pdf string by its section headers
 
+
+        error go through the code below
         for question in section:    # split the sections into different questions
             pattern = re.compile(self.REGEX_QUESTION)  # compile the regex into a patter to match with
             # split_locations contains where each question starts / ends
