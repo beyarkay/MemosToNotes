@@ -1,15 +1,10 @@
+import glob
 import os
 import re
 
 import PyPDF2
+import textract
 
-"""
-
-"""
-
-
-# TODO Create Docstring
-# TODO Finish Class for QuestionPaper objects
 
 class QuestionPaper(object):
     def __init__(self, filename):
@@ -19,111 +14,76 @@ class QuestionPaper(object):
             .read(): to get the data into variables
         :param filename: the filename + extension of the QuestionPaper to act on
         """
-        FILE_NAME_WITH_EXTENSION = filename
-        ABSOLUTE_PATH = os.getcwd()
-        self.FILE_PATH = os.path.join(ABSOLUTE_PATH, FILE_NAME_WITH_EXTENSION)  # calculate the absolute file path
-        pdf = open(self.FILE_PATH, 'rb')  # open the specified file in binary mode
+        self.filename = filename
+        pdf = open(os.path.join(os.getcwd(), filename), 'rb')  # open the specified file in binary mode
         self.reader = PyPDF2.PdfFileReader(pdf)  # use PyPDF2 to read the pdf file
         self.data = []  # the list to eventually hold all the info about the QuestionPaper
 
-        """
-        Explanation of the regex used: 
-        Note: All backslashes have to be doubled up, as both python and regex uses them as escape characters
-            (\s\([a-z]\)\s+[A-Z])   To match the start of an actual question
-                * \s to match whitespace before the question
-                * ([a-z]) to match the start, middle and end of a '(a-z)' type question
-                * \s+[A-Z] to match a capital letter after the (), questions always start with capital letters
-                
-            Question \d+"   To match the start of a Computer Science Section header
-                * Question to match with any CSC question title.
-                * \d+ to match with any number of digits (at least one)
-                * Examples:
-                    Question 2
-                    Question 12
-                    Question 0
-        """
-        self.REGEX_SECTION = "Question \\d+"  # TODO expand this out to also catch other Section headers
-        self.REGEX_QUESTION = "\\s\\([a-z]\\)\\s+[A-Z]"
-
-    def read(self):
-        pdf_string = ""
-
-        # Convert the reader object into one string (pdf_string) with all the data from the pdf
+        self.text = ""
         for i in range(self.reader.numPages):
             page = self.reader.getPage(i)
-            pdf_string += page.extractText()
+            self.text += str(page.extractText().encode("ascii", "ignore")) \
+                .replace('\n', ' ') \
+                .replace('\r', '')
+        if self.text == "":
+            self.text = textract.process(filename, method='tesseract', language='eng', encoding="utf8")
+            self.text = self.text.replace("\n", " ")
+            print("Using textract for file {}...".format(filename))
+        else:
+            print("Using PyPDF2 for file {}...".format(filename))
 
-        section = re.split(self.REGEX_SECTION, pdf_string)  # split the pdf string by its section headers
+    def parse(self, regex_subquestion="(\\s\\([a-z]+\\)\\s+[A-Z])"):
 
+        # Remove the underscores that are given as lines to answer on
+        underscore_pattern = re.compile("_{3,}")
+        end_of_question_pattern = re.compile("\\?")
 
-        error go through the code below
-        for question in section:    # split the sections into different questions
-            pattern = re.compile(self.REGEX_QUESTION)  # compile the regex into a patter to match with
-            # split_locations contains where each question starts / ends
-            split_locations = [match.start() for match in pattern.finditer(question)]
-            split_locations.insert(0, 0)  # prepend a zero so as to not skip the beginning part
-            temp = []
-            for i in range(len(split_locations) - 1):
-                temp.append(question[split_locations[i]:split_locations[i + 1]])
-            self.data.append(temp)
+        self.text = re.sub(underscore_pattern, "\n", self.text)
+        self.text = re.sub(end_of_question_pattern, "\n", self.text)
 
-            # TODO delete the unreadable list comprehension below once the above code is tested
-            # self.data.append(
-            #     [question[split_locations[i]:split_locations[i + 1]] for i in range(len(split_locations) - 1)])
+        self.text = re.sub(re.compile("\s{4,}"), "", self.text)
 
-            for section in self.data:
-                for i in range(len(section)):
-                    if len(section[i]) < 7 and i + 2 < len(section):
-                        section[i + 1] = section[i] + section[i + 1]
-                    for i in range(len(self.data)):
-                        self.data[i] = [question for question in self.data[i] if len(question) >= 7]
+        subquestion_pattern = re.compile(regex_subquestion)
+        qs_and_as = subquestion_pattern.split(self.text)
+        my_list = []
+        for i, q_and_a in enumerate(qs_and_as):
+            if i != 0 and i % 2 == 0:
+                my_list.append(qs_and_as[i - 1] + q_and_a + "\n")
+
+        subanswer_pattern = re.compile(regex_subquestion)
+        qs_and_as = subquestion_pattern.split(self.text)
+        # for item in my_list:
+
+        if my_list:
+            return my_list
+        else:
+            print("Parsing Error with file '{}' Change the regex({}) and try again".format(self.filename,
+                                                                                           regex_subquestion))
+            print("")
+            return None
 
     def __repr__(self):
         output = []
-        for section in self.data:
-            output.append("\n\n=================== New Section ===================\n\n")
-            for question in section:
-                output.append("-------- New Question -------- \n")
-                output.append("\t{}...".format(question[
-                                               :100]))  # TODO Sort out the error: UnicodeEncodeError: 'ascii' codec can't encode character u'\ufb01' in position 41: ordinal not in range(128)
-        for line in output:
-            print (line)
+        if self.data:
+            for section in self.data:
+                output.append("\n\n=================== New Section ===================\n\n")
+                for question in section:
+                    output.append("-------- New Question -------- \n")
+                    output.append("\t{}...".format(question[:100]))
+            return output
+        else:
+            return self.text.encode("ascii", "ignore")
 
-# ABSOLUTE_PATH = "/Users/boydkane/PycharmProjects/MemosToNotes"
-# FILE_NAME_WITH_EXTENSION = "file1.pdf"
-# FILE_PATH = os.path.join(ABSOLUTE_PATH, FILE_NAME_WITH_EXTENSION)
-#
-# pdf = open(FILE_PATH, 'rb')
-# reader = PyPDF2.PdfFileReader(pdf)
-# print(reader.getDocumentInfo())
-# pdf_string = ""
-# for i in range(reader.numPages):
-#     page = reader.getPage(i)
-#     pdf_string += page.extractText()
-# print(pdf_string)
-#
-# questions = re.split("Question \\d+", pdf_string)
-# data = []
-#
-# REGEX = "\\s\\([a-z]\\)\\s+[A-Z]"
-#
-# for question in questions:
-#     pattern = re.compile(REGEX)
-#     split_locations = [match.start() for match in pattern.finditer(question)]
-#     split_locations.insert(0, 0)
-#     # split the question string based off of the values in split location
-#     data.append([question[split_locations[i]:split_locations[i + 1]] for i in range(len(split_locations) - 1)])
-#
-# for section in data:
-#     for i in range(len(section)):
-#         if len(section[i]) < 7 and i + 2 < len(section):
-#             section[i + 1] = section[i] + section[i + 1]
-# for i in range(len(data)):
-#     data[i] = [question for question in data[i] if len(question) >= 7]
-#
-# for section in data:
-#     print ("\n\n=================== New Section ===================\n\n")
-#     for question in section:
-#         print ("-------- New Question -------- \n")
-#         print ("\t{}...".format(question[
-#                                 :100]))  # TODO Sort out the error: UnicodeEncodeError: 'ascii' codec can't encode character u'\ufb01' in position 41: ordinal not in range(128)
+
+def main():
+    filenames = glob.glob("pdfs/*.pdf")
+    for filename in filenames:
+        paper = QuestionPaper(filename)
+        my_list = paper.parse()
+        if my_list is not None:
+            with open(filename.split(".")[0] + ".txt", "w") as file:
+                file.writelines(my_list)
+
+
+if __name__ == '__main__':
+    main()
