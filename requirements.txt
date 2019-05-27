@@ -1,4 +1,5 @@
-PIL
-textract
-PyPDF2
+wand
+Pillow
 nltk
+pytesseract
+PyPDF2

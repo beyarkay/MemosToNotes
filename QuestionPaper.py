@@ -1,14 +1,7 @@
 import os
 import re
 
-# TODO Get PyPDF2 working again
-# TODO Get pytesseract working
 import PyPDF2
-import textract
-
-
-# import pytesseract
-# pytesseract.pytesseract.tesseract_cmd = '/usr/local/bin/pytesseract'
 
 
 def split_keep_splitter(text, splitter):
@@ -26,7 +19,6 @@ def split_keep_splitter(text, splitter):
 
 
 class QuestionPaper(object):
-    # TODO Finish off the QuestionPaper class --> Dict[id:(question, answer, metadata)]
     def __init__(self, filename):
         """
         Initialise the QuestionPaper class.
