@@ -1,0 +1,4 @@
+PIL
+textract
+PyPDF2
+nltk

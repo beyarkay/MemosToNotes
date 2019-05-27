@@ -1,8 +1,14 @@
 import os
 import re
 
+# TODO Get PyPDF2 working again
+# TODO Get pytesseract working
 import PyPDF2
 import textract
+
+
+# import pytesseract
+# pytesseract.pytesseract.tesseract_cmd = '/usr/local/bin/pytesseract'
 
 
 def split_keep_splitter(text, splitter):
@@ -34,9 +40,9 @@ class QuestionPaper(object):
 
         self.text = ""
 
-        for i in range(self.reader.numPages):
-            page = self.reader.getPage(i)
-            self.text += str(page.extractText().encode("ascii", "ignore"))
+        # for i in range(self.reader.numPages):
+        #     page = self.reader.getPage(i)
+        #     self.text += str(page.extractText().encode("ascii", "ignore"))
 
         if self.text == "":
             self.text = textract.process(filename, method='tesseract', language='eng', encoding="utf8")
