@@ -2,169 +2,144 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="456ae79f-d782-497c-83bd-e877f784e7ca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Figure1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_topics/topic1_testing.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pdfs/2011 June Memo.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pdfs/2012 June Memo.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pdfs/2013 June Memo.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pdfs/2014 June Memo.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pdfs/2015 June Memo.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pdfs/2016 June Memo.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pdfs/2017 June Memo.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pdfs/2018 June Memo.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2011 June Memo/2011 June Memo-0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2011 June Memo/2011 June Memo-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2011 June Memo/2011 June Memo-10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2011 June Memo/2011 June Memo-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2011 June Memo/2011 June Memo-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2011 June Memo/2011 June Memo-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2011 June Memo/2011 June Memo-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2011 June Memo/2011 June Memo-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2011 June Memo/2011 June Memo-7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2011 June Memo/2011 June Memo-8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2011 June Memo/2011 June Memo-9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2012 June Memo/2012 June Memo-0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2012 June Memo/2012 June Memo-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2012 June Memo/2012 June Memo-10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2012 June Memo/2012 June Memo-11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2012 June Memo/2012 June Memo-12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2012 June Memo/2012 June Memo-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2012 June Memo/2012 June Memo-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2012 June Memo/2012 June Memo-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2012 June Memo/2012 June Memo-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2012 June Memo/2012 June Memo-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2012 June Memo/2012 June Memo-7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2012 June Memo/2012 June Memo-8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2012 June Memo/2012 June Memo-9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2013 June Memo/2013 June Memo-0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2013 June Memo/2013 June Memo-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2013 June Memo/2013 June Memo-10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2013 June Memo/2013 June Memo-11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2013 June Memo/2013 June Memo-12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2013 June Memo/2013 June Memo-13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2013 June Memo/2013 June Memo-14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2013 June Memo/2013 June Memo-15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2013 June Memo/2013 June Memo-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2013 June Memo/2013 June Memo-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2013 June Memo/2013 June Memo-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2013 June Memo/2013 June Memo-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2013 June Memo/2013 June Memo-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2013 June Memo/2013 June Memo-7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2013 June Memo/2013 June Memo-8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2013 June Memo/2013 June Memo-9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2014 June Memo/2014 June Memo-0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2014 June Memo/2014 June Memo-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2014 June Memo/2014 June Memo-10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2014 June Memo/2014 June Memo-11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2014 June Memo/2014 June Memo-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2014 June Memo/2014 June Memo-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2014 June Memo/2014 June Memo-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2014 June Memo/2014 June Memo-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2014 June Memo/2014 June Memo-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2014 June Memo/2014 June Memo-7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2014 June Memo/2014 June Memo-8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2014 June Memo/2014 June Memo-9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2015 June Memo/2015 June Memo-0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2015 June Memo/2015 June Memo-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2015 June Memo/2015 June Memo-10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2015 June Memo/2015 June Memo-11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2015 June Memo/2015 June Memo-12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2015 June Memo/2015 June Memo-13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2015 June Memo/2015 June Memo-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2015 June Memo/2015 June Memo-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2015 June Memo/2015 June Memo-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2015 June Memo/2015 June Memo-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2015 June Memo/2015 June Memo-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2015 June Memo/2015 June Memo-7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2015 June Memo/2015 June Memo-8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2015 June Memo/2015 June Memo-9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2016 June Memo/2016 June Memo-0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2016 June Memo/2016 June Memo-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2016 June Memo/2016 June Memo-10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2016 June Memo/2016 June Memo-11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2016 June Memo/2016 June Memo-12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2016 June Memo/2016 June Memo-13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2016 June Memo/2016 June Memo-14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2016 June Memo/2016 June Memo-15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2016 June Memo/2016 June Memo-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2016 June Memo/2016 June Memo-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2016 June Memo/2016 June Memo-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2016 June Memo/2016 June Memo-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2016 June Memo/2016 June Memo-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2016 June Memo/2016 June Memo-7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2016 June Memo/2016 June Memo-8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2016 June Memo/2016 June Memo-9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2017 June Memo/2017 June Memo-0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2017 June Memo/2017 June Memo-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2017 June Memo/2017 June Memo-10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2017 June Memo/2017 June Memo-11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2017 June Memo/2017 June Memo-12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2017 June Memo/2017 June Memo-13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2017 June Memo/2017 June Memo-14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2017 June Memo/2017 June Memo-15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2017 June Memo/2017 June Memo-16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2017 June Memo/2017 June Memo-17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2017 June Memo/2017 June Memo-18.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2017 June Memo/2017 June Memo-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2017 June Memo/2017 June Memo-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2017 June Memo/2017 June Memo-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2017 June Memo/2017 June Memo-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2017 June Memo/2017 June Memo-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2017 June Memo/2017 June Memo-7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2017 June Memo/2017 June Memo-8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2017 June Memo/2017 June Memo-9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2018 June Memo/2018 June Memo-0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2018 June Memo/2018 June Memo-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2018 June Memo/2018 June Memo-10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2018 June Memo/2018 June Memo-11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2018 June Memo/2018 June Memo-12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2018 June Memo/2018 June Memo-13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2018 June Memo/2018 June Memo-14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2018 June Memo/2018 June Memo-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2018 June Memo/2018 June Memo-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2018 June Memo/2018 June Memo-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2018 June Memo/2018 June Memo-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2018 June Memo/2018 June Memo-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2018 June Memo/2018 June Memo-7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2018 June Memo/2018 June Memo-8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2018 June Memo/2018 June Memo-9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/memos/2011 June Memo.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/memos/2012 June Memo.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/memos/2013 June Memo.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/memos/2014 June Memo.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/memos/2015 June Memo.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/memos/2016 June Memo.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/memos/2017 June Memo.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/memos/2018 June Memo.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/text_files/2011 June Memo.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/text_files/2012 June Memo.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/text_files/2013 June Memo.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/text_files/2014 June Memo.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/text_files/2015 June Memo.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/text_files/2016 June Memo.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/text_files/2017 June Memo.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/text_files/2018 June Memo.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tokens.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuestionPaper.py" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionPaper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frequencies/2014 CSC test solutions.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frequencies/2016 supp CSC test solutions.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frequencies/2017 CSC test solutions.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frequencies/CSC1015F 2015 Test 3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frequencies/CSC1015F 2016 Test 3 Final.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/ocr_1/ocr_1-0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/ocr_1/ocr_1-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/ocr_1/ocr_1-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/ocr_1/ocr_1-3.jpg" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/topics/tokens/Testing.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Figure1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2011 June Memo/2011 June Memo-0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2011 June Memo/2011 June Memo-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2011 June Memo/2011 June Memo-10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2011 June Memo/2011 June Memo-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2011 June Memo/2011 June Memo-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2011 June Memo/2011 June Memo-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2011 June Memo/2011 June Memo-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2011 June Memo/2011 June Memo-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2011 June Memo/2011 June Memo-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2011 June Memo/2011 June Memo-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2011 June Memo/2011 June Memo-9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2012 June Memo/2012 June Memo-0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2012 June Memo/2012 June Memo-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2012 June Memo/2012 June Memo-10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2012 June Memo/2012 June Memo-11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2012 June Memo/2012 June Memo-12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2012 June Memo/2012 June Memo-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2012 June Memo/2012 June Memo-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2012 June Memo/2012 June Memo-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2012 June Memo/2012 June Memo-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2012 June Memo/2012 June Memo-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2012 June Memo/2012 June Memo-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2012 June Memo/2012 June Memo-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2012 June Memo/2012 June Memo-9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2013 June Memo/2013 June Memo-0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2013 June Memo/2013 June Memo-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2013 June Memo/2013 June Memo-10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2013 June Memo/2013 June Memo-11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2013 June Memo/2013 June Memo-12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2013 June Memo/2013 June Memo-13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2013 June Memo/2013 June Memo-14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2013 June Memo/2013 June Memo-15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2013 June Memo/2013 June Memo-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2013 June Memo/2013 June Memo-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2013 June Memo/2013 June Memo-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2013 June Memo/2013 June Memo-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2013 June Memo/2013 June Memo-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2013 June Memo/2013 June Memo-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2013 June Memo/2013 June Memo-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2013 June Memo/2013 June Memo-9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2014 June Memo/2014 June Memo-0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2014 June Memo/2014 June Memo-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2014 June Memo/2014 June Memo-10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2014 June Memo/2014 June Memo-11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2014 June Memo/2014 June Memo-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2014 June Memo/2014 June Memo-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2014 June Memo/2014 June Memo-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2014 June Memo/2014 June Memo-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2014 June Memo/2014 June Memo-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2014 June Memo/2014 June Memo-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2014 June Memo/2014 June Memo-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2014 June Memo/2014 June Memo-9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2015 June Memo/2015 June Memo-0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2015 June Memo/2015 June Memo-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2015 June Memo/2015 June Memo-10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2015 June Memo/2015 June Memo-11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2015 June Memo/2015 June Memo-12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2015 June Memo/2015 June Memo-13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2015 June Memo/2015 June Memo-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2015 June Memo/2015 June Memo-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2015 June Memo/2015 June Memo-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2015 June Memo/2015 June Memo-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2015 June Memo/2015 June Memo-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2015 June Memo/2015 June Memo-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2015 June Memo/2015 June Memo-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2015 June Memo/2015 June Memo-9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2016 June Memo/2016 June Memo-0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2016 June Memo/2016 June Memo-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2016 June Memo/2016 June Memo-10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2016 June Memo/2016 June Memo-11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2016 June Memo/2016 June Memo-12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2016 June Memo/2016 June Memo-13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2016 June Memo/2016 June Memo-14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2016 June Memo/2016 June Memo-15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2016 June Memo/2016 June Memo-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2016 June Memo/2016 June Memo-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2016 June Memo/2016 June Memo-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2016 June Memo/2016 June Memo-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2016 June Memo/2016 June Memo-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2016 June Memo/2016 June Memo-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2016 June Memo/2016 June Memo-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2016 June Memo/2016 June Memo-9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2017 June Memo/2017 June Memo-0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2017 June Memo/2017 June Memo-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2017 June Memo/2017 June Memo-10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2017 June Memo/2017 June Memo-11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2017 June Memo/2017 June Memo-12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2017 June Memo/2017 June Memo-13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2017 June Memo/2017 June Memo-14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2017 June Memo/2017 June Memo-15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2017 June Memo/2017 June Memo-16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2017 June Memo/2017 June Memo-17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2017 June Memo/2017 June Memo-18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2017 June Memo/2017 June Memo-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2017 June Memo/2017 June Memo-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2017 June Memo/2017 June Memo-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2017 June Memo/2017 June Memo-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2017 June Memo/2017 June Memo-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2017 June Memo/2017 June Memo-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2017 June Memo/2017 June Memo-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2017 June Memo/2017 June Memo-9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2018 June Memo/2018 June Memo-0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2018 June Memo/2018 June Memo-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2018 June Memo/2018 June Memo-10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2018 June Memo/2018 June Memo-11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2018 June Memo/2018 June Memo-12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2018 June Memo/2018 June Memo-13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2018 June Memo/2018 June Memo-14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2018 June Memo/2018 June Memo-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2018 June Memo/2018 June Memo-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2018 June Memo/2018 June Memo-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2018 June Memo/2018 June Memo-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2018 June Memo/2018 June Memo-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2018 June Memo/2018 June Memo-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2018 June Memo/2018 June Memo-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2018 June Memo/2018 June Memo-9.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfs/ocr_1.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfs/pdf_file_1.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfs/pdf_file_2.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfs/pdf_file_3.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfs/pdf_file_4.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfs/pdf_file_5.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfs/pdf_file_6.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfs/pdf_file_7.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memos/2011 June Memo.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memos/2012 June Memo.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memos/2013 June Memo.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memos/2014 June Memo.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memos/2015 June Memo.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memos/2016 June Memo.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memos/2017 June Memo.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memos/2018 June Memo.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reading_list.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/text_files/2011 June Memo.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/text_files/2012 June Memo.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/text_files/2013 June Memo.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/text_files/2014 June Memo.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/text_files/2015 June Memo.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/text_files/2016 June Memo.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/text_files/2017 June Memo.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/text_files/2018 June Memo.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tokens.txt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -177,15 +152,15 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="105" column="4" selection-start-line="105" selection-start-column="4" selection-end-line="105" selection-end-column="4" />
+            <state relative-caret-position="495">
+              <caret line="101" column="7" selection-start-line="101" selection-start-column="7" selection-end-line="101" selection-end-column="7" />
               <folding>
+                <element signature="e#372#419#0" />
+                <element signature="e#436#2389#0" />
                 <element signature="e#436#946#1" />
-                <element signature="e#2549#4238#0" />
+                <element signature="e#1873#2075#0" />
                 <element signature="e#2461#2735#1" />
                 <element signature="e#4139#4315#1" />
-                <element signature="e#4681#4825#0" />
-                <element signature="e#5336#5858#0" />
                 <element signature="e#5336#5495#1" />
               </folding>
             </state>
@@ -193,10 +168,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tokens.txt">
+        <entry file="file://$PROJECT_DIR$/topics/tokens/Testing.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+            <state relative-caret-position="315">
+              <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -229,6 +204,8 @@
       <find>.jpg</find>
       <find>oundary</find>
       <find>stopwords</find>
+      <find>ieee</find>
+      <find>EEE</find>
     </findStrings>
     <replaceStrings>
       <replace>REGEX_SUBQUESTION</replace>
@@ -253,6 +230,7 @@
         <option value="$PROJECT_DIR$/QuestionPaper.py" />
         <option value="$PROJECT_DIR$/tokens.txt" />
         <option value="$PROJECT_DIR$/frequencies.txt" />
+        <option value="$PROJECT_DIR$/topics/tokens/Testing.txt" />
         <option value="$PROJECT_DIR$/main.py" />
       </list>
     </option>
@@ -279,24 +257,13 @@
             <path>
               <item name="MemosToNotes" type="b2602c69:ProjectViewProjectNode" />
               <item name="MemosToNotes" type="462c0819:PsiDirectoryNode" />
-              <item name="corpus" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MemosToNotes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MemosToNotes" type="462c0819:PsiDirectoryNode" />
-              <item name="corpus" type="462c0819:PsiDirectoryNode" />
-              <item name="pdfs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MemosToNotes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MemosToNotes" type="462c0819:PsiDirectoryNode" />
-              <item name="corpus" type="462c0819:PsiDirectoryNode" />
-              <item name="txts" type="462c0819:PsiDirectoryNode" />
+              <item name="topics" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MemosToNotes" type="b2602c69:ProjectViewProjectNode" />
               <item name="MemosToNotes" type="462c0819:PsiDirectoryNode" />
               <item name="topics" type="462c0819:PsiDirectoryNode" />
+              <item name="pdfs" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -411,7 +378,7 @@
       <workItem from="1559069719450" duration="12391000" />
       <workItem from="1559118826482" duration="50000" />
       <workItem from="1559118889572" duration="4524000" />
-      <workItem from="1559134317262" duration="2789000" />
+      <workItem from="1559134317262" duration="6851000" />
     </task>
     <task id="LOCAL-00001" summary="Testing git connection">
       <created>1553692047818</created>
@@ -553,22 +520,29 @@
       <option name="project" value="LOCAL" />
       <updated>1559113145102</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Reformat to process larger datasets easily">
+      <created>1559137188602</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1559137188602</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56277000" />
+    <option name="totallyTimeSpent" value="60339000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19027181" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17167382" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.3120482" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" weight="0.30240965" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4988263" weight="0.3385542" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -579,11 +553,11 @@
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.3566265" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="right" x="0" y="0" width="310" height="700" id="Documentation" order="0" sideWeight="0.7057793" side_tool="true" visible="true" weight="0.14449213" />
+      <window_info anchor="right" x="0" y="0" width="310" height="700" id="Documentation" order="0" sideWeight="0.78313255" side_tool="true" visible="true" weight="0.23462088" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="4" sideWeight="0.29422066" visible="true" weight="0.14449213" />
+      <window_info anchor="right" id="SciView" order="4" sideWeight="0.21686748" visible="true" weight="0.23462088" />
       <window_info anchor="right" id="Database" order="5" />
     </layout>
   </component>
@@ -612,19 +586,12 @@
     <MESSAGE value="Streamline text extraction" />
     <MESSAGE value="Add simple frequency bar graph" />
     <MESSAGE value="Processed pdfs now get saved in text form" />
-    <option name="LAST_COMMIT_MESSAGE" value="Processed pdfs now get saved in text form" />
+    <MESSAGE value="Reformat to process larger datasets easily" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reformat to process larger datasets easily" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
-  <component name="XDebuggerManager">
-    <watches-manager>
-      <configuration name="PythonConfigurationType">
-        <watch expression="os.path.join(directory, file_id, &quot;*.jpg&quot;)" language="Python" />
-        <watch expression="os.listdir(images_directory)" language="Python" />
-      </configuration>
-    </watches-manager>
-  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/MemosToNotes$main.coverage" NAME="main Coverage Results" MODIFIED="1559137004285" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MemosToNotes$main.coverage" NAME="main Coverage Results" MODIFIED="1559140234062" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
@@ -648,12 +615,6 @@ print(&quot;Done&quot;)</expression-string>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pdfs/file4.md" />
-    <entry file="file://$PROJECT_DIR$/pdfs/file5.md" />
-    <entry file="file://$PROJECT_DIR$/pdfs/file6.md" />
-    <entry file="file://$PROJECT_DIR$/pdfs/file7.md" />
-    <entry file="file://$PROJECT_DIR$/pdfs/file8.md" />
-    <entry file="file://$PROJECT_DIR$/frequencies/2011 test2 supp solution Test 2 CSC1015F.txt" />
     <entry file="file://$PROJECT_DIR$/frequencies/2011 test2 solution Test 2 CSC1015F.txt" />
     <entry file="file://$PROJECT_DIR$/frequencies/2016 supp CSC test solutions.txt" />
     <entry file="file://$PROJECT_DIR$/frequencies/2017 CSC test solutions.txt" />
@@ -818,9 +779,6 @@ print(&quot;Done&quot;)</expression-string>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Figure1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/frequencies.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -835,20 +793,61 @@ print(&quot;Done&quot;)</expression-string>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/corpus/txts/2011 June Memo.txt">
+    <entry file="file://$PROJECT_DIR$/corpus/summaries/2011 June Memo.txt">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/corpus/summaries/2013 June Memo.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="10" lean-forward="true" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/corpus/summaries/2017 June Memo.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/corpus/txts/2011 June Memo.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="344" column="87" selection-start-line="344" selection-start-column="81" selection-end-line="344" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/corpus/summaries/2011 June Memo.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="674" column="18" lean-forward="true" selection-start-line="674" selection-start-column="18" selection-end-line="674" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/corpus/summaries/2012 June Memo.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="479" column="16" selection-start-line="479" selection-start-column="16" selection-end-line="479" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Figure1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/topics/tokens/Testing.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="105" column="4" selection-start-line="105" selection-start-column="4" selection-end-line="105" selection-end-column="4" />
+        <state relative-caret-position="495">
+          <caret line="101" column="7" selection-start-line="101" selection-start-column="7" selection-end-line="101" selection-end-column="7" />
           <folding>
+            <element signature="e#372#419#0" />
+            <element signature="e#436#2389#0" />
             <element signature="e#436#946#1" />
-            <element signature="e#2549#4238#0" />
+            <element signature="e#1873#2075#0" />
             <element signature="e#2461#2735#1" />
             <element signature="e#4139#4315#1" />
-            <element signature="e#4681#4825#0" />
-            <element signature="e#5336#5858#0" />
             <element signature="e#5336#5495#1" />
           </folding>
         </state>
