@@ -14,7 +14,7 @@ def get_filename(pdf_path):
     return pdf_path.split(os.sep)[-1].split(".")[0]
 
 
-def get_text_from_pdf(pdf_path: str, root: str = "corpus", verbose: bool = True, reuse=True) -> list:
+def get_text_from_pdf(pdf_path: str, root: str, verbose: bool = True, reuse=True) -> list:
     """
     Use Tesseract OCR to get the text from filename. PDFs are converted pagewise into
     jpegs and saved in directory
@@ -47,7 +47,7 @@ def get_text_from_pdf(pdf_path: str, root: str = "corpus", verbose: bool = True,
             # Save each set of pngs in their own directory: root/pngs/__filename__/1.png, 2.pngs, etc
             image_path = os.path.join(images_directory, get_filename(pdf_path) + ".png")
             if verbose:
-                print("Saving image file: " + image_path)
+                print("Saving as image file: " + image_path)
             image.save(filename=image_path)
 
     # now get all the .png files, and use tesseract on them
@@ -80,18 +80,18 @@ def pdfs_to_texts(root, verbose=True, reuse=True):
         if not reuse or not os.path.exists(text_file_path):
             # The user doesn't want to reuse the already-processed files, or those files don't exist
             if verbose:
-                print("Processing '{}' ({} out of {})".format(pdf_path, i, len(pdf_paths)))
+                print("Opening '{}' ({} out of {})".format(pdf_path, i, len(pdf_paths)))
 
             # Write the data to the appropriate text file
             with open(text_file_path, "w+") as text_file:
-                text_file.writelines(get_text_from_pdf(pdf_path, verbose=verbose, reuse=reuse))
+                text_file.writelines(get_text_from_pdf(pdf_path, root=root, verbose=verbose, reuse=reuse))
         else:
             # already-processed files exist, and the user wants to use them
             if verbose:
                 print("'{}' Already exists. ({} out of {})".format(pdf_path, i, len(pdf_paths)))
 
 
-def text_to_json(root, extra_words=None):
+def texts_to_jsons(root, extra_words=None):
     """
     From a given dictionary of pdf_name:text pairs, extract the word:frequency pairs into
     adjacent lists
@@ -106,7 +106,7 @@ def text_to_json(root, extra_words=None):
 
         # Preprocessing
         # Remove all duplicates, and make all the words lowercase
-        unique_words = list(set([word.lower() for word in text.split()] + extra_words))
+        unique_words = list(set([word.lower().strip() for word in text.split()]))
         # Get the frequency of each word
         frequencies = [text.count(word) for word in unique_words]
 
@@ -132,7 +132,6 @@ def json_to_graph(json_path, limit=100):
     :param frequencies:
     """
 
-    # json_path = "corpus/summaries/2011 June Memo.json"
     with open(json_path, "r") as jsonfile:
         data: dict = json.load(jsonfile)
     unique_words, frequencies = list(data.keys()), list(data.values())
@@ -143,7 +142,7 @@ def json_to_graph(json_path, limit=100):
     plt.xlabel('Word', fontsize=5)
     plt.ylabel('Frequency', fontsize=5)
     plt.xticks(index, unique_words[:limit], fontsize=5, rotation=60)
-    plt.title('Frequency of words in CSC Papers')
+    plt.title('Frequency of words in ' + get_filename(json_path))
     plt.tight_layout()
     plt.savefig(json_path.split(".")[0] + ".png")
     # plt.show()
@@ -151,8 +150,13 @@ def json_to_graph(json_path, limit=100):
 
 def main():
     # Process the corpus of memos:
-    pdfs_to_texts()
-    json_to_graph("corpus/summaries/2011 June Memo.json")
+    pdfs_to_texts("topics")
+    print("texts to jsons")
+    texts_to_jsons("topics")
+    print("jsons to graphs")
+    json_paths = glob.glob("topics/summaries/*.json")
+    for json_path in json_paths:
+        json_to_graph(json_path)
 
     # Process the corpusses of each topic:
     # topic_pdfs = glob.glob("topics/pdfs/*.pdf")
