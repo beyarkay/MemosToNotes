@@ -1,0 +1,580 @@
+Question 1 — Multiple Choice
+
+1. What is an example of an identifier?
+a 3
+
+b. #name
+c. _biscuit
+d. Number
+e. candd
+
+2. What is the exact output of the below
+
+statements?
+a=6
+a=a/2
+print (a)
+
+aoa
+
+b. “a”
+
+c. 3
+
+d. 3.0
+
+e. None of the above
+
+3. The CPU follows which process?
+
+a. The instruction cycle
+
+b. The process paradigm
+c. The execute paradigm
+d. The fetch-execute cycle
+e. The compute cycle
+
+4. What is described as the ‘brain of the
+computer’?
+a. CPU
+b. RAM
+c. HDD
+d. GPU
+e. Motherboard
+
+5. What is an example of a relational
+
+operator?
+
+a if
+
+b. <
+
+c. not
+
+d {=
+
+e. BandD
+
+[20 Marks]
+
+6. Suppose
+
+def nPrint (message, n):
+while (n > 0):
+print (message,end='’ ’)
+
+n--;
+What is the output of the call
+nPrint('a', 4)?
+a. aaaaa
+b.  aaaa
+Cc. aaa
+d. aaaa
+e& aaa
+
+7. Analyze the following code:
+
+def main():
+print (xMethod(5, "500L") )
+
+def xMethod(n, 1):
+print ("int, long");
+return n;
+
+main ({)
+
+a. The program displays int, long
+followed by 5 on a new line.
+
+b. The program runs fine but displays
+things other than given in a.
+
+c. The program does not compile
+because the compiler cannot invoke
+xMethod.
+
+d. The program displays int, long
+followed by 5 on the same line.
+
+e. The program displays 5, 500L
+followed by 5 on a new line.
+
+Answersa
+8. A variable defined inside a function is
+
+referred to as
+
+a. a global variable
+
+b. a function variable
+
+c. aconstant variable
+
+d. a local variable
+
+e. a block variableQuestion 6 [10 Marks]
+
+You are working in a holiday job for an academic publisher. They have asked you to
+correct manuscripts to conform to a particular style. As a first task, they want you to
+ensure that all numbers less than ten are written as the word and not the digits in all
+manuscripts. For example ‘nine’, not ‘9’; ‘eight’, not ‘8’ and so on. You are finding the
+search-and-replace task very tedious, and so want to write a Python function to automate
+this. As all the manuscripts are plain text files, your function correct_text will read
+in the text from a file (whose name provided to the function) and write out the text with
+all the digits corrected to another file (whose name is also provided to the function). The
+correct_text function should print a helpful message if the input file does not exist.
+
+For example, if the function is called as follows:
+
+correct_text (“input .txt”, "output .txt”)
+and the file “input.txt” contains the following text:
+
+On the fifth day of Christmas
+
+my true love sent to me:
+
+5 Golden Rings
+
+4 Calling Birds
+
+3 French Hens
+
+2 Turtle Doves
+
+and 1 Partridge in a Pear Tree
+
+the output file will then be written as:
+On the fifth day of Christmas
+my true love sent to me:
+five Golden Rings
+four Calling Birds
+three French Hens
+two Turtle Doves
+
+and one Partridge in a Pear Tree
+
+However, if the file “input.txt” does not exist, this message will be displayed instead:
+File input.txt does not exist!
+
+Now complete the correct_text function on the following page.def correct_text (input_file_name, output_file_name):Answer: #there are correct alternatives
+def correct_text(input_file_name,output_file_name):
+
+swaps={'1':"one",'2':"two",'3':"three",
+'4':"four",'5':"five",'6':"six",'7':"seven",'8':"eight",'9':"nine"} #[1] for dictionary, but can do another
+wat
+
+try:
+#open file for reading
+inp=open(input_file_name, 'r') #[1]
+allText=inp.read() #[1]
+
+inp.close() #[0.5]
+
+#4 marks for some correct way to replace the words
+for word in swaps: #[1]
+textList=allText. split(word) #[1]
+allText=swaps[word] join(textList) #{1]
+
+# writing out to file correctly
+out=open(output_file_name, 'w') #[ 1]
+print(allText, file=out) #[0.5]
+out.close() #[0.5]
+
+except IOError: #error handling [1.5]
+print("File",input_file_name," does not exist")
+
+correct_text("input.txt","output. txt")Code examples for the examination (you may detach these sheets).
+Code for Question 4
+
+#q4.py
+
+def mystery(arr, s):
+temp = []
+for item in arr:
+if s == item[1]:
+temp.append (item)
+
+return temp
+
+name_list = [["Jon","Snow"], ["Daenerys", "Targaryen"],
+["Arya", "Stark"], ["Tyrion", "Lannister"],
+
+["Sansa", "Stark"], ["Bran","Stark"], ["Cersei", "Lannister"] ]
+
+new_list = mystery(name_list, "Stark")
+print (new_list)
+
+Code for Question 5
+def swap ( values, source, dest ):
+values[source], values[dest] = values[dest], values[source]
+
+def partition ( values, start, stop ):
+pivot = values[stop]
+midpoint = start
+for position in range (start, stop):
+if values[position] <= pivot:
+swap (values, position, midpoint)
+midpoint t= 1
+swap (values, midpoint, stop)
+return midpoint
+
+def quick_sort ( values, start, stop ):
+"""Sort values using quicksort algorithm,"™"™"
+#Code hidden here
+
+def combine ( listl, list2 ):
+new_list = []
+while len(list1)>0 and len(list2)>0:
+if list1[0] < list2[0]:
+new_list.append (list1[0])
+del list1[0]
+else:new_list.append (list2[0])
+del list2[0]
+return new_list + listl + list2
+
+def other_sort ( values ):
+if len(values)>1:
+sortedl = other_sort (values[:len(values) //2])
+sorted2 = other_sort (values[len(values) //2:])
+return combine (sortedl, sorted2)
+else: return values
+
+X=[10,9,3,6,0]
+quick_sort (X, 0,3)
+
+print (X)
+
+quick_sort (X,0,1len(X)-1)
+print (X)
+
+quick_sort (X, 0,3)
+
+print (X)9. What would be the result of attempting to
+compile and run the following code?
+x = [1, 2, 3]
+print ("Value is:", x[1])
+
+a. The program has a syntax error
+because the syntax [1, 2, 3] is wrong
+and it should be replaced by {1, 2, 3}.
+
+b. The program has a syntax error
+because the [1, 2, 3] is wrong and it
+should be replaced by [0,1, 2, 3].
+
+c. The program has a syntax error
+because the [1, 2, 3] is wrong and it
+should be replaced by [1.0, 2.0, 3.0].
+
+d. The program compiles and runs fine
+and the output "Value is 1" is printed.
+
+e. The program compiles and runs fine
+and the output "Value is 2" is printed.
+
+Answer:@
+10. Consider the following Python program.
+def Cat(x):
+
+if (x<0): return 0
+
+if (O<x<100):return x
+if (x>100): return 100
+
+Select the set of inputs below that will
+comprise a complete, but minimal, path
+coverage test of this function.
+
+-200
+
+-20, 65, 100
+
+-40, 0,78, 200
+
+-50, 0, 65, 100, 200
+-80, 0, 45, 67, 100, 200
+
+11. Consider the following Python program.
+
+def SumList(1lst):
+
+for a in lst:
+
+total=totalt+a
+
+return total
+The function has a syntax error.
+The function has a runtime error.
+The function has a logic error.
+
+All of the above.
+None of the above.
+
+ppose
+
+ppoge
+
+12, What output does the Python code below
+produce?
+
+X=[]
+
+for i in range(10):
+X.append(i)
+
+print (X[9])
+
+9
+
+10
+
+A runtime error
+
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+X[9]
+
+Answer:a
+13. What output does the Python code below
+produce?
+X,¥=[1,[1,2,3]
+X.append(Y)
+X.append(Y)
+print (X[1][2])
+a. []
+b. [1, 2, 3]
+c 3
+
+d. 2
+e. A runtime error
+
+14. What output does the Python code below
+produce?
+
+ppoge
+
+def Recur(n):
+if n<=0: return 'Q'
+text=Recur(n-1)
+return str(n)+text+str(n)
+print (Recur(5))
+
+RecursionError
+00000
+
+012345
+543210
+54321012345
+43211234
+
+moe aor Ss
+
+15. Which of the functions below calculates
+the nth Fibonacci number?
+
+a.
+def Egl(n):
+if n==1 or n==2: return 1
+return Egl(n-1)+Eg1(n-2)b.
+def Eg2(n):
+if n==0: return 1
+return n*n+Eg2(n-1)
+
+c.
+def Eg3(n):
+if n==0: return 1
+return n*Eg3(n-1)
+
+d.
+def Eg4(n):
+if n==0: return 0
+return n+Eg4(n-1)
+
+e
+def Eg5(n):
+if n==0: return 0
+return Eg5(n-1)+Eg5(n-2)
+
+elelelplolololo|>
+elelololelelololag
+
+16. What is the time complexity of the merge
+sort algorithm in the average case?
+a. O(1)
+b. Of)
+c. O(ntlog n)
+d. O(n logn)
+e. Of’)
+
+ppose
+
+17. Which of the following is a stable sorting
+algorithm?
+
+a. Selection sort
+
+b. Merge sort
+
+ce. Quick sort
+
+d. Bubble sort
+
+e. Binary search
+Answer:b
+
+18. The number —
+1111 1111,
+- in 8-bit one’s complement binary
+representation is equivalent to:
+
+12810
+12710
+-127i0
+
+-lio
+O10
+
+ppose
+
+19. What is the decimal floating point value of
+the following IEEE 754 single precision
+number?
+
+1 10000000 10000000000000000000000
+
+10
+129
+-0.5
+-1
+3
+
+ppose
+
+20.
+
+ 
+
+ 
+
+ 
+
+ 
+
+ROL [OlR OR (OA
+mf elelOlelole!o]y
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+For this truth table, what is the Boolean
+expression represented by F?
+
+Cc
+
+A AND B ORC
+
+A AND B ANDC
+
+A AND B ORB AND C
+AORB ORCQuestion 2 [10 Marks]
+Lucy has written the following code.
+bored = input(“Are you bored right now?”)
+game = input(“Do you want to play a game?”)
+if bored == “Yes” and game == “No”:
+print(“Why no games? You said you were bored :( “)
+if bored == “Yes” or “Y”:
+print(“I’m sorry you’re bored.”)
+else:
+print(“Okay”)
+a) Write down the exact output that would displayed if bored = “Yes” and game = “No”.
+(2)
+
+b) Give values for bored and game that would lead to the else statement being executed.
+Q)
+
+c) Give an alternative to Lucy’s first if statement. (2)
+
+ 
+
+d) What is the difference between primary and secondary storage? Give an example of each.
+
+(4)Question 3 [10 Marks]
+a) What is the output of the following code? (3)
+def swapl (a,b):
+temp =a
+a=b
+b = temp
+
+def swap2 (a):
+temp = a[0]
+a[0] = a[1]
+a[1] = temp
+
+a= [1, 2]
+swapl1 (a[0],a[1])
+print ("a[0] = " + str(a[0]) + ™" a[1] =" + str(a[1]))
+swap2 (a)
+print ("a[0] = " + str(a[0]) + " af[1] = " + str(a[1]))
+
+ 
+
+b) Write a function that take in a string and returns the string with every third letter
+(assuming all are letters) in uppercase. (7)Question 4 [10 Marks]
+
+Examine the q4 . py module listed at the end of this examination and answer the following
+questions.
+
+a) What would be the values of person and name_list if you executed the code:
+person = name_list.pop(1)? [2]
+
+ 
+
+b) Write down the exact output that is printed when this module is executed. [2]
+
+[["Arya", "Stark"],["Sansa", "Stark"],["Bran", "Stark"]}
+c) Write down a minimal set of inputs to the mystery () function that would constitute a
+complete path test of the function. [2]d) Write down the code needed to write the items in name_list toa text file names.txt
+in such a format that the text in the file looks like this:
+
+Snow, Jon
+Targaryen, Daenerys
+Stark, Arya
+Lannister, Tyrion
+Stark, Sansa
+
+Stark, Bran
+
+Lannister, Cersei
+
+[4]Question 5 [10 Marks]
+Examine the Q5 . py module listed at the end of the exam paper and answer the following
+questions.
+
+a) Write down the exact output to the screen when this module is executed, assuming that
+
+the quick_sort function operates correctly.
+[3]
+
+ 
+
+ 
+
+b) The function quick_sort has some lines hidden. Write down the hidden lines here, so
+that the function will operate correctly. [4]
+
+ 
+
+c) You are applying for a job and, as part of the interview process, your prospective
+employer asks you to write a function to sort very large files. They suggest using the
+other_sort function in the Q5.py module instead of quick_sort. Is this a good
+idea? Justify/explain your answer. [3]
