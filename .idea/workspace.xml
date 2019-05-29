@@ -2,23 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="456ae79f-d782-497c-83bd-e877f784e7ca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/stopwords.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/tokens/Arrays.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/tokens/Basics.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/tokens/Files.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/tokens/Functions.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/tokens/Hardware.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/tokens/Intro.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/tokens/Iteration.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/tokens/Number Systems.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/tokens/Recursion.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/tokens/Selection.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/tokens/Software.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/tokens/Sorting and Searching.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/tokens/Strings.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/summaries/2012 June Memo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/summaries/2013 June Memo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/summaries/2014 June Memo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/summaries/2015 June Memo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/summaries/2016 June Memo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/summaries/2017 June Memo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/summaries/2018 June Memo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/corpus/summaries/2011 June Memo.json" beforeDir="false" afterPath="$PROJECT_DIR$/corpus/summaries/2011 June Memo.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/corpus/summaries/2011 June Memo.png" beforeDir="false" afterPath="$PROJECT_DIR$/corpus/summaries/2011 June Memo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/corpus/summaries/2012 June Memo.json" beforeDir="false" afterPath="$PROJECT_DIR$/corpus/summaries/2012 June Memo.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/corpus/summaries/2013 June Memo.json" beforeDir="false" afterPath="$PROJECT_DIR$/corpus/summaries/2013 June Memo.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/corpus/summaries/2014 June Memo.json" beforeDir="false" afterPath="$PROJECT_DIR$/corpus/summaries/2014 June Memo.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/corpus/summaries/2015 June Memo.json" beforeDir="false" afterPath="$PROJECT_DIR$/corpus/summaries/2015 June Memo.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/corpus/summaries/2016 June Memo.json" beforeDir="false" afterPath="$PROJECT_DIR$/corpus/summaries/2016 June Memo.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/corpus/summaries/2017 June Memo.json" beforeDir="false" afterPath="$PROJECT_DIR$/corpus/summaries/2017 June Memo.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/corpus/summaries/2018 June Memo.json" beforeDir="false" afterPath="$PROJECT_DIR$/corpus/summaries/2018 June Memo.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/topics/tokens/Testing.txt" beforeDir="false" afterPath="$PROJECT_DIR$/topics/tokens/Testing.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stopwords.txt" beforeDir="false" afterPath="$PROJECT_DIR$/stopwords.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/topics/summaries/Arrays.png" beforeDir="false" afterPath="$PROJECT_DIR$/topics/summaries/Arrays.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/topics/summaries/Basics.png" beforeDir="false" afterPath="$PROJECT_DIR$/topics/summaries/Basics.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/topics/summaries/Files.png" beforeDir="false" afterPath="$PROJECT_DIR$/topics/summaries/Files.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/topics/summaries/Functions.png" beforeDir="false" afterPath="$PROJECT_DIR$/topics/summaries/Functions.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/topics/summaries/Hardware.png" beforeDir="false" afterPath="$PROJECT_DIR$/topics/summaries/Hardware.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/topics/summaries/Intro.png" beforeDir="false" afterPath="$PROJECT_DIR$/topics/summaries/Intro.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/topics/summaries/Iteration.png" beforeDir="false" afterPath="$PROJECT_DIR$/topics/summaries/Iteration.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/topics/summaries/Number Systems.png" beforeDir="false" afterPath="$PROJECT_DIR$/topics/summaries/Number Systems.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/topics/summaries/Recursion.png" beforeDir="false" afterPath="$PROJECT_DIR$/topics/summaries/Recursion.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/topics/summaries/Selection.png" beforeDir="false" afterPath="$PROJECT_DIR$/topics/summaries/Selection.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/topics/summaries/Software.png" beforeDir="false" afterPath="$PROJECT_DIR$/topics/summaries/Software.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/topics/summaries/Sorting and Searching.png" beforeDir="false" afterPath="$PROJECT_DIR$/topics/summaries/Sorting and Searching.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/topics/summaries/Strings.png" beforeDir="false" afterPath="$PROJECT_DIR$/topics/summaries/Strings.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/topics/summaries/Testing.png" beforeDir="false" afterPath="$PROJECT_DIR$/topics/summaries/Testing.png" afterDir="false" />
     </list>
     <ignored path=".idea/" />
     <ignored path="corpus/pdfs/" />
@@ -32,61 +48,63 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.73038673">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/main.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="331">
-                  <caret line="112" selection-start-line="112" selection-end-line="112" />
-                  <folding>
-                    <element signature="e#372#419#0" />
-                    <element signature="e#436#2389#0" />
-                    <element signature="e#436#946#1" />
-                    <element signature="e#1206#1928#0" />
-                    <element signature="e#1873#2075#0" />
-                    <element signature="e#2130#2369#0" />
-                    <element signature="e#2605#3946#0" />
-                    <element signature="e#2461#2735#1" />
-                    <element signature="e#3069#3946#0" />
-                    <element signature="e#3171#3595#0" />
-                    <element signature="e#3622#3806#0" />
-                    <element signature="e#4139#4315#1" />
-                    <element signature="e#5559#6315#0" />
-                    <element signature="e#5336#5495#1" />
-                    <element signature="e#6039#6256#0" />
-                    <element signature="e#6125#6256#0" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/stopwords.txt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="388">
-                  <caret line="31" column="3" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/corpus/summaries/2011 June Memo.json">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="180">
-                  <caret line="525" selection-start-line="525" selection-end-line="526" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="339">
+              <caret line="171" column="27" lean-forward="true" selection-start-line="171" selection-start-column="27" selection-end-line="171" selection-end-column="27" />
+              <folding>
+                <element signature="e#372#419#0" />
+                <element signature="e#436#2389#0" />
+                <element signature="e#436#946#1" />
+                <element signature="e#1206#1928#0" />
+                <element signature="e#1873#2075#0" />
+                <element signature="e#2130#2369#0" />
+                <element signature="e#2605#3946#0" />
+                <element signature="e#2461#2735#1" />
+                <element signature="e#3069#3946#0" />
+                <element signature="e#3171#3595#0" />
+                <element signature="e#3622#3806#0" />
+                <element signature="e#3872#5314#0" />
+                <element signature="e#4139#4315#1" />
+                <element signature="e#4392#5341#0" />
+                <element signature="e#5336#5495#1" />
+                <element signature="e#6039#6256#0" />
+                <element signature="e#6125#6256#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/topics/summaries/Intro.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1245">
+              <caret line="83" column="11" selection-start-line="83" selection-start-column="10" selection-end-line="83" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stopwords.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="79" column="4" selection-start-line="79" selection-start-column="4" selection-end-line="79" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/corpus/summaries/2011 June Memo.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="525" selection-start-line="525" selection-end-line="526" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -118,11 +136,13 @@
       <find>EEE</find>
       <find>corpus</find>
       <find>&lt;</find>
+      <find>', '</find>
     </findStrings>
     <replaceStrings>
       <replace>REGEX_SUBQUESTION</replace>
       <replace>self.text</replace>
       <replace>.png</replace>
+      <replace>\n</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -183,6 +203,12 @@
               <item name="MemosToNotes" type="b2602c69:ProjectViewProjectNode" />
               <item name="MemosToNotes" type="462c0819:PsiDirectoryNode" />
               <item name="topics" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MemosToNotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MemosToNotes" type="462c0819:PsiDirectoryNode" />
+              <item name="topics" type="462c0819:PsiDirectoryNode" />
+              <item name="tokens" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -299,7 +325,7 @@
       <workItem from="1559069719450" duration="12391000" />
       <workItem from="1559118826482" duration="50000" />
       <workItem from="1559118889572" duration="4524000" />
-      <workItem from="1559134317262" duration="12075000" />
+      <workItem from="1559134317262" duration="13886000" />
     </task>
     <task id="LOCAL-00001" summary="Testing git connection">
       <created>1553692047818</created>
@@ -504,11 +530,18 @@
       <option name="project" value="LOCAL" />
       <updated>1559145091981</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Added stopword removal">
+      <created>1559146871494</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1559146871494</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65563000" />
+    <option name="totallyTimeSpent" value="67374000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -519,8 +552,8 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" weight="0.31445783" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.4988263" visible="true" weight="0.3385542" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.22771084" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4988263" weight="0.21927711" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -530,7 +563,7 @@
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.25903615" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="right" x="0" y="0" width="310" height="700" id="Documentation" order="0" sideWeight="0.6703297" side_tool="true" visible="true" weight="0.17811158" />
+      <window_info anchor="right" x="0" y="0" width="310" height="700" id="Documentation" order="0" sideWeight="0.6703297" side_tool="true" visible="true" weight="0.30829757" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
@@ -543,7 +576,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Added some debugging logs to print to the console" />
     <MESSAGE value="Got regex to correctly split different questions numbers, however the answers are still in the same string" />
     <MESSAGE value="Various debugging changes" />
     <MESSAGE value="Added TODO list to main.py" />
@@ -568,11 +600,12 @@
     <MESSAGE value="Add memo information" />
     <MESSAGE value="Fiddle with gitignore" />
     <MESSAGE value="Fiddle with gitignore again" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fiddle with gitignore again" />
+    <MESSAGE value="Added stopword removal" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added stopword removal" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/MemosToNotes$main.coverage" NAME="main Coverage Results" MODIFIED="1559146701252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MemosToNotes$main.coverage" NAME="main Coverage Results" MODIFIED="1559148631449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
@@ -596,20 +629,6 @@ print(&quot;Done&quot;)</expression-string>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///anaconda3/envs/MemosToNotes/lib/python2.7/site-packages/pytesseract/pytesseract.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="34" column="43" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///anaconda3/envs/MemosToNotes3/lib/python3.6/site-packages/wand/image.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="3035" column="68" lean-forward="true" selection-start-line="3035" selection-start-column="68" selection-end-line="3035" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///anaconda3/envs/MemosToNotes3/lib/python3.6/site-packages/PIL/Image.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -820,10 +839,13 @@ print(&quot;Done&quot;)</expression-string>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stopwords.txt">
+    <entry file="file://$PROJECT_DIR$/topics/summaries/Arrays.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/topics/summaries/Intro.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="31" column="3" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
+        <state relative-caret-position="1245">
+          <caret line="83" column="11" selection-start-line="83" selection-start-column="10" selection-end-line="83" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -834,10 +856,17 @@ print(&quot;Done&quot;)</expression-string>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/stopwords.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="79" column="4" selection-start-line="79" selection-start-column="4" selection-end-line="79" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="112" selection-start-line="112" selection-end-line="112" />
+        <state relative-caret-position="339">
+          <caret line="171" column="27" lean-forward="true" selection-start-line="171" selection-start-column="27" selection-end-line="171" selection-end-column="27" />
           <folding>
             <element signature="e#372#419#0" />
             <element signature="e#436#2389#0" />
@@ -850,8 +879,9 @@ print(&quot;Done&quot;)</expression-string>
             <element signature="e#3069#3946#0" />
             <element signature="e#3171#3595#0" />
             <element signature="e#3622#3806#0" />
+            <element signature="e#3872#5314#0" />
             <element signature="e#4139#4315#1" />
-            <element signature="e#5559#6315#0" />
+            <element signature="e#4392#5341#0" />
             <element signature="e#5336#5495#1" />
             <element signature="e#6039#6256#0" />
             <element signature="e#6125#6256#0" />

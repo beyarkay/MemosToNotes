@@ -128,7 +128,7 @@ def texts_to_jsons(root, stopwords_file="stopwords.txt"):
             json.dump(json_dict, json_file, indent=2)
 
 
-def json_to_graph(json_path, num_words=100):
+def json_to_graph(json_path, num_words=50):
     """
     Plot and show a bar graph with the frequencies of the words in dictionary
     Case insensitive
@@ -143,11 +143,16 @@ def json_to_graph(json_path, num_words=100):
     unique_words, frequencies = list(data.keys()), list(data.values())
 
     index = np.arange(len(unique_words[:num_words]))
-    plt.figure(figsize=(13, 4), dpi=400)
-    plt.bar(index, frequencies[:num_words])
-    plt.xlabel('Word', fontsize=10)
-    plt.ylabel('Frequency', fontsize=10)
-    plt.xticks(index, unique_words[:num_words], fontsize=5, rotation=60)
+
+    size_ratio = 0.1
+    height = 2 * size_ratio * num_words
+    width = 1 * size_ratio * num_words
+    plt.figure(figsize=(width, height), dpi=400)
+    plt.barh(index, frequencies[:num_words])
+    plt.ylabel('Word', fontsize=10)
+    plt.xlabel('Frequency', fontsize=10)
+    plt.yticks(index, unique_words[:num_words], fontsize=7)
+    plt.gca().invert_yaxis()
     plt.title('Frequency of words in ' + get_filename(json_path))
     plt.tight_layout()
     plt.savefig(json_path.split(".")[0] + ".png")
@@ -164,11 +169,11 @@ def update_token_files():
 
 def main():
     # Process the corpus of memos:
-    pdfs_to_texts("topics")
+    pdfs_to_texts("corpus")
     print("texts to jsons")
-    texts_to_jsons("topics")
+    texts_to_jsons("corpus")
     print("jsons to graphs")
-    json_paths = glob.glob("topics/summaries/*.json")
+    json_paths = glob.glob("corpus/summaries/*.json")
     for json_path in json_paths:
         json_to_graph(json_path)
 
