@@ -1,0 +1,328 @@
+= UCT Department of Computer Science CSC1015F
+
+Files
+
+ASLAM SAFLA
+<ASLAM@CS.UCT.AC.ZA>
+
+8 UNIVERSITY OF CAPE TOWNStoring data for the future
+
+Data in a computer is stored in files
+
+O You will have used these before
+oO Word has .doc files
+
+Oo If you want you computer to use data collected before,
+or by others, you wil need to interact with files.
+O Especially if you have a lot of data.
+
+8 UNIVERSITY OF CAPE TOWNProblem
+
+Oo Write a program to count the frequency of each word
+
+in a text file.
+
+8 UNIVERSITY OF CAPE TOWNProblem
+
+Write a program to search a text file like a simple (albeit
+inefficient) database.
+
+oO A database stores information that can be
+manipulated/searched efficiently.
+
+Each line should contain fields separated by commas,
+and the program should allow searching of any field.
+For example:
+
+= Mortimer, Mouse, 22
+
+=m Spongebob, Squarepants,15
+
+m James, Sullivan, 37
+
+8 UNIVERSITY OF CAPE TOWNWriting Text Data
+
+Write out text data using a print statement with
+additional file attribute.
+
+oSyntax:
+
+print (<exprl>, <expr2>, .., file=<file>)
+oOExample:
+
+print (“Hello World”, file=f)
+
+f.write(s) Writes string s.
+
+f.writelines(lines) Writes all strings in sequence
+lines. Can deal with a list of strings. Useful if want to
+add one file to another.
+
+8 UNIVERSITY OF CAPE TOWNProblem
+
+Write a program to store a list of data observations to a
+text file.
+
+oOFor robustness, “save” the file after every entry.
+
+8 UNIVERSITY OF CAPE TOWNProblem
+
+oO Write a Python program to write Python programs.
+oO Put these programs in a separate folder/directory
+
+8 UNIVERSITY OF CAPE TOWNRecursion!
+
+Write a recursive function hat that behaves as follows:
+
+>>>hat ("hamster")
+iS
+mst
+amste
+hamster
+>>>hat ("california")
+fo
+ifor
+liforn
+aliforni
+
+california
+
+8 UNIVERSITY OF CAPE TOWNProblem
+
+Write a program to print out the first 3 lines of a file.
+
+oO Deal with possible file 1O errors with exception
+handling.
+
+8 UNIVERSITY OF CAPE TOWNExceptions
+
+An exception is a runtime error that can be checked for
+and dealt with in a program.
+
+oO Syntax:
+
+try:
+<statements>
+
+except <ExceptionlName>:
+<statements>
+
+except <Exception2Name> as <parameter>:
+<statements>
+
+except:
+<statements>
+
+finally:
+<statements>
+
+8 UNIVERSITY OF CAPE TOWN EException Semantics
+
+Python will try to execute the code in try.
+Oo If an error occurs, the except clauses will be
+searched in sequence.
+= If there is a match, the code in the except is executed.
+= If no match, the exception is propagated to the calling
+function.
+
+oO After the try code and/or except code executes, the
+
+finally code is executed, typically to do cleanup such
+as close files.
+
+8 UNIVERSITY OF CAPE TOWNException Example
+
+try:
+f = open ("thetest.txt", "r")
+data = f.read()
+
+except IOError as errno:
+
+print ("Could not read file")
+
+print ("Error number:",errno)
+finally:
+print ("cleaning up")
+
+8 UNIVERSITY OF CAPE TOWNConcept: Files
+
+An file is a sequence of bytes stored
+on a secondary storage device e.g.,
+hard drive.
+
+Oo Files are usually stored in folders
+(or directories).
+Oo Every file has a filename
+
+oO the rules for valid filenames are
+
+determined by the operating system
+(OS).
+
+ 
+
+¥ Comments:
+
+¥ Open with:
+
+O Additional information about each file ™
+(e.g., last modification date) is
+managed by the OS. pa
+
+@ 0 @ @ CSC1015F_2018 4 Files_MK.pptx Info
+
+G Microsoft PowerPoint.app (default)
+
+   
+  
+
+£ SC1015F_2018_4_Files_MK.pptx
+= Modified: Tuesday, 01 May 2018 at 15:27
+
+ 
+
+Use this application to open all documents like this one.
+
+E UCT Department of Computer Science. CSCIOISF
+
+—
+
+201 KB
+
+ 
+
+ 
+
+8 UNIVERSITY OF CAPE TOWNCommon Exceptions
+
+oO lOError error number
+
+oO NameError
+
+oO TypeError
+
+oO ValueError
+
+Oo ZeroDivisionError
+
+oO IndexError
+
+Oo...
+
+oO [see http://docs.python.org/py3k/library/exceptions.html]
+
+8 UNIVERSITY OF CAPE TOWNImprove “Hello Country”
+With exception handling
+
+8 UNIVERSITY OF CAPE TOWNFinding out whether a file exists
+
+¢ Catch an IO error
+Import os.path
+import os.path
+if os.path.istile("myData.txt’):
+
+print("File exists!")
+else: print("File does not exist!")!")
+
+8 UNIVERSITY OF CAPE TOWNQuestions from class
+
+¢ When dealing with file is it possible to access in
+more that one mode i.e. appending and reading at
+the same time?
+¢ The file mode is 'r' for read, 'w' for write, or 'a' for append.
+A file can be opened for in-place updates by supplying a
+plus (+) character, such as 'r+' or 'w+’. Be careful with
+this.
+
+* A mode of 'w+' truncates the file to zero length if it already exists.
+A mode of 'r+' or 'a+' opens the file for both reading and writing but
+leaves the original contents intact when the file is opened.
+
+8 UNIVERSITY OF CAPE TOWN EProblem
+
+oO Write a program to count the number of lines in a text
+file.
+
+8 UNIVERSITY OF CAPE TOWNConcept: File Types
+
+oO Text files are made up of strings, each of which is
+terminated with a newline.
+= The file can be processed one line at a time.
+
+oO Binary files, which are not text files, store information
+in application-specific formats e.g., PDF, JPEG.
+Oo Compiled programs are stored as binary files
+
+All text files are binary files, but not vice versa!
+
+8 UNIVERSITY OF CAPE TOWNOpening and Closing Files
+
+Files must be opened before their contents can be read.
+Syntax:
+
+<file> = open (<filename>, <mode>)
+
+filename is the name of the file.
+
+mode is one of: “r’ to read; “w” to overwrite; “a” to append
+
+Example:
+f = open (“data.txt”, “r”)
+
+Files must be closed when you are done.
+f.close ()
+
+8 UNIVERSITY OF CAPE TOWNOptions for read functions
+
+f.read([n]) Reads at most n bytes.
+
+f£.readline([n]) Reads a single line of input up to
+n characters. If n is omitted, this method reads the
+entire line.
+
+f.readlines([size]) Reads all the lines and
+returns a list. size optionally specifies the
+approximate number of characters to read on the file
+before stopping.
+
+8 UNIVERSITY OF CAPE TOWNReading Text Data
+
+Multiple ways to do this in Python.
+
+oO Read entire file into one string.
+f.read()
+
+oO Read next line of text into a string.
+f.readline()
+
+oO Read entire file into a list of strings.
+f.readlines ()
+
+Oo Iterate over file and read in one line at a time.
+for line in f:
+
+do_something (line)
+
+8 UNIVERSITY OF CAPE TOWNProblem
+
+oO Write a program to count the number of lines in a text
+file.
+
+8 UNIVERSITY OF CAPE TOWNMore: Opening and Closing Files
+
+There are a number of options you can give to open()
+(see open.__doc __ )
+
+encoding is the name of the encoding used to decode or encode the
+file. This should only be used in text mode. The default encoding is
+platform dependent, but any encoding supported by Python can be
+passed.
+
+‘encoding’ is a useful one for files that contain non-ascii
+characters (default encoding is ascii). E.g. :
+myFile=open (filename, 'r',encoding='utf-8"')
+
+UTF-8 is a character encoding capable of
+encoding Unicode characters.
+
+8 UNIVERSITY OF CAPE TOWN E

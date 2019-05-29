@@ -1,0 +1,328 @@
+UCT Department of Computer Science
+= Computer Science 1015F
+
+ 
+
+Introduction to Computing
+
+ 
+
+Aslam Safla<aslam@ cs.uct.ac.za>
+
+(thanks to Hussein Suleman <hussein@ cs.uct.ac.za>)
+
+February 2019What is Computer ScienceAlgorithm: Take Minibus Taxi to Town
+
+1.Make sure you have enough money
+2.Wait at bus stop
+
+3.Flag down taxi as it approaches
+4.Get into taxi (somehow)
+
+5.Collect fare from behind you, add your money and pass it
+forward
+
+6.Shout at driver to stop
+
+7.When taxi stops, prod other passengers to make them move
+out
+
+8.Get out of taxi
+9.Give thanks for a safe trip!
+
+8 UNIVERSITY OF CAPE TOWN Computer Science EE.Can we be more precise?
+
+oLet us make up a precise drawing language (inspired
+by Turtle/Logo).
+
+OSuppose we have an invisible box 10cm square, and
+we start at the bottom left corner, facing up.
+
+oOWe have 2 instructions:
+=Draw <centimetres>
+oDraw a line
+
+mSpin <degrees>
+
+oTurn to the right T
+
+8 UNIVERSITY OF CAPE TOWN Computer Science EE.Drawing Example
+
+oDraw 10cm
+oOSpin 90
+oDraw 10cm
+oOSpin 90
+oDraw 10cm
+oOSpin 90
+oDraw 10cm
+
+ 
+
+ 
+
+ 
+
+ 
+
+8 UNIVERSITY OF CAPE TOWN Computer Science EE.Drawing Exercise 1
+
+oWhat does this draw?
+
+oSpin 90
+oDraw 10cm
+oOSpin 180
+oDraw 10cm
+oSpin 90
+oDraw 10cm
+oSpin 90
+
+¥ Draw 10cm
+UNIVERSITY OF CAPE TOWN Computer Science EE.Drawing Exercise 2 (1/3)
+
+oThis exercise is a 2-person task.
+
+oPerson A will be the algorithm designer (aka the
+programmer).
+
+oPerson B will be the algorithm implementer (aka the
+computer).
+
+DAt first everyone is Person A - then Person B.
+
+oOSome pairs of volunteers will do the task up-front
+where the roles are distinct.
+
+8 UNIVERSITY OF CAPE TOWN Computer Science EE.Drawing Exercise 2 (2/3)
+
+oPerson A: Write down instructions (in our special
+language) to draw this shape.
+
+onYou have 2 minutes!
+
+ 
+
+ 
+
+ 
+
+8 UNIVERSITY OF CAPE TOWN Computer Science EE.Drawing Exercise 2 (3/3)
+
+OSwap your instructions with someone else.
+
+oOPerson B: Draw this shape using Person A's
+instructions.
+
+onYou have 2 minutes!
+
+B UNIVERSITY OF CAPE TOWN Computer Science EE.Programs
+
+oA program is a set of instructions given to a computer, corresponding to an
+algorithm to solve a problem.
+
+=The act of writing a program is called programming.
+
+oPrograms are written in a precise language called a programming language.
+
+oSample Program (in Python):
+
+letters = [32, 85, 67, 84]
+for a in [70364627997701, 4329864565765, 4329327694853,
+
+4329864565765, 4329505817940]:
+
+while a>0:
+print (chr(letters[a & 3]),end="")
+
+a=ap>>2
+
+print ()
+
+8 UNIVERSITY OF CAPE TOWN Computer Science EE.Question
+
+OHow is an algorithm different from a program?
+
+8 UNIVERSITY OF CAPE TOWN Computer Science EE.Process of Programming
+
+oOPrograms work as follows:
+
+=lngest information from the real world (input).
+=Process data internally.
+
+aSend computed data back to real world (output).
+
+oBecause of different input, each time a program
+executes the results can be different.
+
+8 UNIVERSITY OF CAPE TOWN Computer Science EE.What is Computer Science?
+
+oComputer Science (CS) is the study of:
+=Computer software
+
+=Algorithms, abstractions and efficiency
+= Theoretical foundation for computation
+
+oWhat you learn in Computer Science:
+
+=Principles of computation
+
+=How to make machines perform complex tasks
+
+=How to program a computer
+
+=aWhat current technology exists and how to use it
+Problem ‘solving vu Computer Science REFPython
+
+oThere are many different types of computer
+languages, and many different languages.
+
+oThis course is based on Python.
+
+oPython is a general-purpose interpreted programming
+language invented in the 1980s/1990s by Guido van
+Rossum at CWI.
+
+oWe use version 3 because it is easier to learn.
+
+8 UNIVERSITY OF CAPE TOWN Computer Science EE.How We Program in Python
+
+oWe write programs, stored in text files.
+
+oEach program is a set of instructions that the Python
+interpreter will execute when the program is executed by
+the user.
+
+oOWe often do both of these things in an Integrated
+Development Environment (IDE).
+
+oOWe can also use the interactive interpreter to run short
+programs while testing our ideas.
+
+oLater, we will neaten our code into blocks called functions.
+oPython is an OOP language but we will not use this.
+
+8 UNIVERSITY OF CAPE TOWN Computer Science EE.Problem Solving in CS 1/2
+
+1.Understand the problem
+
+1.What are the knowns and unknowns?
+
+2.Plan how to solve the problem
+
+1.What algorithm is used to solve the problem?
+2.What assumptions are being made?
+
+3.Is this similar to other problems?
+
+4.Can the problem be split into parts?
+
+3.Carry out your plan — write program
+
+1.Write program(s) to implement algorithm(s).
+
+8 UNIVERSITY OF CAPE TOWN Computer Science EE.Problem Solving in CS 2/2
+
+4.Assess the result
+
+1.Does the program conform to the algorithm?
+2.Does the program/algorithm solve the problem?
+3.ls the program correct for all cases?
+
+5.Describe what you have learnt
+
+1.... $0 you do not make the same mistakes again.
+6.Document the solution
+
+1.Write a report for users of the program.
+
+2.Write comments within the program.
+
+BB vnwvensiry oF CAPREMFErence: Vickers, P. 2008. How to think like a programifem€Ceniage. FEAlgorithms
+
+OAn algorithm is a set of steps to accomplish a task.
+
+oEveryday tasks require algorithms but we usually do
+not think about them.
+
+mE.g., putting on shoes, brushing teeth
+
+oAlgorithms must be precise so that they are
+=Repeatable
+
+mHave a predictable outcome
+
+=™Can be executed by different people
+
+8 UNIVERSITY OF CAPE TOWN Computer Science EE.Algorithm: Read a Novel
+
+1.Acquire book
+
+2.Find comfortable spot to sit
+
+3.Open book to set of facing pages
+
+4.\f there are no more unread pages, go to step 8
+5.Read facing pages
+
+6.Turn page over
+
+7.Go to step 4
+
+8.Close book
+
+9.Be happy
+
+8 UNIVERSITY OF CAPE TOWN Computer Science EE.Elements of Algorithms
+
+oSequence
+
+mEach step is followed by another step
+oSelection
+
+=A choice may be made among alternatives
+olteration
+
+=A set of steps may be repeated
+
+oAny language with these 3 constructs can express any
+classical algorithm.
+
+8 UNIVERSITY OF CAPE TOWN Computer Science EE.Classic Problems / Algorithms
+
+OBoil water in a kettle
+
+oOTake the minibus taxi to town
+
+oPut on a pair of shoes
+
+oBake a cake
+
+oMaking a telephone call
+
+oBuying a #1 Original Chicken Burger
+
+B UNIVERSITY OF CAPE TOWN Computer Science EE.Algorithm to Boil Water in Kettle
+
+1.Take the lid off kettle
+
+2.If there is enough water already, go to step 7
+3.Put kettle under tap
+
+4.Open tap
+
+5.While kettle is not full,
+aWait
+
+6.Close tap
+
+7.Replace lid on kettle
+
+8.Plug kettle into power outlet
+9.Turn kettle on
+
+10.While water has not boiled,
+aWait
+
+11.Turn kettle off
+12.Remove plug from power outlet
+
+B UNIVERSITY OF CAPE TOWN Computer Science EE.

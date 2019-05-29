@@ -1,0 +1,753 @@
+: UCT Department of Computer Science CSC1015F
+
+a
+
+G
+
+Recursion
+
+RECURSION
+
+RECURSION
+OLE TO)y)
+
+Here we go again
+
+ 
+
+ASLAM SAFLAConcept: Recursion
+
+It was a dark and stormy night, and the head of the
+brigands said to Antonio: “Antonio, tell us a tale ”.
+And so Antonio began:
+
+“It was a dark and stormy night and the head of the brigands
+said to Antonio, “Antonio, tell us a tale”. And so Antonio
+began:
+
+“It was a dark and stormy night and the head of the brigands said to
+Antonio, “Antonio, tell us a tale”. And so Antonio began:
+
+“It was a dark and stormy night and the head of the brigands said to
+Antonio, “Antonio, tell us a tale”. And so Antonio began:
+
+8 UNIVERSITY OF CAPE TOWN > E...why is recursion useful to us?Recursive functions
+
+A function can call itself.
+A function that does this is a recursive function.
+
+def brigand():
+
+print ("It was a dark and stormy night,
+and the head of the brigands said to
+Antonio:“Antonio, tell us a tale”. And so
+Antonio began:")
+
+brigand ()
+
+brigand ()
+
+8 UNIVERSITY OF CAPE TOWN ERecursive functions
+
+A function can call itself.
+A function that does this is a recursive function.
+
+lt may not be obvious why that is a good thing, but it
+turns out to be one of the most magical and
+interesting things a program can do.
+
+8 UNIVERSITY OF CAPE TOWNRecursive Functions
+
+A recursive function is a function that includes a call to
+itself
+
+based on the general problem-solving technique of breaking
+down a task into subtasks
+
+often called “divide-and-conquer”
+
+Recursion can be used whenever one subtask is a
+smaller version of the original task.
+
+8 UNIVERSITY OF CAPE TOWN 14 EDefining recursive funcions
+
+A recursive function calls itself
+
+Recursive functions have 2 key elements:
+= one or more recursive calls
+
+= stopping condition, or base case, where no recursion is
+required
+
+Recursion is the equivalent of mathematical induction!
+
+8 UNIVERSITY OF CAPE TOWNRecursive functions
+
+Now, with a base case
+
+def brigand(n):
+if n==0: print("No, said Antonio.")
+else:
+
+print ("It was a dark and stormy
+night, and the head of the brigands said to
+Antonio:“Antonio, tell us a tale”. And so
+Antonio began:")
+
+n-=
+
+brigand (n)
+
+8 UNIVERSITY OF CAPE TOWN ERecursion: Factorial
+
+Classic introductory example - Factorial function:
+ni=1x...x(n—-1)xn
+
+ni=nx(n-—1)!
+
+# recursive call
+
+(0! =—_ ] # stopping condition, or base case
+
+8 UNIVERSITY OF CAPE TOWN 17 ERecursive Factorial function
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+def factRec(n): - function
+. ; definition — must
+if n==0: have parameter
+return 1 #base case — ends recursion
+else:
+
+return n*factRec(n-1)
+
+#recursive call — does a little work and uses the
+results from smaller version of same problem
+
+8 UNIVERSITY OF CAPE TOWNFurther explanation-
+Recursion: Factorial
+
+Classic introductory example - Factorial function:
+ni=1x...x(n—-1)xn
+ni= (n _ 1) ! xn * recursive call
+
+(0! = | # stopping condition, or base case
+
+susearare tt
+
+8 UNIVERSITY OF CAPE TOWN 19 EFurther explanation-
+Recursion: Factorial
+
+Classic introductory example - Factorial function:
+ni=1x...x(n—-1)xn
+ni= (n _ 1) ! xn * recursive call
+
+(0! = | # stopping condition, or base case
+
+susearare tt
+
+8 UNIVERSITY OF CAPE TOWN 20 EConcept: Recursion
+
+oO the fern leaf
+
+ 
+
+ 
+
+8 UNIVERSITY OF CAPE TOWNFurther explanation-
+Recursion: Factorial
+
+Classic introductory example - Factorial function:
+ni=1x...x(n—-1)xn
+ni= (n _ 1) ! xn * recursive call
+
+(0! = | # stopping condition, or base case
+
+ssa rt
+
+8 UNIVERSITY OF CAPE TOWN 21 EFurther explanation-
+Recursion: Factorial
+
+Classic introductory example - Factorial function:
+ni=1x...x(n—-1)xn
+ni= (n _ 1) ! xn * recursive call
+
+(0! = | # stopping condition, or base case
+
+susraaet
+
+8 UNIVERSITY OF CAPE TOWN 22 EFurther explanation-
+Recursion: Factorial
+
+Classic introductory example - Factorial function:
+ni=1x...x(n—-1)xn
+ni= (n _ 1) ! xn * recursive call
+
+(0! = | # stopping condition, or base case
+
+51-5
+
+ 
+
+8 UNIVERSITY OF CAPE TOWN 23 EFurther explanation-
+Recursion: Factorial
+
+Classic introductory example - Factorial function:
+ni=1x...x(n—-1)xn
+
+ni= (n _ 1) ! XN # recursive call
+(0! = | # stopping condition, or base case
+
+sHeee
+
+ 
+
+8 UNIVERSITY OF CAPE TOWN 24 EFurther explanation-
+Recursion: Factorial
+
+Classic introductory example - Factorial function:
+ni=1x...x(n—-1)xn
+ni= (n _ 1) ! xn * recursive call
+
+(0! = | # stopping condition, or base case
+
+0!=5*24
+
+8 UNIVERSITY OF CAPE TOWN 25 EFurther explanation-
+Recursion: Factorial
+
+Classic introductory example - Factorial function:
+ni=1x...x(n—-1)xn
+ni= (n _ 1) ! xn * recursive call
+
+(0! = | # stopping condition, or base case
+
+120
+
+ 
+
+8 UNIVERSITY OF CAPE TOWN 26 EIterative solution: Factorial function
+
+def fact(n):
+f=1
+for i in range(1,n+1):
+f=f*i
+return fCheckpoint: Write a recursive function to
+sum the first n positive integers
+
+#fill in the code for this function
+def sumRec(n):
+#code goes here
+#what is the base case?
+#what is the recursive step?
+
+8 UNIVERSITY OF CAPE TOWNIterative solution
+
+def sum (max):
+sum = 0
+for a in range(max+1):
+SUM +=a
+return sum
+
+8 UNIVERSITY OF CAPE TOWNFun with recursion
+
+ 
+
+100 bottles of beer on the wall, 98 bottles of beer on the wall,
+
+100 bottles of beer. 98 bottles of beer.
+
+If one of those bottles should happen to fall, If one of those bottles should happen to fall,
+99 bottles of beer on the wall. 97 bottles of beer on the wall.
+
+99 bottles of beer on the wall, 97 bottles of beer on the wall,
+
+99 bottles of beer. 97 bottles of beer.
+
+If one of those bottles should happen to fall, If one of those bottles should happen to fall,
+98 bottles of beer on the wall. 96 bottles of beer on the wall...
+
+‘fe ero
+
+tote 1
+
+A
+
+ 
+
+8 UNIVERSITY OF CAPE TOWNConcept: Recursion
+
+  
+
+oO selfies
+with
+mirrors
+
+ 
+
+8 UNIVERSITY OF CAPE TOWN ECheckpoint from arrays
+
+Rewrite the code for the function Enigmai(lst, item) so
+that it works as follows. This function should return
+True if every element in Ist is greater than item.
+
+For example (in the Pythons interpreter):
+
+>>>Enigma(["buffalo", "zebra", "goldfish"],"aardvark")
+
+>>>True
+
+>>>Enigma([1,2,3,1,5,6],3)
+
+>>>False
+
+8 UNIVERSITY OF CAPE TOWNCheckpoint from arrays: do recursive
+version!
+
+Rewrite the code for the function Enigmai(lst, item) so
+that it works as follows. This function should return
+True if every element in Ist is greater than item.
+
+For example (in the Pythons interpreter):
+>>>Enigma(["buffalo", "zebra", "goldfish"],"aardvark")
+>>>True
+>>>Enigma([1,2,3,1,5,6],3)
+
+>>>False
+
+ 
+
+def enigma (tst, item) ;
+if Ist==[]: return True #stopping case 1
+if lst[O]<= item: return False #stopping case 2
+return enigma(lst[1:],item) #recursive case
+
+8 UNIVERSITY OF CAPE TOWN EMore Recursion Problems
+
+oO Calculate x"
+
+Oo Count the number of characters in a string.
+oO Count the number of words in a list.
+
+oO Search/replace characters in a string.
+
+oO Calculate Greatest Common Denominator (GCD)
+O Look at Euclid’s Algorithm
+
+O Print out a list of values.
+oO Reverse a string.
+oO Find the sum of integers from m to n.
+
+8 UNIVERSITY OF CAPE TOWNPitfall: Infinite Recursion
+
+In our examples, the series of recursive calls eventually reached
+a a of the method that did not involve recursion (a stopping
+case).
+
+If instead, every recursive call had produced another recursive
+call, then a call to that method would, in theory, run forever.
+
+This is called infinite recursion.
+
+In practice, such a method runs until the computer runs out
+of resources, and the program terminates abnormally
+
+8 UNIVERSITY OF CAPE TOWN 34 EInfinite recursion example
+
+def sumRec(n):
+if n==0: #logic error here
+
+return O #builtins. RuntimeError: maximum
+recursion depth exceeded in comparison
+
+else:
+return sumRec(n-1)+n
+
+8 UNIVERSITY OF CAPE TOWNA Closer Look at Recursion
+
+When the computer encounters a recursive call, it must
+temporarily Suspend its execution of a function
+
+It does this because /t must know the result of the recursive
+call before it can proceed
+
+It saves all the information it needs to continue the
+computation later on, when it returns from the recursive
+ca
+
+Ultimately, this entire process terminates when one of
+the recursive calls does not depend upon recursion
+to return.
+
+8 UNIVERSITY OF CAPE TOWN 36 EWhat's Happening Inside Python
+
+Python keeps track of every function that has been
+called on a store in memory called a stack.
+
+O This allows Python to return to the next point after a
+function call.
+oO The same holds for recursive functions.
+m e.g., sum(3) calls sum(2) calls sum(1) calls sum(0)
+
+ 
+
+8 UNIVERSITY OF CAPE TOWNTowers of Hanoi
+
+oO Problem: Move a stack of discs one disc at a time
+from one tower to another, such that no disc may be
+placed on a larger disc.
+
+ae
+| | ee
+
+puzzle game invented in the late 1800s
+
+8 UNIVERSITY OF CAPE TOWNHanol
+
+ 
+
+a b C
+
+8 UNIVERSITY OF CAPE TOWNHanoi: 1 disk
+
+8 UNIVERSITY OF CAPE TOWNRecursive definitions:
+
+A description of something that refers to itself is called
+
+a recursive definition.
+
+Examples?
+
+8 UNIVERSITY OF CAPE TOWNHanoi: 2 disks
+
+8 UNIVERSITY OF CAPE TOWNHanoi: 3 disks
+
+ 
+
+a b
+
+8 UNIVERSITY OF CAPE TOWNHanoi: 4 disks
+
+  
+
+=
+
+8 UNIVERSITY OF CAPE TOWNTowers of Hanoi
+
+Oo Algorithm:
+= Move n-1 discs from source to spare tower
+= Move nth disc from source to destination tower
+= Move n-1 discs from spare to destination tower
+
+= Stop when no more discs ... or one disc
+
+8 UNIVERSITY OF CAPE TOWN E
+
+https://www.youtube.com/watch ?v=rVPuzFYIfYECheckpoint
+
+Write recursive code to convert a decimal number into
+octal (base 8).
+
+8 UNIVERSITY OF CAPE TOWNCheckpoint: what does this recursive
+function compute?
+def mystery(x):
+if x==1:
+return 2
+if x==0:
+return 1
+return 2*mystery(x-1)
+
+8 UNIVERSITY OF CAPE TOWNWrite a recursive function to
+
+«Draw a picture like this->
+Hourglass(“MARSUIPIAL”)
+
+8 UNIVERSITY OF CAPE TOWN
+
+MARSUPIAL
+SUPIA
+
+MARSUPI
+SUP
+
+MARSUP
+MARSUPI
+MARSUPIA
+MARSUPIALIterative Fibonnaci numbers
+
+def filb(n):
+Curr=1
+prev=1
+for i in range(n-2):
+curr,prev=curr+prev,curr
+return curr
+
+ 
+
+ 
+
+ 
+
+ 
+
+8 UNIVERSITY OF CAPE TOWNRecursive Fibonacci numbersFibonacci in Australia
+
+In 1859, a farmer introduced 24 grey rabbits to remind
+him of home. At the time, the man wrote:
+
+"The introduction of a few rabbits could do little harm
+and might provide a touch of home, in addition to a
+spot of hunting."
+
+For one pair, by 1900....(480 months)...
+Fib(480) :
+
+ 
+
+8 UNIVERSITY OF CAPE TOWNRecursive definitions:
+
+A description of something that refers to itself is called
+a recursive definition.
+
+e.g
+
+frabjuous: An adjective used to describe something
+that is frabjuous.
+
+8 UNIVERSITY OF CAPE TOWN 6 ECompare with timer
+
+8 UNIVERSITY OF CAPE TOWNRecursive Fibonacci numbers
+
+Elegant solution.
+
+Not very efficient, because of many duplicate function
+calls
+
+D_ ea
+®@ @ » @
+® © ® ® ®
+@® ©
+
+8 UNIVERSITY OF CAPE TOWNRecursion Versus Iteration
+
+Recursion is not absolutely necessary
+Any task that can be done using recursion can also be done
+IN a nonrecursive manner
+A nonrecursive version of a method is called an iterative
+version
+An iteratively written method will typically use loops of
+some sort in place of recursion
+A recursively written method can be simpler, but will
+usually run slower and use more storage than an
+equivalent iterative version
+
+8 UNIVERSITY OF CAPE TOWN 53 ECheckpoint: what does this recursive
+function compute?
+def mystery2(a,b):
+if b==0:
+return 0
+if b%2==0:
+return mystery2(at+a,b//2)
+return mystery2(a+a,b//2)+a
+
+8 UNIVERSITY OF CAPE TOWNMore Recursion Problems
+
+oO Calculate x"
+
+Oo Count the number of characters in a string.
+oO Count the number of words in a list.
+
+oO Search/replace characters in a string.
+
+oO Calculate Greatest Common Denominator (GCD)
+O Look at Euclid’s Algorithm
+
+O Print out a list of values.
+oO Reverse a string.
+oO Find the sum of integers from m to n.
+
+8 UNIVERSITY OF CAPE TOWNlterative version of prefix sum
+
+#iterative definition
+def prefixSum(arr):
+tmp=|]
+for i in range(len(arr)):
+if i==0:
+tmp.append(arr[0]) #the first one is just a copy
+else:
+tmp.append(tmpf[i-1]+arr[i]) #cummulative sum
+return tmp
+
+8 UNIVERSITY OF CAPE TOWNCheckpoint: write a recursive version of
+prefixsum
+#recursive definition
+def prefixSumRec(arr):
+
+#fill in the rest of the function
+
+ 
+
+8 UNIVERSITY OF CAPE TOWNCheckpoint: what does this recursive
+function display?
+def pattern(s,n):
+
+if n==0:
+
+return
+
+print(s)
+
+pattern('-'+s,n-1)
+
+print(s)
+
+8 UNIVERSITY OF CAPE TOWNChallenge 1:
+
+Now, with the
+attern function,
+ow do | write a
+
+function to
+
+display this type
+of pattern?
+
+rallerrel| [lees
+to ees a
+
+eel | Lecraler
+ee TodChallenge 2:
+
+A nested number list is a list whose elements are
+either:
+
+¢ numbers
+
+¢ nested number lists
+(nice recursive definition)
+e.g. [1, 2, [11, 13], [8,[2,3]]]
+
+Write a recursive function to sum all the numbers ina
+nested number list
+@.g. r_sum({1, 2, [11, 13], [8,{2,31]1) returns 40
+
+8 UNIVERSITY OF CAPE TOWNRecursive definitions
+
+A recursive definition of the ancestors of person p:
+p’s parents are p’s ancestors (base case);
+
+The parents of any ancestors of p are also the ancestors of p
+(recursive step).
+
+a4 3°
+oo
+a
+
+8 UNIVERSITY OF CAPE TOWN 7 ENice recursive example
+
+Which is the more efficient
+
+algorithm?
+def recPow( a,n): def recPowAlt ( a,n):
+""raises a to int power n""" "raises a to int power n"""
+if n==0: return 1 if n==0: return 1
+else: else:
+return a*recPow(a,n-1) factor=recPowAlt(a,n//2)
+
+if N%2==0:
+return factor*factor
+else: return factor*factor*a
+
+8 UNIVERSITY OF CAPE TOWNRecursion - Justification
+
+Recursion is one of the most important ideas in
+computer science, but it's usually viewed as one of
+the harder parts of programming to grasp.
+
+We can work out very concise and elegant solutions to
+problems by thinking recursively.
+
+Basic approach traversing for non-linear data structures... such
+as trees
+
+Also, there are problems whose solutions are inherently
+recursive, because they need to keep track of prior state.
+e.g.:
+
+divide-and-conquer algorithms such as Quicksort (coming soon....)
+
+All of these algorithms can be implemented iteratively with the
+help of a stack, but the need for the stack arguably nullifies
+the advantages of the iterative solution. =
+
+8 UNIVERSITY OF CAPE TOWNHistory of Recursion
+
+Also, key concept for functional programming
+languages, such as Haskell
+
+Lisp is the second-oldest high-level programming
+language in widespread use today; only Fortran is
+older.
+
+recursion a key component of language
+Driven by Al
+
+Resurgence today, especially for parallel programming
+(Haskell)
+
+8 UNIVERSITY OF CAPE TOWN 63 EThinking Recursively
+
+1. There is no infinite recursion
+— Every chain of recursive calls must
+reach a stopping case
+2. Each stopping case returns the
+correct value for that case
+
+3. For the cases that involve
+recursion: /f all recursive calls
+return the correct value, then the
+final value returned by the method
+is the correct value
+
+These properties follow a technique
+also known as
+
+mathematical induction
+
+ 
+
+8 UNIVERSITY OF CAPE TOWN 64 E2D arrays
+
+treasure_map.py
+
+8 UNIVERSITY OF CAPE TOWNRecursive definitions:
+
+A description of something that refers to itself is called
+
+a recursive definition.
+
+Another example?
+
+8 UNIVERSITY OF CAPE TOWNRecursive definitions:
+
+A description of something that refers to itself is called
+a recursive definition.
+e.g
+The set of prime numbers can be defined as the
+unique set of positive integers satisfying:
+¢ 1 is not a prime number
+¢ any other positive integer is a prime number if and
+only if it is not divisible by any prime number
+smaller than itself
+
+8 UNIVERSITY OF CAPE TOWN 9 ECute, but...
+
+8 UNIVERSITY OF CAPE TOWN

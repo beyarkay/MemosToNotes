@@ -1,0 +1,938 @@
+Interactive Computer Graphics 20 Feb 2006
+
+Python Basics
+
+James Gain
+
+Department of Computer Science
+University of Cape Town
+jgain@cs.uct.ac.za
+
+Problem 1 Introduction
+
+@Write a program to print out the
+following haiku:
+
+@Type, type, type away
+Compile. Run. Hip hip hooray!
+No error today!
+
+(By Samantha W.)
+
+ 
+
+Page 1Interactive Computer Graphics 20 Feb 2006
+
+Python Interpreter
+
+@ Python programs are run one instruction at a time by
+the interpreter.
+
+@ We can run the interpreter (Usually “python3”) and
+then enter instructions one ata time.
+
+@ Python will execute each instruction then prompt the
+user for the next one.
+
+@ Enter exit () to end.
+
+ 
+
+Integrated Development
+Environment (IDE)
+@ Graphical interface with menus and
+windows, much like a word processor.
+
+@ We recommend WingIDE 101
+@ Free, scaled-down Python IDE designed for use in
+teaching introductory programming classes.
+@ You are welcome to use any other tools —
+e.g. IDLE
+
+@ Even a separate text editor and interpreter if you
+like doing things the hard way.
+
+ 
+
+Page 2Interactive Computer Graphics 20 Feb 2006
+
+Problem 4 Introduction
+
+@ Write a program to calculate your
+subminima and final mark for CSC1015F.
+
+@ Initialize variables for each component mark
+at the top of the main method so the marks
+can be changed relatively easily.
+
+Identifiers
+
+@ In source file, print is an identifier.
+
+@ Identifiers are used to name parts of the
+program.
+
+2 Start with _ or letter, and followed by zero or more of
+_, letter or digit
+
+@ Preferred style: hello_world, my_first_program
+@ Reserved words:
+@ if, for, else, ...
+
+2 These identifiers have special meaning and cannot
+be used by programmers for other purposes.
+
+ 
+
+Page 11Interactive Computer Graphics 20 Feb 2006
+
+Identifiers: QuiICk Quiz
+
+@ Which are valid identifiers:
+@ 12345
+@ JanetandJustin
+2 lots_of_money
+@ “Hello world”
+@ J456
+@cc:123
+
+@ Which are good Python identifiers?
+
+Variables
+
+@ Variables are sections of memory where
+data can be stored.
+
+@ Most variables have names (identifiers) by
+which they can be referred.
+@e.g.,a_value, the total
+
+@ Variables are defined by assigning an initial
+value to them.
+@a_value = 10
+@the total = 12.5
+
+ 
+
+Page 12Interactive Computer Graphics 20 Feb 2006
+
+Assignment and Output (I/O)
+
+@ Putting a value into a variable:
+@a=l
+Qb a+ 5
+Q@c 1
+@ LHS is usually a variable, RHS is an expression
+@ Output values of variables just like literals
+@ Can do both on one line
+
+@print (“The value is ”, a)
+
+Problem 5 Introduction
+
+@If we printed out and piled up all the
+digital data stored on earth how high
+would it reach?
+
+@As of 2017
+@Printed out on A4 sheets of paper
+@Stacked on 1/20th of UCT’s Upper campus
+
+@Write a program to calculate this.
+
+ 
+
+Page 13Interactive Computer Graphics 20 Feb 2006
+
+Poll: How high is earth’s data?
+
+HB Everest (8.84km)
+
+HB suborbital Space (100km)
+HB The Moon (384,400 km)
+WB Mars (57.6 million km)
+
+Some Useful Values
+
+@ Digital data stored on earth!:
+@ 2.7 zettabytes in 2017 = 2.55e22 =
+25500000000000000000000 bits
+@ 1 zettabyte = 1024 47 * 8 bits
+2A bit (binary digit) is O or 1
+@ Data storage of paper:
+@ 6210 characters per page? * 6 bits
+per character = 37,260 bits per
+page
+
+1. https://www.nodegraph.se/big-data-facts/
+2.|n Word, with 12pt times roman, no margins
+
+ 
+
+Page 14Interactive Computer Graphics 20 Feb 2006
+
+More Useful Values
+
+@ Area of Upper Campus:
+21/20 Red rectangle = 0.05
+* 580m * 300m = 8700m2
+@ A4 Paper:
+@ Area: 210 mm * 297 mm =
+0.06237m?
+
+@ Thickness: 0.075 mm
+
+@ Answer: 367,983km (just short of
+384,400km distance to the moon)
+
+@ But is this a good idea in practice?
+@No
+
+@Number of trees on earth = 8 trillion;
+Pages per tree = 8,300
+
+@Need ~3 X all the trees on earth
+
+ 
+
+Page 15Interactive Computer Graphics 20 Feb 2006
+
+Poll: How high is earth’s data?
+
+HB Everest (8.84km)
+
+HB suborbital Space (100km)
+HB The Moon (384,400 km)
+WB Mars (57.6 million km)
+
+Identifiers
+
+@ In source file, print is an identifier.
+
+@ Identifiers are used to name parts of the
+program.
+
+2 Start with _ or letter, and followed by zero or more of
+_, letter or digit
+
+@ Preferred style: hello_world, my_first_program
+@ Reserved words:
+@ if, for, else, ...
+
+2 These identifiers have special meaning and cannot
+be used by programmers for other purposes.
+
+ 
+
+Page 16Interactive Computer Graphics 20 Feb 2006
+
+Variables
+
+@ Variables are sections of memory where
+data can be stored.
+
+@ Most variables have names (identifiers) by
+which they can be referred.
+@e.g.,a_value, the total
+
+@ Variables are defined by assigning an initial
+value to them.
+@a_value = 10
+@the total = 12.5
+
+Assignment and Output (I/O)
+
+@ Putting a value into a variable:
+@a=l
+Qb adt+5
+Q@c 1
+@ LHS is usually a variable, RHS is an expression
+
+@ Output values of variables just like literals
+@ Can do both on one line
+
+@print (“The value is
+
+”
+
+a)
+
+ 
+
+Page 17Interactive Computer Graphics 20 Feb 2006
+
+Problem 4
+
+@ Write a program to calculate your
+subminima and final mark for CSC1015F.
+
+@ Initialize variables for each component mark
+at the top of the main method so the marks
+can be changed relatively easily.
+
+@ Final = 0.6 * exam + 0.15 * tests + 0.15 * practicals
++ 0.10 * practests
+@ Theory subminimum = 0.80 * exams + 0.20 * tests
+
+@ Practical sulbminimum = 0.60 * practicals + 0.40 *
+practests
+
+Problem 6 Introduction
+
+@Write a program to add two numbers
+entered by the user and print the result
+on the screen.
+
+ 
+
+Page 18Interactive Computer Graphics 20 Feb 2006
+
+Problem 7 Introduction
+
+@Rewrite problem 4 to get the user to
+input the marks instead of just storing
+them in variables.
+
+Output: print
+
+@ print is a built-in function with a precise set
+of rules for how it works.
+
+@ The general format is one of 2 options:
+
+@ print (<expr1>,<expr2>,..,<exprn>)
+@print()
+
+@ By default, print displays the value of each
+expression, separated by blank spaces and
+followed by a carriage return (moving to the
+next line).
+
+ 
+
+Page 19Interactive Computer Graphics 20 Feb 2006
+
+Options for print
+
+@ To print a series of literals or values of variables,
+separated by spaces:
+
+print("The values are", x, y, 2)
+
+@ To suppress or change the line ending, use the
+end=ending keyword argument. e.g.
+
+print("The values are", x, y, Z, end=’’)
+
+@ To change the separator character between items,
+use the sep=sepchr keyword argument. e.g.
+
+print("The values are", x, y, Zz, sep='*’)
+
+Poll: What is the exact output?
+
+x=20
+
+y=30
+
+z=40
+
+print("The values are", x, y, ‘\n’, Z,
+end='"!!!',sep='!***")
+
+The values are 20 30 40
+
+The values are!***20!***301%***
+t*e*AQtl!
+
+The values are 20 30
+
+40
+
+The values are!***20!***301%***
+40!!!
+
+ 
+
+Page 20Interactive Computer Graphics 20 Feb 2006
+
+Python program files
+
+@ The interpreter is Useful for testing code snippets
+and exploring functions and modules.
+
+@ However, to save a program permanently we
+need to write it into a file and save the file.
+
+@ Python files are commonly given the suffix “.py”
+@e.g. HelloWorld.py
+
+@ Always save your programs while you are
+working!
+
+Skeleton Python Program
+
+# what the program does
+# author of program
+# date
+
+PythonInstructionl
+PythonInstruction2
+PythonInstruction3
+PythonInstruction4
+
+ 
+
+Page 3Interactive Computer Graphics 20 Feb 2006
+
+input
+
+@ The purpose of the Python input statement is to get a
+text string from the user; this can be stored in a
+variable.
+
+@ We get input using the input function.
+@<variable> = input(<prompt>)
+
+2 prompt is usually some text asking the user for
+input
+
+ 
+
+2 variable is where the user's response is stored
+@ For example:
+
+weather = input(“How is the weather today?”)
+print ("Weather:", weather)
+
+Quiz: What is the exact output?
+
+name = input("What is your name? ")
+print ("Hellooooo",name,end='!!!',sep='...')
+
+ 
+
+Page 21Interactive Computer Graphics 20 Feb 2006
+
+Inputting numbers
+
+@ The input function always gives us a string
+(text).
+
+@ This must be converted into a number if you
+are going to do math.
+@ text (strings) and numbers are handled differently
+
+by the computer — more about this later!
+
+@ eval() is a Python function that converts a
+string into a number.
+@eval(”20"”) -> 20
+
+@ int() and float () also work if we know what
+kind of number it is.
+
+Sample program
+
+Useful example using eval...
+
+# algorithm to calculate BMI, using input
+height = input("Type in your height: ")
+
+weight = input("Type in your weight: ")
+
+height = eval(height) # string to number
+weight = eval(weight) # string to number
+
+BMI = weight/(height*height) # calculates BMI
+print("Body mass index = ",BMI)
+
+ 
+
+Page 22Interactive Computer Graphics 20 Feb 2006
+
+Problem 6
+@Write a program to add two numbers
+
+entered by the user and print the result
+on the screen.
+
+Problem 7
+
+@Rewrite problem 4 to get the user to
+input the marks instead of just storing
+them in variables.
+
+ 
+
+Page 23Interactive Computer Graphics 20 Feb 2006
+
+Problem 8 Introduction
+
+@ Use the math library for this question.
+
+@Write a program to calculate "x", the length
+of the hypotenuse on a right-angle
+triangle, given the other two sides
+
+Other Useful Numerical Syntax
+
+@Increment/decrement operators
+@Implicit tyoe conversions
+
+@ Explicit type conversions
+
+@math Module
+
+ 
+
+Page 24Interactive Computer Graphics 20 Feb 2006
+
+Increment / decrement
+
+@at+=3
+
+@ Equivalent to a=a+3
+@Also...
+
+@a-=b
+
+@a*=b
+
+@a/=b
+
+Implicit Conversions
+
+@ Conversion or casting is when one type of
+value is converted to another
+2 E.g., float to integer
+@ If there is a type mismatch, the narrower
+range value is promoted up
+@ a=1
+b=2.0
+print (atb)
+@ Cannot automatically convert down
+2 floats do not become ints
+
+ 
+
+Page 25Interactive Computer Graphics 20 Feb 2006
+
+Explicit Conversions
+
+@ Typecast methods cast (convert) a value to
+another type.
+@a = int(1.234)
+@b = float(1)
+
+@ Use math.ceil, math.floor, round methods for
+greater control of floating-point numbers.
+
+@ Use eval (), int(), float() to convert strings to
+numbers.
+@ eval("1")
+@ int("1")
+@ float("1")
+
+math Module
+
+@ Python has collections of useful functions
+in modules.
+
+@To use a module:
+@import math
+@Then, to use its functions:
+@math.sqrt(a)
+@ Alternatively, to avoid saying "math.", use:
+@from math import sqrt
+@sqrt(a)
+
+ 
+
+Page 26Interactive Computer Graphics
+
+Sample math functions
+
+Return the base-10 logarithm of x. This is usually more accurate than log(x, 10)
+
+s follow Annex ‘F’ of the C99 standard as far as possible. In particular, pow(1-0, x) and
+is a zero or a NaN. if both x and y are finite, x is negative, and y is not an integer then
+
+Unlike the built-in ** operator, math.pow() converts both its arguments to type float. Use ** or the built-in pow() function for
+computing exact integer powers.
+
+math. sqrt (x) 5
+Return the square root of x.
+
+9.2.3. Trigonometric functions
+
+math. acos(x)
+Return the arc cosine of x, in radians.
+
+math. asin(x)
+Return the arc sine of x, in radians.
+
+Return at x), in radians. The result is between pi and pi. The vector in the plane from the origin to point (x, y) makes this
+angle with the positive X axis. The point of atan2() is that the signs of both inputs are known to it, so it can compute the correct
+quadrant for the angle. For example, atan(1) and atan2(1, 1) are both pi/4, but atan2(~1, =1) is -3*pi/4.
+
+math. cos(x)
+turn the cosine of x radians.
+
+Problem 8
+
+@ Use the math library for this question.
+
+@ Write a program to calculate "x", the length
+of the hypotenuse on a right-angle
+triangle, given the other two sides
+
+Page 27
+
+ 
+
+20 Feb 2006Interactive Computer Graphics 20 Feb 2006
+
+Terminology
+
+@ Comment
+2 Apart of the code (starting after a # symbol) that is
+ignored by python and it intended to help a human
+reader
+@ Function
+2 Anamed sequence of instructions that perform a
+collective purpose (e.g., print)
+2 Items passed into a function (inside the brackets) are
+called arguments or parameters
+@ Identifier
+
+2 Aword, consisting of letters, numbers and _
+characters, used to name functions and variables.
+
+More Terminology
+
+@ Variable
+@ Acontainer for data (e.g., strings, integers and floating
+point numbers), named using the rules for identifiers
+@ String literal, numeric literal
+
+@ Fixed character sequences or numbers used directly (e.g.,
+“Hello”, 3.15)
+
+@ Expression
+@ Anarithmetic expression combining variables, numeric
+literals, and arithmetic operators (e.g, +, -, etc)
+@ Syntax
+2 The fundamental rules of a programming language
+@ Similar to the spelling and grammar rules of natural
+languages.
+
+ 
+
+Page 28Interactive Computer Graphics 20 Feb 2006
+
+Terminology Example
+
+# calculate the hypotenuse of a triangle
+# James Gain
+17 February 2019 Comment
+
+ 
+
+from math import sqrt Expression
+sidel =|3.5 + 7.2
+
+——— Numeric .
+side2 =|4.5 ____ itera —— Function
+
+hypotenuse] =|sqrt|(sidel*sidel + side2*side2)
+
+print (|"The hypotenuse is "|, hypotenus4)
+7
+
+N
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Variable Parameters
+
+String Literal
+
+Problem 9
+
+@ Write a program to convert your dog's age into
+human years. Your program must ask for a dog
+years number and then output the human years
+equivalent.
+
+@ The formula is: 10.5 human years per dog year
+for the first 2 years, then 4 human years per dog
+year for each year after.
+
+@ [source: http://www.onlineconversion.com/dogyears.htm]
+
+@ Now do it the other way around ... human-
+>dog
+
+ 
+
+Page 29Interactive Computer Graphics 20 Feb 2006
+
+Problem 10
+
+@ Write a program to calculate compound
+interest, according to the formula:
+
+A(t) = Ag (1 + “"
+
+@ Ao = Initial sum, r = Annual interest rate, n =
+Number of periods per year, t = Number of
+years
+@ Use floating point numbers.
+
+ 
+
+Page 30Interactive Computer Graphics 20 Feb 2006
+
+Example Program
+
+helloworld.py:
+
+# first program ever
+# billgates
+# 14 march 1968
+
+print (“Hello World”)
+
+output:
+Hello World
+
+What does it mean?
+
+print (“Hello World”)
+
+@ print is the name of a function.
+
+@ “Hello World” is the argument or value sent to this
+function.
+
+@ A function is a common task that we can reuse.
+@ Printing on the screen is quite complicated.
+2 So we reuse Python's built-in function to make it
+
+easier.
+
+@ In a few weeks we will also create our own
+
+functions.
+
+ 
+
+Page 4Interactive Computer Graphics 20 Feb 2006
+
+Problem 1 Introduction
+
+@Write a program to print out the
+following haiku:
+
+@Type, type, type away
+Compile. Run. Hip hip hooray!
+No error today!
+
+(By Samantha W.)
+
+Problem 2 Introduction
+
+@Write a program to print out your initials
+in ASCII art.
+
+ 
+
+Page 5Interactive Computer Graphics
+
+20 Feb 2006
+
+Program Syntax and Style
+
+@ Generally, every statement starts on a
+new line.
+
+@ Case-sensitive
+@ STUFF vs stuff vs STuff vs stUFF
+
+@ Everything after # is a (for humans)
+comment.
+
+# a simple program
+print (“Hi”) # write Hi on screen
+
+Comments
+
+@ Brief description, author, date at top of
+program.
+
+@ Brief description of purpose of each function
+(if more than one).
+
+@ Short explanation of non-obvious parts of
+code.
+
+# test program to print to screen
+
+# James Gain
+
+# 12 Feburary 2019
+
+print (“Hello World”)
+
+ 
+
+Page 6Interactive Computer Graphics 20 Feb 2006
+
+Syntax and Logic Errors
+
+@ Syntax errors are when your program
+does not conform to the structure
+required.
+
+Qe.g., print spelt incorrectly
+@The program will not start at all.
+
+@Logic errors are when your program
+runs but does not work as expected.
+@You MUST test your program.
+
+Escape sequences
+
+@ Escape sequences are special characters that
+cannot be represented easily in the program.
+
+@ For example ... tabs, newlines, quotes
+\a - bell (beep)
+\b - backspace
+\n - newline
+\t- tab
+\' - single quote
+\” — double quote
+\\ - \ character
+
+ 
+
+Page 7Interactive Computer Graphics 20 Feb 2006
+
+Problem 3 Introduction
+
+@ Write a program to calculate the number of
+precious seconds you spend at lectures in a
+semester, assuming you have 5 lectures a
+day, lectures on 4 days a week, and there
+are 12 weeks in a semester.
+
+Numeric Data Types
+
+@ For numbers we have two primitive types:
+
+@ Integer
+2 Whole number with no fractional part
+
+@ Floating point number:
+2 Number with fractional part
+@ WARNING: stores only an approximation to real
+number
+@ There is a limit to the precision, or accuracy, of
+the stored values
+
+e.g. 10/3
+
+ 
+
+Page 8Interactive Computer Graphics 20 Feb 2006
+
+Integers: Literals
+
+@ Literals are actual data values written into a
+program.
+@ Numerical literals can be output just like text,
+but after sensible conversions:
+@print (12)
+12
+@print (12+13)
+25
+@print (2+2/2)
+3.0
+
+Integers: Expressions
+
+@ Common operations
+@ + (plus), - (minus), / (divide), * (times), % (mod)
+@ // (integer division)
+@ ** (a to the power b)
+@114+11//2=16 ... how ?
+@ Precedence of operators:
+¢ high: ()
+* middle: */%
+* low: + -
+2 Left associative if equal precedence.
+2 Integer operations when both “operands” are integers.
+
+ 
+
+Page 9Interactive Computer Graphics 20 Feb 2006
+
+Integers: Quick Quiz
+
+@ What is the value of each expression:
+@(12 + 34)
+@(1 +2) / (3 - 4)
+@5%24+2%5
+@1//1//2//3
+@ ((1//2)//3)//4
+
+Problem 3
+
+@ Write a program to calculate the number of
+precious seconds you spend at lectures in a
+semester, assuming you have 5 lectures a
+day, lectures on 4 days a week, and there
+are 12 weeks in a semester.
+
+@ A second/minute * B minute/lecture * C
+lecture/day * D day/week * E week/semester
+
+@ = (A*B*C*D*E) seconds/semester
+
+ 
+
+Page 10

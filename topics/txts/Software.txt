@@ -1,0 +1,387 @@
+De UCT Department of Computer Science
+= Computer Science 1015F
+
+ 
+
+Creating Software
+
+ 
+
+Aslam Safla <aslam@cs.uct.ac.za>
+
+(thanks to Hussein Suleman <hussein@ cs.uct.ac.za>)Muhammad ibn Musa al-Khwarizmi (780-850)
+
+seoi ay ee gh pat) Bl od all de
+al gy Lod yey layer Gia pane dent aS dd
+Se tle Gay Le Jha tie ed TSU eet ch Tt oy
+pba gy SIA ga goth aT ee ad ay Bay danas
+
+Hype aang ded filly
+
+oPersian mathematician
+Howe cass aims  FFarly work on Algebra
+
+pd Bat cl gig etlett Sper bee abe UGS tear
+
+yy OT ete pled aed ee date peat aces Lebo a 1 = =
+Tene wiweotsoe: mal-Kitab al-mukhtasar ff hisab
+ae em UE Pool oe Ene dye ul bale iy . _
+& sal hliggae a oh J Ugly ehh gta al-jabr wal-muqabala
+
+went dorly Jie TE WE tbe cell dy oN oats
+
+Jia weccaveueos  FlLater work on Algorithms
+
+Aas ge gai TE pe Le NN be Oe he
+= Translated as: Algoritmi de
+8 UNIVERSITY OF CAPE TOWN numero Indorum Computer Science EE.Programming in Assembler
+
+oWrite program in text editor.
+
+oSave program in file.
+
+oAssemble source code into object/machine code.
+mtasm hello.asm
+
+oOptionally link multiple files together and create
+executable understood by OS.
+
+mtlink hello.obj
+oExecute application in OS.
+
+mhello.exe
+
+8 UNIVERSITY OF CAPE TOWN Computer Science EE.Pros/Cons of Assembler
+
+oPros
+
+uMatched machine code so can do whatever CPU can
+do.
+
+=Very fast execution of programs.
+
+=Can be used on obscure CPUs.
+
+oCons
+
+=Difficult to program.
+
+=Programs are very long.
+
+=Programming is slow process and prone to errors.
+
+8 UNIVERSITY OF CAPE TOWN Computer Science EE.High Level Languages
+
+OHigh level languages are easier for humans to
+understand.
+
+oWe need to convert programs in high level languages
+to low level languages so computers can understand.
+
+o2 common approaches:
+
+aCompile
+ulnterpret
+
+8 UNIVERSITY OF CAPE TOWN Computer Science EE.Compilers (C++)
+
+    
+       
+    
+
+#include <iostream>
+
+Compiler command:
+
+using namespace std;
+g++ -o test test.cpp
+
+int main ()
+
+        
+
+cout << "Hello World";
+
+return 0;
+C++ Program Source Code
+Machine Code
+
+ 
+
+8 UNIVERSITY OF CAPE TOWN Computer Science EE.Interpreters (Python)
+
+olnterpreter reads each statement and executes an
+equivalent set of machine code instructions.
+oCompared to compiled programs:
+
+mEasier to program - no compile step.
+
+=™Programs run slower - source code must be processed
+every time.
+
+Interpreter command:
+python3 test.py
+
+   
+ 
+
+print ("Hello World")
+
+Python Program Source Code
+
+8 UNIVERSITY OF CAPE TOWN Computer Science EE.Types of High Level Languages
+
+oProcedural/Imperative, Object-oriented - programs are
+specified as exact sets of instructions to execute.
+
+aPython, Java, C++
+
+oDeclarative/Logic - programs are rules and facts that
+are processed by an engine.
+
+=Prolog, XSLT
+
+OoFunctional - programs are collections of functions that
+are applied and composed to solve problems.
+
+=Haskell, Lisp
+
+8 UNIVERSITY OF CAPE TOWN Computer Science EE.Alan Turing (1912-1954)
+
+oFather of Computer Science
+oMajor contributions:
+
+=Defined what can be called an algorithm
+and showed the universality of algorithms.
+aChurch-Turing thesis
+
+=Defined a Universal Computer
+
+oTuring Machine
+
+=Defined how we test for Al
+
+aTuring Test
+
+=Part of WWII code-breaking team that deciphered Enigma messages.
+oHarassed by UK govt because he was gay
+
+=committed suicide in 1954.
+
+8 UNIVERSITY OF CAPE TOWN Computer Science EE.some Turing Award Winners
+
+dHighest honour in computer science
+
+01981: Codd (relational databases)
+
+01983: Thompson and Ritchie (UNIX)
+
+01997: Engelbart (mouse!)
+
+01999: Brooks (software engineering)
+
+02002: Rivest, Shamir and Adleman (RSA encryption)
+02003: Alan Kay (Smalltalk - OOP language)
+
+02004: Cerf and Kahn (Internet)
+
+02008: Barbara Liskov (programming language principles)
+02015: Diffie and Hellman (cryptography)
+
+02016: Sir Tim Berners-Lee (WWW)
+
+8 UNIVERSITY OF CAPE TOWN Computer Science EE.Grace Hopper (1906 - 1992)
+
+oMathematician, computer scientist,
+Admiral in US Navy
+
+oMajor contributions:
+
+mHigh-level programming language
+oCOBOL
+
+alnvented first compiler
+=mConference and awards inher honour __
+=Popularized the term “bug” ot, Stark Gael ee
+
+ 
+
+Mult ae Gee x thes
+
+. . \S4y Rel a nedete
+sAll this and she started coding emcee
+at age 37... sos dst setnel exee of bey being foun
+
+ 
+
+8 UNIVERSITY OF CAPE TOWN Computer Science EE.Women in Computer Science
+
+oAda Lovelace (1815 - 1852)
+
+aFirst computer program on Babbage's —
+analytical engine
+
+oMargaret Hamilton (1936 - )
+
+uLead s/w designer for Apollo missions
+oAdele Goldberg (1945 - )
+
+=Part of the Smalltalk team at PARC
+oAnita Borg (1949 - 2003)
+
+mAdvocacy for technical women
+
+   
+
+8 UNIVERSITY OF CAPE TOWN Computer Science EE.What does the CPU understand?
+
+oOMachine Code is the only language a CPU
+understands directly!
+
+oEach instruction is a sequence of numbers.
+
+oOOn x86 CPUs, instructions have variable lengths.
+=™some are 2 numbers, some 3 numbers, etc.
+
+oFor example:
+
+=180 76 = store value of 76 in special CPU variable AH
+=205 33 = call OS function (if AH=76, this means quit)
+
+8 UNIVERSITY OF CAPE TOWN Computer Science EE.The Operating System
+
+oManages resources on computer.
+oExecutes on startup (boot):
+
+=BIOS ROM has instructions to load OS - fixed in
+hardware!
+
+=Disks are checked in order defined by hardware.
+
+ulf OS machine code is on a disk, load it into memor
+and start execution. .
+=OS takes over and allows users
+to select and run their programs
+until computer is shut down.
+
+  
+
+cre
+
+Manager
+
+8 UNIVERSITY OF CAPE TOWN Computer Science EE.Low Level Languages
+
+oOMachine Code is a low level language.
+
+mONLY language CPU can understand.
+
+=Different MC for every CPU!
+
+oLow level languages are easier for a machine to
+understand, and often difficult for a human.
+
+oAssembly language expresses machine code symbolically
+- so humans can write programs more easily.
+
+oOExample (quit a program):
+
+mdecimal: 108 76 205 33
+
+mhexadecimal: B4 4C CD 21
+
+massembler: MOV AH,4Ch
+INT 21h
+
+8 UNIVERSITY OF CAPE TOWN Computer Science EAssembler Programming
+
+Memory
+
+location
+
+100
+102
+105
+107
+109
+10B
+10D
+10F
+111
+113
+115
+
+ 
+
+ 
+
+Oo NO NY NYO NBO YB NB NP NY NY ND
+oOo oO OoOrmlmUlUCOTDlUlCUCOUOUClCOOOCOTT OCT CT
+
+8 UNIVERSITY OF CAPE TOWN
+
+machine
+language
+(HEX)
+B409
+BA1701
+CD21
+B401
+CD21
+B44C
+2C30
+7EF6
+3C09
+TEEF2
+CD21
+
+ 
+
+ 
+
+ 
+
+assembly
+language
+
+MOV AH, 09
+MOV DX, 0117
+INT 21
+MOV AH, O1
+INT 21
+MOV AH, 4C
+SUB AL, 30
+JLE 0107
+CMP AL, 09
+JG 0107
+INT 21
+
+ 
+
+ 
+
+comments
+
+;display string of characters
+;point to string
+
+7do it
+
+;keyboard input function
+
+7do it
+
+7exit function
+
+;convert to number
+
+;jump to 107 if < "1"
+;compare to "9"
+
+;jump to 107 if greater
+
+7do exit
+
+Source: htto./;www.kyphilom.com/www/txt/compdo. txt
+
+Computer Science EE.

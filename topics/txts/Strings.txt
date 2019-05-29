@@ -1,0 +1,731 @@
+Interactive Computer Graphics 20 Feb 2006
+
+Strings
+
+James Gain
+
+Department of Computer Science
+University of Cape Town
+jgain@cs.uct.ac.za
+
+Problem 1 Introduction
+
+@Write a program to print out the reverse
+of a sentence.
+
+@For example:
+@Computer becomes retupmoC
+
+@ Use first principles - i.e., process the
+string character-by-character.
+
+ 
+
+Page 1Interactive Computer Graphics 20 Feb 2006
+
+Strings
+
+@ Basically a sequence of characters (letters,
+digits, symbols).
+@e.g., “howzit %*& *96”
+
+@ String literals are enclosed in single ' or
+double " quotes.
+
+@ Use escape characters within strings if
+necessary.
+
+@ The data type of strings is string.
+
+@ All strings are objects so have methods for
+various useful functions.
+
+How Python stores strings
+
+@ Strings are sequences of characters.
+
+@ A character is internally a single number
+representing some symbol.
+
+@ The mapping from numbers to symbols is
+called Unicode - it is a standard for electronic
+data.
+
+@ Unicode has thousands of symbols defined to
+cater for all living languages!
+
+Symbol wf Al BIC
+Unicode number |...| 65 | 66 | 67
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Page 2Interactive Computer Graphics 20 Feb 2006
+
+Objects
+
+Objects are a special data type, including both the
+actual data and functions (called methods) that
+operate on the data. All Python strings are objects.
+Examples of string functions/methods include:
+
+@ count, find, join, lower, ...
+
+For non-object functions, we specify the string as a
+parameter:
+
+@ len(s)
+
+For object functions, we call the function on the
+string using a dot and then the function name (aka
+dot-notation):
+
+@ s.lower ()
+
+String methods
+
+s.count (search)
+
+@ returns integer number of search strings found within s
+
+s.find(search)
+
+2 returns position of first search string found within s
+
+s.lower()
+
+@ returns lowercase version of s
+
+s.replace (old, new)
+
+2 returns version of s with every occurrence of old
+replaced with new
+
+s.upper ()
+
+@ return Uppercase version of s
+
+ 
+
+Page 11Interactive Computer Graphics 20 Feb 2006
+
+Poll: String Methods
+
+@ What is the output of the following Python code:
+Magic = “Abracadabra”
+newmagic = magic.replace(“abra”, “cobra” )
+
+print (newmagic.upper() )
+
+HE COBRACADCOBRA
+BW Avracadcobra
+
+i cobracadabra
+
+BB ABRACADCOBRA
+
+Problem 5
+
+@ Suppose we have a variable containing:
+
+@“the quick brown fox jumps over
+the lazy dog”.
+
+@ Write a program to extract the colour of the
+quick fox from the sentence using only string
+manipulations. Make sure your program will
+work even if the string is different, as long as
+there is a quick something fox in it!
+
+@ Can you modify the program to change the
+colour to something else?
+
+ 
+
+Page 12Interactive Computer Graphics 20 Feb 2006
+
+String Formatting
+
+@Use a format language to specify a
+template and expressions to fit into the
+template.
+
+@ General syntax:
+
+@<template string>.format (<var1>, <var2>, ...)
+
+@Python has multiple formatting
+approaches - this is one!
+
+String Formatting Examples 1
+
+@ Print 2 variables in order
+@"{O} {1}".format ("one", "two")
+@'one two'
+
+@Reverse order
+@"{1} {0}".format ("one", "two")
+@'two one'
+
+@Left-aligned in fixed width
+@"{0:<20}".format ("one")
+
+@'one '
+
+ 
+
+Page 13Interactive Computer Graphics 20 Feb 2006
+
+String Formatting Examples 2
+@ Right-aligned in fixed width
+@"{0:>20}".format ("one")
+Q' one!
+@ Centred in fixed width
+Q@"{0:*%20}".format ("one")
+Q' one '
+@ Floating point number rounding
+@"{0:5.3£}".format (1.23456789)
+@'1.235'
+
+Summary - Basics
+
+@ Working with Python files and an IDE
+@ Structure of Python programs
+2@Comments
+2 Indentation
+2@Variables and Data Types
+@ Expressions
+@1/0
+@print() and Escape sequences
+@input() and eval()
+
+ 
+
+Page 14Interactive Computer Graphics 20 Feb 2006
+
+Summary - Selection
+
+if boolean_expression:
+statementl
+statement2
+
+else:
+statementa
+
+statement
+
+@ “if” ladder variant, with elsif
+
+@ Boolean expressions
+@Including and, or, not
+
+Summary - Iteration
+
+@ Counter-controlled loops
+for var in range(start, stop, step):
+statementl
+statement2
+@ Condition-controlled loops
+while condition:
+statementl
+statement2
+@ Other aspects: inifinite loops, break,
+continue, pass, for:-else:
+
+ 
+
+Page 15Interactive Computer Graphics 20 Feb 2006
+
+Summary - Strings
+
+@ Python is rightly famous for offering lots
+of string manipulation functionality
+2An underlying Unicode representation
+@Indexing and iteration
+@ Slicing
+2@String methods (find, replace, lower,
+
+upper, etc.)
+
+2Formatting
+
+ 
+
+Page 16Interactive Computer Graphics 20 Feb 2006
+
+And some non-living languages
+
+> F+13000-1342F Egyptian Hieroglyphs
+
+Doni Ties
+J
+
+E
+E> Early Dynaste Cuneo
+2 Eaytian Hirogtyphs
+3 cvesan
+@® Emorcons
+Enclosed Aphanumere
+Sop
+Enos Apher
+@ Eeeeed on Later ans
+Mons
+@® sooo
+Suoploment
+enon.
+FE monic Exendes
+A_ewoviceronsesa
+
+A+ Ethiopic Supplement
+
+Internal data vs Input/Output
+
+@What the computer stores:
+
+ 
+
+72 |101) 108] 108/111) 32 | 87 | 111
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+@ What the user sees on the screen:
+
+ 
+
+H/e/|I]tjo Wio/rj|tid
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Page 3Interactive Computer Graphics 20 Feb 2006
+
+Processing strings
+
+@ + to join strings together
+@ Example: "hello" +." " + "world"
+@ Produces: "hello world"
+@* to multiply a string
+@ Example: "hello"*2
+@ Produces: "hellohello"
+@ len () for length of a string
+2 len(s)
+@ Example: len ("hello")
+@ Produces: 5
+
+Indexing a string
+
+@ An index is used to read a single character from
+a string.
+
+@ Wecan read only - we cannot change
+characters.
+
+@ Syntax:
+@a_string[i]
+@ returns the single character in position i
+
+@ Example
+@"Hello World"[4]
+
+@ Produces: "o"
+string Hle l
+positions 0/1 2
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Page 4Interactive Computer Graphics 20 Feb 2006
+
+Iterating over string characters
+
+@ We can iterate over the characters of a string using
+for.
+@ Example:
+word = "Hello"
+for a_char in word:
+print (a_char*2,end="")
+2 Output:
+HHeelllloo
+@ Alternatively, we can iterate over the position
+numbers:
+for index in range (len(word) ):
+
+ 
+
+print (word[index]*2,end="")
+
+Converting to/from numbers
+
+@ ord ( won )
+@ return the Unicode number for 1-character string
+HQ"
+@ chr (97)
+
+@ returns the 1-character string with Unicode symbol
+97
+
+@ int ("1234")
+
+@ returns the integer value 1234
+
+@ note: we can also use eval() and float()
+@ str (1234)
+
+@ returns the string value "1234"
+
+ 
+
+Page 5Interactive Computer Graphics 20 Feb 2006
+
+Problem 1
+
+@Write a program to print out the reverse
+of a sentence.
+
+@For example:
+2Computer becomes retupmoC
+
+@ Use first principles - i.e., process the
+string character-by-character.
+
+Problem 2
+
+@ Print out a table of Unicode numbers
+and corresponding symbols.
+
+@Try the first 1000 or some user-selectable
+range.
+
+ 
+
+Page 6Interactive Computer Graphics 20 Feb 2006
+
+Problem 3
+
+@Stylistically, in electronic
+communication, CAPITAL letters are
+considered to be the equivalent of
+shouting. However, many people
+consider electronic shouting to be rude.
+
+@Write a program to convert a sentence
+into all lowercase.
+
+@ Use first principles - i.e., process the
+string character-by-character.
+
+Problem 4
+
+@Write a program that encrypts and
+decrypts strings made up of
+alphabetic characters by converting
+them to and from Greek characters
+
+@Ignore everything that is not a letter
+2@Use the underlying Unicode numbers
+
+ 
+
+Page 7Interactive Computer Graphics 20 Feb 2006
+
+Problem 5 Introduction
+
+@ Suppose we have a variable containing:
+
+@“the quick brown fox jumps over
+the lazy dog”.
+
+@ Write a program to extract the colour of the
+quick fox from the sentence using only string
+manipulations. Make sure your program will
+work even if the string is different, as long as
+there is a quick something fox in it!
+
+@ Can you modify the program to change the
+colour to something else?
+
+String Slicing
+
+@ Slicing returns a sequence of characters from a string.
+@ Syntax:
+
+@ a_string[ :stop:step]
+
+@ returns characters from start, ending before stop, step
+
+characters apart.
+
+@ Notes:
+
+@ if step is negative, string is processed from back to front
+
+¢ last character is position -1, then -2, etc.
+
+@ step is optional (and you can omit the :) - assumed to be 1
+
+@ start is optional - assumed to be 0 (or -1 for negative step)
+
+@ stop is optional - assumed to be len (or -len-1 for negative step)
+
+ 
+
+string [.H [wW]o I [4d
+positions 9 [10] 11
+-2
+
+| *
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+neg.
+positions
+
+ 
+
+ 
+
+Page 8Interactive Computer Graphics 20 Feb 2006
+
+@
+
+Ue SF QMmheoeaA FT wo
+
+ 
+
+String Slicing Quiz
+
+What string is generated from the
+following expressions 2
+
+@Assume greet ="Hello Bob”
+
+greet
+greet
+greet
+greet
+
+ 
+
+greet
+
+More String Slicing Examples
+
+"Jabberwocky”
+
+2:2) # b = 'Jbewcy'
+22-2] # c = 'ycwebJ'
+
+# d = 'Jbe'
+
+# e = 'rba'
+
+= 'Jabbe'
+g = 'ykcow'
+# h = 'rwocky'
+# i = 'rebbaJ'
+
+# 'rebba'
+
+Page 9Interactive Computer Graphics 20 Feb 2006
+
+String Slicing
+
+@ Slicing returns a sequence of characters from a string.
+
+@ Syntax:
+@ a_string[s :stop:step]
+@ returns characters from start, ending before stop, step
+characters apart.
+@ Notes:
+@ if step is negative, string is processed from back to front
+¢ last character is position -1, then -2, etc.
+@ step is optional (and you can omit the :) - assumed to be 1
+@ start is optional - assumed to be 0 (or -1 for negative step)
+@ stop is optional - assumed to be len (or -len-1 for negative step)
+
+ 
+
+string I Wio r I d
+positions 3 6 7 8 9 | 10} 11
+neg. 8 +5 | -4 | -3 | -2 | -1
+positions
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+String Slicing Quiz 2
+
+@ Given:
+@a = “impossible”
+@Find two ways to extract each of the
+following substrings:
+@b = “possible”
+@c = “ioie”
+
+ 
+
+Page 10
