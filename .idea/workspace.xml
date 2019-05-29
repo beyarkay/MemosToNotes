@@ -1,0 +1,858 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="456ae79f-d782-497c-83bd-e877f784e7ca" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Figure1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_topics/topic1_testing.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/pdfs/2011 June Memo.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/pdfs/2012 June Memo.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/pdfs/2013 June Memo.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/pdfs/2014 June Memo.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/pdfs/2015 June Memo.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/pdfs/2016 June Memo.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/pdfs/2017 June Memo.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/pdfs/2018 June Memo.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2011 June Memo/2011 June Memo-0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2011 June Memo/2011 June Memo-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2011 June Memo/2011 June Memo-10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2011 June Memo/2011 June Memo-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2011 June Memo/2011 June Memo-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2011 June Memo/2011 June Memo-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2011 June Memo/2011 June Memo-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2011 June Memo/2011 June Memo-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2011 June Memo/2011 June Memo-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2011 June Memo/2011 June Memo-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2011 June Memo/2011 June Memo-9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2012 June Memo/2012 June Memo-0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2012 June Memo/2012 June Memo-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2012 June Memo/2012 June Memo-10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2012 June Memo/2012 June Memo-11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2012 June Memo/2012 June Memo-12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2012 June Memo/2012 June Memo-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2012 June Memo/2012 June Memo-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2012 June Memo/2012 June Memo-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2012 June Memo/2012 June Memo-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2012 June Memo/2012 June Memo-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2012 June Memo/2012 June Memo-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2012 June Memo/2012 June Memo-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2012 June Memo/2012 June Memo-9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2013 June Memo/2013 June Memo-0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2013 June Memo/2013 June Memo-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2013 June Memo/2013 June Memo-10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2013 June Memo/2013 June Memo-11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2013 June Memo/2013 June Memo-12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2013 June Memo/2013 June Memo-13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2013 June Memo/2013 June Memo-14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2013 June Memo/2013 June Memo-15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2013 June Memo/2013 June Memo-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2013 June Memo/2013 June Memo-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2013 June Memo/2013 June Memo-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2013 June Memo/2013 June Memo-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2013 June Memo/2013 June Memo-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2013 June Memo/2013 June Memo-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2013 June Memo/2013 June Memo-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2013 June Memo/2013 June Memo-9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2014 June Memo/2014 June Memo-0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2014 June Memo/2014 June Memo-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2014 June Memo/2014 June Memo-10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2014 June Memo/2014 June Memo-11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2014 June Memo/2014 June Memo-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2014 June Memo/2014 June Memo-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2014 June Memo/2014 June Memo-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2014 June Memo/2014 June Memo-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2014 June Memo/2014 June Memo-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2014 June Memo/2014 June Memo-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2014 June Memo/2014 June Memo-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2014 June Memo/2014 June Memo-9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2015 June Memo/2015 June Memo-0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2015 June Memo/2015 June Memo-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2015 June Memo/2015 June Memo-10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2015 June Memo/2015 June Memo-11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2015 June Memo/2015 June Memo-12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2015 June Memo/2015 June Memo-13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2015 June Memo/2015 June Memo-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2015 June Memo/2015 June Memo-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2015 June Memo/2015 June Memo-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2015 June Memo/2015 June Memo-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2015 June Memo/2015 June Memo-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2015 June Memo/2015 June Memo-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2015 June Memo/2015 June Memo-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2015 June Memo/2015 June Memo-9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2016 June Memo/2016 June Memo-0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2016 June Memo/2016 June Memo-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2016 June Memo/2016 June Memo-10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2016 June Memo/2016 June Memo-11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2016 June Memo/2016 June Memo-12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2016 June Memo/2016 June Memo-13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2016 June Memo/2016 June Memo-14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2016 June Memo/2016 June Memo-15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2016 June Memo/2016 June Memo-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2016 June Memo/2016 June Memo-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2016 June Memo/2016 June Memo-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2016 June Memo/2016 June Memo-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2016 June Memo/2016 June Memo-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2016 June Memo/2016 June Memo-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2016 June Memo/2016 June Memo-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2016 June Memo/2016 June Memo-9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2017 June Memo/2017 June Memo-0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2017 June Memo/2017 June Memo-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2017 June Memo/2017 June Memo-10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2017 June Memo/2017 June Memo-11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2017 June Memo/2017 June Memo-12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2017 June Memo/2017 June Memo-13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2017 June Memo/2017 June Memo-14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2017 June Memo/2017 June Memo-15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2017 June Memo/2017 June Memo-16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2017 June Memo/2017 June Memo-17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2017 June Memo/2017 June Memo-18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2017 June Memo/2017 June Memo-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2017 June Memo/2017 June Memo-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2017 June Memo/2017 June Memo-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2017 June Memo/2017 June Memo-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2017 June Memo/2017 June Memo-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2017 June Memo/2017 June Memo-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2017 June Memo/2017 June Memo-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2017 June Memo/2017 June Memo-9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2018 June Memo/2018 June Memo-0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2018 June Memo/2018 June Memo-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2018 June Memo/2018 June Memo-10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2018 June Memo/2018 June Memo-11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2018 June Memo/2018 June Memo-12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2018 June Memo/2018 June Memo-13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2018 June Memo/2018 June Memo-14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2018 June Memo/2018 June Memo-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2018 June Memo/2018 June Memo-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2018 June Memo/2018 June Memo-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2018 June Memo/2018 June Memo-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2018 June Memo/2018 June Memo-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2018 June Memo/2018 June Memo-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2018 June Memo/2018 June Memo-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2018 June Memo/2018 June Memo-9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/memos/2011 June Memo.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/memos/2012 June Memo.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/memos/2013 June Memo.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/memos/2014 June Memo.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/memos/2015 June Memo.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/memos/2016 June Memo.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/memos/2017 June Memo.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/memos/2018 June Memo.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/text_files/2011 June Memo.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/text_files/2012 June Memo.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/text_files/2013 June Memo.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/text_files/2014 June Memo.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/text_files/2015 June Memo.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/text_files/2016 June Memo.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/text_files/2017 June Memo.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/text_files/2018 June Memo.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tokens.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuestionPaper.py" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionPaper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frequencies/2014 CSC test solutions.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frequencies/2016 supp CSC test solutions.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frequencies/2017 CSC test solutions.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frequencies/CSC1015F 2015 Test 3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frequencies/CSC1015F 2016 Test 3 Final.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ocr_1/ocr_1-0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ocr_1/ocr_1-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ocr_1/ocr_1-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ocr_1/ocr_1-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfs/ocr_1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfs/pdf_file_1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfs/pdf_file_2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfs/pdf_file_3.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfs/pdf_file_4.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfs/pdf_file_5.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfs/pdf_file_6.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfs/pdf_file_7.pdf" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="104">
+              <caret line="105" column="4" selection-start-line="105" selection-start-column="4" selection-end-line="105" selection-end-column="4" />
+              <folding>
+                <element signature="e#436#946#1" />
+                <element signature="e#2549#4238#0" />
+                <element signature="e#2461#2735#1" />
+                <element signature="e#4139#4315#1" />
+                <element signature="e#4681#4825#0" />
+                <element signature="e#5336#5858#0" />
+                <element signature="e#5336#5495#1" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tokens.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>getContent</find>
+      <find>self.REGEX_QUESTION</find>
+      <find>pdf_string</find>
+      <find>(a) D</find>
+      <find>Question</find>
+      <find>synt</find>
+      <find>IEEE</find>
+      <find>equivalence</find>
+      <find>path</find>
+      <find>error</find>
+      <find>potatoes</find>
+      <find>20cn</find>
+      <find>4.7*</find>
+      <find>name</find>
+      <find>.jpg</find>
+      <find>oundary</find>
+      <find>stopwords</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>REGEX_SUBQUESTION</replace>
+      <replace>self.text</replace>
+      <replace>.png</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/reading_list.md" />
+        <option value="$PROJECT_DIR$/pdfs/file1.txt" />
+        <option value="$PROJECT_DIR$/pdfs/exemplar.md" />
+        <option value="$PROJECT_DIR$/pdfs/file1.md" />
+        <option value="/anaconda3/envs/MemosToNotes/lib/python2.7/site-packages/pytesseract/pytesseract.py" />
+        <option value="$PROJECT_DIR$/imports.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/QuestionPaper.py" />
+        <option value="$PROJECT_DIR$/tokens.txt" />
+        <option value="$PROJECT_DIR$/frequencies.txt" />
+        <option value="$PROJECT_DIR$/main.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="MemosToNotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MemosToNotes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MemosToNotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MemosToNotes" type="462c0819:PsiDirectoryNode" />
+              <item name="corpus" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MemosToNotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MemosToNotes" type="462c0819:PsiDirectoryNode" />
+              <item name="corpus" type="462c0819:PsiDirectoryNode" />
+              <item name="pdfs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MemosToNotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MemosToNotes" type="462c0819:PsiDirectoryNode" />
+              <item name="corpus" type="462c0819:PsiDirectoryNode" />
+              <item name="txts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MemosToNotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MemosToNotes" type="462c0819:PsiDirectoryNode" />
+              <item name="topics" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/corpus/pdfs" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pdfs" />
+      <recent name="$PROJECT_DIR$/imgs" />
+      <recent name="$PROJECT_DIR$/txts" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/corpus/pdfs" />
+      <recent name="$PROJECT_DIR$/corpus" />
+      <recent name="$PROJECT_DIR$/topics" />
+      <recent name="$PROJECT_DIR$/ppts" />
+      <recent name="$PROJECT_DIR$/imgs" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="MemosToNotes" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MemosToNotes" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="false" />
+      <option name="ADD_SOURCE_ROOTS" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="456ae79f-d782-497c-83bd-e877f784e7ca" name="Default Changelist" comment="" />
+      <created>1553692008421</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1553692008421</updated>
+      <workItem from="1556724795641" duration="209000" />
+      <workItem from="1557236751519" duration="52000" />
+      <workItem from="1557477835825" duration="10083000" />
+      <workItem from="1557493312364" duration="166000" />
+      <workItem from="1557493515251" duration="16509000" />
+      <workItem from="1557730932210" duration="599000" />
+      <workItem from="1558266476431" duration="33000" />
+      <workItem from="1558990422288" duration="5919000" />
+      <workItem from="1559066697947" duration="2953000" />
+      <workItem from="1559069719450" duration="12391000" />
+      <workItem from="1559118826482" duration="50000" />
+      <workItem from="1559118889572" duration="4524000" />
+      <workItem from="1559134317262" duration="2789000" />
+    </task>
+    <task id="LOCAL-00001" summary="Testing git connection">
+      <created>1553692047818</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1553692047818</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added new tester file pdfs&#10;Realised textract wasn't going to work - I think it only works for Py2.">
+      <created>1553709592179</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1553709592179</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Got pdf text extraction working with PyPDF2&#10;Started reading all the text in the file">
+      <created>1553714425877</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1553714425877</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Now can read text from the file, and usually split it by Sections and then by individual questions">
+      <created>1553719041828</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1553719041828</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added some debugging logs to print to the console">
+      <created>1553719422934</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1553719422934</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Got regex to correctly split different questions numbers, however the answers are still in the same string">
+      <created>1553781215784</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1553781215784</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Various debugging changes">
+      <created>1553796981278</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1553796981278</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Added TODO list to main.py">
+      <created>1553842701828</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1553842701828</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Started to flesh out the QuestionPaper object, with init and .read() methods">
+      <created>1553930555358</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1553930555358</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Improved docs on regex, QuestionPaper Class&#10;Added all the code into the QuestionPaper class, but haven't tested yet">
+      <created>1554383841458</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1554383841458</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Code commenting, and refactoring it to be more readable">
+      <created>1554384646362</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1554384646362</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Add README.md, reading_list.md">
+      <created>1556724993141</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1556724993141</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Fine tune the QuestionPaper class&#10;Add more file examples">
+      <created>1557492199506</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1557492199506</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Create MD depiction of Question Paper">
+      <created>1557509823863</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1557509823863</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Implement NLTK">
+      <created>1557514145653</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1557514145653</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Add Todos">
+      <created>1558990514855</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1558990514855</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Implemented pytesseract OCR, it's much better">
+      <created>1558996913764</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1558996913764</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Streamline text extraction">
+      <created>1559070486087</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1559070486087</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Add simple frequency bar graph">
+      <created>1559112111085</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1559112111085</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Processed pdfs now get saved in text form">
+      <created>1559113145102</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1559113145102</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="56277000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19027181" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.3120482" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4988263" weight="0.3385542" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49785408" weight="0.4493976" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007153" side_tool="true" weight="0.40240964" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3566265" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="right" x="0" y="0" width="310" height="700" id="Documentation" order="0" sideWeight="0.7057793" side_tool="true" visible="true" weight="0.14449213" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="4" sideWeight="0.29422066" visible="true" weight="0.14449213" />
+      <window_info anchor="right" id="Database" order="5" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="Testing git connection" />
+    <MESSAGE value="Added new tester file pdfs&#10;Realised textract wasn't going to work - I think it only works for Py2." />
+    <MESSAGE value="Got pdf text extraction working with PyPDF2&#10;Started reading all the text in the file" />
+    <MESSAGE value="Now can read text from the file, and usually split it by Sections and then by individual questions" />
+    <MESSAGE value="Added some debugging logs to print to the console" />
+    <MESSAGE value="Got regex to correctly split different questions numbers, however the answers are still in the same string" />
+    <MESSAGE value="Various debugging changes" />
+    <MESSAGE value="Added TODO list to main.py" />
+    <MESSAGE value="Started to flesh out the QuestionPaper object, with init and .read() methods" />
+    <MESSAGE value="Improved docs on regex, QuestionPaper Class&#10;Added all the code into the QuestionPaper class, but haven't tested yet" />
+    <MESSAGE value="Code commenting, and refactoring it to be more readable" />
+    <MESSAGE value="Add README.md, reading_list.md" />
+    <MESSAGE value="Fine tune the QuestionPaper class&#10;Add more file examples" />
+    <MESSAGE value="Create MD depiction of Question Paper" />
+    <MESSAGE value="Implement NLTK" />
+    <MESSAGE value="Add Todos" />
+    <MESSAGE value="Implemented pytesseract OCR, it's much better" />
+    <MESSAGE value="Streamline text extraction" />
+    <MESSAGE value="Add simple frequency bar graph" />
+    <MESSAGE value="Processed pdfs now get saved in text form" />
+    <option name="LAST_COMMIT_MESSAGE" value="Processed pdfs now get saved in text form" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="os.path.join(directory, file_id, &quot;*.jpg&quot;)" language="Python" />
+        <watch expression="os.listdir(images_directory)" language="Python" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/MemosToNotes$main.coverage" NAME="main Coverage Results" MODIFIED="1559137004285" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>os.listdir(images_directory)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>os.path.join(directory, file_id, &quot;*.jpg&quot;)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>print(&quot;Processing {} (file {} out of {})... &quot;.format(filename, i, len(filenames)), end=&quot;&quot;)
+text.append(pytesseract.image_to_string(PILImage.open(filename)))
+print(&quot;Done&quot;)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pdfs/file4.md" />
+    <entry file="file://$PROJECT_DIR$/pdfs/file5.md" />
+    <entry file="file://$PROJECT_DIR$/pdfs/file6.md" />
+    <entry file="file://$PROJECT_DIR$/pdfs/file7.md" />
+    <entry file="file://$PROJECT_DIR$/pdfs/file8.md" />
+    <entry file="file://$PROJECT_DIR$/frequencies/2011 test2 supp solution Test 2 CSC1015F.txt" />
+    <entry file="file://$PROJECT_DIR$/frequencies/2011 test2 solution Test 2 CSC1015F.txt" />
+    <entry file="file://$PROJECT_DIR$/frequencies/2016 supp CSC test solutions.txt" />
+    <entry file="file://$PROJECT_DIR$/frequencies/2017 CSC test solutions.txt" />
+    <entry file="file://$PROJECT_DIR$/frequencies/CSC1015F 2015 Test 3.txt" />
+    <entry file="file://$PROJECT_DIR$/frequencies/CSC1015F 2016 Test 3 Final.txt" />
+    <entry file="file:///anaconda3/envs/MemosToNotes/lib/python2.7/site-packages/textract/parsers/pdf_parser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="56" column="30" selection-start-line="56" selection-start-column="30" selection-end-line="56" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///anaconda3/envs/MemosToNotes/lib/python2.7/site-packages/textract/parsers/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10">
+          <caret line="78" selection-start-line="78" selection-end-line="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///anaconda3/envs/MemosToNotes/lib/python2.7/subprocess.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="400" column="33" selection-start-line="400" selection-start-column="33" selection-end-line="400" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///anaconda3/envs/MemosToNotes/lib/python2.7/site-packages/pytesseract/pytesseract.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="34" column="43" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///anaconda3/envs/MemosToNotes3/lib/python3.6/site-packages/wand/image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="3035" column="68" lean-forward="true" selection-start-line="3035" selection-start-column="68" selection-end-line="3035" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///anaconda3/envs/MemosToNotes3/lib/python3.6/site-packages/PIL/Image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="2651" selection-start-line="2651" selection-end-line="2651" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/ocr_1-0.jpeg" />
+    <entry file="file://$PROJECT_DIR$/images/ocr_1-1.jpeg" />
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdfs/debug_text.txt" />
+    <entry file="file:///anaconda3/envs/MemosToNotes3/lib/python3.6/site-packages/wand/resource.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="239" selection-start-line="239" selection-end-line="239" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///anaconda3/envs/MemosToNotes3/lib/python3.6/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="307" column="40" lean-forward="true" selection-start-line="307" selection-start-column="40" selection-end-line="307" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frequencies/2014 CSC test solutions.txt" />
+    <entry file="file://$PROJECT_DIR$/imports.py" />
+    <entry file="file://$PROJECT_DIR$/images/ocr_1/ocr_1-1.jpg" />
+    <entry file="file://$PROJECT_DIR$/images/ocr_1/ocr_1-0.jpg" />
+    <entry file="uml://JavaScript-modules-diagram//Users/boydkane/PycharmProjects/MemosToNotes/pdfs">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$/pdfs</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="378.0" y="268.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///anaconda3/envs/MemosToNotes3/lib/python3.6/ntpath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///anaconda3/envs/MemosToNotes3/lib/python3.6/genericpath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="148" selection-start-line="148" selection-end-line="148" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text_files/pdf_file_1/pdf_file_1.txt" />
+    <entry file="file://$PROJECT_DIR$/my_file.txt" />
+    <entry file="file://$PROJECT_DIR$/text_files/2014 June Memo.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/2011 June Memo/2011 June Memo-4.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text_files/2011 June Memo.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text_files/2013 June Memo.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/Slides Testing - Safla/Slides Testing - Safla-3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/Slides Testing - Safla/Slides Testing - Safla-4.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/Slides Testing - Safla/Slides Testing - Safla-5.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/Slides Testing - Safla/Slides Testing - Safla-7.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/2016 June Memo/2016 June Memo-0.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image-3.png" />
+    <entry file="file://$PROJECT_DIR$/image-10.png" />
+    <entry file="file://$PROJECT_DIR$/QuestionPaper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+          <folding>
+            <element signature="e#82#422#0" />
+            <element signature="e#496#1764#0" />
+            <element signature="e#1174#1333#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///anaconda3/envs/MemosToNotes3/lib/python3.6/site-packages/nltk/corpus/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="193" column="3" lean-forward="true" selection-start-line="193" selection-start-column="3" selection-end-line="193" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text_files/Slides Testing - Safla.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="188" column="39" lean-forward="true" selection-start-line="188" selection-start-column="39" selection-end-line="188" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Figure1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frequencies.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tokens.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/corpus/txts/2011 June Memo.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="105" column="4" selection-start-line="105" selection-start-column="4" selection-end-line="105" selection-end-column="4" />
+          <folding>
+            <element signature="e#436#946#1" />
+            <element signature="e#2549#4238#0" />
+            <element signature="e#2461#2735#1" />
+            <element signature="e#4139#4315#1" />
+            <element signature="e#4681#4825#0" />
+            <element signature="e#5336#5858#0" />
+            <element signature="e#5336#5495#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -44,7 +44,7 @@ class QuestionPaper(object):
 
         self.text = self.text.replace('\n', ' ').replace('\r', '')
         self.text = re.sub(re.compile("_{3,}"), "\n", self.text)
-        # with open("pdfs/debug_text.txt", "w") as debug_file:
+        # with open("memos/debug_text.txt", "w") as debug_file:
         #     # insert a newline every 120 characters for readability
         #     debug_file.write(re.sub("(.{120})", "\\1\n", self.text, 0, re.DOTALL))
 
