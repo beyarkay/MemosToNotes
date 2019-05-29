@@ -91,22 +91,28 @@ def pdfs_to_texts(root, verbose=True, reuse=True):
                 print("'{}' Already exists. ({} out of {})".format(pdf_path, i, len(pdf_paths)))
 
 
-def texts_to_jsons(root, extra_words=None):
+def texts_to_jsons(root, stopwords_file="stopwords.txt"):
     """
     From a given dictionary of pdf_name:text pairs, extract the word:frequency pairs into
     adjacent lists
+    :param stopwords_file:
     :param root: Root file in which to work. Should contain root/txts and root/summaries
     :param extra_words:
     :return: (words, frequencies) tuple
     """
     txt_files = sorted(glob.glob(os.path.join(root, "txts", "*.txt")))
+    with open(stopwords_file, "r") as stopwords_txt:
+        stopwords = set([word.strip() for word in stopwords_txt.readlines()])
+
     for txt_file in txt_files:
         with open(txt_file, "r") as txt:
             text = "\n".join(txt.readlines())
 
-        # Preprocessing
         # Remove all duplicates, and make all the words lowercase
-        unique_words = list(set([word.lower().strip() for word in text.split()]))
+        unique_words = set([word.lower().strip() for word in text.split()])
+        # remove all useless stopwords from the data
+        unique_words = list(unique_words - stopwords)
+
         # Get the frequency of each word
         frequencies = [text.count(word) for word in unique_words]
 
@@ -122,12 +128,12 @@ def texts_to_jsons(root, extra_words=None):
             json.dump(json_dict, json_file, indent=2)
 
 
-def json_to_graph(json_path, limit=100):
+def json_to_graph(json_path, num_words=100):
     """
     Plot and show a bar graph with the frequencies of the words in dictionary
     Case insensitive
     :param json_path:
-    :param limit:
+    :param num_words:
     :param unique_words:
     :param frequencies:
     """
@@ -136,16 +142,24 @@ def json_to_graph(json_path, limit=100):
         data: dict = json.load(jsonfile)
     unique_words, frequencies = list(data.keys()), list(data.values())
 
-    index = np.arange(len(unique_words[:limit]))
+    index = np.arange(len(unique_words[:num_words]))
     plt.figure(figsize=(13, 4), dpi=400)
-    plt.bar(index, frequencies[:limit])
+    plt.bar(index, frequencies[:num_words])
     plt.xlabel('Word', fontsize=10)
     plt.ylabel('Frequency', fontsize=10)
-    plt.xticks(index, unique_words[:limit], fontsize=5, rotation=60)
+    plt.xticks(index, unique_words[:num_words], fontsize=5, rotation=60)
     plt.title('Frequency of words in ' + get_filename(json_path))
     plt.tight_layout()
     plt.savefig(json_path.split(".")[0] + ".png")
     # plt.show()
+
+
+def update_token_files():
+    paths = glob.glob(os.path.join("topics", "pdfs", "*.pdf"))
+    for path in paths:
+        token_path = os.path.join("topics", "tokens", get_filename(path) + ".txt")
+        with open(token_path, "w+") as _:
+            pass
 
 
 def main():
@@ -157,16 +171,6 @@ def main():
     json_paths = glob.glob("topics/summaries/*.json")
     for json_path in json_paths:
         json_to_graph(json_path)
-
-    # Process the corpusses of each topic:
-    # topic_pdfs = glob.glob("topics/pdfs/*.pdf")
-    # for topic_pdf in topic_pdfs:
-    #     pass
-
-    # words, frequencies = get_words_and_freqs(process_pdfs("_topics", reuse=True))
-    # plot_bar_graph(words, frequencies)
-
-    # print(""./join(get_text_from_pdf("memos/ocr_1.pdf")))
 
 
 if __name__ == '__main__':
