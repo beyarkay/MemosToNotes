@@ -1,0 +1,279 @@
+De UCT Department of Computer Science
+= Computer Science 1015F
+
+ 
+
+Hardware
+
+ 
+
+Aslam Safla<aslam@ cs.uct.ac.za>
+
+(thanks to Hussein Suleman <hussein@ cs.uct.ac.za>)History of ComputingParts of a Modern Computer 1/2
+
+   
+
+Monitor: for displaying output ———>
+
+System Unit: CPU, Memory,
+Hard drive, Floppy drive, ...
+
+Keyboard and Mouse: for input ————>
+
+8 UNIVERSITY OF CAPE TOWN Computer Science EE.Parts of a Modern Computer 2/2
+
+oCentral Processing Unit (CPU): microchip that performs core computation. It
+usually contains the ALU and CU.
+
+oMemory (primary storage): microchips that store data which can be accessed while
+computer is switched on.
+
+=Random Access Memory (RAM) is volatile and modifiable.
+
+=uRead-Only Memory (ROM) cannot be changed.
+
+OHard drive, Floppy drive (secondary storage): store data on magnetic discs
+permanently i.e., the data is not lost when the computer is switched off.
+olnput/Output devices: transfers data from operator to machine and vice versa.
+
+oOperating System: software system that manages resources on computer and
+executes application programs, e.g., Windows XP, Ubuntu Linux.
+
+8 UNIVERSITY OF CAPE TOWN Computer Science EE.Fully Assembled
+
+ 
+
+= Computer Science EE.Cover off
+
+ 
+
+|
+i Computer Science EE.Top view
+
+ 
+
+8 UNIVERSITY OF CAPE TOWN Computer Science SeDrive cage
+
+corn ee
+aos
+
+ 
+
+8 UNIVERSITY OF CAPE TOWN Computer Science8 UNIVERSITY OF CAPE TOWN Computer Science EE.Hard drive — bottom view
+
+ 
+
+8 UNIVERSITY OF CAPE TOWN Computer SciencelO Card
+
+8 UNIVERSITY OF CAPE TOWN
+
+  
+
+ 
+
+ov
+oO
+c
+o
+oO
+WY
+=
+ov
+2
+a
+Qo
+€
+o
+O
+
+A Feet oodNetwork Card
+
+ 
+
+8 UNIVERSITY OF CAPE TOWN Computer ScienceEarly Calculation 1/2
+
+Early Chinese abacus can be used to add,
+subtract, multiply and divide.
+
+ 
+
+ 
+
+* 8 @ 2 F 2 S£ #@ GF @
+
+Mechanical calculators invented by
+Schickard, Pascal, Leibniz, etc. used
+cogs and wheel to compute.
+
+ 
+
+Slide rules performed
+multiplication and division using
+
+logarithms — in popular use until
+about 1970.
+
+ 
+
+Reference: Wikipedia
+
+Computer Science EE.
+
+8 UNIVERSITY OF CAPE TOWNi i il i
+
+ 
+
+8 UNIVERSITY OF CAPE TOWN Computer Science EE.Drive Controller Card
+
+ 
+
+= Computer Science EE.Motherboard
+
+ 
+
+Computer Science EE.Memory
+
+ 
+
+8 UNIVERSITY OF CAPE TOWN Computer ScienceCPU — top view
+
+ 
+
+8 UNIVERSITY OF CAPE TOWN Computer ScienceCPU — bottom view
+
+ 
+
+8 UNIVERSITY OF CAPE TOWN Computer ScienceMotherboard - BIOS
+
+8 UNIVERSITY OF CAPE TOWN
+
+ey) |e
+
+Se es 8S
+
+eae
+AMIBIOS
+SRERISIMEGATRENDS
+AA2900869
+
+ 
+
+Computer Science EE.Case/Power Supply/Floppy Drives
+
+ 
+
+B UNIVERSITY OF CAPE TOWN Computer Science EE.Disassembled Computer
+
+ 
+
+B UNIVERSITY OF CAPE TOWN Computer Science EE.Fully Assembled
+
+ 
+
+= Computer Science EE.Early Calculation 2/2
+
+In early 1800s, Jacquard used punched
+cards to control a loom.
+
+ 
+
+Hollerith used punched cards for the
+1890 US census (his company
+eventually became |IBM!).
+
+ 
+
+Babbage’s difference engine (1830)
+calculated tables of polynomial
+values.
+
+ 
+
+B UNIVERSITY OF CAPE TOWN Computer Science EE.Analogue Computing
+
+Babbage designed (but never built) the first general-
+purpose programmable computer — the analytical
+
+engine.
+
+Vannevar Bush (1930) built
+a differential analyzer that
+used wheels/discs to
+perform integration.
+
+ 
+
+B UNIVERSITY OF CAPE TOWN Computer Science EE.Vacuum Tubes
+
+ENIAC (1946) was one of
+many early programmable
+digital computers, using
+vacuum tubes for
+computation and patch
+cables for manual
+programming.
+
+ 
+
+ 
+
+B UNIVERSITY OF CAPE TOWN Computer Science EE.1960s to Present
+
+First transistors and integrated circuits and finally
+microprocessors, revolutionised computing, made them
+small, cheaper and more general-purpose.
+
+    
+
+ZX80 (1980) , : ——
+IBM PC (1980) Apple MAC (1985)
+
+8 UNIVERSITY OF CAPE TOWNHardware and SoftwareHardware
+
+oHardware refers to the physical parts of the
+computer.
+
+=Hardware is sometimes referred to as computer
+components and peripherals.
+
+mE.g., Motherboard, Hard Disk/Drive
+
+oSoftware refers to the set(s) of instructions given to
+the computer to execute one or more tasks.
+
+aSoftware is sometimes referred to as programs.
+mE.g., Microsoft Office, Firefox
+
+8 UNIVERSITY OF CAPE TOWN Computer Science EE.The Von Neumann Architecture
+
+oThis describes how a conceptual computing
+device works:
+=Memory stores data and instructions.
+
+Control Unit (CU) obtains and executes
+instructions.
+
+nArithmetic Logic Unit (ALU) does calculations.
+Accumulator is internal ALU storage for some data.
+=lnput is process of getting data into machine.
+
+    
+       
+   
+
+MEMORY
+
+ARITHMETIC
+
+ 
+
+ 
+
+ 
+
+; . ; LOGIC
+=Output is process of obtaining data from machine. UNIT UNIT
+oMost modern computers are Von Neumann /o~
+machines! \
+
+B UNIVERSITY OF CAPE TOWN Computer Science EE.

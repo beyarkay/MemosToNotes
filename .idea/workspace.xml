@@ -2,130 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="456ae79f-d782-497c-83bd-e877f784e7ca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/corpus/pdfs/2011 June Memo.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pdfs/2012 June Memo.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pdfs/2013 June Memo.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pdfs/2014 June Memo.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pdfs/2015 June Memo.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pdfs/2016 June Memo.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pdfs/2017 June Memo.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pdfs/2018 June Memo.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2011 June Memo/2011 June Memo-0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2011 June Memo/2011 June Memo-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2011 June Memo/2011 June Memo-10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2011 June Memo/2011 June Memo-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2011 June Memo/2011 June Memo-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2011 June Memo/2011 June Memo-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2011 June Memo/2011 June Memo-5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2011 June Memo/2011 June Memo-6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2011 June Memo/2011 June Memo-7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2011 June Memo/2011 June Memo-8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2011 June Memo/2011 June Memo-9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2012 June Memo/2012 June Memo-0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2012 June Memo/2012 June Memo-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2012 June Memo/2012 June Memo-10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2012 June Memo/2012 June Memo-11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2012 June Memo/2012 June Memo-12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2012 June Memo/2012 June Memo-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2012 June Memo/2012 June Memo-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2012 June Memo/2012 June Memo-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2012 June Memo/2012 June Memo-5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2012 June Memo/2012 June Memo-6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2012 June Memo/2012 June Memo-7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2012 June Memo/2012 June Memo-8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2012 June Memo/2012 June Memo-9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2013 June Memo/2013 June Memo-0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2013 June Memo/2013 June Memo-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2013 June Memo/2013 June Memo-10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2013 June Memo/2013 June Memo-11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2013 June Memo/2013 June Memo-12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2013 June Memo/2013 June Memo-13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2013 June Memo/2013 June Memo-14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2013 June Memo/2013 June Memo-15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2013 June Memo/2013 June Memo-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2013 June Memo/2013 June Memo-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2013 June Memo/2013 June Memo-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2013 June Memo/2013 June Memo-5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2013 June Memo/2013 June Memo-6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2013 June Memo/2013 June Memo-7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2013 June Memo/2013 June Memo-8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2013 June Memo/2013 June Memo-9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2014 June Memo/2014 June Memo-0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2014 June Memo/2014 June Memo-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2014 June Memo/2014 June Memo-10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2014 June Memo/2014 June Memo-11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2014 June Memo/2014 June Memo-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2014 June Memo/2014 June Memo-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2014 June Memo/2014 June Memo-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2014 June Memo/2014 June Memo-5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2014 June Memo/2014 June Memo-6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2014 June Memo/2014 June Memo-7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2014 June Memo/2014 June Memo-8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2014 June Memo/2014 June Memo-9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2015 June Memo/2015 June Memo-0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2015 June Memo/2015 June Memo-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2015 June Memo/2015 June Memo-10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2015 June Memo/2015 June Memo-11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2015 June Memo/2015 June Memo-12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2015 June Memo/2015 June Memo-13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2015 June Memo/2015 June Memo-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2015 June Memo/2015 June Memo-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2015 June Memo/2015 June Memo-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2015 June Memo/2015 June Memo-5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2015 June Memo/2015 June Memo-6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2015 June Memo/2015 June Memo-7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2015 June Memo/2015 June Memo-8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2015 June Memo/2015 June Memo-9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2016 June Memo/2016 June Memo-0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2016 June Memo/2016 June Memo-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2016 June Memo/2016 June Memo-10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2016 June Memo/2016 June Memo-11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2016 June Memo/2016 June Memo-12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2016 June Memo/2016 June Memo-13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2016 June Memo/2016 June Memo-14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2016 June Memo/2016 June Memo-15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2016 June Memo/2016 June Memo-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2016 June Memo/2016 June Memo-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2016 June Memo/2016 June Memo-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2016 June Memo/2016 June Memo-5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2016 June Memo/2016 June Memo-6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2016 June Memo/2016 June Memo-7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2016 June Memo/2016 June Memo-8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2016 June Memo/2016 June Memo-9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2017 June Memo/2017 June Memo-0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2017 June Memo/2017 June Memo-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2017 June Memo/2017 June Memo-10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2017 June Memo/2017 June Memo-11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2017 June Memo/2017 June Memo-12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2017 June Memo/2017 June Memo-13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2017 June Memo/2017 June Memo-14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2017 June Memo/2017 June Memo-15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2017 June Memo/2017 June Memo-16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2017 June Memo/2017 June Memo-17.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2017 June Memo/2017 June Memo-18.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2017 June Memo/2017 June Memo-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2017 June Memo/2017 June Memo-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2017 June Memo/2017 June Memo-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2017 June Memo/2017 June Memo-5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2017 June Memo/2017 June Memo-6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2017 June Memo/2017 June Memo-7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2017 June Memo/2017 June Memo-8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2017 June Memo/2017 June Memo-9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2018 June Memo/2018 June Memo-0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2018 June Memo/2018 June Memo-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2018 June Memo/2018 June Memo-10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2018 June Memo/2018 June Memo-11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2018 June Memo/2018 June Memo-12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2018 June Memo/2018 June Memo-13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2018 June Memo/2018 June Memo-14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2018 June Memo/2018 June Memo-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2018 June Memo/2018 June Memo-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2018 June Memo/2018 June Memo-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2018 June Memo/2018 June Memo-5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2018 June Memo/2018 June Memo-6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2018 June Memo/2018 June Memo-7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2018 June Memo/2018 June Memo-8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/pngs/2018 June Memo/2018 June Memo-9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/corpus/summaries/2011 June Memo.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/corpus/summaries/2011 June Memo.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/corpus/summaries/2012 June Memo.json" afterDir="false" />
@@ -143,485 +20,6 @@
       <change afterPath="$PROJECT_DIR$/corpus/txts/2016 June Memo.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/corpus/txts/2017 June Memo.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/corpus/txts/2018 June Memo.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pdfs/Arrays.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pdfs/Basics.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pdfs/Files.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pdfs/Functions.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pdfs/Hardware.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pdfs/Intro.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pdfs/Iteration.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pdfs/Number Systems.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pdfs/Recursion.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pdfs/Selection.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pdfs/Software.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pdfs/Sorting and Searching.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pdfs/Strings.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pdfs/Testing.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Arrays/Arrays-0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Arrays/Arrays-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Arrays/Arrays-10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Arrays/Arrays-11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Arrays/Arrays-12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Arrays/Arrays-13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Arrays/Arrays-14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Arrays/Arrays-15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Arrays/Arrays-16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Arrays/Arrays-17.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Arrays/Arrays-18.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Arrays/Arrays-19.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Arrays/Arrays-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Arrays/Arrays-20.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Arrays/Arrays-21.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Arrays/Arrays-22.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Arrays/Arrays-23.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Arrays/Arrays-24.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Arrays/Arrays-25.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Arrays/Arrays-26.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Arrays/Arrays-27.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Arrays/Arrays-28.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Arrays/Arrays-29.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Arrays/Arrays-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Arrays/Arrays-30.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Arrays/Arrays-31.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Arrays/Arrays-32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Arrays/Arrays-33.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Arrays/Arrays-34.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Arrays/Arrays-35.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Arrays/Arrays-36.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Arrays/Arrays-37.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Arrays/Arrays-38.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Arrays/Arrays-39.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Arrays/Arrays-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Arrays/Arrays-40.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Arrays/Arrays-41.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Arrays/Arrays-42.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Arrays/Arrays-5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Arrays/Arrays-6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Arrays/Arrays-7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Arrays/Arrays-8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Arrays/Arrays-9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Basics/Basics-0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Basics/Basics-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Basics/Basics-10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Basics/Basics-11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Basics/Basics-12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Basics/Basics-13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Basics/Basics-14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Basics/Basics-15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Basics/Basics-16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Basics/Basics-17.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Basics/Basics-18.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Basics/Basics-19.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Basics/Basics-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Basics/Basics-20.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Basics/Basics-21.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Basics/Basics-22.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Basics/Basics-23.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Basics/Basics-24.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Basics/Basics-25.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Basics/Basics-26.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Basics/Basics-27.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Basics/Basics-28.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Basics/Basics-29.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Basics/Basics-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Basics/Basics-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Basics/Basics-5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Basics/Basics-6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Basics/Basics-7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Basics/Basics-8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Basics/Basics-9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Files/Files-0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Files/Files-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Files/Files-10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Files/Files-11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Files/Files-12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Files/Files-13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Files/Files-14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Files/Files-15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Files/Files-16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Files/Files-17.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Files/Files-18.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Files/Files-19.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Files/Files-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Files/Files-20.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Files/Files-21.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Files/Files-22.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Files/Files-23.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Files/Files-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Files/Files-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Files/Files-5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Files/Files-6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Files/Files-7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Files/Files-8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Files/Files-9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Functions/Functions-0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Functions/Functions-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Functions/Functions-10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Functions/Functions-11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Functions/Functions-12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Functions/Functions-13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Functions/Functions-14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Functions/Functions-15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Functions/Functions-16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Functions/Functions-17.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Functions/Functions-18.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Functions/Functions-19.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Functions/Functions-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Functions/Functions-20.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Functions/Functions-21.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Functions/Functions-22.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Functions/Functions-23.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Functions/Functions-24.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Functions/Functions-25.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Functions/Functions-26.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Functions/Functions-27.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Functions/Functions-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Functions/Functions-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Functions/Functions-5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Functions/Functions-6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Functions/Functions-7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Functions/Functions-8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Functions/Functions-9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Hardware/Hardware-0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Hardware/Hardware-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Hardware/Hardware-10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Hardware/Hardware-11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Hardware/Hardware-12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Hardware/Hardware-13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Hardware/Hardware-14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Hardware/Hardware-15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Hardware/Hardware-16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Hardware/Hardware-17.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Hardware/Hardware-18.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Hardware/Hardware-19.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Hardware/Hardware-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Hardware/Hardware-20.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Hardware/Hardware-21.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Hardware/Hardware-22.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Hardware/Hardware-23.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Hardware/Hardware-24.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Hardware/Hardware-25.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Hardware/Hardware-26.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Hardware/Hardware-27.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Hardware/Hardware-28.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Hardware/Hardware-29.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Hardware/Hardware-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Hardware/Hardware-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Hardware/Hardware-5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Hardware/Hardware-6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Hardware/Hardware-7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Hardware/Hardware-8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Hardware/Hardware-9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Intro/Intro-0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Intro/Intro-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Intro/Intro-10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Intro/Intro-11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Intro/Intro-12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Intro/Intro-13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Intro/Intro-14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Intro/Intro-15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Intro/Intro-16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Intro/Intro-17.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Intro/Intro-18.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Intro/Intro-19.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Intro/Intro-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Intro/Intro-20.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Intro/Intro-21.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Intro/Intro-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Intro/Intro-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Intro/Intro-5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Intro/Intro-6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Intro/Intro-7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Intro/Intro-8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Intro/Intro-9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Iteration/Iteration-0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Iteration/Iteration-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Iteration/Iteration-10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Iteration/Iteration-11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Iteration/Iteration-12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Iteration/Iteration-13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Iteration/Iteration-14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Iteration/Iteration-15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Iteration/Iteration-16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Iteration/Iteration-17.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Iteration/Iteration-18.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Iteration/Iteration-19.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Iteration/Iteration-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Iteration/Iteration-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Iteration/Iteration-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Iteration/Iteration-5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Iteration/Iteration-6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Iteration/Iteration-7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Iteration/Iteration-8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Iteration/Iteration-9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Number Systems/Number Systems-0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Number Systems/Number Systems-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Number Systems/Number Systems-10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Number Systems/Number Systems-11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Number Systems/Number Systems-12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Number Systems/Number Systems-13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Number Systems/Number Systems-14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Number Systems/Number Systems-15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Number Systems/Number Systems-16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Number Systems/Number Systems-17.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Number Systems/Number Systems-18.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Number Systems/Number Systems-19.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Number Systems/Number Systems-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Number Systems/Number Systems-20.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Number Systems/Number Systems-21.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Number Systems/Number Systems-22.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Number Systems/Number Systems-23.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Number Systems/Number Systems-24.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Number Systems/Number Systems-25.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Number Systems/Number Systems-26.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Number Systems/Number Systems-27.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Number Systems/Number Systems-28.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Number Systems/Number Systems-29.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Number Systems/Number Systems-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Number Systems/Number Systems-30.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Number Systems/Number Systems-31.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Number Systems/Number Systems-32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Number Systems/Number Systems-33.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Number Systems/Number Systems-34.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Number Systems/Number Systems-35.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Number Systems/Number Systems-36.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Number Systems/Number Systems-37.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Number Systems/Number Systems-38.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Number Systems/Number Systems-39.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Number Systems/Number Systems-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Number Systems/Number Systems-40.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Number Systems/Number Systems-41.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Number Systems/Number Systems-42.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Number Systems/Number Systems-43.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Number Systems/Number Systems-44.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Number Systems/Number Systems-45.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Number Systems/Number Systems-46.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Number Systems/Number Systems-47.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Number Systems/Number Systems-5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Number Systems/Number Systems-6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Number Systems/Number Systems-7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Number Systems/Number Systems-8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Number Systems/Number Systems-9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Recursion/Recursion-0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Recursion/Recursion-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Recursion/Recursion-10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Recursion/Recursion-11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Recursion/Recursion-12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Recursion/Recursion-13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Recursion/Recursion-14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Recursion/Recursion-15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Recursion/Recursion-16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Recursion/Recursion-17.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Recursion/Recursion-18.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Recursion/Recursion-19.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Recursion/Recursion-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Recursion/Recursion-20.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Recursion/Recursion-21.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Recursion/Recursion-22.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Recursion/Recursion-23.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Recursion/Recursion-24.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Recursion/Recursion-25.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Recursion/Recursion-26.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Recursion/Recursion-27.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Recursion/Recursion-28.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Recursion/Recursion-29.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Recursion/Recursion-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Recursion/Recursion-30.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Recursion/Recursion-31.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Recursion/Recursion-32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Recursion/Recursion-33.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Recursion/Recursion-34.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Recursion/Recursion-35.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Recursion/Recursion-36.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Recursion/Recursion-37.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Recursion/Recursion-38.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Recursion/Recursion-39.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Recursion/Recursion-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Recursion/Recursion-40.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Recursion/Recursion-41.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Recursion/Recursion-42.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Recursion/Recursion-43.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Recursion/Recursion-44.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Recursion/Recursion-45.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Recursion/Recursion-46.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Recursion/Recursion-47.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Recursion/Recursion-48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Recursion/Recursion-49.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Recursion/Recursion-5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Recursion/Recursion-50.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Recursion/Recursion-51.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Recursion/Recursion-52.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Recursion/Recursion-53.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Recursion/Recursion-54.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Recursion/Recursion-55.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Recursion/Recursion-56.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Recursion/Recursion-57.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Recursion/Recursion-58.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Recursion/Recursion-59.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Recursion/Recursion-6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Recursion/Recursion-60.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Recursion/Recursion-61.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Recursion/Recursion-62.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Recursion/Recursion-63.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Recursion/Recursion-64.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Recursion/Recursion-7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Recursion/Recursion-8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Recursion/Recursion-9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Selection/Selection-0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Selection/Selection-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Selection/Selection-10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Selection/Selection-11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Selection/Selection-12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Selection/Selection-13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Selection/Selection-14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Selection/Selection-15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Selection/Selection-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Selection/Selection-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Selection/Selection-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Selection/Selection-5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Selection/Selection-6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Selection/Selection-7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Selection/Selection-8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Selection/Selection-9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Software/Software-0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Software/Software-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Software/Software-10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Software/Software-11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Software/Software-12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Software/Software-13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Software/Software-14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Software/Software-15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Software/Software-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Software/Software-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Software/Software-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Software/Software-5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Software/Software-6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Software/Software-7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Software/Software-8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Software/Software-9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Sorting and Searching/Sorting and Searching-0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Sorting and Searching/Sorting and Searching-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Sorting and Searching/Sorting and Searching-10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Sorting and Searching/Sorting and Searching-11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Sorting and Searching/Sorting and Searching-12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Sorting and Searching/Sorting and Searching-13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Sorting and Searching/Sorting and Searching-14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Sorting and Searching/Sorting and Searching-15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Sorting and Searching/Sorting and Searching-16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Sorting and Searching/Sorting and Searching-17.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Sorting and Searching/Sorting and Searching-18.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Sorting and Searching/Sorting and Searching-19.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Sorting and Searching/Sorting and Searching-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Sorting and Searching/Sorting and Searching-20.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Sorting and Searching/Sorting and Searching-21.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Sorting and Searching/Sorting and Searching-22.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Sorting and Searching/Sorting and Searching-23.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Sorting and Searching/Sorting and Searching-24.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Sorting and Searching/Sorting and Searching-25.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Sorting and Searching/Sorting and Searching-26.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Sorting and Searching/Sorting and Searching-27.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Sorting and Searching/Sorting and Searching-28.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Sorting and Searching/Sorting and Searching-29.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Sorting and Searching/Sorting and Searching-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Sorting and Searching/Sorting and Searching-30.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Sorting and Searching/Sorting and Searching-31.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Sorting and Searching/Sorting and Searching-32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Sorting and Searching/Sorting and Searching-33.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Sorting and Searching/Sorting and Searching-34.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Sorting and Searching/Sorting and Searching-35.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Sorting and Searching/Sorting and Searching-36.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Sorting and Searching/Sorting and Searching-37.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Sorting and Searching/Sorting and Searching-38.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Sorting and Searching/Sorting and Searching-39.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Sorting and Searching/Sorting and Searching-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Sorting and Searching/Sorting and Searching-40.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Sorting and Searching/Sorting and Searching-41.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Sorting and Searching/Sorting and Searching-42.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Sorting and Searching/Sorting and Searching-43.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Sorting and Searching/Sorting and Searching-44.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Sorting and Searching/Sorting and Searching-45.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Sorting and Searching/Sorting and Searching-46.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Sorting and Searching/Sorting and Searching-47.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Sorting and Searching/Sorting and Searching-48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Sorting and Searching/Sorting and Searching-49.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Sorting and Searching/Sorting and Searching-5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Sorting and Searching/Sorting and Searching-50.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Sorting and Searching/Sorting and Searching-6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Sorting and Searching/Sorting and Searching-7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Sorting and Searching/Sorting and Searching-8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Sorting and Searching/Sorting and Searching-9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Strings/Strings-0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Strings/Strings-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Strings/Strings-10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Strings/Strings-11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Strings/Strings-12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Strings/Strings-13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Strings/Strings-14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Strings/Strings-15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Strings/Strings-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Strings/Strings-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Strings/Strings-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Strings/Strings-5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Strings/Strings-6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Strings/Strings-7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Strings/Strings-8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Strings/Strings-9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Testing/Testing-0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Testing/Testing-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Testing/Testing-10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Testing/Testing-11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Testing/Testing-12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Testing/Testing-13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Testing/Testing-14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Testing/Testing-15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Testing/Testing-16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Testing/Testing-17.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Testing/Testing-18.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Testing/Testing-19.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Testing/Testing-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Testing/Testing-20.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Testing/Testing-21.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Testing/Testing-22.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Testing/Testing-23.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Testing/Testing-24.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Testing/Testing-25.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Testing/Testing-26.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Testing/Testing-27.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Testing/Testing-28.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Testing/Testing-29.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Testing/Testing-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Testing/Testing-30.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Testing/Testing-31.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Testing/Testing-32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Testing/Testing-33.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Testing/Testing-34.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Testing/Testing-35.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Testing/Testing-36.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Testing/Testing-37.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Testing/Testing-38.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Testing/Testing-39.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Testing/Testing-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Testing/Testing-40.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Testing/Testing-41.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Testing/Testing-42.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Testing/Testing-43.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Testing/Testing-44.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Testing/Testing-45.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Testing/Testing-46.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Testing/Testing-47.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Testing/Testing-48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Testing/Testing-49.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Testing/Testing-5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Testing/Testing-50.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Testing/Testing-51.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Testing/Testing-52.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Testing/Testing-53.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Testing/Testing-54.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Testing/Testing-55.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Testing/Testing-6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Testing/Testing-7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Testing/Testing-8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/pngs/Testing/Testing-9.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/topics/summaries/Arrays.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/topics/summaries/Arrays.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/topics/summaries/Basics.json" afterDir="false" />
@@ -666,7 +64,6 @@
       <change afterPath="$PROJECT_DIR$/topics/txts/Strings.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/topics/txts/Testing.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <ignored path=".idea/" />
     <ignored path="corpus/pdfs/" />
@@ -684,9 +81,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="142" column="39" selection-start-line="142" selection-start-column="39" selection-end-line="142" selection-end-column="39" />
+            <state relative-caret-position="419">
+              <caret line="172" column="10" selection-start-line="172" selection-start-column="10" selection-end-line="172" selection-end-column="10" />
               <folding>
+                <element signature="e#0#11#0" expanded="true" />
                 <element signature="e#372#419#0" />
                 <element signature="e#436#946#1" />
                 <element signature="e#2461#2735#1" />
@@ -907,7 +305,7 @@
       <workItem from="1559069719450" duration="12391000" />
       <workItem from="1559118826482" duration="50000" />
       <workItem from="1559118889572" duration="4524000" />
-      <workItem from="1559134317262" duration="9423000" />
+      <workItem from="1559134317262" duration="10333000" />
     </task>
     <task id="LOCAL-00001" summary="Testing git connection">
       <created>1553692047818</created>
@@ -1091,28 +489,41 @@
       <option name="project" value="LOCAL" />
       <updated>1559143698442</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Add memo information">
+      <created>1559144155970</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1559144155970</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Fiddle with gitignore">
+      <created>1559144719139</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1559144719139</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62911000" />
+    <option name="totallyTimeSpent" value="63821000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17167382" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24749643" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.31445783" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" weight="0.31445783" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4988263" weight="0.3385542" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49785408" weight="0.4493976" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49785408" visible="true" weight="0.3120482" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007153" side_tool="true" weight="0.40240964" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.3566265" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
@@ -1130,7 +541,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Got pdf text extraction working with PyPDF2&#10;Started reading all the text in the file" />
     <MESSAGE value="Now can read text from the file, and usually split it by Sections and then by individual questions" />
     <MESSAGE value="Added some debugging logs to print to the console" />
     <MESSAGE value="Got regex to correctly split different questions numbers, however the answers are still in the same string" />
@@ -1155,7 +565,8 @@
     <MESSAGE value="Troubleshooting" />
     <MESSAGE value="Reset the available data" />
     <MESSAGE value="Add memo information" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add memo information" />
+    <MESSAGE value="Fiddle with gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fiddle with gitignore" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
@@ -1427,9 +838,10 @@ print(&quot;Done&quot;)</expression-string>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="142" column="39" selection-start-line="142" selection-start-column="39" selection-end-line="142" selection-end-column="39" />
+        <state relative-caret-position="419">
+          <caret line="172" column="10" selection-start-line="172" selection-start-column="10" selection-end-line="172" selection-end-column="10" />
           <folding>
+            <element signature="e#0#11#0" expanded="true" />
             <element signature="e#372#419#0" />
             <element signature="e#436#946#1" />
             <element signature="e#2461#2735#1" />

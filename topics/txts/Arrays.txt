@@ -1,0 +1,785 @@
+= UCT Department of Computer Science CSC1015F
+
+Arrays
+
+a
+
+6 7 8
+
+ 
+
+ASLAM SAFLA
+ASLAM@CS.UCT.AC.ZA
+
+8 UNIVERSITY OF CAPE TOWN EProblem: Basic statistics program
+
+Write a program to output the average, a, the median,
+x, and the standard deviation, s, of a series of test
+values typed in by the user.
+The median is the middle value in a list of values.
+The standard deviation is a measure of how
+spread-out the data is and is calculated using this
+fomula:
+
+ 
+
+standard deviation: a quantity expressing by how much the members of a
+group differ from the mean value for the group.
+8 UNIVERSITY OF CAPE TOWNCommon Operations 5/5
+
+lterating over items in list — processing each item in the
+list individually.
+
+oOWhen you do not need to know the indices use -
+for a in X:
+print (a)
+
+oWhen you do need to know the indices use -
+for n in range (len (X)):
+print(n, X[n])
+
+8 UNIVERSITY OF CAPE TOWNCheckpoint/reminder
+
+This function finds the first occurrence of an
+
+item in a list:
+
+def index (values, item):
+
+for i in range (len(values) ):
+
+if values[i] ==
+return i
+
+return -1
+
+8 UNIVERSITY OF CAPE TOWN
+
+item:
+
+How many test
+values are
+required for
+exhaustive
+testing of this
+function?Checkpoint
+
+This function finds the first occurrence of an
+
+item in a list:
+
+def index (values, item):
+
+for i in range (len(values) ):
+
+if values[i] ==
+return i
+
+return -1
+
+8 UNIVERSITY OF CAPE TOWN
+
+item:
+
+ 
+
+ 
+
+Does the
+following set of
+input values
+constitute a
+statement
+coverage test of
+the code?
+
+i 2,3], 0
+3,4,5], 3Checkpoint
+
+This function finds the first occurrence of an
+
+item in a list:
+
+def index (values, item):
+
+for i in range (len(values) ):
+
+if values[i] ==
+return i
+
+return -1
+
+8 UNIVERSITY OF CAPE TOWN
+
+item:
+
+Provide a set of
+input values that
+will constitute a
+path test of the
+code.Checkpoint
+
+This function finds the first occurrence of an
+
+item in a list: Describe the
+equivalence
+classes for this
+def index (values, item): code, and give
+candidate input
+for i in range (len(values) ): values for each
+if values[i] == item: class.
+
+return i
+
+return -1
+
+8 UNIVERSITY OF CAPE TOWN ECheckpoint
+
+This function finds the first occurrence of an
+item in a list:
+
+Describe the
+
+def index (values, item): boundary values
+
+for i in range (len(values)): for this code, and
+; ; Ive an exam
+if values[i] == item: g © Se oceh, ple
+
+return i
+
+return -1
+
+8 UNIVERSITY OF CAPE TOWN ECommon Pitfall/Error
+
+Accessing an item that is not in the list!
+oO Python's response:
+Traceback (most recent call last):
+
+File "<string>", line 1, in <fragment>
+
+builtins.IndexError: list index out of range
+
+oO Solution:
+= Check the list length first and make sure the item exists!
+
+8 UNIVERSITY OF CAPE TOWN EBasic List Manipulation
+
+ 
+
+ 
+
+ 
+
+ 
+
+Operation Syntax Example Example output
+Merging lists <listi> + <list2> X= : al [1,2,3,4]
+(concatenation) Y =([3,4
+Checking for item <item> in <list> X= Ne 2] True
+(membership) 1in
+Multiplyin <list> * <n> X =[1,2 1,2,1,2
+content ct ie * 5
+(repetition)
+Access list item <list>[<index>] X = [1,2,3] 3
+(indexing) xX(2]
+Get length of list len(<list>) X = [1,2,3,4] 4
+(length len(X)
+Delete item del <list>[<i>] X=[1,5,6,7] X=[1,5,7]
+
+del X[2]
+Get slice of list <list>[start:stop:step] X = [4,5,6,7] [5,6]
+(slicing) X[1:3]
+Iterate over list for <var> in <list>: X = [2,4,6] 3
+(iteration) for ain X: 5
+
+print (a+1) 7
+
+ 
+
+8 UNIVERSITY OF CAPE TOWNCommon List Functions
+
+ 
+
+ 
+
+   
+
+Function Syntax Example
+
+    
+
+Add element to end
+
+X=(3542) 00
+
+<list>.append(<item>) | X.append(6) X=[1,3,5,4,2,6]
+
+   
+      
+
+ 
+
+Sort list <list>.sort() X.sort()
+
+    
+
+X=[1,2,3,4,5,6]
+
+ 
+
+ 
+
+Reverse items <list>.reverse() X.reverse()
+
+  
+ 
+ 
+   
+  
+
+Find position of item
+Insert item into list
+
+Count occurrences
+of item
+
+ 
+  
+
+<list>.count(<item>) Y=X.count(
+
+ 
+
+  
+  
+  
+ 
+
+Remove first _.
+occurrence of item
+
+   
+
+  
+  
+ 
+
+<list>.index(<item>) —Y = X.index(4)
+<list>.insert(<i>,<item>) X.insert(2,2) X=[6,5,2,4,3,2,1]
+
+<list>.remove(<item>) = X.remove(2 X=[6,5,4,3,2,1]
+
+Remove and return = <list>.pop(<i>) Y=X.pop(1) Y=5, X=[6,4,3,2,1]
+specified item
+
+ 
+
+X=[6,5,4,3,2,1]
+
+  
+  
+  
+ 
+
+SS
+a
+
+ 
+
+     
+
+   
+
+ 
+
+Split string into list §_<string>.split(<sep>) “4,7,3”.split(“,”) ['4','7','3']
+Join list into string  <sep>.join(<list>) “" join(['4','7','3']) “4-7-3”
+
+   
+     
+
+ 
+
+8 UNIVERSITY OF CAPE TOWNProblem — can we do this now?
+
+Oo Write a program to output the median,(x), and the
+standard deviation (Ss) of a series of values typed
+in by the user.
+
+MEAN
+v
+
+iny.blogspot.com
+
+    
+  
+
+Statistically-Fun
+
+re At
+
+Z STANDARD 1 STANDARD 1 STANDARD 2 STANDARD
+DEVIATIONS = DEVIATION ~— DEVIATION = DEVIATIONS
+
+ 
+
+A plot of a normal distribution (or
+bell-shaped curve) where each
+band has a width of 1 standard
+deviation
+
+8 UNIVERSITY OF CAPE TOWN EWe can calculate the average
+
+module: 1skeleton_median_std_dev.py
+
+Checkpoint (for test):
+
+What kind of errors occur when writing code for
+average?
+
+What would be a good testing strategy?
+
+What input values values do we need for a complete
+statement test?
+
+What input values values do we need for a complete
+path test?
+
+What are the equivalence classes and boundary
+values?
+
+8 UNIVERSITY OF CAPE TOWNProblem — can we do all this now?
+
+Oo Write a program to output the median,(x), and the
+standard deviation (s) of a series of values typed in by
+the user.
+
+ 
+
+8 UNIVERSITY OF CAPE TOWNProblem
+
+Write a program to act as the “Magic 8-ball”.
+
+The Magic 8-Ball is a toy
+used for fortune-telling or
+seeking advice, developed in
+the 1950s and manufactured
+by Mattel.
+
+It is often used in fiction, often
+for humor related to its giving
+accurate, inaccurate, or
+otherwise statistically
+improbable answers.
+[Wikipedia]
+
+8 UNIVERSITY OF CAPE TOWNProblem
+
+Write a program to perform some common list functions
+
+without using the built-in functions:
+
+m= reverse
+
+= Index
+= Did this one already
+
+= count
+
+8 UNIVERSITY OF CAPE TOWNProblem
+
+Write a program to generate custom spam.
+oO The user must enter a list of names and a message.
+oO Then the program must print out a customised message, in
+each case with <name> replaced by the actual name.
+
+(This is called “templating”.)
+
+e.g.
+Congratulations <name> you have won R10 000 000!
+To claim your reward <name>, send your banking
+details to Ms Connie Art at another.mark@gmail.com.
+Don’t forget to include your bank login details!
+
+8 UNIVERSITY OF CAPE TOWNThe prefix-sum problem
+
+Given a list of integers, input, produce output
+where output [i] Is the sum of
+input [0]+input [1] +...4input [i]
+
+Also called cumulative sum or scan.
+
+8 UNIVERSITY OF CAPE TOWNThe Python Standard Library
+
+https://docs.python.org/3/library/
+
+®@ Python» a61 Documentation »
+
+previous topic The Python Standard Library
+10. Full Grammar
+specification While The Python Language Reference describes the exact syntax and semantics of the Pytho
+the standard library that is distributed with Python. It also describes some of the optional c
+Next topic distributions.
+1. Introduction
+
+Python's standard library is very extensive, offering a wide range of facilities as indicated by
+This Page contains built-in modules (written in C) that provide access to system functionality such a:
+Python programmers, as well as modules written in Python that provide standardized sol
+EAaconnes programming. Some of these modules are explicitly designed to encourage and enhance the
+platform-specifics into platform-neutral APls.
+
+Report a Bug
+
+The Python installers for the Windows platform usually include the entire standard library an
+For Unix-like operating systems Python is normally provided as a collection of packages, s
+provided with the operating system to obtain some or all of the optional components.
+
+ 
+
+In addition to the standard library, there is a growing collection of several thousand comp
+packages and entire application development frameworks), available from the Python Package
+
+1. Introduction
+2. Built-in Functions
+3. Built-in Constants
+eo 3.1. Constants added by the site module
+* 4, Built-in Types
+° 4.1. Truth Value Testing
+° 4.2. Boolean Operations — and, or, not
+
+-n, Al? framnoarncanc2-Dimensional Arrays
+
+Each item in an list could itself be a list.
+
+oO For example:
+xX = [[1,2], [3,4] ]
+
+2-D arrays/lists are equivalent to matrices or grids.
+
+O All operations work just as before, but every item is
+now a list.
+
+oO To access an item, remember that X[0] will give us a
+list, so X[O][0] gives us the item in position (0,0) of the
+grid.
+
+8 UNIVERSITY OF CAPE TOWN2-Dimensional Arrays
+
+“fi Fes eT
+.Problem
+
+oO In computer graphics, a gradient fill is when the colour
+of an area gradually changes from one colour to
+another.
+
+oO Write a program to output the result of a gradient fill on a
+4x4 grid of pixels where the top-left pixel is 0 and the
+bottom-left is 6.
+
+ 
+
+ 
+
+ 
+
+ 
+
+8 UNIVERSITY OF CAPE TOWNn-Dimensional Arrays
+
+Lists can easily contain more than 2 dimensions.
+oO For example a 3-d structure can be:
+
+= X=[ [[1,2],[3,4]], [[5,6],[7,8]], [[9,10].[[11,12]]]
+
+m X(1][1][O]= ?
+Suppose we want to store a list of students, with a list of
+courses for each student, and a list of test dates for
+each course, and a list of chapters per test, we could
+use the following 4-d list:
+
+= students = [['saleem’,['csc1015f',['12 april’,['5',"6','7']]]II
+
+8 UNIVERSITY OF CAPE TOWNWe can calculate the average
+
+module: 1skeleton_median_std_dev.py
+
+... but we don't yet have the tools for the median and
+standard deviation. We need.....
+
+8 UNIVERSITY OF CAPE TOWNDictionaries
+
+Instead of a sequence with indices, Python also has a
+data structure with arbitrary index values and no order -
+this is called a dictionary.
+
+oO A dictionary is a set of key=value pairs.
+
+oO Dictionaries are very efficient for storing/retrieving
+values and mapping one list to another.
+
+Oo Define as follows:
+= D={'a':'apples'’, 'b':'bananas’, 'p':'pears'}
+
+8 UNIVERSITY OF CAPE TOWNCommon Dictionary Operations
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Function Syntax Example xX
+
+Checking for key <key> in <dict> aa \ :2} True
+
+eee dictionary <dict>[<key>] xs 2, 3:4} 4
+
+Get keys <dict>.keys() X= {1:2, 3:4} [1,3]
+X.keys()
+
+Get values <dict>.values() X= (1:2, 3:4} [2,4]
+X.values()
+del X[3]
+
+Clear dictionary <dict>.clear() X = (1:2, 3:4} X={}
+X.clear()
+
+Iterate over keys for <var> in <dict>: | x14 :'One',2:'Two’,3:'Three’} One
+for ain X: Three
+
+print (X[a])
+
+ 
+
+ 
+
+oS UNIVERSITY OF CAPE TOWNProblem
+
+oO Count the number of times each unique word occurs
+inasentence. E.g.
+
+lt was a bright cold day in April, and the clocks were
+striking thirteen. Winston Smith, his chin nuzzled into
+his breast in an effort to escape the vile wind, slipped
+quickly through the glass doors of Victory Mansions,
+though not quickly enough to prevent a swirl of gritty
+dust from entering along with him.
+
+8 UNIVERSITY OF CAPE TOWNGeneric structures
+
+oO Every data structure is generic. So just as it is
+possible to have n-dimensional lists, you can have
+dictionaries of lists, list of dictionaries, etc.
+
+D = {'kayleigh':[12,23,31],
+"callum':[45,54,55]}
+
+E = [{'name':'palesa','year':1},
+
+{'name':'luqmaan', 'year':1}]
+
+8 UNIVERSITY OF CAPE TOWNChallenge
+
+Oo Write a single-player Battleships game
+
+O the user is presented with a 10x10 grid with hidden warships
+and must guess the locations of these warships until all are
+hit.
+
+SANGRE Silty
+Cs
+
+ 
+
+8 UNIVERSITY OF CAPE TOWNArrays in Functions
+
+oO Passing arrays to functions
+In Python, the values of actual parameters cannot be changed
+in a function.
+= Arrays cannot be replaced.
+HOWEVER, the contents of arrays can be changed.
+= This is a way of passing back multiple values from a function
+
+8 UNIVERSITY OF CAPE TOWNCheckpoint
+
+What is the exact output of this code?
+
+#scope.py - illustrating scope
+
+def tester(myArr):
+print("In function, before append" ,myArr)
+myArr.append(‘a’)
+print("In function, after append" ,myArr)
+myArr=['a’,'b','c'
+print("In function, after reassignment" ,myArr)
+
+print()
+
+arrMain= one. two three |
+rint("Before function call", arrMain)
+ester(arrMain) |
+
+print("After function call", arrMain)
+
+8 UNIVERSITY OF CAPE TOWN Ememinaer: Variadie ocope and
+lifetime
+
+Not all variables are accessible from all parts of our
+program, and not all variables exist for the same amount of
+time.
+
+Where a variable is accessible and how long it exists depend
+
+on how it is defined.
+the part of a program where a variable is accessible or modifiable
+called its scope
+the duration for which the variable exists is its lifetime.
+
+formal parameters can also only be seen inside the function
+
+even if they have the same name
+
+8 UNIVERSITY OF CAPE TOWN 38 EReminder: Scope
+
+A variable which is defined in the main body of a file is called a global
+
+variable.
+
+It will be visible throughout the file, and also inside any file which
+imports that file.
+
+A variable which is defined inside a function is local to that function.
+It is accessible from the point at which it is defined until the end of
+the function, and exists for as long as the function is executing.
+The parameter names in the function definition behave like local
+
+variables
+but they contain the values that we pass into the function when we call
+it.
+
+8 UNIVERSITY OF CAPE TOWN 39 EReminder: Global variables
+
+O global / nonlocal
+
+= Python parameters can be declared as global in a function
+to indicate that the variable being used is actually declared
+outside any functions (not recommended)
+
+= nonlocal can be used similarly for nested functions.
+
+8 UNIVERSITY OF CAPE TOWNConcept: Arrays
+
+An array is an indexed sequence of values associated
+with one variable.
+
+Array values: | 5 2 7|1/83
+
+index 0 1 2 3 4 5 6
+
+ 
+
+oO Arrays can be fixed length or variable length.
+
+oO Arrays can hold multiple values of the same type or
+different types.
+
+8 UNIVERSITY OF CAPE TOWN ECheckpoint
+
+Describe briefly, and in clear English, what
+the function Enigma returns
+
+def Enigma(lst,item):
+tmp=[]
+for iin lst:
+if i!= item:
+tmp.append (1)
+
+return tmp
+
+8 UNIVERSITY OF CAPE TOWN ECheckpoint
+
+Write down the exact output:
+
+def main():
+list1=[2,4,6,6,8,10]
+list2=["Skipper", "Kowalski", "Rico", "Private", "King
+Julian"]
+list3=[[1,2], [3,4], [5,6]]
+print (Enigma (list2,"King Julian") )
+
+print (Enigma (list1, 9) )
+
+main ()
+
+8 UNIVERSITY OF CAPE TOWNCheckpoint
+
+Rewrite the code for the function Enigmai(lst, item) so
+that it works as follows. This function should return
+True if every element in Ist is greater than item.
+
+For example (in the Pythons interpreter):
+>>>Enigma(["buffalo", "zebra", "goldfish"],"aardvark")
+>>>True
+
+>>>Enigma([1,2,3,1,5,6],3)
+
+>>>False
+
+8 UNIVERSITY OF CAPE TOWN EPython Arrays: Lists
+
+In Python, an array is called a list.
+
+To create a list:
+em list! =[] # empty list
+
+= nums =[ 1, 2, 3, 4, 7, 8, 9, 10, 13, 14, 15 ] # list of numbers
+= animals = ['cat’, ‘dog’, ‘baboon’, 'bison’] # list of strings
+
+= stuff =[ 1, 2, 'hello' ] # mixed type list (yes we can do that)
+
+8 UNIVERSITY OF CAPE TOWNCommon Operations 1/5
+
+Adding an item to a list
+
+ 
+
+X=|5]3|21| 4
+
+|
+X.append (3)Common Operations 2/5
+
+Accessing an item in a list
+
+ 
+
+X=|5]3|21| 4
+
+|
+print A ))
+
+3Common Operations 2/5
+
+Accessing the last item in a list
+
+ 
+
+X=|5]3|21| 4
+
+|
+print wT 1)
+
+4Common Operations 4/5
+
+Changing an item in a list
+
+ 
+
+X=/5|3)|2)| 4
+
+|
+X[2] = 7

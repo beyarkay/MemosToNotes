@@ -1,0 +1,1007 @@
+= UCT Department of Computer Science CSC1015F
+
+Testing and Debugging
+
+ASLAM SAFLA
+<ASLAM@CS.UCT.AC.ZA>
+
+8 UNIVERSITY OF CAPE TOWNProgram
+
+Write a program that reads in a list of test scores and
+classifies them into ranks -
+1, 24+, 2-, 3, FS, F
+
+- and, for each rank, displays:
+
+- the number of students in the rank (output as a
+histogram).
+
+8 UNIVERSITY OF CAPE TOWNTypes of Errors — When (2)
+
+Run-time Error
+= Program structure is correct, but does not execute as
+
+expected.
+e.g.
+x = 0
+y = 15/x
+
+Examples of Python runtime errors:
+
+* division by zero
+
+* performing an operation on incompatible types
+¢ using an identifier which has not been defined
+
+8 UNIVERSITY OF CAPE TOWNTypes of Errors — Why (1)
+
+oO Syntax Error
+
+= Program does not pass checking/compiling stage.
+
+= Improper use of Python language.
+0€9g.product = x y
+
+Syntax errors are analogous to spelling or grammar
+mistakes in a language like English:
+e.g. “Would you some tea?”
+
+does not make sense — it is missing a verb.
+
+8 UNIVERSITY OF CAPE TOWNTypes of Errors — Why (1)
+
+Oo Common Python syntax errors :
+
+leaving out a keyword
+putting a keyword in the wrong place
+
+leaving out a symbol, such as a colon, comma or
+brackets
+
+misspelling a keyword
+incorrect indentation
+
+8 UNIVERSITY OF CAPE TOWNTypes of Errors — Why (2)
+
+oO Logic Error
+
+= Program passes checking/compiling and runs but
+produces incorrect results or no results - because of a flaw
+in the algorithm or implementation of algorithm.
+0@€9g.product = x+y
+
+8 UNIVERSITY OF CAPE TOWNCheckpoint
+
+def Maximum(x,y) : ;
+
+What kind of error?
+Z=X
+
+if (x<y) z=y
+
+return Z
+
+8 UNIVERSITY OF CAPE TOWNCheckpoint
+
+def Maximum(x,y) : ;
+
+What kind of error?
+Z=X
+
+if (x>y): z=y
+
+return Z
+
+8 UNIVERSITY OF CAPE TOWNCheckpoint
+
+def Maximum(x,y) : ;
+
+What kind of error?
+Z=X
+
+if (x<y): z==y
+
+return Z
+
+8 UNIVERSITY OF CAPE TOWNErrors: Recipe Anailogiy
+
+Pancake Recipe:
+
+30 mlolive oil
+6egegs
+
+4 potatoes
+
+1 clove minced ganic
+
+Chop ptatosinto smallcubes. Vigourusly eggs
+beat. Add chopped onion, garlic and oilto pan
+and fry til golden. Cut potatoes mto thin slices.
+Pouregg into panand cooktillset.
+
+8 UNIVERSITY OF CAPE TOWNErrors: Recipe Anailogiy
+
+Pancake Recipe: Logic error
+
+30 mlolive oil
+6egegs
+4 potatoes
+1 clove minced ganic
+Compile time errors
+
+Chop ptatos into smallcubes. Vigourusly eggs
+beat. Add chopped onion, ganic and oilto pan
+and fry til golden. Cut potatoes into thin slices.
+Pouregg into panand cooktillset.
+
+Run time error
+
+8 UNIVERSITY OF CAPE TOWNTesting: versus Debugig ing
+
+Test: run with sample data to uncoverenvrs
+
+Debug: find the cause ofa knownenor
+
+8 UNIVERSITY OF CAPE TOWNmarkClassificationSkeleton.py
+
+def main():
+print('='"*10) #Prints line to indicate start of program
+print("Enter a list of test scores.")
+i,Fi,uS,S,Th,fS,Fa=0,0,0,0,0,0,0
+firsts=0
+val = input("Enter next test score #"+str(i)+" (press ‘Enter’ key to stop):")
+while val: #sentinal loop to read in unspecified no. of test scores
+i+=1
+# TODO: add in code to count number in each category
+val =input("Enter next test score #"+str(i)+" (press ‘Enter’ key to stop):")
+print(" 1:{} 2+:{} 2:{} 3:{} FS:{} F:{} ".format(Fi,uS,S,Th,fS,Fa)) #use of format string
+barChart(Fi,uS,S,Th,fS,Fa) #will print barChart
+print('="*10) #Prints line to indicate end of program
+
+8 UNIVERSITY OF CAPE TOWN ETesting Methods
+
+Programs must be thoroughly tested
+for all possible input/output values
+to make sure the programs behave correctly.
+
+8 UNIVERSITY OF CAPE TOWNExhaiustive testing
+
+Idealtesting strategy:
+
+Run program using allpossible inputs
+
+Compar actualoutputs to expected outputs
+
+8 UNIVERSITY OF CAPE TOWNExhaiustive testing
+
+But how do we test for all values of integers?
+
+a = eval (input ("Enter a number
+between 1 and 100: "))
+
+if a<l or a>100:
+
+print ("Error")
+
+This simple program asks the userforone integer—
+how many possible inputs in Python?
+
+8 UNIVERSITY OF CAPE TOWNRandom testing
+
+A subset of values in the input domain is used for
+testing.
+
+¢ Important to ensure that values are distributed over
+input domain
+
+¢ Can use random number generation.
+
+8 UNIVERSITY OF CAPE TOWNEquivalence Classes & Boundary Values
+
+Equivalence classes: Group input values into sets of
+values with similar expected behaviour and choose
+candidate values
+
+ 
+
+ 
+
+e.g. a = eval (input (""))
+-(-50, 150 ) ef acl or a>100:
+(10, 50, 80 ) print ("Error")
+
+ 
+
+Boundary value analysis: choose values at, and on
+either side of, the boundaries of the equivalence
+classes—
+
+e.g. 0, 1, 2, 99, 100, 101
+
+8 UNIVERSITY OF CAPE TOWNEquivalence Classes & Boundary Values
+
+Write a program to classify test scores into ranks:
+© 1:24, 2-,3,,F
+
+8 UNIVERSITY OF CAPE TOWNEquivalence Classes & Boundary Values
+
+Example: Test score pwgram
+
+Eg uivalence c lasses:
+
+error 2+ error
+3 70 to 75
+less than 0 F 50to60 7 ]
+60 to 70 75 to 100
+
+over 100
+
+   
+
+8 UNIVERSITY OF CAPE TOWNEquivalence Classes & Boundary Values
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Equivalence Class Sample Boundary Just Above Just Below
+q Value Value Boundary Value | Boundary Value
+
+Scores greater than 100 150
+
+100 101 99
+Scores between 75 and 100 95
+
+75 76 74
+Scores between 70 and 75 72
+
+70 71 69
+Scores between 60 and 70 65
+
+60 61 59
+Scores between 50 and 59 55
+
+50 51 49
+Scores between 0 and 50 30 0 i i
+Scores less than 0 -50
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+8 UNIVERSITY OF CAPE TOWNPath Testing
+
+oO Create test cases to test every path of execution of
+the program at least once.
+
+ 
+
+ 
+
+ 
+
+ 
+
+[==> |a = eval (input ("")) —
+
+[==> |if a<l or a>100: S
+print ("Error")
+
+=» —
+
+Path 1: a=35 | Path 2: a=-5
+
+8 UNIVERSITY OF CAPE TOWNStatement Coverage
+oO What if we had:
+
+1f a<25:
+
+print ("Error in a")
+else:
+
+print ("No error in a")
+1f b<25:
+
+print ("Error in b")
+else:
+
+print ("No error in b")
+
+oO Rather than test all paths, test all statements at least
+once.
+m e.g., (a,b) = (10, 10), (50, 50)
+
+8 UNIVERSITY OF CAPE TOWNmarkClassificationSkeleton.py
+
+def barChart(Fi,uS,S,Th,fS,Fa):
+total= Fi+uS+S+Th+fS+Fa
+row="{:>2} | {:<10}"#String format for a row in the bar chart
+c="'#The character to use to print the bars
+barMax=10 #max length of a bar
+#doesn't do anything useful yet
+
+if name =='_ main_': #will explain this again, in more detail
+main()
+
+8 UNIVERSITY OF CAPE TOWN EGlass and Black Boxes
+
+lf you can create your test cases based on only the
+problem specification, it is black box testing.
+
+oO If you have to examine the code, it is glass box
+testing.
+
+Which categories do these fall into?
+oExhaustive Testing
+oRandom Testing
+oEquivalence classes/boundary values
+oPath coverage
+oStatement coverage
+BB university oF care Town ECheckpoint
+
+# CSC1015f£: Software Testing sample Bouivelence classes:
+# Michelle Kuttel April 2015 apes .
+
+# get a number
+number= eval (input ("Enter a number:\n") )
+
+ 
+
+number= number + 10
+# check if it is small or large Boundary values:
+if number<20:
+print ("Small number")
+else: Statement coverage:
+print ("large number")
+
+ 
+
+ 
+
+# check if it is divisible by 5
+if number % 5 == 0: Path coverage:
+
+print (“divisible by 5")
+
+8 UNIVERSITY OF CAPE TOWNCheckpoint
+
+# CSC1015f£: Software Testing sample Bouivelence classes:
+# Michelle Kuttel April 2015 apes .
+
+small multiple of 5: 5
+
+# get a number small non-multiples of 5: 3
+
+number= eval (input ("Enter a number:\n")) |large multiple of 5: 25
+large non-multiples of 5
+
+ 
+
+number= number + 10
+# check if it is small or large Boundary values:
+if number<20:
+print ("Small number")
+else: Statement coverage:
+print ("large number")
+
+ 
+
+ 
+
+# check if it is divisible by 5
+if number % 5 == 0: Path coverage:
+
+print (“divisible by 5")
+
+8 UNIVERSITY OF CAPE TOWNCheckpoint
+
+# CSC1015£: Software Testing sample
+# Michelle Kuttel April 2015
+
+Equivalence classes:
+
+small multiple of 5: 5
+# get a number small non-multiples of 5: 3
+
+number= eval (input ("Enter a number:\n")) |large multiple of 5: 25
+large non-multiples of 5
+
+ 
+
+number= number + 10
+
+# check if it is small or large Boundary values:
+
+if number<20: 4,5,6,9, 10, 11, 14, 15,
+print ("small number") 16
+
+else: Statement coverage:
+print ("large number")
+
+ 
+
+# check if it is divisible by 5
+if number % 5 == 0: Path coverage:
+print (“divisible by 5")
+
+8 UNIVERSITY OF CAPE TOWNCheckpoint
+
+# CSC1015f£: Software Testing sample Bouivelence classes:
+# Michelle Kuttel April 2015 apes .
+
+small multiple of 5: 5
+
+# get a number small non-multiples of 5: 3
+
+number= eval (input ("Enter a number:\n")) |large multiple of 5: 25
+large non-multiples of 5
+
+ 
+
+number= number + 10
+# check if it is small or large Boundary values:
+if number<20: 4,5, 6, 9, 10, 11, 14, 15,
+print ("Small number")
+else: Statement coverage:
+print ("large number")
+
+ 
+
+ 
+
+5, 14
+
+# check if it is divisible by 5
+if number % 5 == 0: Path coverage:
+
+print (“divisible by 5")
+
+8 UNIVERSITY OF CAPE TOWNCheckpoint
+
+# CSC1015£: Software Testing
+# Michelle Kuttel April 2015
+
+# get a number
+
+number= eval (input ("Enter
+number= number + 10
+# check if it is small or
+
+if number<20:
+
+print ("small number")
+else:
+
+print ("large number")
+
+sample
+
+a number: \n") )
+
+large
+
+# check if it is divisible by 5
+
+if number % 5
+print (“divisible by 5")
+
+8 UNIVERSITY OF CAPE TOWN
+
+Equivalence classes:
+
+small multiple of 5: 5
+
+small non-multiples of 5: 3
+large multiple of 5: 25
+large non-multiples of 5
+
+ 
+
+Boundary values:
+4,5, 6,9, 10, 11, 14, 15,
+
+ 
+
+Statement coverage:
+5, 14
+
+Path coverage:
+5, 7, 13, 20Checkpoint
+
+# CSC1015£: Software Testing
+# Michelle Kuttel April 2015
+
+# get a number
+
+number= eval (input ("Enter
+number= number + 10
+# check if it is small or
+
+if number<20:
+
+print ("small number")
+else:
+
+print ("large number")
+
+Q
+
+1f number % 5 ==
+print (“divisible by 5")
+
+8 UNIVERSITY OF CAPE TOWN
+
+sample
+
+a number: \n") )
+
+large
+
+cw
+or’
+
+we
+Qe
+
+# check if it is divisible by 5
+
+Equivalence classes:
+
+small multiple of 5: 5
+
+small non-multiples of 5: 3
+large multiple of 5: 25
+large non-multiples of 5
+
+ 
+
+Boundary values:
+4,5, 6,9, 10, 11, 14, 15,
+
+Statement coverage:
+5, 14
+
+ 
+
+Path coverage:
+
+5, 7, 13, 20Opinion
+
+Which of these is the best approach to determine test
+values?
+
+1.
+
+kon hd
+
+Exhaustive testing of all values
+
+Random testing
+
+Equivalence classes and boundary values
+Path testing
+
+Statement coverage
+
+8 UNIVERSITY OF CAPE TOWNFinding Errors
+
+oO What if a test case fails? Now what?
+
+oO Find the error and remove it, using:
+= Tracing
+= Debugger
+
+8 UNIVERSITY OF CAPE TOWNTracing
+
+oO Insert temporary statements into code to output values during
+calculation.
+oO Very useful when there is no debugger!
+
+Oo Example:
+xX = y*y*2
+Z = xt+5
+
+SARS Sue
+
+print (z)
+1f z == 13:
+
+   
+
+8 UNIVERSITY OF CAPE TOWN EHow do we demonstrate that this
+program is correct?
+
+8 UNIVERSITY OF CAPE TOWNwedugging
+
+Haste ie
+= ay
+
+oO Debugging is the process of finding
+errors or bugs in code.
+
+ 
+
+oO A debugger is a tool for executing an application where
+
+the programmer can carefully control execution and
+| . \
+inspect data SS
+oO Features include: GV 8 oS
+= step through code one instruction at a time OS
+= viewing variables (“Stack Data” in Wing101) we
+on
+
+= insert and remove breakpoints to pause executi
+
+8 UNIVERSITY OF CAPE TOWNCheckpoint
+
+def riddle(n): Equivalence classes:
+if n<=0:
+
+return 0
+
+ 
+
+a=1
+
+Boundary values:
+b=1
+
+for 1 in range(n-2):
+
+Statement coverage:
+a,b=atb,a o
+return a
+Path coverage:
+
+8 UNIVERSITY OF CAPE TOWN ECheckpoint
+
+def riddle(n): Equivalence classes:
+if n<=0: n<=0:-5
+O0<n<3
+return 0
+
+n>=3
+
+ 
+
+a=1
+Boundary values:
+b=1
+0,1,2,3,4
+
+for 1 in range(n-2):
+
+Statement coverage:
+a,b=atb,a o
+-5: 8
+return a
+Path coverage:
+-5:2:8
+
+8 UNIVERSITY OF CAPE TOWNFibonacci Numbers
+
+In the year 1202 in Italy, the mathematician Leonardo of
+Pisa, who is better known as Fibonacci, posed this
+problem:
+
+If a pair of rabbits is placed in an enclosed area,
+how many pairs of rabbits will be born there
+if we assume that every month a pair of rabbits
+produces another pair,
+
+and that rabbits begin to bear young two ony
+their birth? |
+
+   
+
+as after
+
+8 UNIVERSITY OF CAPE TOWNFibonacci Numbers
+
+Sequence of positive integers such that each number is
+the sum of the previous two.
+= Start with 0 and 1
+
+ 
+
+ 
+
+Oo Algorithm:
+mif number=0, result = 0
+mif number=1, result = 1
+m otherwise, result = fib (number-1) + fib
+(number-2) eh epee . were:
+oO Output: ee aS
+= 01123581321 3455 89 144 233... =F very 5
+
+= (fib(n) is the number of pairs of rabbits in month n)
+
+8 UNIVERSITY OF CAPE TOWN Econaitional program execution
+explained (again?)
+
+Some Python module files are designed to be run directly
+usually referred to as “programs” or “scripts”
+Others are designed to be primarily imported and used by
+other programs
+usually referred to as “libraries”
+Sometimes we want both functionalities, a module that can
+be either imported or run directly (when the “main”
+function will execute)
+
+8 UNIVERSITY OF CAPE TOWN 46 Econaitional program execution
+explained
+
+A module can determine how it is being run by looking at
+the value of the __name___variable
+
+if itis imported, __name__ will be the name of the
+module (e.g. ‘math’ for math.py)
+name__ will have the value
+
+ 
+
+if it is being run directly,
+“main _’
+
+So, you can do this to ensure that a module is run when it is
+invoked directly, but NOT if it is imported
+
+1 ‘4 ' y
+1f _ name == main :
+main ()
+
+8 UNIVERSITY OF CAPE TOWN 47 EUse debugging to show this...
+
+8 UNIVERSITY OF CAPE TOWN
+
+ss Eviore explanation of conaitional =
+program execution WAZ
+
+Imagine that you have a Python computer game J
+
+called SlimeYNonster Jolood3
+
+  
+
+You can either
+run this as a game (execute it)
+or else import it as a module when creating
+
+another game ( Fairy CastleP rinoets
+
+In this case, you would use the functions in
+SlimeVijonster Flood3 (castSpell, fightMonster,
+getAmmunition) as building blocks for your new game
+
+8 UNIVERSITY OF CAPE TOWN 49 EExplaining Conaitional program
+execution
+You understand this, right? -
+
+if x == True:
+monsterBloodtThree ()
+
+50 =
+
+8 UNIVERSITY OF CAPE TOWNErrors and testing: Quick Poll
+
+ 
+
+In a typical hour spent programming, how many minutes
+do you spend fixing errors?
+
+8 UNIVERSITY OF CAPE TOWNExplaining Conaitional program
+execution
+
+and this, right? -
+
+if x == “Run”:
+monsterBloodtThree ()
+
+51 =
+
+8 UNIVERSITY OF CAPE TOWNExplaining Conaitional program
+execution
+
+Now, name is just another variable ...
+
+1 46 99
+1f name == Run:
+
+monsterBloodtThree ()
+
+8 UNIVERSITY OF CAPE TOWN 52 EExplaining Conaitional program
+execution
+And __main___ is just another literal ...
+
+if name == “_ main’:
+monsterBloodtThree ()
+
+53
+
+8 UNIVERSITY OF CAPE TOWNCheckpoint
+
+def Sorting(x,y,Z):
+if x>y:
+if y>z:
+print (x,y, Z)
+elif x>z:
+print (x,Z,y)
+else: print(z,x,y)
+elif z>y:
+print (z,y,X)
+elif x>z: print(y,x,zZ)
+
+else: print(y,zZ,x)
+
+8 UNIVERSITY OF CAPE TOWN
+
+Equivalence classes:
+
+ 
+
+Boundary values:
+Statement coverage:
+
+ 
+
+Path coverage:Checkpoint
+
+def Sorting(x,y,Z):
+if x>y:
+if y>z:
+print (x,y, Z)
+elif x>z:
+print (x,Z,y)
+else: print (z,x,y)
+elif z>y:
+print (z,y,X)
+elif x>z: print(y,x,zZ)
+
+else: print(y,zZ,x)
+
+8 UNIVERSITY OF CAPE TOWN
+
+Equivalence classes:
+
+Big, Mid, Small; Big, Small, Mid;
+Small, Mid, Big; Small, Big, Mid;
+Mid, Small, Big; Mid, Big, Small
+
+ 
+
+Boundary values:
+
+ 
+
+Statement coverage:
+
+ 
+
+Path coverage:
+
+=A quote to end the section
+
+Program testing can, at best, show the presence of
+errors, but never their absence.
+
+Edsgar Dijkstra
+1930-2002
+
+Famous Dutch
+Computer Scientist
+
+ 
+
+8 UNIVERSITY OF CAPE TOWNErrors
+
+What is an error?
+
+=m When your program does not behave as intended or
+expected.
+
+What is a bug?
+= “...there is a bug in my program ...”
+
+   
+
+Debugging
+
+= the art of removing bugs
+
+8 UNIVERSITY OF CAPE TOWNErrors and testing: Quick Poll
+
+In a typical hour spent programming, how many minutes
+do you spend fixing errors?
+
+Bugs are unavoidable, even forthe best programmers
+Aim to program so thatdebugging time isreduced
+¢ foryourse if
+
+* and othersm the future
+
+‘This isa matterofboth style and strategy
+
+8 UNIVERSITY OF CAPE TOWNThe First “Bug”?
+
+UF de
+
+ 
+
+       
+
+Ye ee
+0 Gro On etn stots 2 (2700 i os
+{000 “ 5 “aah lat S| i 9.087 8YC TFS cons
+ai mene ESSE SER? -) MURS
+033) PRO 2. thoy rey
+ee bo tas. pierces | gato
+€ G2 033 odd spared ied feot” es ny
+fon (eee (um i
+foe Started Corin t cdegh Sime check :
+IS2s hiatal tea! Oe |
+\Say (el 0 e. e iz
+enh relay: é |
+The moth was found by Grace
+Ficst sn Gace vos tbud heli found | Hopper
+eee eee 1 1 j f * Rear Admiral Grace Murray
+Hopper (December 9, 1906 -
+January 1, 1992) was an
+American computer scientist
+and naval officer
+. . * the first USA computer
+The tale is that the original 'bug' was a science "Man of the Year" in
+moth, which caused a hardware fault in the 1969.
+
+Harvard Mark I.
+
+ 
+
+rs UNIVERSITY OF CAPE TOWN Reference: http://en. wikipedia. org/wiki/Grace_HopperTypes of Errors — When (1)
+
+“Compile”-time Error
+
+= Discovered when program is checked, before it is
+run.
+
+= A result of improper use of Python language
+= usually Syntax Errors.
+€.g.product = x y
+
+8 UNIVERSITY OF CAPE TOWN

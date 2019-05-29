@@ -1,0 +1,462 @@
+Interactive Computer Graphics 20 Feb 2006
+
+Selection
+
+James Gain
+
+Department of Computer Science
+University of Cape Town
+jgain@cs.uct.ac.za
+
+Problem 1 Introduction
+
+@Write a program to calculate the
+minimum of 4 integers without using the
+min/max/math functions. Use a
+sequence ot if statements.
+
+ 
+
+Page 1Interactive Computer Graphics 20 Feb 2006
+
+What is Selection?
+
+@ Making choices in the flow of
+execution of a program.
+
+@e.g,., if it is a leap year then there are 29
+
+days in February — otherwise there are
+28
+
+TEE
+
+ 
+
+ 
+
+I EEE
+
+Analogies
+
+@Like a detour off a
+road
+
+@Or a siding switch
+on a railroad track
+
+@The different roads
+or tracks represent
+different execution
+
+paths, eventually
+rejoining
+
+ 
+
+Page 2Interactive Computer Graphics 20 Feb 2006
+
+Booleans Revisited
+
+@ boolean - stores only True or False
+values.
+@e.g., i like _CSC1015 = True
+
+if i like CSC1015:
+i_eat_weetbix = True
+
+Boolean operators
+
+ 
+
+Boolean Meaning
+Algebra
+
+AND true if both operands are true
+
+ 
+
+ 
+
+OR true if at least one operand is
+true
+
+true if operand is false;
+false if operand is true
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Page 11Interactive Computer Graphics 20 Feb 2006
+
+Operator precedence
+
+@Now that we have seen how operators
+can be mixed, we need precedence
+rules for all operators
+@() (highest precedence — performed first)
+
+@ **K
+
+@*///%
+
+Q+-
+
+@< <=>=>==/=
+
+@ not
+
+and
+
+2 or (lowest precedence — performed last)
+
+Boolean operator example
+
+in_classroom = False
+is raining = True
+
+if (in_classroom and is raining):
+print (“Lucky!”)
+
+if (not in_classroom and is raining):
+print (“Wet and miserable!”)
+
+if (not is raining and not in classroom) :
+print (“Happy!”)
+
+ 
+
+Page 12Interactive Computer Graphics 20 Feb 2006
+
+Reversing expressions
+
+@ Use not operator to reverse meaning of boolean
+expression, €.g.,
+
+if mark >= 0:
+# do nothing
+else:
+
+print (“Error”)
+@ Instead, invert the condition
+if not (mark >= 0):
+
+print (“Error”)
+
+@ Can we do better 2
+
+Boolean expression example
+
+marks =
+
+if marks >= 75:
+symbol = ‘1’
+
+(marks >= 70 and marks < 75):
+symbol = ‘2+’
+
+(marks < 0 or marks > 100):
+symbol = ‘XxX’
+print (“Invalid mark!”)
+
+ 
+
+Page 13Interactive Computer Graphics 20 Feb 2006
+
+Poll: Boolean Expressions
+
+@ Which of the following Boolean expressions are
+equivalent:
+
+a)a >= banda<c
+
+b) not a < b and not a >=c
+
+c) not(a < b and a >= c)
+
+Wc) andb)
+
+HE ob) andc}
+
+HH Allof them
+HB None of them
+
+Problem 5
+
+@Write a program to calculate the
+minimum of 4 integers without using the
+min/max/math functions. Use if
+statements with boolean expressions.
+
+ 
+
+Page 14Interactive Computer Graphics 20 Feb 2006
+
+Problem 6
+
+@Write a program to check the login
+name and password for an online
+system such as Vula. Your program
+must assume a set of 3 valid users and
+check only for those users, outputting
+an appropriate message in either case.
+
+Problem 7
+
+@Write a program to determine the
+ingredients in a sandwich based on the
+sandwich number.
+
+ 
+
+Page 15Interactive Computer Graphics 20 Feb 2006
+
+Problem 8
+
+@Write a program to perform a
+selectable standard operation (+-/*) on
+a pair of numbers depending on an
+operation specified as an input value of
+
+either ‘a’, 'm’, 's' or'd’.
+
+@For example, if the numbers are
+entered as 3 and 5 and the operation is
+entered as 'm’, the result should be 15.
+
+ 
+
+Page 16Interactive Computer Graphics 20 Feb 2006
+
+Conditional expressions
+
+@Selections are made on the basis of
+expressions that must evaluate to True
+or False (boolean).
+
+@ Relational operators always return
+boolean values, €.g.:
+@ answer > 1.0
+@ number_of people <= 14
+@month == 12 # note: not the same as “=”
+@date != 13 # not equal
+@money >= 5000
+
+The “if” statement
+if boolean_expression:
+statementl
+
+statement2
+
+else:
+statementa
+statementb
+
+@ Statements must be indented to same level to be
+considered part of the same block.
+
+@ Python will usually execute all statements within a
+block once it starts on a block.
+
+ 
+
+Page 3Interactive Computer Graphics
+
+Example usage
+
+if month == 12:
+
+print ("Hoorah! No classes")
+else:
+
+print
+
+Another example
+
+if year < 2000:
+fear_factor
+
+else:
+fear_factor
+
+if fear_factor ==
+
+print (“be afraid — be very afraid”)
+else:
+
+print (“it’s OK! no Y2K bug!”)
+
+Page 4
+
+ 
+
+20 Feb 2006Interactive Computer Graphics 20 Feb 2006
+
+Shortcut
+
+@No else part.
+
+if number_of_ students > 250:
+print (“Full!”)
+
+ 
+
+ 
+
+ 
+
+Poll: If Statements
+
+@ What is the output of the following python code:
+num = 0
+print(“Jab “, end=‘’)
+if num >= 0:
+print(“ber “, end=’’)
+else:
+print(“woc “, end=‘’)
+print(“ky”)
+HB Jab ber woc ky
+HE sab woc ky
+HE jab ber ky
+
+HB Jab ky
+
+ 
+
+Page 5Interactive Computer Graphics 20 Feb 2006
+
+Problem 1
+
+@Write a program to calculate the
+minimum of 4 integers without using the
+min/max/math functions. Use a
+sequence ot if statements.
+
+Problem 2 Introduction
+
+@Write a program to calculate the
+minimum of 4 integers without using the
+min/max/math functions. Use nested if
+statements.
+
+ 
+
+Page 6Interactive Computer Graphics
+
+Nested “if” statement
+
+password = input ("Enter your password")
+if password==real_password:
+if name=="admin”:
+logged_in = True
+else:
+print ("Error")
+
+Dangling Else
+
+@ Python can always determine which “if” an
+“else” belongs to because they have the same
+indent level.
+
+password = input ("Enter password:")
+if password==real_ password:
+if name==“admin”:
+logged_in = true
+else:
+print (“Error”)
+
+@ In other programming languages, this is called
+the dangling else problem. Python does not
+have this problem.
+
+Page 7
+
+ 
+
+20 Feb 2006Interactive Computer Graphics 20 Feb 2006
+
+Multiway selection
+
+@ Multiple conditions, each of which causes a different
+block of statements to execute.
+
+@ Can be used where there are more than 2 options.
+
+if conditionl:
+statements ...
+else:
+if condition2:
+statements ...
+else:
+if condition3:
+statements ...
+else:
+
+“if” ladder
+
+@ Just a nicer way to write multiway
+selection.
+
+if operation == ‘a’:
+answer = first + second
+
+elif operation == ‘s’:
+answer = first - second
+
+elif operation == ‘m’:
+answer = first * second
+
+ 
+
+Page 8Interactive Computer Graphics 20 Feb 2006
+
+Problem 2
+
+@Write a program to calculate the
+minimum of 4 integers without using the
+Math methods. Use nested if
+statements.
+
+Problem 3
+
+@Write a program to sort 3 integers and
+output the sorted order symbolically.
+@For example, if the numbers are {n1=3,
+n3=6, N3=5}, then the sorted order is “n1-n3-
+n2”.
+
+@Use nested if statements.
+
+ 
+
+Page 9Interactive Computer Graphics 20 Feb 2006
+
+Problem 4
+
+@Write a program to calculate your final
+grade and symbol in CSC1015F based
+on marks for theory tests, exam,
+practicals and practical tests. This must
+include the possibility of DPR.
+
+Problem 5 Introduction
+
+@Write a program to calculate the
+minimum of 4 integers without using the
+min/max/math functions. Use if
+statements with boolean expressions.
+
+ 
+
+Page 10

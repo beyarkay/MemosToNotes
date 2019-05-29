@@ -1,0 +1,709 @@
+Write a program to ask the user
+for a value and output the first
+line in a file where the value
+occurs.= UCT Department of Computer Science CSC1015F
+
+searching and Sorting
+
+ASLAM SAFLA
+ASLAM@CS.UCT.AC.ZA
+
+8 UNIVERSITY OF CAPE TOWNEfficiency of Binary Search
+
+The binary search algorithm is extremely fast
+compared to an algorithm that tries all array
+elements in order
+
+About half the array is eliminated from consideration right at
+the start
+
+Then a quarter of the array, then an eighth of the array, and
+so forth
+
+Given an array with 1,000 elements, on average the binary
+search will only need to compare about 10 array elements
+to the key value, as compared to an average of 500 fora
+serial search algorithm
+
+8 UNIVERSITY OF CAPE TOWN 11 EComparing aigoritnms:
+Running Times
+
+We want a machine-independent estimate formula of how
+long a program will take to run as a function of input size
+
+SO, we count the number of operations (+,-,x,comparison
+etc.)
+
+and assume that everything else takes no time at
+all
+
+(a simplifying assumption).
+
+8 UNIVERSITY OF CAPE TOWN 12 EComparing aigorithnms: Running
+Times and Big-O Notation
+Estimates are usually expressed in big-O notation
+
+upper bound estimate;
+
+not an exact count,
+but correct to a constant multiple.
+
+Only include the term with the highest exponent and
+do not pay any attention to constant multiples.
+
+8 UNIVERSITY OF CAPE TOWN 13 EEfficiency of Algorithms
+
+We measure efficiency of searching algorithms in terms
+of the upper bound of number of comparisons for n
+items (because comparisons take more CPU time than
+other operations), assuming large values of n.
+
+In computer science, big O notation is used to classify algorithms
+according to how they respond to changes in input size
+Typical algorithmic efficiencies:
+
+7 ne ) = constant time
+O(log n) = time proportional to log (n)
+O(n) = linear time, proportional to n
+O(n log n) = time proportional to n x log (n)
+O(n?) = time proportional to n x n
+
+8 UNIVERSITY OF CAPE TOWNComparative Magnitudes
+
+Comparative magnitudes
+
+450
+400
+350
+300
+250 ™= Constant
+= =N
+& == Log N
+200 ==N Log N
+=N*N
+150
+100
+50
+0
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+
+Yee
+
+8 UNIVERSITY OF CAPE TOWNOrder of Growth
+
+How much faster will algorithm run on a computer that is twice as fast?
+How much longer does it take to solve problem of double input size?
+
+n nlogen n re 2° ne!
+107 -3.3-10 10 10 10 3.6-10
+10? 6.6-107 = 104 Ss 10®)~—1.3-1089 = 9.3-109 187
+107 1.0-10% 10° 10°
+
+104 1.3-108 108 1012
+
+10 =61.7-108 «1029 «1915
+
+10° «=92.0-107 10% 1918
+
+ 
+
+Table 2.1 Values (some approximate) of several functions important
+for analysis of algorithms
+
+8 UNIVERSITY OF CAPE TOWN EComparing Algorithms
+
+When comparing algorithms we talk about the:
+Best case
+Worst case
+Average case
+
+with respect to the input size, n.
+
+8 UNIVERSITY OF CAPE TOWNComparing Search Algorithms
+
+Linear Search:
+= Best case: O(1)
+m Average case: O(n)
+= Worst case: O(n)
+
+Binary Search:
+= Best case: O(1)
+m Average case: O(log n)
+= Worst case: O(log n)
+
+8 UNIVERSITY OF CAPE TOWNComparing Search Algorithms
+
+Linear Search:
+= Best case: O(1)
+m Average case: O(n)
+= Worst case: O(n)
+
+Binary Search:
+= Best case: O(1)
+m Average case: O(log n)
+= Worst case: O(log n)
+
+Oo Python Dictionary: O(1) in all cases (but no list order)!
+
+8 UNIVERSITY OF CAPE TOWNSorting
+
+8 UNIVERSITY OF CAPE TOWN UCT Department of Computer ScienceProblems
+
+Write a program to search for a value in a given list.
+
+oO Example 1:
+oO Search for an ID number when a person wishes to vote.
+
+oO Example 2:
+O Search for a person's record when a person inserts a card
+into an ATM.
+
+oO Example 3:
+O Search for a student record when you log into Vula.
+
+8 UNIVERSITY OF CAPE TOWNProblems
+
+Write a program to sort a list of items.
+
+oO Example 1: Sort items to enable binary search.
+
+Oo Example 2: Sort list of student names to print out final
+results for noticeboard.
+
+Oo Example 3: Sort marks to find median mark.
+oO Example 4: Sort names to find unique names.
+
+8 UNIVERSITY OF CAPE TOWNSelection Sort
+
+Select smallest item in list and place at beginning (Swap
+with first item), then repeat for rest of list, until list is
+completely processed.
+
+oO Sort the following list:
+
+34 | 17) 12 | 34) 55 | 48 | 23
+
+ 
+
+8 UNIVERSITY OF CAPE TOWNSelection Sort
+
+‘17 Bal 34/55 |48 26
+
+‘34 04 55. 48
+4/55 | 48 [BA
+55 48 94
+
+48 [55selection Sort Algorithm
+
+def selection_sort ( values ):
+"Sort values using selection sort algorithm.
+# iterate over outer positions in list
+for outer in range (len (values)):
+# assume first value is minimum
+minimum = outer
+# Compare minimum to rest of list and update
+for inner in range (outer+1, len (values)):
+if values[inner] < values[minimum]:
+minimum = inner
+# swap minimum with outer position
+values[minimum],values[outer]= values[outer],values[minimum]
+
+8 UNIVERSITY OF CAPE TOWN EDancing algorithms...
+
+https://keet.wordpress.com/2015/02/24/dancing-
+algorithms/
+
+8 UNIVERSITY OF CAPE TOWNSelection sort
+
+Basic operation is comparison (again).
+Best case?
+Worst case?
+Average case?
+
+8 UNIVERSITY OF CAPE TOWNSelection sort
+
+Basic operation is comparison (again).
+Best case?
+Worst case?
+Average case?
+
+best case = worst case = average case
+
+Number of comparisions depends only
+on input data size (n), not type of data
+
+8 UNIVERSITY OF CAPE TOWNSelection sort
+
+Basic operation is comparison (again).
+Best case?
+Worst case?
+Average case?
+
+best case = worst case = average case
+
+Selecting the lowest element requires scanning all n
+elements (1 - 1 comparisons) and then swapping it
+into the first position. Finding the next lowest element
+requires scanning the remaining n- 1 elements and
+so on, for(n-1)+(n-2)+...424+1=n(n-1)/2
+
+i.e O(n?) comparisons Simplified using arithmetic progression
+
+8 UNIVERSITY OF CAPE TOWNA Sorting Pattern
+
+The most efficient sorting algorithms all seem to follow
+a divide-and-conquer strategy
+Naturally recursive
+
+    
+
+    
+ 
+ 
+ 
+
+ro lela sub-problem
+
+   
+
+sub-problem
+
+     
+  
+ 
+  
+
+sub-problem sub-problem
+solve
+
+sub-solution
+
+ 
+
+   
+
+sub-solution sub-solution
+
+  
+
+    
+ 
+   
+
+sub-solution sub-solution
+
+solution
+8 UNIVERSITY OF CAPE TOWNDivide-and-conquer algorithms
+
+Characterized by dividing problems into sub-
+problems that are of the same form as the larger
+problem.
+
+Problems are solved independently, and then
+merged into a solution for the whole problem.
+
+e.g. Mergesort and quicksort
+
+8 UNIVERSITY OF CAPE TOWNLinear Search
+
+Start at one end of a list and check each element until
+either it is found or the list ends.
+
+oO Given list below, find 48
+
+ 
+
+ 
+
+34 17 12 34 55 48 | 23
+
+IDTV
+
+step 1 step 6
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+8 UNIVERSITY OF CAPE TOWNMergesort
+
+Partition list arbitrarily into 2, then sort each (recursively)
+and merge the 2 sorted lists into a final solution.
+
+oO Sort the following list:
+
+ 
+
+34 | 17) 12 | 34) 55 | 48 | 23
+
+eu Rah
+
+Merge sorting was
+one of the first
+methods proposed
+for computer
+sorting, invented by
+John von Neumann
+in 1945.
+
+, MATHEMATICIAN
+
+ 
+
+8 UNIVERSITY OF CAPE TOWNMergesort
+4/17) 12] 94] [55 [48 [20
+12 | 17 | 34 23/34 48 55 |Mergesort
+
+A classical sequential
+divide-and-conquer
+
+sorting algorithm. Te
+
+Unsorted list first divided “
+into half. =
+
+Each half is again divid
+into two. a
+
+Continued until
+individual numbers ve 227
+
+obtained. *s :
+pairs of numbers _
+
+combined (merged)
+until the one fully
+8 universn8OFte Mist is obtained.Mergesort Algorithm 1
+
+def merge ( list1, list2 ):
+"Merge 2 sorted lists.
+new_list = []
+while len(list1)>0 and len(list2)>0:
+if list1 [0] < list2[0}]:
+new_list.append (list1[0])
+del list1[0]
+else:
+new_list.append (list2[0])
+del list2[0]
+return new_list + list1 + list2
+
+8 UNIVERSITY OF CAPE TOWNMergesortAlgorithm 2
+
+def merge_sort ( values ):
+"Sort values using merge sort algorithm.
+if len(values)>1:
+sorted1 = merge_sort (values|:len(values)//2])
+sorted2 = merge_sort (values[len(values)//2:])
+return merge (sorted1, sorted2)
+else: return values
+
+8 UNIVERSITY OF CAPE TOWN EMergesort analysis
+
+Basic operation is comparison (again).
+Best case?
+Worst case?
+Average case?
+
+8 UNIVERSITY OF CAPE TOWNMergesort analysis
+
+Basic operation is comparison (again).
+Best case?
+Worst case?
+Average case?
+
+The divide step takes constant time, regardless of the subarray size. After all, the divide
+step just computes the midpoint qq of the indices pp and rr- O(1
+
+The merging step requires recurrence relations for analysis, but basically is n *
+(number of levels in the “tree”) = n*2(log(n) = O(n log n)
+
+The combine step merges a total of n elements, taking O(n) time.
+
+Mergesort makes a copy of the list — it is not in place. This matters if space is an
+issue.
+
+8 UNIVERSITY OF CAPE TOWN EOrder of Growth
+
+How much faster will algorithm run on a computer that is twice as fast?
+How much longer does it take to solve problem of double input size?
+
+n nlogen n re 2° ne!
+107 -3.3-10 10 10 10 3.6-10
+10? 6.6-107 = 104 Ss 10®)~—1.3-1089 = 9.3-109 187
+107 1.0-10% 10° 10°
+
+104 1.3-108 108 1012
+
+10 =61.7-108 «1029 «1915
+
+10° «=92.0-107 10% 1918
+
+ 
+
+Table 2.1 Values (some approximate) of several functions important
+for analysis of algorithms
+
+8 UNIVERSITY OF CAPE TOWN EEfficiency class is important
+
+My laptop sorts an array of 100 million items in 30
+seconds using an O(n log.n) algorithm
+
+@ How long would it take with an n2 algorithm?
+
+8 UNIVERSITY OF CAPE TOWNHow long to sort 100m items?
+
+n* logon = 2,657,542,476
+n2 = 10,000,000,000,000,000 = 1076
+
+10'6/ 2,657,542,476 = 3,762,875
+3,762,875 x 30 seconds = 112,886,248s = 3.5 years
+
+So selection sort is utterly impractical for large data
+sets!
+
+8 UNIVERSITY OF CAPE TOWNLinear Search
+
+def linear_search (arr, query ):
+"Search sequentially through values for query.
+for i in range(len(arr)):
+if arr[i]==query: return |
+return -1
+
+8 UNIVERSITY OF CAPE TOWNQuicksort
+
+Partition list based on pivot value in correct middle
+position, then sort each partition (recursively) for a final
+solution.
+
+oO Sort the following list:
+
+34 | 17) 12 | 34) 55 | 48 | 23
+
+Sir Charles Anthony Richard Hoare
+British computer scientist best known for the
+development (in 1960, at age 26) of
+Quicksort, one of the world's most widely
+used sorting algorithms.
+
+ 
+
+ 
+
+8 UNIVERSITY OF CAPE TOWNQuicksort
+
+ 
+
+34} 17) 12) 34) 55 | 48 | 23
+‘17/12 (BB) 04] 34 [55/48Quicksort Algorithm 1
+
+def swap ( values, source, dest ):
+"Exchange source and dest values in list."""
+values[source], values[dest] = values[dest], values[Source]
+
+def partition ( values, start, stop ):
+"Partition list in-place based on last value as pivot."""
+pivot = values[stop]
+midpoint = start
+for position in range (start, stop):
+if values[position] <= pivot:
+
+swap (values, position, midpoint)
+
+midpoint += 1
+swap (values, midpoint, stop)
+return midpoint
+
+8 UNIVERSITY OF CAPE TOWN EQuicksort Algorithm 2
+
+def quick_sort2 ( values, start, stop ):
+"Sort values from start to stop using
+quicksort algorithm."""
+if stop > start:
+pivot = partition (values, start, stop)
+quick_sort2 (values, start, pivot-1)
+quick_sort2 (values, pivot+1, stop)
+
+def quick_sort ( values ):
+""Sort values using quicksort algorithm.
+quick_sort2 (values, 0, len(values)-1)
+return values
+
+8 UNIVERSITY OF CAPE TOWNEfficiency of Quicksort
+
+Depends on input:
+Worst case: when does this occur?
+Best case:
+Average case:
+
+8 UNIVERSITY OF CAPE TOWNEfficiency of Quicksort
+
+Depends on input:
+Worst case: O(n*2) when does this occur?
+Best case O(n log n)
+Average case: O(n log n)
+
+Improvements to Quicksort (better pivot selection,
+switching to simpler sort on small subfiles, recursion
+elirhination) cari cut running time by 20-25%
+
+8 UNIVERSITY OF CAPE TOWNSorting and searching
+
+Sorts
+Selection O(n?)
+Merge O(n logn)
+Quick O (n logn)
+
+Searching
+Linear search O(n)
+Binary search O(logn)
+
+8 UNIVERSITY OF CAPE TOWNStability and Comparisons
+
+Comparisons can apply to any type of data:
+m integers
+o not integers stored as strings ('2' > '10’')!
+= strings
+= lists/dictionaries/etc
+
+o must define how to compare 2 items
+o sort ([['Ntwa’,15'],['Chao', 12],['Grace',20],['Ntwa’, 16]])
+
+A stable sort is when the relative positions of items with
+the same key does not change.
+
+a [['Chao',12],['Grace',20],['Ntwa’,15'],['Ntwa’',16]] is stable
+
+= [['Chao',12],['Grace',20],['Ntwa’,16'],['Ntwa’',15]] is not stable
+
+8 UNIVERSITY OF CAPE TOWNSummary
+
+Sorting and searching are classic computation problems
+We only look at comparison sorts in this section
+
+There are many different algorithms, with different
+advantages
+Eg. Sorting:
+
+Bubble Sort
+
+Heap Sort
+
+Selection Sort
+
+Insertion Sort
+
+Merge Sort
+
+Quick Sort
+
+Shell Sort
+
+8 UNIVERSITY OF CAPE TOWN 49 EComparison of sorting algorithms
+
+There are many different algorithms, with different
+advantages
+Some are fast
+Lower computational complexity
+Mergesort, Quicksort
+some sorting algorithms are in place
+Use no, or very little more, extra memory
+Selection sort, Quicksort
+Some are stable
+maintain the relative order of records with equal keys (i.e., values)
+e.g. Mergesort, Insertion sort, Bubble sort, Radix sort
+Some are adaptive
+
+Do less work if array is already sorted
+
+.g Insertion :
+8 UNIVERSITY oF Gre asertio sort 50 EBinary Search
+
+If list is sorted:
+= determine which half contains search term
+= recursively search that half
+= stop when item is found or list is empty
+
+Oo Given list below, find 23
+
+12/17 28) 84] 34] 48) 55
+
+8 UNIVERSITY OF CAPE TOWNBasic Efficiency Classes
+
+1 Outside best-case, few examples
+
+lo ganthmic Algorthms that decrease bya constant
+Algorithms that scan ann-sized list
+
+nlogn Algorthms that divide and conquer, e.g.,
+q uic kso rt
+
+Typically two embedded loops
+Typically three embedded loops
+
+exponential | Algorthms that generate allsubsetsofan
+n-eleme nt list
+fac tonal Algorthms that generate allpermutations
+ofann-element list
+
+8 UNIVERSITY OF CAPE TOWN
+
+ 
+
+rf flBinary Search
+sep1 | 12/17 | 23 34 | 48 | 55
+middle stop
+
+wwe (12 IM 29 [BA 94 48 55
+start | middle | stop
+
+step3 | 12 17 34 | 34 | 48 | 55
+
+start/middle/stop
+
+(2 AT YBY BAI 24 [48 [55Binary Search Algorithm
+
+def binary_search2 ( values, query, start, stop ):
+™"Binary search through values[start:stop+1] for query."""
+# check if list is empty
+if start > stop:
+return -1
+# find midpoint
+middle = (start + stop) // 2
+# check if value is at midpoint
+if values[middle] == query:
+return middle
+# check if value is in second half
+if values[middle] < query:
+# recursively search second half
+return binary_search2 (values, query, middle+1, stop)
+# assume value is in first half and recurse
+return binary_search2 (values, query, start, middle-1)
+
+8 UNIVERSITY OF CAPE TOWNBinary Search
+
+Binary search uses a recursive method to search an
+array to find a specified value
+
+The array must be a sorted array:
+a[O]Sa[1]Sa[2]S. . . S a[finalIndex]
+
+If the value is found, its index is returned
+If the value is not found, -1 is returned
+
+Note: Each execution of the recursive method reduces
+the search space by about a half
+
+8 UNIVERSITY OF CAPE TOWN 9 EBinary search animation
+
+Visualization:
+searching for number k in a sorted list
+
+8 UNIVERSITY OF CAPE TOWN 10 E
