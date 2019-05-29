@@ -4,6 +4,7 @@ import os
 
 import numpy as np
 import pytesseract
+import seaborn as sns
 from PIL import Image as PILImage
 from matplotlib import pyplot as plt
 from wand.color import Color
@@ -91,10 +92,11 @@ def pdfs_to_texts(root, verbose=True, reuse=True):
                 print("'{}' Already exists. ({} out of {})".format(pdf_path, i, len(pdf_paths)))
 
 
-def texts_to_jsons(root, stopwords_file="stopwords.txt"):
+def texts_to_jsons(root, stopwords_file="stopwords.txt", verbose=True):
     """
     From a given dictionary of pdf_name:text pairs, extract the word:frequency pairs into
     adjacent lists
+    :param verbose:
     :param stopwords_file:
     :param root: Root file in which to work. Should contain root/txts and root/summaries
     :param extra_words:
@@ -104,7 +106,10 @@ def texts_to_jsons(root, stopwords_file="stopwords.txt"):
     with open(stopwords_file, "r") as stopwords_txt:
         stopwords = set([word.strip() for word in stopwords_txt.readlines()])
 
-    for txt_file in txt_files:
+    for i, txt_file in enumerate(txt_files, 1):
+        if verbose:
+            print("Converting {} to json ({} out of {})".format(txt_file, i, len(txt_files)))
+
         with open(txt_file, "r") as txt:
             text = "\n".join(txt.readlines())
 
@@ -128,15 +133,20 @@ def texts_to_jsons(root, stopwords_file="stopwords.txt"):
             json.dump(json_dict, json_file, indent=2)
 
 
-def json_to_graph(json_path, num_words=50):
+def json_to_graph(json_path, num_words=50, verbose=True):
     """
     Plot and show a bar graph with the frequencies of the words in dictionary
     Case insensitive
+    :param verbose:
     :param json_path:
     :param num_words:
     :param unique_words:
     :param frequencies:
     """
+    # sns.set_palette(sns.color_palette("cubehelix", num_words))
+    sns.set()
+    if verbose:
+        print("Graphing {}".format(json_path))
 
     with open(json_path, "r") as jsonfile:
         data: dict = json.load(jsonfile)
@@ -155,8 +165,58 @@ def json_to_graph(json_path, num_words=50):
     plt.gca().invert_yaxis()
     plt.title('Frequency of words in ' + get_filename(json_path))
     plt.tight_layout()
-    plt.savefig(json_path.split(".")[0] + ".png")
+    # plt.savefig(json_path.split(".")[0] + "-bar_chart.png")
+
+    bar_directory = os.path.join(os.sep.join(json_path.split(os.sep)[:-1]), "bars")
+    os.makedirs(bar_directory, exist_ok=True)
+    bar_path = os.path.join(bar_directory, get_filename(json_path) + "-bar_chart.png")
+    plt.savefig(bar_path)
     # plt.show()
+
+
+def graph_memo_composition(memo_json_path, verbose=True):
+    with open(memo_json_path, "r") as jsonfile:
+        data: dict = json.load(jsonfile)
+    memo_words, memo_freqs = list(data.keys()), list(data.values())
+    topic_scores = {}
+
+    topic_paths = glob.glob("topics/summaries/*.json")
+    for topic_path in topic_paths:
+        with open(topic_path, "r") as jsonfile:
+            data: dict = json.load(jsonfile)
+
+        topic_name = get_filename(topic_path)
+        topic_words = list(data.keys())
+        topic_scores[topic_name] = 0
+        for memo_word, memo_freq in zip(memo_words, memo_freqs):
+            if memo_word in topic_words:
+                topic_scores[topic_name] += memo_freq
+
+    print(topic_scores)
+    sns.set_palette(sns.color_palette("BrBG", len(topic_paths)))
+
+    fig, ax = plt.subplots(figsize=(10, 5), dpi=400, subplot_kw=dict(aspect="equal"))
+
+    topic_scores = sorted([(topic, score) for topic, score in list(topic_scores.items())], key=lambda x: x[1])
+    labels = [item[0] for item in topic_scores]
+    numbers = [item[1] for item in topic_scores]
+
+    patches, texts, autotexts = ax.pie(numbers,
+                                       autopct='%1.1f%%',
+                                       startangle=90,
+                                       pctdistance=0.85,
+                                       labels=labels,
+                                       labeldistance=1.05,
+                                       textprops={'fontsize': 8})
+
+    # current_palette = sns.color_palette()
+    ax.set_title("Composition of " + get_filename(memo_json_path).title())
+
+    pie_directory = os.path.join(os.sep.join(memo_json_path.split(os.sep)[:-1]), "pies")
+    os.makedirs(pie_directory, exist_ok=True)
+    pie_path = os.path.join(pie_directory, get_filename(memo_json_path) + "-pie_chart.png")
+    plt.tight_layout()
+    plt.savefig(pie_path)
 
 
 def update_token_files():
@@ -168,14 +228,14 @@ def update_token_files():
 
 
 def main():
+    sns.set()
     # Process the corpus of memos:
-    pdfs_to_texts("corpus")
-    print("texts to jsons")
-    texts_to_jsons("corpus")
-    print("jsons to graphs")
+    # pdfs_to_texts("corpus")
+    # texts_to_jsons("corpus")
     json_paths = glob.glob("corpus/summaries/*.json")
     for json_path in json_paths:
         json_to_graph(json_path)
+        graph_memo_composition(json_path)
 
 
 if __name__ == '__main__':
