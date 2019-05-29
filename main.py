@@ -35,7 +35,8 @@ def get_text_from_pdf(pdf: str, directory: str = "images", verbose: bool = True,
         # Create the directory if it doesn't exist already
         if not os.path.exists(images_directory):
             os.makedirs(images_directory)
-        elif not reuse and "n" == input(images_directory + " already exists. Do you want to use it's contents? (y/n): "):
+        elif not reuse and "n" == input(
+                images_directory + " already exists. Do you want to use it's contents? (y/n): "):
             if verbose:
                 print("Saving image file: " + jpg_path)
             image.save(filename=jpg_path)
@@ -64,31 +65,29 @@ def process_pdfs(directory_with_pdfs, verbose=True, reuse=True):
     pdfs = sorted(glob.glob(os.path.join(directory_with_pdfs, "*.pdf")))
     pdf_dict = {"all_text": ""}
 
-
-    # TODO somethings up here, and commit to git
     for i, pdf in enumerate(pdfs, 1):
+        file_id = pdf.split(os.sep)[-1].split(".")[0]
+
         # Create the directory if it doesn't exist already
-        text_path = os.path.join("text_files", pdf.split(os.sep)[:-1])
-        if not os.path.exists(text_path):
-            os.makedirs(text_path)
-        if not reuse and "n" == input("text/ already exists. Do you want to use it's contents? (y/n): "):
+        text_dir_path = os.path.join("text_files", file_id)
+        if not os.path.exists(text_dir_path):
+            os.makedirs(text_dir_path)
+        text_file_path = os.path.join(text_dir_path, file_id + ".txt")
+
+        if not reuse or len(glob.glob1(text_dir_path, "*.txt")) == 0:
             # The user doesn't want to reuse the already-processed files
             if verbose:
                 print("Processing '{}' ({} out of {})".format(pdf, i, len(pdfs)))
             pdf_dict[pdf] = get_text_from_pdf(pdf, verbose=verbose)
             # Write the data to the appropriate text file
-            file = os.path.join(text_path, pdf.split(os.sep)[-1])
-            with open(file, "w+") as text_file:
+            with open(text_file_path, "w+") as text_file:
                 text_file.writelines(pdf_dict[pdf])
-
         else:
             # already-processed files exist, and the user wants to use them
             if verbose:
                 print("'{}' Already exists. Using existing data. ({} out of {})".format(pdf, i, len(pdfs)))
-            # Read the .txt files to get the data for pdf_dict
-            file = os.path.join(text_path, pdf.split(os.sep)[-1])
-            with open(file, "r") as text_file:
-                pdf_dict[pdf] = text_file.readlines(pdf_dict[pdf])
+            with open(text_file_path, "r") as text_file:
+                pdf_dict[pdf] = text_file.readlines()
 
         pdf_dict["all_text"] += "\n".join(pdf_dict[pdf])
 
