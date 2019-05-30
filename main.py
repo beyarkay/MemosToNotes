@@ -145,7 +145,7 @@ def json_to_graph(json_path, num_words=50, verbose=True):
     """
     sns.set()  # TODO try getting rid of this line
     if verbose:
-        print("Graphing {}".format(json_path))
+        print("Graphing pie chart of {}".format(json_path))
 
     with open(json_path, "r") as jsonfile:
         data: dict = json.load(jsonfile)
@@ -173,14 +173,27 @@ def json_to_graph(json_path, num_words=50, verbose=True):
     # plt.show()
 
 
-def graph_memo_composition(memo_json_path, verbose=True):
+def graph_memo_composition(memo_json_path: str, verbose: bool = True) -> None:
+    """
+    Graph a single pie chart, that shows the composition of the pdf represented by memo_json_path.
+    The different categories represented by the wedges of the pie are the different json files found in topics/summaries
+    :param memo_json_path:
+    :param verbose:
+    :rtype: None
+    """
+    if verbose:
+        print("Graphing pie chart of {}".format(memo_json_path))
+
     with open(memo_json_path, "r") as jsonfile:
         data: dict = json.load(jsonfile)
     memo_words, memo_freqs = list(data.keys()), list(data.values())
     topic_scores = {}
 
-    # TODO add check to make sure these json files exist
     topic_paths = glob.glob("topics/summaries/*.json")
+    if len(topic_paths) == 0:
+        print("No topic files found that match with '{}'. Graphing failed".format("topics/summaries/*.json"))
+        return
+
     for topic_path in topic_paths:
         with open(topic_path, "r") as jsonfile:
             data: dict = json.load(jsonfile)
@@ -219,24 +232,29 @@ def graph_memo_composition(memo_json_path, verbose=True):
     plt.savefig(pie_path)
 
 
-def main():
-    # TODO Create test data sets, to check that you're getting the compositions correct
-    # TODO Finish README.md
-    # TODO Create regex matching to compensate for the OCR
-    # TODO Experiment with different OCR settings
-    # TODO Create test data set to check that the regex is working
-    # TODO Check that the run_from_nothing method actually works
+def developement_main() -> None:
+    """
+    Used for running and testing developement builds.
+    This function may not be stable, and may corrupt the data.
+    All stable features are available when calling the main() function.
+    :rtype: None
+    """
     sns.set()
     # Process the corpus of memos:
-    pdfs_to_texts("corpus")
-    texts_to_jsons("corpus")
-    json_paths = glob.glob("corpus/summaries/*.json")
-    for json_path in json_paths:
-        json_to_graph(json_path)
-        graph_memo_composition(json_path)
+    # pdfs_to_texts("corpus")
+    # texts_to_jsons("corpus")
+    memo_json_paths = glob.glob("corpus/summaries/*.json")
+    for memo_json_path in memo_json_paths:
+        json_to_graph(memo_json_path)
+        graph_memo_composition(memo_json_path)
 
 
-def run_from_nothing():
+def main() -> None:
+    """
+    For first time users. Follow the instructions in the README.md and then run this funciton.
+    This function will analyse the pdfs in corpus/pdfs and then produce graphs about the data
+    :rtype: None
+    """
     # Initialise the pretty graph maker
     sns.set()
 
@@ -249,11 +267,12 @@ def run_from_nothing():
     texts_to_jsons("topics")
 
     # Graph the data, saved to corpus/summaries/bars/ and corpus/summaries/pies/
-    json_paths = glob.glob("corpus/summaries/*.json")
-    for json_path in json_paths:
-        json_to_graph(json_path)
-        graph_memo_composition(json_path)
+    memo_json_paths = glob.glob("corpus/summaries/*.json")
+    for memo_json_path in memo_json_paths:
+        json_to_graph(memo_json_path)
+        graph_memo_composition(memo_json_path)
 
 
 if __name__ == '__main__':
-    main()
+    developement_main()
+
