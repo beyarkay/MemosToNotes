@@ -33,5 +33,5 @@ MemosToNotes then analyses the exams and lecture notes, giving the users useful 
     * The lecture notes have to be pdfs
     * Each document in `MemosToNotes/topics/pdfs/` will be considered as a completely separate topic, so don't upload more than one set of lecture notes per topic.
 6. Run the `run_from_nothing()` method in the main.py file
-7. The resulting graphs will be stored in `MemosToNotes/corpus/summaries/bars` and `MemosToNotes/corpus/summaries/pies`
+7. The resulting graphs will be stored in `MemosToNotes/corpus/summaries/bars` and `MemosToNotes/corpus/summaries/pies` 
 
