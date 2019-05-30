@@ -3,6 +3,4 @@ numpy
 matplotlib
 wand
 Pillow
-nltk
 pytesseract
-PyPDF2

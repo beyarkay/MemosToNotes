@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="456ae79f-d782-497c-83bd-e877f784e7ca" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuestionPaper.py" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionPaper.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <ignored path=".idea/" />
     <ignored path="corpus/pdfs/" />
@@ -15,13 +19,47 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="233" column="49" selection-start-line="233" selection-start-column="49" selection-end-line="233" selection-end-column="49" />
+            <state relative-caret-position="-6">
+              <caret line="209" column="10" lean-forward="true" selection-start-line="209" selection-start-column="10" selection-end-line="209" selection-end-column="10" />
+              <folding>
+                <element signature="e#271#318#0" />
+                <element signature="e#416#2527#0" />
+                <element signature="e#416#966#1" />
+                <element signature="e#886#941#0" />
+                <element signature="e#1231#2064#0" />
+                <element signature="e#1757#2064#0" />
+                <element signature="e#2266#2507#0" />
+                <element signature="e#2585#3829#0" />
+                <element signature="e#2585#2828#1" />
+                <element signature="e#3017#3829#0" />
+                <element signature="e#3193#3618#0" />
+                <element signature="e#3645#3829#0" />
+                <element signature="e#3908#5606#0" />
+                <element signature="e#3908#4228#1" />
+                <element signature="e#4488#5606#0" />
+                <element signature="e#5671#5894#1" />
+                <element signature="e#7358#7726#0" />
+                <element signature="e#7644#7726#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -30,8 +68,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="75">
-                <caret line="3" column="159" selection-start-line="3" selection-start-column="159" selection-end-line="3" selection-end-column="159" />
+              <first_editor relative-caret-position="705">
+                <caret line="37" selection-start-line="37" selection-end-line="37" />
               </first_editor>
               <second_editor />
             </state>
@@ -74,6 +112,9 @@
       <find>summaries</find>
       <find>.png</find>
       <find>makedir</find>
+      <find>np</find>
+      <find>WandImage</find>
+      <find>nltk</find>
     </findStrings>
     <replaceStrings>
       <replace>REGEX_SUBQUESTION</replace>
@@ -94,13 +135,13 @@
         <option value="$PROJECT_DIR$/pdfs/file1.md" />
         <option value="/anaconda3/envs/MemosToNotes/lib/python2.7/site-packages/pytesseract/pytesseract.py" />
         <option value="$PROJECT_DIR$/imports.py" />
-        <option value="$PROJECT_DIR$/requirements.txt" />
-        <option value="$PROJECT_DIR$/QuestionPaper.py" />
         <option value="$PROJECT_DIR$/tokens.txt" />
         <option value="$PROJECT_DIR$/frequencies.txt" />
         <option value="$PROJECT_DIR$/topics/tokens/Testing.txt" />
         <option value="$PROJECT_DIR$/corpus/stopwords.txt" />
         <option value="$PROJECT_DIR$/stopwords.txt" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/QuestionPaper.py" />
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
@@ -125,6 +166,11 @@
               <item name="MemosToNotes" type="b2602c69:ProjectViewProjectNode" />
               <item name="MemosToNotes" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="MemosToNotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MemosToNotes" type="462c0819:PsiDirectoryNode" />
+              <item name="corpus" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -137,21 +183,21 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/corpus/summaries/pies" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Ignored.Files" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Markdown" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/topics/pngs" />
-      <recent name="$PROJECT_DIR$/pdfs" />
-      <recent name="$PROJECT_DIR$/imgs" />
-      <recent name="$PROJECT_DIR$/txts" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/corpus/summaries/pies" />
       <recent name="$PROJECT_DIR$/corpus/pdfs" />
       <recent name="$PROJECT_DIR$/corpus" />
       <recent name="$PROJECT_DIR$/topics" />
       <recent name="$PROJECT_DIR$/ppts" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/readme-files" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/topics/pngs" />
+      <recent name="$PROJECT_DIR$/pdfs" />
       <recent name="$PROJECT_DIR$/imgs" />
     </key>
   </component>
@@ -241,7 +287,7 @@
       <workItem from="1559118826482" duration="50000" />
       <workItem from="1559118889572" duration="4524000" />
       <workItem from="1559134317262" duration="22367000" />
-      <workItem from="1559214575167" duration="432000" />
+      <workItem from="1559214575167" duration="2915000" />
     </task>
     <task id="LOCAL-00001" summary="Testing git connection">
       <created>1553692047818</created>
@@ -474,17 +520,24 @@
       <option name="project" value="LOCAL" />
       <updated>1559214632630</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Add introduction to README.md">
+      <created>1559215261883</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1559215261883</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76287000" />
+    <option name="totallyTimeSpent" value="78770000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15164521" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15522175" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -500,7 +553,7 @@
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.25903615" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="right" x="0" y="0" width="310" height="700" id="Documentation" order="0" sideWeight="0.6703297" side_tool="true" visible="true" weight="0.0851216" />
+      <window_info anchor="right" x="0" y="0" width="310" height="700" id="Documentation" order="0" sideWeight="0.6703297" side_tool="true" weight="0.0851216" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
@@ -513,7 +566,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Started to flesh out the QuestionPaper object, with init and .read() methods" />
     <MESSAGE value="Improved docs on regex, QuestionPaper Class&#10;Added all the code into the QuestionPaper class, but haven't tested yet" />
     <MESSAGE value="Code commenting, and refactoring it to be more readable" />
     <MESSAGE value="Add README.md, reading_list.md" />
@@ -538,7 +590,8 @@
     <MESSAGE value="Improved the graph formatting" />
     <MESSAGE value="Completed bar graphs, pie charts" />
     <MESSAGE value="Generated Bar and Pie graphs, Added todos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Generated Bar and Pie graphs, Added todos" />
+    <MESSAGE value="Add introduction to README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add introduction to README.md" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
@@ -566,7 +619,6 @@ print(&quot;Done&quot;)</expression-string>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pdfs/debug_text.txt" />
     <entry file="file:///anaconda3/envs/MemosToNotes3/lib/python3.6/site-packages/wand/resource.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="164">
@@ -630,18 +682,6 @@ print(&quot;Done&quot;)</expression-string>
     <entry file="file://$PROJECT_DIR$/images/2016 June Memo/2016 June Memo-0.jpg" />
     <entry file="file://$PROJECT_DIR$/image-3.png" />
     <entry file="file://$PROJECT_DIR$/image-10.png" />
-    <entry file="file://$PROJECT_DIR$/QuestionPaper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
-          <folding>
-            <element signature="e#82#422#0" />
-            <element signature="e#496#1764#0" />
-            <element signature="e#1174#1333#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///anaconda3/envs/MemosToNotes3/lib/python3.6/site-packages/nltk/corpus/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="237">
@@ -763,18 +803,55 @@ print(&quot;Done&quot;)</expression-string>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QuestionPaper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="233" column="49" selection-start-line="233" selection-start-column="49" selection-end-line="233" selection-end-column="49" />
+        <state relative-caret-position="-6">
+          <caret line="209" column="10" lean-forward="true" selection-start-line="209" selection-start-column="10" selection-end-line="209" selection-end-column="10" />
+          <folding>
+            <element signature="e#271#318#0" />
+            <element signature="e#416#2527#0" />
+            <element signature="e#416#966#1" />
+            <element signature="e#886#941#0" />
+            <element signature="e#1231#2064#0" />
+            <element signature="e#1757#2064#0" />
+            <element signature="e#2266#2507#0" />
+            <element signature="e#2585#3829#0" />
+            <element signature="e#2585#2828#1" />
+            <element signature="e#3017#3829#0" />
+            <element signature="e#3193#3618#0" />
+            <element signature="e#3645#3829#0" />
+            <element signature="e#3908#5606#0" />
+            <element signature="e#3908#4228#1" />
+            <element signature="e#4488#5606#0" />
+            <element signature="e#5671#5894#1" />
+            <element signature="e#7358#7726#0" />
+            <element signature="e#7644#7726#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="75">
-            <caret line="3" column="159" selection-start-line="3" selection-start-column="159" selection-end-line="3" selection-end-column="159" />
+          <first_editor relative-caret-position="705">
+            <caret line="37" selection-start-line="37" selection-end-line="37" />
           </first_editor>
           <second_editor />
         </state>

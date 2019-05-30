@@ -24,12 +24,12 @@ def get_text_from_pdf(pdf_path: str, root: str, verbose: bool = True, reuse=True
     :param reuse:
     :rtype: list
     :param pdf_path: pdf to get the text from
-    :param directory: Save location for jpeg versions of the pdf. "images" by default
     :param verbose: Enable logging to standard output. False by default
     :return: a list of strings, each string being one page of the pdf
     """
 
     # Make sure pytesseract knows where tesseract is stored
+    # CHANGE THIS LINE to be the absolute path to the tesseract unix executable file
     pytesseract.pytesseract.tesseract_cmd = '/anaconda3/envs/MemosToNotes3/bin/tesseract'
 
     # First convert the pdf to an image
@@ -143,8 +143,7 @@ def json_to_graph(json_path, num_words=50, verbose=True):
     :param unique_words:
     :param frequencies:
     """
-    # sns.set_palette(sns.color_palette("cubehelix", num_words))
-    sns.set()
+    sns.set()  # TODO try getting rid of this line
     if verbose:
         print("Graphing {}".format(json_path))
 
@@ -180,6 +179,7 @@ def graph_memo_composition(memo_json_path, verbose=True):
     memo_words, memo_freqs = list(data.keys()), list(data.values())
     topic_scores = {}
 
+    # TODO add check to make sure these json files exist
     topic_paths = glob.glob("topics/summaries/*.json")
     for topic_path in topic_paths:
         with open(topic_path, "r") as jsonfile:
@@ -219,24 +219,36 @@ def graph_memo_composition(memo_json_path, verbose=True):
     plt.savefig(pie_path)
 
 
-def update_token_files():
-    paths = glob.glob(os.path.join("topics", "pdfs", "*.pdf"))
-    for path in paths:
-        token_path = os.path.join("topics", "tokens", get_filename(path) + ".txt")
-        with open(token_path, "w+") as _:
-            pass
-
-
 def main():
     # TODO Create test data sets, to check that you're getting the compositions correct
     # TODO Finish README.md
     # TODO Create regex matching to compensate for the OCR
     # TODO Experiment with different OCR settings
     # TODO Create test data set to check that the regex is working
+    # TODO Check that the run_from_nothing method actually works
     sns.set()
     # Process the corpus of memos:
-    # pdfs_to_texts("corpus")
-    # texts_to_jsons("corpus")
+    pdfs_to_texts("corpus")
+    texts_to_jsons("corpus")
+    json_paths = glob.glob("corpus/summaries/*.json")
+    for json_path in json_paths:
+        json_to_graph(json_path)
+        graph_memo_composition(json_path)
+
+
+def run_from_nothing():
+    # Initialise the pretty graph maker
+    sns.set()
+
+    # Build json files about the memos
+    pdfs_to_texts("corpus")
+    texts_to_jsons("corpus")
+
+    # Build json files about the topics
+    pdfs_to_texts("topics")
+    texts_to_jsons("topics")
+
+    # Graph the data, saved to corpus/summaries/bars/ and corpus/summaries/pies/
     json_paths = glob.glob("corpus/summaries/*.json")
     for json_path in json_paths:
         json_to_graph(json_path)
