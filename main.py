@@ -228,6 +228,11 @@ def update_token_files():
 
 
 def main():
+    # TODO Create test data sets, to check that you're getting the compositions correct
+    # TODO Finish README.md
+    # TODO Create regex matching to compensate for the OCR
+    # TODO Experiment with different OCR settings
+    # TODO Create test data set to check that the regex is working
     sns.set()
     # Process the corpus of memos:
     # pdfs_to_texts("corpus")

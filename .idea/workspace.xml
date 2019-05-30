@@ -2,25 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="456ae79f-d782-497c-83bd-e877f784e7ca" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corpus/summaries/2011 June Memo.json" beforeDir="false" afterPath="$PROJECT_DIR$/corpus/summaries/2011 June Memo.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corpus/summaries/2011 June Memo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/corpus/summaries/2012 June Memo.json" beforeDir="false" afterPath="$PROJECT_DIR$/corpus/summaries/2012 June Memo.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corpus/summaries/2012 June Memo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/corpus/summaries/2013 June Memo.json" beforeDir="false" afterPath="$PROJECT_DIR$/corpus/summaries/2013 June Memo.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corpus/summaries/2013 June Memo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/corpus/summaries/2014 June Memo.json" beforeDir="false" afterPath="$PROJECT_DIR$/corpus/summaries/2014 June Memo.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corpus/summaries/2014 June Memo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/corpus/summaries/2015 June Memo.json" beforeDir="false" afterPath="$PROJECT_DIR$/corpus/summaries/2015 June Memo.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corpus/summaries/2015 June Memo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/corpus/summaries/2016 June Memo.json" beforeDir="false" afterPath="$PROJECT_DIR$/corpus/summaries/2016 June Memo.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corpus/summaries/2016 June Memo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/corpus/summaries/2017 June Memo.json" beforeDir="false" afterPath="$PROJECT_DIR$/corpus/summaries/2017 June Memo.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corpus/summaries/2017 June Memo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/corpus/summaries/2018 June Memo.json" beforeDir="false" afterPath="$PROJECT_DIR$/corpus/summaries/2018 June Memo.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corpus/summaries/2018 June Memo.png" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/summaries/bars/2011 June Memo-bar_chart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/summaries/bars/2012 June Memo-bar_chart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/summaries/bars/2013 June Memo-bar_chart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/summaries/bars/2014 June Memo-bar_chart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/summaries/bars/2015 June Memo-bar_chart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/summaries/bars/2016 June Memo-bar_chart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/summaries/bars/2017 June Memo-bar_chart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/summaries/bars/2018 June Memo-bar_chart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/summaries/pies/2011 June Memo-pie_chart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/summaries/pies/2012 June Memo-pie_chart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/summaries/pies/2013 June Memo-pie_chart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/summaries/pies/2014 June Memo-pie_chart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/summaries/pies/2015 June Memo-pie_chart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/summaries/pies/2016 June Memo-pie_chart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/summaries/pies/2017 June Memo-pie_chart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/summaries/pies/2018 June Memo-pie_chart.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <ignored path=".idea/" />
     <ignored path="corpus/pdfs/" />
@@ -38,12 +36,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="237" column="25" selection-start-line="237" selection-start-column="25" selection-end-line="237" selection-end-column="25" />
+            <state relative-caret-position="420">
+              <caret line="233" column="49" selection-start-line="233" selection-start-column="49" selection-end-line="233" selection-end-column="49" />
               <folding>
-                <element signature="e#0#11#0" expanded="true" />
                 <element signature="e#372#419#0" />
+                <element signature="e#436#2389#0" />
                 <element signature="e#436#946#1" />
+                <element signature="e#1206#1928#0" />
                 <element signature="e#1873#2075#0" />
                 <element signature="e#2130#2369#0" />
                 <element signature="e#2605#3946#0" />
@@ -54,39 +53,15 @@
                 <element signature="e#3872#5314#0" />
                 <element signature="e#4139#4315#1" />
                 <element signature="e#4424#5427#0" />
+                <element signature="e#5716#6754#0" />
                 <element signature="e#5336#5495#1" />
+                <element signature="e#6838#8637#0" />
                 <element signature="e#7023#7329#0" />
                 <element signature="e#7247#7329#0" />
                 <element signature="e#7378#7601#0" />
                 <element signature="e#6864#6997#0" />
+                <element signature="e#8903#8998#0" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file:///anaconda3/envs/MemosToNotes3/lib/python3.6/site-packages/numpy/core/numeric.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="537" selection-start-line="537" selection-end-line="537" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file:///anaconda3/envs/MemosToNotes3/lib/python3.6/site-packages/matplotlib/axes/_axes.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="2965" selection-start-line="2965" selection-end-line="2965" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file:///anaconda3/envs/MemosToNotes3/lib/python3.6/site-packages/matplotlib/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="1588" selection-start-line="1588" selection-end-line="1588" />
             </state>
           </provider>
         </entry>
@@ -171,39 +146,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="MemosToNotes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MemosToNotes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MemosToNotes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MemosToNotes" type="462c0819:PsiDirectoryNode" />
-              <item name="corpus" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MemosToNotes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MemosToNotes" type="462c0819:PsiDirectoryNode" />
-              <item name="corpus" type="462c0819:PsiDirectoryNode" />
-              <item name="summaries" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MemosToNotes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MemosToNotes" type="462c0819:PsiDirectoryNode" />
-              <item name="topics" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MemosToNotes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MemosToNotes" type="462c0819:PsiDirectoryNode" />
-              <item name="topics" type="462c0819:PsiDirectoryNode" />
-              <item name="summaries" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -315,7 +258,7 @@
       <workItem from="1559069719450" duration="12391000" />
       <workItem from="1559118826482" duration="50000" />
       <workItem from="1559118889572" duration="4524000" />
-      <workItem from="1559134317262" duration="21842000" />
+      <workItem from="1559134317262" duration="22367000" />
     </task>
     <task id="LOCAL-00001" summary="Testing git connection">
       <created>1553692047818</created>
@@ -534,22 +477,29 @@
       <option name="project" value="LOCAL" />
       <updated>1559148672185</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Completed bar graphs, pie charts">
+      <created>1559158483062</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1559158483063</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75330000" />
+    <option name="totallyTimeSpent" value="75855000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.105150215" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18454936" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.3325301" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" weight="0.18674698" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4988263" weight="0.21927711" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -573,7 +523,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Various debugging changes" />
     <MESSAGE value="Added TODO list to main.py" />
     <MESSAGE value="Started to flesh out the QuestionPaper object, with init and .read() methods" />
     <MESSAGE value="Improved docs on regex, QuestionPaper Class&#10;Added all the code into the QuestionPaper class, but haven't tested yet" />
@@ -598,7 +547,8 @@
     <MESSAGE value="Fiddle with gitignore again" />
     <MESSAGE value="Added stopword removal" />
     <MESSAGE value="Improved the graph formatting" />
-    <option name="LAST_COMMIT_MESSAGE" value="Improved the graph formatting" />
+    <MESSAGE value="Completed bar graphs, pie charts" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed bar graphs, pie charts" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
@@ -874,12 +824,13 @@ print(&quot;Done&quot;)</expression-string>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="237" column="25" selection-start-line="237" selection-start-column="25" selection-end-line="237" selection-end-column="25" />
+        <state relative-caret-position="420">
+          <caret line="233" column="49" selection-start-line="233" selection-start-column="49" selection-end-line="233" selection-end-column="49" />
           <folding>
-            <element signature="e#0#11#0" expanded="true" />
             <element signature="e#372#419#0" />
+            <element signature="e#436#2389#0" />
             <element signature="e#436#946#1" />
+            <element signature="e#1206#1928#0" />
             <element signature="e#1873#2075#0" />
             <element signature="e#2130#2369#0" />
             <element signature="e#2605#3946#0" />
@@ -890,11 +841,14 @@ print(&quot;Done&quot;)</expression-string>
             <element signature="e#3872#5314#0" />
             <element signature="e#4139#4315#1" />
             <element signature="e#4424#5427#0" />
+            <element signature="e#5716#6754#0" />
             <element signature="e#5336#5495#1" />
+            <element signature="e#6838#8637#0" />
             <element signature="e#7023#7329#0" />
             <element signature="e#7247#7329#0" />
             <element signature="e#7378#7601#0" />
             <element signature="e#6864#6997#0" />
+            <element signature="e#8903#8998#0" />
           </folding>
         </state>
       </provider>
