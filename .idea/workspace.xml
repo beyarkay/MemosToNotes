@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="456ae79f-d782-497c-83bd-e877f784e7ca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/corpus/summaries/bars/2011 June Memo-bar_chart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/summaries/bars/2012 June Memo-bar_chart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/summaries/bars/2013 June Memo-bar_chart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/summaries/bars/2014 June Memo-bar_chart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/summaries/bars/2015 June Memo-bar_chart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/summaries/bars/2016 June Memo-bar_chart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/summaries/bars/2017 June Memo-bar_chart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/summaries/bars/2018 June Memo-bar_chart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/summaries/pies/2011 June Memo-pie_chart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/summaries/pies/2012 June Memo-pie_chart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/summaries/pies/2013 June Memo-pie_chart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/summaries/pies/2014 June Memo-pie_chart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/summaries/pies/2015 June Memo-pie_chart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/summaries/pies/2016 June Memo-pie_chart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/summaries/pies/2017 June Memo-pie_chart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/summaries/pies/2018 June Memo-pie_chart.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path=".idea/" />
     <ignored path="corpus/pdfs/" />
@@ -33,35 +17,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
+            <state relative-caret-position="483">
               <caret line="233" column="49" selection-start-line="233" selection-start-column="49" selection-end-line="233" selection-end-column="49" />
-              <folding>
-                <element signature="e#372#419#0" />
-                <element signature="e#436#2389#0" />
-                <element signature="e#436#946#1" />
-                <element signature="e#1206#1928#0" />
-                <element signature="e#1873#2075#0" />
-                <element signature="e#2130#2369#0" />
-                <element signature="e#2605#3946#0" />
-                <element signature="e#2461#2735#1" />
-                <element signature="e#3069#3946#0" />
-                <element signature="e#3171#3595#0" />
-                <element signature="e#3622#3806#0" />
-                <element signature="e#3872#5314#0" />
-                <element signature="e#4139#4315#1" />
-                <element signature="e#4424#5427#0" />
-                <element signature="e#5716#6754#0" />
-                <element signature="e#5336#5495#1" />
-                <element signature="e#6838#8637#0" />
-                <element signature="e#7023#7329#0" />
-                <element signature="e#7247#7329#0" />
-                <element signature="e#7378#7601#0" />
-                <element signature="e#6864#6997#0" />
-                <element signature="e#8903#8998#0" />
-              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="75">
+                <caret line="3" column="159" selection-start-line="3" selection-start-column="159" selection-end-line="3" selection-end-column="159" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -116,7 +88,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/reading_list.md" />
         <option value="$PROJECT_DIR$/pdfs/file1.txt" />
         <option value="$PROJECT_DIR$/pdfs/exemplar.md" />
@@ -131,6 +102,7 @@
         <option value="$PROJECT_DIR$/corpus/stopwords.txt" />
         <option value="$PROJECT_DIR$/stopwords.txt" />
         <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -146,14 +118,24 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="MemosToNotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MemosToNotes" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/corpus/pdfs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/corpus/summaries/pies" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Ignored.Files" />
   </component>
@@ -259,6 +241,7 @@
       <workItem from="1559118826482" duration="50000" />
       <workItem from="1559118889572" duration="4524000" />
       <workItem from="1559134317262" duration="22367000" />
+      <workItem from="1559214575167" duration="432000" />
     </task>
     <task id="LOCAL-00001" summary="Testing git connection">
       <created>1553692047818</created>
@@ -484,17 +467,24 @@
       <option name="project" value="LOCAL" />
       <updated>1559158483063</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Generated Bar and Pie graphs, Added todos">
+      <created>1559214632630</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1559214632630</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75855000" />
+    <option name="totallyTimeSpent" value="76287000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18454936" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15164521" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -510,7 +500,7 @@
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.25903615" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="right" x="0" y="0" width="310" height="700" id="Documentation" order="0" sideWeight="0.6703297" side_tool="true" visible="true" weight="0.3297568" />
+      <window_info anchor="right" x="0" y="0" width="310" height="700" id="Documentation" order="0" sideWeight="0.6703297" side_tool="true" visible="true" weight="0.0851216" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
@@ -523,7 +513,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Added TODO list to main.py" />
     <MESSAGE value="Started to flesh out the QuestionPaper object, with init and .read() methods" />
     <MESSAGE value="Improved docs on regex, QuestionPaper Class&#10;Added all the code into the QuestionPaper class, but haven't tested yet" />
     <MESSAGE value="Code commenting, and refactoring it to be more readable" />
@@ -548,7 +537,8 @@
     <MESSAGE value="Added stopword removal" />
     <MESSAGE value="Improved the graph formatting" />
     <MESSAGE value="Completed bar graphs, pie charts" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed bar graphs, pie charts" />
+    <MESSAGE value="Generated Bar and Pie graphs, Added todos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Generated Bar and Pie graphs, Added todos" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
@@ -576,13 +566,6 @@ print(&quot;Done&quot;)</expression-string>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pdfs/debug_text.txt" />
     <entry file="file:///anaconda3/envs/MemosToNotes3/lib/python3.6/site-packages/wand/resource.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -636,33 +619,15 @@ print(&quot;Done&quot;)</expression-string>
     </entry>
     <entry file="file://$PROJECT_DIR$/text_files/pdf_file_1/pdf_file_1.txt" />
     <entry file="file://$PROJECT_DIR$/my_file.txt" />
-    <entry file="file://$PROJECT_DIR$/text_files/2014 June Memo.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/2011 June Memo/2011 June Memo-4.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/text_files/2011 June Memo.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/text_files/2013 June Memo.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/Slides Testing - Safla/Slides Testing - Safla-3.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/Slides Testing - Safla/Slides Testing - Safla-4.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/Slides Testing - Safla/Slides Testing - Safla-5.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/Slides Testing - Safla/Slides Testing - Safla-7.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/2016 June Memo/2016 June Memo-0.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/text_files/2014 June Memo.txt" />
+    <entry file="file://$PROJECT_DIR$/images/2011 June Memo/2011 June Memo-4.jpg" />
+    <entry file="file://$PROJECT_DIR$/text_files/2011 June Memo.txt" />
+    <entry file="file://$PROJECT_DIR$/text_files/2013 June Memo.txt" />
+    <entry file="file://$PROJECT_DIR$/images/Slides Testing - Safla/Slides Testing - Safla-3.jpg" />
+    <entry file="file://$PROJECT_DIR$/images/Slides Testing - Safla/Slides Testing - Safla-4.jpg" />
+    <entry file="file://$PROJECT_DIR$/images/Slides Testing - Safla/Slides Testing - Safla-5.jpg" />
+    <entry file="file://$PROJECT_DIR$/images/Slides Testing - Safla/Slides Testing - Safla-7.jpg" />
+    <entry file="file://$PROJECT_DIR$/images/2016 June Memo/2016 June Memo-0.jpg" />
     <entry file="file://$PROJECT_DIR$/image-3.png" />
     <entry file="file://$PROJECT_DIR$/image-10.png" />
     <entry file="file://$PROJECT_DIR$/QuestionPaper.py">
@@ -684,30 +649,10 @@ print(&quot;Done&quot;)</expression-string>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/text_files/Slides Testing - Safla.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="188" column="39" lean-forward="true" selection-start-line="188" selection-start-column="39" selection-end-line="188" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frequencies.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tokens.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/corpus/summaries/2011 June Memo.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/text_files/Slides Testing - Safla.txt" />
+    <entry file="file://$PROJECT_DIR$/frequencies.txt" />
+    <entry file="file://$PROJECT_DIR$/tokens.txt" />
+    <entry file="file://$PROJECT_DIR$/corpus/summaries/2011 June Memo.txt" />
     <entry file="file://$PROJECT_DIR$/corpus/summaries/2013 June Memo.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -732,15 +677,11 @@ print(&quot;Done&quot;)</expression-string>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Figure1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Figure1.png" />
     <entry file="file://$PROJECT_DIR$/corpus/pngs/2013 June Memo/2013 June Memo-2.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/corpus/summaries/2011 June Memo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/corpus/summaries/2011 June Memo.png" />
     <entry file="file://$PROJECT_DIR$/corpus/txts/2013 June Memo.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -824,32 +765,18 @@ print(&quot;Done&quot;)</expression-string>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
+        <state relative-caret-position="483">
           <caret line="233" column="49" selection-start-line="233" selection-start-column="49" selection-end-line="233" selection-end-column="49" />
-          <folding>
-            <element signature="e#372#419#0" />
-            <element signature="e#436#2389#0" />
-            <element signature="e#436#946#1" />
-            <element signature="e#1206#1928#0" />
-            <element signature="e#1873#2075#0" />
-            <element signature="e#2130#2369#0" />
-            <element signature="e#2605#3946#0" />
-            <element signature="e#2461#2735#1" />
-            <element signature="e#3069#3946#0" />
-            <element signature="e#3171#3595#0" />
-            <element signature="e#3622#3806#0" />
-            <element signature="e#3872#5314#0" />
-            <element signature="e#4139#4315#1" />
-            <element signature="e#4424#5427#0" />
-            <element signature="e#5716#6754#0" />
-            <element signature="e#5336#5495#1" />
-            <element signature="e#6838#8637#0" />
-            <element signature="e#7023#7329#0" />
-            <element signature="e#7247#7329#0" />
-            <element signature="e#7378#7601#0" />
-            <element signature="e#6864#6997#0" />
-            <element signature="e#8903#8998#0" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="75">
+            <caret line="3" column="159" selection-start-line="3" selection-start-column="159" selection-end-line="3" selection-end-column="159" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
