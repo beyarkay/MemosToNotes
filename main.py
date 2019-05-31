@@ -11,20 +11,24 @@ from wand.color import Color
 from wand.image import Image as WandImage
 
 
-def get_filename(pdf_path):
+def get_filename(pdf_path: str) -> str:
+    """
+    Utility method to just get the filename from a path, excluding the extension and parent directories
+    :param pdf_path:
+    :return:
+    """
     return pdf_path.split(os.sep)[-1].split(".")[0]
 
 
 def get_text_from_pdf(pdf_path: str, root: str, verbose: bool = True, reuse=True) -> list:
     """
     Use Tesseract OCR to get the text from filename. PDFs are converted pagewise into
-    jpegs and saved in directory
+    jpegs and saved in root/pngs/[file_name]/
     Further Tesseract OCR usage instructions: https://anaconda.org/jiayi_anaconda/pytesseract
     :param root:
     :param reuse:
-    :rtype: list
     :param pdf_path: pdf to get the text from
-    :param verbose: Enable logging to standard output. False by default
+    :param verbose: Enable logging to standard output. True by default
     :return: a list of strings, each string being one page of the pdf
     """
 
@@ -63,13 +67,14 @@ def get_text_from_pdf(pdf_path: str, root: str, verbose: bool = True, reuse=True
     return pdf_text
 
 
-def pdfs_to_texts(root, verbose=True, reuse=True):
+def pdfs_to_texts(root: str, verbose: bool = True, reuse: bool = True) -> None:
     """
-    Collects all the text from various memos into one dictionary, ready for analysis
+    Look in root/pdfs, convert the pdfs to images (saved to root/pngs)
+    and then extract the text from the images (saved to root/txts)
     :param root:
-    :param reuse:
-    :param verbose: whether or not to log to standard output
-    :return: dictionary of text from all the memos
+    :param verbose: if True, log progress to the console
+    :param reuse: If False, recreate the image and txt file, even if those files already exist
+    :return: None
     """
     directory_with_pdfs = os.path.join(root, "pdfs")
     pdf_paths = sorted(glob.glob(os.path.join(directory_with_pdfs, "*.pdf")))
@@ -92,15 +97,13 @@ def pdfs_to_texts(root, verbose=True, reuse=True):
                 print("'{}' Already exists. ({} out of {})".format(pdf_path, i, len(pdf_paths)))
 
 
-def texts_to_jsons(root, stopwords_file="stopwords.txt", verbose=True):
+def texts_to_jsons(root: str, stopwords_file: str = "stopwords.txt", verbose: bool = True) -> None:
     """
-    From a given dictionary of pdf_name:text pairs, extract the word:frequency pairs into
-    adjacent lists
-    :param verbose:
-    :param stopwords_file:
+    Look in root/txts/ and convert the raw text into json files with (word : frequency) pairs, saved to root/summaries
     :param root: Root file in which to work. Should contain root/txts and root/summaries
-    :param extra_words:
-    :return: (words, frequencies) tuple
+    :param stopwords_file: a path to a textfile, newline-deliminated list of words to exclude from the json file.
+    :param verbose: if True, log progress to the console
+    :rtype: None
     """
     txt_files = sorted(glob.glob(os.path.join(root, "txts", "*.txt")))
     with open(stopwords_file, "r") as stopwords_txt:
@@ -133,17 +136,14 @@ def texts_to_jsons(root, stopwords_file="stopwords.txt", verbose=True):
             json.dump(json_dict, json_file, indent=2)
 
 
-def json_to_graph(json_path, num_words=50, verbose=True):
+def json_to_graph(json_path: str, num_words: int = 50, verbose: bool = True) -> None:
     """
-    Plot and show a bar graph with the frequencies of the words in dictionary
-    Case insensitive
-    :param verbose:
-    :param json_path:
-    :param num_words:
-    :param unique_words:
-    :param frequencies:
+    Graph and save a bar chart with the frequencies of the words in json_path
+    :param json_path: path to json file containing the words and their frequencies
+    :param num_words: the maximum number of words to graph
+    :param verbose: if True, log progress to the console
+    :rtype: None, bar graphs are saved in corpus/summaries/bars/
     """
-    sns.set()  # TODO try getting rid of this line
     if verbose:
         print("Graphing pie chart of {}".format(json_path))
 
@@ -175,7 +175,7 @@ def json_to_graph(json_path, num_words=50, verbose=True):
 
 def graph_memo_composition(memo_json_path: str, verbose: bool = True) -> None:
     """
-    Graph a single pie chart, that shows the composition of the pdf represented by memo_json_path.
+    Graph and save a single pie chart, that shows the composition of the pdf represented by memo_json_path.
     The different categories represented by the wedges of the pie are the different json files found in topics/summaries
     :param memo_json_path:
     :param verbose:
@@ -240,7 +240,6 @@ def developement_main() -> None:
     :rtype: None
     """
     sns.set()
-    # Process the corpus of memos:
     # pdfs_to_texts("corpus")
     # texts_to_jsons("corpus")
     memo_json_paths = glob.glob("corpus/summaries/*.json")
@@ -275,4 +274,3 @@ def main() -> None:
 
 if __name__ == '__main__':
     developement_main()
-
