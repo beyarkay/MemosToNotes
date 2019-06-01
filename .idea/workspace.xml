@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="456ae79f-d782-497c-83bd-e877f784e7ca" name="Default Changelist" comment="Add documentation strings to a few methods in main.py">
+    <list default="true" id="456ae79f-d782-497c-83bd-e877f784e7ca" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/test_files/corpus/summaries/memo_1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_files/topics/summaries/test_topic_a.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_files/topics/summaries/test_topic_b.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_files/topics/summaries/test_topic_c.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_files/topics/summaries/test_topic_d.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_files/topics/summaries/test_topic_e.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -35,40 +42,75 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+            <state relative-caret-position="450">
+              <caret line="280" column="32" selection-start-line="280" selection-start-column="32" selection-end-line="280" selection-end-column="32" />
               <folding>
-                <element signature="e#271#318#0" />
-                <element signature="e#283#331#1" />
-                <element signature="e#416#2527#0" />
-                <element signature="e#416#966#1" />
-                <element signature="e#886#941#0" />
-                <element signature="e#1231#2064#0" />
-                <element signature="e#1757#2064#0" />
-                <element signature="e#2266#2507#0" />
-                <element signature="e#2585#3829#0" />
-                <element signature="e#2613#2847#1" />
-                <element signature="e#3017#3829#0" />
-                <element signature="e#3193#3618#0" />
-                <element signature="e#3645#3829#0" />
-                <element signature="e#3908#5606#0" />
-                <element signature="e#3935#4218#1" />
-                <element signature="e#4488#5606#0" />
-                <element signature="e#5670#7003#0" />
-                <element signature="e#5671#5894#1" />
-                <element signature="e#7089#9449#0" />
-                <element signature="e#7089#7273#1" />
-                <element signature="e#7812#7931#0" />
-                <element signature="e#7358#7726#0" />
-                <element signature="e#7644#7726#0" />
-                <element signature="e#9181#9740#0" />
-                <element signature="e#8974#9070#1" />
-                <element signature="e#9734#9759#0" />
-                <element signature="e#9674#9740#0" />
-                <element signature="e#9544#9937#0" />
-                <element signature="e#9255#9388#1" />
-                <element signature="e#9855#9921#0" />
+                <element signature="e#309#510#0" />
+                <element signature="e#309#458#1" />
+                <element signature="e#608#2713#0" />
+                <element signature="e#608#1067#1" />
+                <element signature="e#1073#1128#0" />
+                <element signature="e#1417#2250#0" />
+                <element signature="e#1943#2250#0" />
+                <element signature="e#2452#2693#0" />
+                <element signature="e#2800#4137#0" />
+                <element signature="e#2800#3136#1" />
+                <element signature="e#3325#4137#0" />
+                <element signature="e#3501#3926#0" />
+                <element signature="e#3857#3990#0" />
+                <element signature="e#3953#4137#0" />
+                <element signature="e#4388#6174#0" />
+                <element signature="e#4244#4651#1" />
+                <element signature="e#5056#6174#0" />
+                <element signature="e#6122#7534#0" />
+                <element signature="e#6122#6475#1" />
+                <element signature="e#7596#9987#0" />
+                <element signature="e#7620#7924#1" />
+                <element signature="e#8278#8394#0" />
+                <element signature="e#8439#8807#0" />
+                <element signature="e#8725#8807#0" />
+                <element signature="e#10051#10547#0" />
+                <element signature="e#10211#10259#0" />
+                <element signature="e#10624#10942#0" />
+                <element signature="e#10635#10653#0" />
+                <element signature="e#10992#11482#0" />
+                <element signature="e#11104#11482#0" />
+                <element signature="e#11134#11482#0" />
+                <element signature="e#11172#11393#0" />
+                <element signature="e#11480#12043#0" />
+                <element signature="e#11522#11739#1" />
+                <element signature="e#11758#11783#0" />
+                <element signature="e#12109#12844#0" />
+                <element signature="e#12109#12326#1" />
+                <element signature="e#12768#12844#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_files/topics/summaries/test_topic_a.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_files/corpus/summaries/memo_1.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/topics/summaries/Arrays.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1050">
+              <caret line="70" column="8" selection-start-line="70" selection-start-column="3" selection-end-line="70" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -77,7 +119,7 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="675">
+              <first_editor relative-caret-position="540">
                 <caret line="36" selection-start-line="36" selection-end-line="36" />
               </first_editor>
               <second_editor />
@@ -96,8 +138,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>getContent</find>
-      <find>self.REGEX_QUESTION</find>
       <find>pdf_string</find>
       <find>(a) D</find>
       <find>Question</find>
@@ -124,6 +164,10 @@
       <find>np</find>
       <find>WandImage</find>
       <find>nltk</find>
+      <find>word:fre</find>
+      <find>word:</find>
+      <find>json</find>
+      <find>json.</find>
     </findStrings>
     <replaceStrings>
       <replace>REGEX_SUBQUESTION</replace>
@@ -152,6 +196,10 @@
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/QuestionPaper.py" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/test_files/corpus/summaries/topic_a.json" />
+        <option value="$PROJECT_DIR$/test_files/topics/summaries/topic_c.json" />
+        <option value="$PROJECT_DIR$/test_files/topics/summaries/topic_b.json" />
+        <option value="$PROJECT_DIR$/test_files/corpus/summaries/memo_1.json" />
         <option value="$PROJECT_DIR$/main.py" />
       </list>
     </option>
@@ -184,18 +232,13 @@
               <item name="MemosToNotes" type="b2602c69:ProjectViewProjectNode" />
               <item name="MemosToNotes" type="462c0819:PsiDirectoryNode" />
               <item name="corpus" type="462c0819:PsiDirectoryNode" />
-              <item name="summaries" type="462c0819:PsiDirectoryNode" />
+              <item name="pngs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MemosToNotes" type="b2602c69:ProjectViewProjectNode" />
               <item name="MemosToNotes" type="462c0819:PsiDirectoryNode" />
-              <item name="topics" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MemosToNotes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MemosToNotes" type="462c0819:PsiDirectoryNode" />
-              <item name="topics" type="462c0819:PsiDirectoryNode" />
-              <item name="summaries" type="462c0819:PsiDirectoryNode" />
+              <item name="corpus" type="462c0819:PsiDirectoryNode" />
+              <item name="txts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -207,17 +250,17 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/corpus/summaries/pies" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/test_files/corpus/summaries" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test_files/corpus/summaries" />
       <recent name="$PROJECT_DIR$/corpus/summaries/pies" />
       <recent name="$PROJECT_DIR$/corpus/pdfs" />
       <recent name="$PROJECT_DIR$/corpus" />
       <recent name="$PROJECT_DIR$/topics" />
-      <recent name="$PROJECT_DIR$/ppts" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/readme-files" />
@@ -313,7 +356,9 @@
       <workItem from="1559118826482" duration="50000" />
       <workItem from="1559118889572" duration="4524000" />
       <workItem from="1559134317262" duration="22367000" />
-      <workItem from="1559214575167" duration="7932000" />
+      <workItem from="1559214575167" duration="12980000" />
+      <workItem from="1559393113039" duration="136000" />
+      <workItem from="1559394466584" duration="1777000" />
     </task>
     <task id="LOCAL-00001" summary="Testing git connection">
       <created>1553692047818</created>
@@ -574,17 +619,24 @@
       <option name="project" value="LOCAL" />
       <updated>1559227944816</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Completed code documentation">
+      <created>1559306530071</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1559306530071</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83787000" />
+    <option name="totallyTimeSpent" value="90748000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15522175" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1595136" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -595,17 +647,17 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49713877" visible="true" weight="0.036144577" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49713877" weight="0.27831325" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5028612" side_tool="true" weight="0.28433734" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.25903615" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.2807229" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="right" x="0" y="0" width="310" height="700" id="Documentation" order="0" sideWeight="0.6703297" side_tool="true" weight="0.0851216" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="4" sideWeight="0.48387095" weight="0.17811158" />
-      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" sideWeight="0.48387095" weight="0.17811158" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" x="0" y="0" width="310" height="700" id="Documentation" order="5" sideWeight="0.6703297" side_tool="true" visible="true" weight="0.19098713" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -613,7 +665,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Add README.md, reading_list.md" />
     <MESSAGE value="Fine tune the QuestionPaper class&#10;Add more file examples" />
     <MESSAGE value="Create MD depiction of Question Paper" />
     <MESSAGE value="Implement NLTK" />
@@ -638,11 +689,12 @@
     <MESSAGE value="Add introduction to README.md" />
     <MESSAGE value="Added Usage, graphs to readme" />
     <MESSAGE value="Add documentation strings to a few methods in main.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add documentation strings to a few methods in main.py" />
+    <MESSAGE value="Completed code documentation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed code documentation" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/MemosToNotes$main.coverage" NAME="main Coverage Results" MODIFIED="1559218548685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MemosToNotes$main.coverage" NAME="main Coverage Results" MODIFIED="1559313383387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
@@ -666,58 +718,6 @@ print(&quot;Done&quot;)</expression-string>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///anaconda3/envs/MemosToNotes3/lib/python3.6/site-packages/wand/resource.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="239" selection-start-line="239" selection-end-line="239" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///anaconda3/envs/MemosToNotes3/lib/python3.6/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="307" column="40" lean-forward="true" selection-start-line="307" selection-start-column="40" selection-end-line="307" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frequencies/2014 CSC test solutions.txt" />
-    <entry file="file://$PROJECT_DIR$/imports.py" />
-    <entry file="file://$PROJECT_DIR$/images/ocr_1/ocr_1-1.jpg" />
-    <entry file="file://$PROJECT_DIR$/images/ocr_1/ocr_1-0.jpg" />
-    <entry file="uml://JavaScript-modules-diagram//Users/boydkane/PycharmProjects/MemosToNotes/pdfs">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JavaScript-modules-diagram</ID>
-          <OriginalElement>$PROJECT_DIR$/pdfs</OriginalElement>
-          <nodes />
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="378.0" y="268.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>All</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>Details</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///anaconda3/envs/MemosToNotes3/lib/python3.6/ntpath.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///anaconda3/envs/MemosToNotes3/lib/python3.6/genericpath.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="148" selection-start-line="148" selection-end-line="148" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/text_files/pdf_file_1/pdf_file_1.txt" />
-    <entry file="file://$PROJECT_DIR$/my_file.txt" />
     <entry file="file://$PROJECT_DIR$/text_files/2014 June Memo.txt" />
     <entry file="file://$PROJECT_DIR$/images/2011 June Memo/2011 June Memo-4.jpg" />
     <entry file="file://$PROJECT_DIR$/text_files/2011 June Memo.txt" />
@@ -729,13 +729,6 @@ print(&quot;Done&quot;)</expression-string>
     <entry file="file://$PROJECT_DIR$/images/2016 June Memo/2016 June Memo-0.jpg" />
     <entry file="file://$PROJECT_DIR$/image-3.png" />
     <entry file="file://$PROJECT_DIR$/image-10.png" />
-    <entry file="file:///anaconda3/envs/MemosToNotes3/lib/python3.6/site-packages/nltk/corpus/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="193" column="3" lean-forward="true" selection-start-line="193" selection-start-column="3" selection-end-line="193" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/text_files/Slides Testing - Safla.txt" />
     <entry file="file://$PROJECT_DIR$/frequencies.txt" />
     <entry file="file://$PROJECT_DIR$/tokens.txt" />
@@ -795,9 +788,7 @@ print(&quot;Done&quot;)</expression-string>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/topics/tokens/Testing.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/topics/tokens/Testing.txt" />
     <entry file="file://$PROJECT_DIR$/topics/txts/Arrays.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -805,9 +796,7 @@ print(&quot;Done&quot;)</expression-string>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/topics/summaries/Arrays.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/topics/summaries/Arrays.png" />
     <entry file="file://$PROJECT_DIR$/stopwords.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
@@ -867,52 +856,102 @@ print(&quot;Done&quot;)</expression-string>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="675">
-            <caret line="36" selection-start-line="36" selection-end-line="36" />
-          </first_editor>
-          <second_editor />
+    <entry file="file:///anaconda3/envs/MemosToNotes3/lib/python3.6/site-packages/nltk/corpus/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="242" column="46" selection-start-line="242" selection-start-column="40" selection-end-line="242" selection-end-column="46" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test_files/corpus/summaries/topic_a.json" />
+    <entry file="file://$PROJECT_DIR$/test_files/topics/summaries/topic_c.json" />
+    <entry file="file://$PROJECT_DIR$/test_files/topics/summaries/topic_b.json" />
+    <entry file="file:///anaconda3/envs/MemosToNotes3/lib/python3.6/json/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="144" column="58" lean-forward="true" selection-start-line="144" selection-end-line="145" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_topic_`.json" />
+    <entry file="file://$PROJECT_DIR$/test_topic_a.json" />
+    <entry file="file://$PROJECT_DIR$/test_topic_b.json" />
+    <entry file="file://$PROJECT_DIR$/test_topic_c.json" />
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+        <state relative-caret-position="450">
+          <caret line="280" column="32" selection-start-line="280" selection-start-column="32" selection-end-line="280" selection-end-column="32" />
           <folding>
-            <element signature="e#271#318#0" />
-            <element signature="e#283#331#1" />
-            <element signature="e#416#2527#0" />
-            <element signature="e#416#966#1" />
-            <element signature="e#886#941#0" />
-            <element signature="e#1231#2064#0" />
-            <element signature="e#1757#2064#0" />
-            <element signature="e#2266#2507#0" />
-            <element signature="e#2585#3829#0" />
-            <element signature="e#2613#2847#1" />
-            <element signature="e#3017#3829#0" />
-            <element signature="e#3193#3618#0" />
-            <element signature="e#3645#3829#0" />
-            <element signature="e#3908#5606#0" />
-            <element signature="e#3935#4218#1" />
-            <element signature="e#4488#5606#0" />
-            <element signature="e#5670#7003#0" />
-            <element signature="e#5671#5894#1" />
-            <element signature="e#7089#9449#0" />
-            <element signature="e#7089#7273#1" />
-            <element signature="e#7812#7931#0" />
-            <element signature="e#7358#7726#0" />
-            <element signature="e#7644#7726#0" />
-            <element signature="e#9181#9740#0" />
-            <element signature="e#8974#9070#1" />
-            <element signature="e#9734#9759#0" />
-            <element signature="e#9674#9740#0" />
-            <element signature="e#9544#9937#0" />
-            <element signature="e#9255#9388#1" />
-            <element signature="e#9855#9921#0" />
+            <element signature="e#309#510#0" />
+            <element signature="e#309#458#1" />
+            <element signature="e#608#2713#0" />
+            <element signature="e#608#1067#1" />
+            <element signature="e#1073#1128#0" />
+            <element signature="e#1417#2250#0" />
+            <element signature="e#1943#2250#0" />
+            <element signature="e#2452#2693#0" />
+            <element signature="e#2800#4137#0" />
+            <element signature="e#2800#3136#1" />
+            <element signature="e#3325#4137#0" />
+            <element signature="e#3501#3926#0" />
+            <element signature="e#3857#3990#0" />
+            <element signature="e#3953#4137#0" />
+            <element signature="e#4388#6174#0" />
+            <element signature="e#4244#4651#1" />
+            <element signature="e#5056#6174#0" />
+            <element signature="e#6122#7534#0" />
+            <element signature="e#6122#6475#1" />
+            <element signature="e#7596#9987#0" />
+            <element signature="e#7620#7924#1" />
+            <element signature="e#8278#8394#0" />
+            <element signature="e#8439#8807#0" />
+            <element signature="e#8725#8807#0" />
+            <element signature="e#10051#10547#0" />
+            <element signature="e#10211#10259#0" />
+            <element signature="e#10624#10942#0" />
+            <element signature="e#10635#10653#0" />
+            <element signature="e#10992#11482#0" />
+            <element signature="e#11104#11482#0" />
+            <element signature="e#11134#11482#0" />
+            <element signature="e#11172#11393#0" />
+            <element signature="e#11480#12043#0" />
+            <element signature="e#11522#11739#1" />
+            <element signature="e#11758#11783#0" />
+            <element signature="e#12109#12844#0" />
+            <element signature="e#12109#12326#1" />
+            <element signature="e#12768#12844#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_files/topics/summaries/test_topic_a.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_files/corpus/summaries/memo_1.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/topics/summaries/Arrays.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="70" column="8" selection-start-line="70" selection-start-column="3" selection-end-line="70" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="540">
+            <caret line="36" selection-start-line="36" selection-end-line="36" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
