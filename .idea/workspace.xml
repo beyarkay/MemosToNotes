@@ -2,15 +2,70 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="456ae79f-d782-497c-83bd-e877f784e7ca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test_files/corpus/summaries/memo_1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_files/topics/summaries/test_topic_a.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_files/topics/summaries/test_topic_b.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_files/topics/summaries/test_topic_c.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_files/topics/summaries/test_topic_d.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_files/topics/summaries/test_topic_e.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/corpus/summaries/2011 June Memo.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corpus/summaries/2012 June Memo.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corpus/summaries/2013 June Memo.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corpus/summaries/2014 June Memo.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corpus/summaries/2015 June Memo.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corpus/summaries/2016 June Memo.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corpus/summaries/2017 June Memo.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corpus/summaries/2018 June Memo.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corpus/summaries/bars/2011 June Memo-bar_chart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corpus/summaries/bars/2012 June Memo-bar_chart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corpus/summaries/bars/2013 June Memo-bar_chart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corpus/summaries/bars/2014 June Memo-bar_chart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corpus/summaries/bars/2015 June Memo-bar_chart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corpus/summaries/bars/2016 June Memo-bar_chart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corpus/summaries/bars/2017 June Memo-bar_chart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corpus/summaries/bars/2018 June Memo-bar_chart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corpus/summaries/pies/2011 June Memo-pie_chart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corpus/summaries/pies/2012 June Memo-pie_chart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corpus/summaries/pies/2013 June Memo-pie_chart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corpus/summaries/pies/2014 June Memo-pie_chart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corpus/summaries/pies/2015 June Memo-pie_chart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corpus/summaries/pies/2016 June Memo-pie_chart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corpus/summaries/pies/2017 June Memo-pie_chart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corpus/summaries/pies/2018 June Memo-pie_chart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corpus/txts/2011 June Memo.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corpus/txts/2012 June Memo.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corpus/txts/2013 June Memo.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corpus/txts/2014 June Memo.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corpus/txts/2015 June Memo.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corpus/txts/2016 June Memo.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corpus/txts/2017 June Memo.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corpus/txts/2018 June Memo.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stopwords.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/topics/summaries/Arrays.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/topics/summaries/Basics.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/topics/summaries/Files.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/topics/summaries/Functions.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/topics/summaries/Hardware.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/topics/summaries/Intro.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/topics/summaries/Iteration.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/topics/summaries/Number Systems.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/topics/summaries/Recursion.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/topics/summaries/Selection.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/topics/summaries/Software.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/topics/summaries/Sorting and Searching.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/topics/summaries/Strings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/topics/summaries/Testing.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/topics/txts/Arrays.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/topics/txts/Basics.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/topics/txts/Files.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/topics/txts/Functions.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/topics/txts/Hardware.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/topics/txts/Intro.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/topics/txts/Iteration.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/topics/txts/Number Systems.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/topics/txts/Recursion.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/topics/txts/Selection.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/topics/txts/Software.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/topics/txts/Sorting and Searching.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/topics/txts/Strings.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/topics/txts/Testing.txt" beforeDir="false" />
     </list>
     <ignored path=".idea/" />
     <ignored path="corpus/pdfs/" />
@@ -42,87 +97,45 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="280" column="32" selection-start-line="280" selection-start-column="32" selection-end-line="280" selection-end-column="32" />
+            <state relative-caret-position="924">
+              <caret line="333" column="58" selection-start-line="333" selection-start-column="52" selection-end-line="333" selection-end-column="58" />
               <folding>
-                <element signature="e#309#510#0" />
-                <element signature="e#309#458#1" />
-                <element signature="e#608#2713#0" />
-                <element signature="e#608#1067#1" />
-                <element signature="e#1073#1128#0" />
-                <element signature="e#1417#2250#0" />
-                <element signature="e#1943#2250#0" />
-                <element signature="e#2452#2693#0" />
-                <element signature="e#2800#4137#0" />
-                <element signature="e#2800#3136#1" />
-                <element signature="e#3325#4137#0" />
-                <element signature="e#3501#3926#0" />
-                <element signature="e#3857#3990#0" />
-                <element signature="e#3953#4137#0" />
-                <element signature="e#4388#6174#0" />
-                <element signature="e#4244#4651#1" />
-                <element signature="e#5056#6174#0" />
-                <element signature="e#6122#7534#0" />
-                <element signature="e#6122#6475#1" />
-                <element signature="e#7596#9987#0" />
-                <element signature="e#7620#7924#1" />
-                <element signature="e#8278#8394#0" />
-                <element signature="e#8439#8807#0" />
-                <element signature="e#8725#8807#0" />
-                <element signature="e#10051#10547#0" />
-                <element signature="e#10211#10259#0" />
-                <element signature="e#10624#10942#0" />
-                <element signature="e#10635#10653#0" />
-                <element signature="e#10992#11482#0" />
-                <element signature="e#11104#11482#0" />
-                <element signature="e#11134#11482#0" />
-                <element signature="e#11172#11393#0" />
-                <element signature="e#11480#12043#0" />
-                <element signature="e#11522#11739#1" />
-                <element signature="e#11758#11783#0" />
-                <element signature="e#12109#12844#0" />
-                <element signature="e#12109#12326#1" />
-                <element signature="e#12768#12844#0" />
+                <element signature="e#320#523#0" />
+                <element signature="e#320#470#1" />
+                <element signature="e#621#2726#0" />
+                <element signature="e#621#1066#1" />
+                <element signature="e#1072#1127#0" />
+                <element signature="e#1416#2263#0" />
+                <element signature="e#1956#2263#0" />
+                <element signature="e#2465#2706#0" />
+                <element signature="e#2813#4147#0" />
+                <element signature="e#2813#3149#1" />
+                <element signature="e#3292#4147#0" />
+                <element signature="e#3482#3930#0" />
+                <element signature="e#3817#3930#0" />
+                <element signature="e#3957#4147#0" />
+                <element signature="e#4215#6241#0" />
+                <element signature="e#4215#4550#1" />
+                <element signature="e#4744#4874#0" />
+                <element signature="e#4893#5040#0" />
+                <element signature="e#5100#6241#0" />
+                <element signature="e#6334#7849#0" />
+                <element signature="e#6334#6687#1" />
+                <element signature="e#7428#7485#0" />
+                <element signature="e#7946#10311#0" />
+                <element signature="e#7946#8250#1" />
+                <element signature="e#8631#8747#0" />
+                <element signature="e#8792#9160#0" />
+                <element signature="e#9078#9160#0" />
+                <element signature="e#10381#10877#0" />
+                <element signature="e#10515#10563#0" />
+                <element signature="e#10932#11250#0" />
+                <element signature="e#10943#10961#0" />
+                <element signature="e#11300#11790#0" />
+                <element signature="e#11412#11790#0" />
+                <element signature="e#11442#11790#0" />
+                <element signature="e#11480#11701#0" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_files/topics/summaries/test_topic_a.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_files/corpus/summaries/memo_1.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/topics/summaries/Arrays.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1050">
-              <caret line="70" column="8" selection-start-line="70" selection-start-column="3" selection-end-line="70" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="540">
-                <caret line="36" selection-start-line="36" selection-end-line="36" />
-              </first_editor>
-              <second_editor />
             </state>
           </provider>
         </entry>
@@ -138,8 +151,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>pdf_string</find>
-      <find>(a) D</find>
       <find>Question</find>
       <find>synt</find>
       <find>IEEE</find>
@@ -168,6 +179,8 @@
       <find>word:</find>
       <find>json</find>
       <find>json.</find>
+      <find>stopwo</find>
+      <find>already exists</find>
     </findStrings>
     <replaceStrings>
       <replace>REGEX_SUBQUESTION</replace>
@@ -200,6 +213,7 @@
         <option value="$PROJECT_DIR$/test_files/topics/summaries/topic_c.json" />
         <option value="$PROJECT_DIR$/test_files/topics/summaries/topic_b.json" />
         <option value="$PROJECT_DIR$/test_files/corpus/summaries/memo_1.json" />
+        <option value="$PROJECT_DIR$/FTX1005F/stopwords.txt" />
         <option value="$PROJECT_DIR$/main.py" />
       </list>
     </option>
@@ -216,6 +230,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -223,51 +238,33 @@
               <item name="MemosToNotes" type="b2602c69:ProjectViewProjectNode" />
               <item name="MemosToNotes" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="MemosToNotes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MemosToNotes" type="462c0819:PsiDirectoryNode" />
-              <item name="corpus" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MemosToNotes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MemosToNotes" type="462c0819:PsiDirectoryNode" />
-              <item name="corpus" type="462c0819:PsiDirectoryNode" />
-              <item name="pngs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MemosToNotes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MemosToNotes" type="462c0819:PsiDirectoryNode" />
-              <item name="corpus" type="462c0819:PsiDirectoryNode" />
-              <item name="txts" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/test_files/corpus/summaries" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/FTX1005F" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/test_files/corpus/summaries" />
-      <recent name="$PROJECT_DIR$/corpus/summaries/pies" />
-      <recent name="$PROJECT_DIR$/corpus/pdfs" />
-      <recent name="$PROJECT_DIR$/corpus" />
-      <recent name="$PROJECT_DIR$/topics" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/readme-files" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/topics/pngs" />
       <recent name="$PROJECT_DIR$/pdfs" />
       <recent name="$PROJECT_DIR$/imgs" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/FTX1005F" />
+      <recent name="$PROJECT_DIR$/test_files/corpus/summaries" />
+      <recent name="$PROJECT_DIR$/corpus/summaries/pies" />
+      <recent name="$PROJECT_DIR$/corpus/pdfs" />
+      <recent name="$PROJECT_DIR$/corpus" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -358,7 +355,10 @@
       <workItem from="1559134317262" duration="22367000" />
       <workItem from="1559214575167" duration="12980000" />
       <workItem from="1559393113039" duration="136000" />
-      <workItem from="1559394466584" duration="1777000" />
+      <workItem from="1559394466584" duration="1822000" />
+      <workItem from="1559473688998" duration="2973000" />
+      <workItem from="1560328854336" duration="20000" />
+      <workItem from="1560328902599" duration="876000" />
     </task>
     <task id="LOCAL-00001" summary="Testing git connection">
       <created>1553692047818</created>
@@ -626,26 +626,40 @@
       <option name="project" value="LOCAL" />
       <updated>1559306530071</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Made code work better with separate projects">
+      <created>1559396276148</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1559396276148</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90748000" />
+    <option name="totallyTimeSpent" value="94662000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1595136" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16595136" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" weight="0.16385542" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4988263" weight="0.21927711" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" weight="0.12891567" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4988263" weight="0.35903615" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" visible="true" weight="0.12048193" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49713877" weight="0.27831325" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5028612" side_tool="true" weight="0.28433734" />
@@ -665,8 +679,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Fine tune the QuestionPaper class&#10;Add more file examples" />
-    <MESSAGE value="Create MD depiction of Question Paper" />
     <MESSAGE value="Implement NLTK" />
     <MESSAGE value="Add Todos" />
     <MESSAGE value="Implemented pytesseract OCR, it's much better" />
@@ -690,14 +702,54 @@
     <MESSAGE value="Added Usage, graphs to readme" />
     <MESSAGE value="Add documentation strings to a few methods in main.py" />
     <MESSAGE value="Completed code documentation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed code documentation" />
+    <MESSAGE value="Made code work better with separate projects" />
+    <MESSAGE value="Refactoring and cleanup" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactoring and cleanup" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>110</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="os.path.join(root, &quot;txt&quot;, &quot;*.txt&quot;)" language="Python" />
+        <watch expression="glob.glob(os.path.join(root, &quot;txt&quot;, &quot;*.txt&quot;))" language="Python" />
+        <watch expression="glob.glob(&quot;FTX1005F/topics/txts/*.txt&quot;)" language="Python" />
+      </configuration>
+    </watches-manager>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/MemosToNotes$main.coverage" NAME="main Coverage Results" MODIFIED="1559313383387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MemosToNotes$main.coverage" NAME="main Coverage Results" MODIFIED="1559476547494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>glob.glob(&quot;FTX1005F/topics/txts/*.txt&quot;)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>glob.glob(os.path.join(root, &quot;txt&quot;, &quot;*.txt&quot;))</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>os.path.join(root, &quot;txt&quot;, &quot;*.txt&quot;)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>os.path.join(os.path.join(root, &quot;txt&quot;)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>os.listdir(images_directory)</expression-string>
         <language-id>Python</language-id>
@@ -718,14 +770,6 @@ print(&quot;Done&quot;)</expression-string>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/text_files/2014 June Memo.txt" />
-    <entry file="file://$PROJECT_DIR$/images/2011 June Memo/2011 June Memo-4.jpg" />
-    <entry file="file://$PROJECT_DIR$/text_files/2011 June Memo.txt" />
-    <entry file="file://$PROJECT_DIR$/text_files/2013 June Memo.txt" />
-    <entry file="file://$PROJECT_DIR$/images/Slides Testing - Safla/Slides Testing - Safla-3.jpg" />
-    <entry file="file://$PROJECT_DIR$/images/Slides Testing - Safla/Slides Testing - Safla-4.jpg" />
-    <entry file="file://$PROJECT_DIR$/images/Slides Testing - Safla/Slides Testing - Safla-5.jpg" />
-    <entry file="file://$PROJECT_DIR$/images/Slides Testing - Safla/Slides Testing - Safla-7.jpg" />
     <entry file="file://$PROJECT_DIR$/images/2016 June Memo/2016 June Memo-0.jpg" />
     <entry file="file://$PROJECT_DIR$/image-3.png" />
     <entry file="file://$PROJECT_DIR$/image-10.png" />
@@ -877,53 +921,6 @@ print(&quot;Done&quot;)</expression-string>
     <entry file="file://$PROJECT_DIR$/test_topic_a.json" />
     <entry file="file://$PROJECT_DIR$/test_topic_b.json" />
     <entry file="file://$PROJECT_DIR$/test_topic_c.json" />
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="280" column="32" selection-start-line="280" selection-start-column="32" selection-end-line="280" selection-end-column="32" />
-          <folding>
-            <element signature="e#309#510#0" />
-            <element signature="e#309#458#1" />
-            <element signature="e#608#2713#0" />
-            <element signature="e#608#1067#1" />
-            <element signature="e#1073#1128#0" />
-            <element signature="e#1417#2250#0" />
-            <element signature="e#1943#2250#0" />
-            <element signature="e#2452#2693#0" />
-            <element signature="e#2800#4137#0" />
-            <element signature="e#2800#3136#1" />
-            <element signature="e#3325#4137#0" />
-            <element signature="e#3501#3926#0" />
-            <element signature="e#3857#3990#0" />
-            <element signature="e#3953#4137#0" />
-            <element signature="e#4388#6174#0" />
-            <element signature="e#4244#4651#1" />
-            <element signature="e#5056#6174#0" />
-            <element signature="e#6122#7534#0" />
-            <element signature="e#6122#6475#1" />
-            <element signature="e#7596#9987#0" />
-            <element signature="e#7620#7924#1" />
-            <element signature="e#8278#8394#0" />
-            <element signature="e#8439#8807#0" />
-            <element signature="e#8725#8807#0" />
-            <element signature="e#10051#10547#0" />
-            <element signature="e#10211#10259#0" />
-            <element signature="e#10624#10942#0" />
-            <element signature="e#10635#10653#0" />
-            <element signature="e#10992#11482#0" />
-            <element signature="e#11104#11482#0" />
-            <element signature="e#11134#11482#0" />
-            <element signature="e#11172#11393#0" />
-            <element signature="e#11480#12043#0" />
-            <element signature="e#11522#11739#1" />
-            <element signature="e#11758#11783#0" />
-            <element signature="e#12109#12844#0" />
-            <element signature="e#12109#12326#1" />
-            <element signature="e#12768#12844#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test_files/topics/summaries/test_topic_a.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -952,6 +949,96 @@ print(&quot;Done&quot;)</expression-string>
             <caret line="36" selection-start-line="36" selection-end-line="36" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///anaconda3/envs/MemosToNotes3/lib/python3.6/site-packages/wand/resource.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="239" selection-start-line="239" selection-end-line="239" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FTX1005F/stopwords.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///anaconda3/envs/MemosToNotes3/lib/python3.6/site-packages/nltk/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1069">
+          <caret line="146" selection-start-line="146" selection-end-line="146" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FTX1005F/topics/stopwords.txt" />
+    <entry file="file://$PROJECT_DIR$/FTX1005F/topics/summaries/jsons/1 Accounting.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FTX1005F/topics/summaries/jsons/4 Sources of Finance slides.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="47" column="10" selection-start-line="47" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FTX1005F/topics/summaries/jsons/2 Types of Businesses slides.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="24" column="11" lean-forward="true" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/topics/txts/Testing.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="159" lean-forward="true" selection-start-line="159" selection-end-line="159" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="924">
+          <caret line="333" column="58" selection-start-line="333" selection-start-column="52" selection-end-line="333" selection-end-column="58" />
+          <folding>
+            <element signature="e#320#523#0" />
+            <element signature="e#320#470#1" />
+            <element signature="e#621#2726#0" />
+            <element signature="e#621#1066#1" />
+            <element signature="e#1072#1127#0" />
+            <element signature="e#1416#2263#0" />
+            <element signature="e#1956#2263#0" />
+            <element signature="e#2465#2706#0" />
+            <element signature="e#2813#4147#0" />
+            <element signature="e#2813#3149#1" />
+            <element signature="e#3292#4147#0" />
+            <element signature="e#3482#3930#0" />
+            <element signature="e#3817#3930#0" />
+            <element signature="e#3957#4147#0" />
+            <element signature="e#4215#6241#0" />
+            <element signature="e#4215#4550#1" />
+            <element signature="e#4744#4874#0" />
+            <element signature="e#4893#5040#0" />
+            <element signature="e#5100#6241#0" />
+            <element signature="e#6334#7849#0" />
+            <element signature="e#6334#6687#1" />
+            <element signature="e#7428#7485#0" />
+            <element signature="e#7946#10311#0" />
+            <element signature="e#7946#8250#1" />
+            <element signature="e#8631#8747#0" />
+            <element signature="e#8792#9160#0" />
+            <element signature="e#9078#9160#0" />
+            <element signature="e#10381#10877#0" />
+            <element signature="e#10515#10563#0" />
+            <element signature="e#10932#11250#0" />
+            <element signature="e#10943#10961#0" />
+            <element signature="e#11300#11790#0" />
+            <element signature="e#11412#11790#0" />
+            <element signature="e#11442#11790#0" />
+            <element signature="e#11480#11701#0" />
+          </folding>
         </state>
       </provider>
     </entry>

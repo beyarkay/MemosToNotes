@@ -8,6 +8,7 @@ import pytesseract
 import seaborn as sns
 from PIL import Image as PILImage
 from matplotlib import pyplot as plt
+from nltk import corpus
 from wand.color import Color
 from wand.image import Image as WandImage
 
@@ -90,15 +91,15 @@ def pdfs_to_texts(root: str, verbose: bool = True, reuse: bool = True) -> None:
 
             # Write the data to the appropriate text file
             with open(text_file_path, "w+") as text_file:
-                text = get_text_from_pdf(pdf_path, os.path.join(root, "pngs"), verbose=verbose, reuse=reuse)
+                text = get_text_from_pdf(root, pdf_path, verbose=verbose, reuse=reuse)
                 text_file.writelines(text)
         else:
             # already-processed files exist, and the user wants to use them
             if verbose:
-                print("'{}' Already exists. ({} out of {})".format(pdf_path, i, len(pdf_paths)))
+                print("'{}' Already exists. ({} out of {})".format(text_file_path, i, len(pdf_paths)))
 
 
-def texts_to_jsons(root: str, stopwords_path: str, verbose: bool = True) -> None:
+def texts_to_jsons(root: str, verbose: bool = True) -> None:
     """
     Look in root/txts/ and convert the raw text into json files with (word : frequency) pairs, saved to root/summaries
     :param root:
@@ -106,9 +107,15 @@ def texts_to_jsons(root: str, stopwords_path: str, verbose: bool = True) -> None
     :param verbose: if True, log progress to the console
     :rtype: None
     """
-    txt_files = sorted(glob.glob(os.path.join(os.path.join(root, "txt"), "*.txt")))
-    with open(stopwords_path, "r") as stopwords_txt:
-        stopwords = set([word.strip() for word in stopwords_txt.readlines()])
+
+    txt_files = sorted(glob.glob(os.path.join(root, "txts", "*.txt")))
+    stopwords_path = os.path.join(root.split(os.sep)[0], "stopwords.txt")
+    if os.path.exists(stopwords_path):
+        with open(stopwords_path, "r") as stopwords_txt:
+            stopwords = set([word.strip() for word in stopwords_txt.readlines()])
+    else:
+        with open(stopwords_path, "w+") as stopwords_txt:
+            stopwords_txt.writelines([word + "\n" for word in corpus.stopwords.words('english')])
 
     for i, txt_file in enumerate(txt_files, 1):
         if verbose:
@@ -146,7 +153,7 @@ def json_to_graph(json_path: str, num_words: int = 50, verbose: bool = True) -> 
     :rtype: None, bar graphs are saved in corpus/summaries/bars/
     """
     if verbose:
-        print("Graphing pie chart of {}".format(json_path))
+        print("Graphing bar chart of {}".format(json_path))
 
     with open(json_path, "r") as jsonfile:
         data: dict = json.load(jsonfile)
@@ -167,10 +174,12 @@ def json_to_graph(json_path: str, num_words: int = 50, verbose: bool = True) -> 
     plt.tight_layout()
     # plt.savefig(json_path.split(".")[0] + "-bar_chart.png")
 
+    # TODO: often fails here: Process finished with exit code 139 (interrupted by signal 11: SIGSEGV)
     bar_directory = os.path.join(os.sep.join(json_path.split(os.sep)[:-1]), "bars")
     os.makedirs(bar_directory, exist_ok=True)
     bar_path = os.path.join(bar_directory, get_filename(json_path) + "-bar_chart.png")
     plt.savefig(bar_path)
+
     # plt.show()
 
 
@@ -282,39 +291,47 @@ def developement_main() -> None:
     Used for running and testing developement builds.
     This function may not be stable, and may corrupt the data.
     All stable features are available when calling the main() function.
+    Do not call developement_main() unless you know what you're doing
     :rtype: None
     """
     sns.set()
-    # pdfs_to_texts("corpus")
-    # texts_to_jsons("corpus")
-    # memo_json_paths = glob.glob("corpus/summaries/*.json")
-    # for memo_json_path in memo_json_paths:
-    #     json_to_graph(memo_json_path)
-    #     graph_memo_composition(memo_json_path)
+    root = "FTX1005F"
+    # create_directory_structure("FTX1005F")
+    # pdfs_to_texts(os.path.join(root, "topics"))
+    # texts_to_jsons(os.path.join(root, "topics"))
 
-    for i in range(5):
-        create_test_topic("test_files", chr(i + ord("a")), total_unique_words=20)
+    json_paths = glob.glob(os.path.join(root, "topics", "summaries", "jsons", "*.json"))
+    for json_path in json_paths:
+        json_to_graph(json_path)
+        # graph_memo_composition(json_path)
+    # for i in range(5):
+    #     create_test_topic("test_files", chr(i + ord("a")), total_unique_words=20)
 
 
 def main() -> None:
+    # TODO add more error messages for when files don't exists / for when the program fails
     """
-    For first time users. Follow the instructions in the README.md and then run this funciton.
-    This function will analyse the pdfs in corpus/pdfs and then produce graphs about the data
+    For first time users. Follow the instructions in the README.md and then run this function.
+    This will analyse the pdfs in corpus/pdfs and then produce graphs about the data
     :rtype: None
     """
     # Initialise the pretty graph maker
     sns.set()
+    root = "CSC1015F"
+
+    # Ensure there is a directory structure to work in
+    create_directory_structure(root)
 
     # Build json files about the memos
-    pdfs_to_texts("corpus")
-    texts_to_jsons("corpus")
+    pdfs_to_texts(os.path.join(root, "corpus"))
+    texts_to_jsons(os.path.join(root, "corpus"))
 
     # Build json files about the topics
-    pdfs_to_texts("topics")
-    texts_to_jsons("topics")
+    pdfs_to_texts(os.path.join(root, "topics"))
+    texts_to_jsons(os.path.join(root, "topics"))
 
-    # Graph the data, saved to corpus/summaries/bars/ and corpus/summaries/pies/
-    memo_json_paths = glob.glob("corpus/summaries/*.json")
+    # Graph the data, saved to root/corpus/summaries/bars/ and root/corpus/summaries/pies/
+    memo_json_paths = glob.glob(os.path.join(root, "corpus", "summaries", "*.json"))
     for memo_json_path in memo_json_paths:
         json_to_graph(memo_json_path)
         graph_memo_composition(memo_json_path)
