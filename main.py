@@ -2,6 +2,7 @@ import glob
 import json
 import math
 import os
+import random
 
 import numpy as np
 import pytesseract
@@ -110,12 +111,15 @@ def texts_to_jsons(root: str, verbose: bool = True) -> None:
 
     txt_files = sorted(glob.glob(os.path.join(root, "txts", "*.txt")))
     stopwords_path = os.path.join(root.split(os.sep)[0], "stopwords.txt")
-    if os.path.exists(stopwords_path):
-        with open(stopwords_path, "r") as stopwords_txt:
-            stopwords = set([word.strip() for word in stopwords_txt.readlines()])
-    else:
+
+    if not os.path.exists(stopwords_path):
+        # If the stopwords file doesn't exist, create it
         with open(stopwords_path, "w+") as stopwords_txt:
             stopwords_txt.writelines([word + "\n" for word in corpus.stopwords.words('english')])
+
+    # Read in the stopwords from the stopwords file
+    with open(stopwords_path, "r") as stopwords_txt:
+        stopwords = set([word.strip() for word in stopwords_txt.readlines()])
 
     for i, txt_file in enumerate(txt_files, 1):
         if verbose:
@@ -144,17 +148,15 @@ def texts_to_jsons(root: str, verbose: bool = True) -> None:
             json.dump(json_dict, json_file, indent=2)
 
 
-def json_to_graph(json_path: str, num_words: int = 50, verbose: bool = True) -> None:
+def json_to_bar_chart(json_path: str, num_words: int = 50, verbose: bool = True) -> None:
     """
     Graph and save a bar chart with the frequencies of the words in json_path
+    :param root:
     :param json_path: path to json file containing the words and their frequencies
     :param num_words: the maximum number of words to graph
     :param verbose: if True, log progress to the console
     :rtype: None, bar graphs are saved in corpus/summaries/bars/
     """
-    if verbose:
-        print("Graphing bar chart of {}".format(json_path))
-
     with open(json_path, "r") as jsonfile:
         data: dict = json.load(jsonfile)
     unique_words, frequencies = list(data.keys()), list(data.values())
@@ -172,21 +174,25 @@ def json_to_graph(json_path: str, num_words: int = 50, verbose: bool = True) -> 
     plt.gca().invert_yaxis()
     plt.title('Frequency of words in ' + get_filename(json_path))
     plt.tight_layout()
-    # plt.savefig(json_path.split(".")[0] + "-bar_chart.png")
 
     # TODO: often fails here: Process finished with exit code 139 (interrupted by signal 11: SIGSEGV)
-    bar_directory = os.path.join(os.sep.join(json_path.split(os.sep)[:-1]), "bars")
+    path = json_path.split(os.sep)
+
+    bar_directory = os.path.join(*path[:-2], "bars")
     os.makedirs(bar_directory, exist_ok=True)
-    bar_path = os.path.join(bar_directory, get_filename(json_path) + "-bar_chart.png")
+    bar_path = os.path.join(bar_directory, get_filename(json_path) + "_bar_chart.png")
+    if verbose:
+        print("Saving bar chart of {}".format(json_path))
     plt.savefig(bar_path)
 
     # plt.show()
 
 
-def graph_memo_composition(root: str, memo_json_path: str, verbose: bool = True) -> None:
+def json_to_pie_chart(root: str, memo_json_path: str, verbose: bool = True) -> None:
     """
     Graph and save a single pie chart, that shows the composition of the pdf represented by memo_json_path.
     The different categories represented by the wedges of the pie are the different json files found in topics/summaries
+    :param root:
     :param memo_json_path:
     :param verbose:
     :rtype: None
@@ -199,12 +205,14 @@ def graph_memo_composition(root: str, memo_json_path: str, verbose: bool = True)
     memo_words, memo_freqs = list(data.keys()), list(data.values())
     topic_scores = {}
 
-    topic_paths = glob.glob(os.path.join(root, "summaries", "jsons", "*.json"))
-    if len(topic_paths) == 0:
-        print("No topic files found that match with '{}'. Graphing failed".format("topics/summaries/*.json"))
+    json_topic_paths = glob.glob(os.path.join(root, "topics", "summaries", "jsons", "*.json"))
+    # test_files/corpus/summaries/jsons/test_1.json
+    if len(json_topic_paths) == 0:
+        print("No topic files found that match with '{}'. Graphing failed".format(
+            os.path.join(root, "topics", "summaries", "jsons", "*.json")))
         return
 
-    for topic_path in topic_paths:
+    for topic_path in json_topic_paths:
         with open(topic_path, "r") as jsonfile:
             data: dict = json.load(jsonfile)
 
@@ -215,8 +223,7 @@ def graph_memo_composition(root: str, memo_json_path: str, verbose: bool = True)
             if memo_word in topic_words:
                 topic_scores[topic_name] += memo_freq
 
-    print(topic_scores)
-    sns.set_palette(sns.color_palette("BrBG", len(topic_paths)))
+    sns.set_palette(sns.color_palette("BrBG", len(json_topic_paths)))
 
     fig, ax = plt.subplots(figsize=(10, 5), dpi=400, subplot_kw=dict(aspect="equal"))
 
@@ -235,41 +242,88 @@ def graph_memo_composition(root: str, memo_json_path: str, verbose: bool = True)
     # current_palette = sns.color_palette()
     ax.set_title("Composition of " + get_filename(memo_json_path).title())
 
-    pie_directory = os.path.join(root, "summaries", "pies")
-    os.makedirs(pie_directory, exist_ok=True)
-    pie_path = os.path.join(pie_directory, get_filename(memo_json_path) + "-pie_chart.png")
+    pie_path = os.path.join(root, "corpus", "summaries", "pies", get_filename(memo_json_path) + "_pie_chart.png")
     plt.tight_layout()
     plt.savefig(pie_path)
 
 
-def create_test_topic(root, topic_id, total_unique_words=100):
-    words = [topic_id + f"{i:0{len(str(total_unique_words))}}" for i in range(total_unique_words)]
+def create_test_topics(root, topic_ids, total_unique_words=10, total_words=50, graph=True):
+    """
+    Create dummy text files, json files, and bar graphs with a regular and manipulable
+    structure so as to make debugging and testing easier
+    :param root:
+    :param topic_ids:
+    :param total_unique_words:
+    :param total_words:
+    :param graph:
+    :return:
+    """
 
-    def freq_distribution(x):
-        return math.ceil((0.4 * total_unique_words) / x)
+    for topic_id in topic_ids:
+        # create a list of words in the format [topic_id][number], with left padding of zeros
+        words = [topic_id + f"{i:0{len(str(total_unique_words))}}" for i in range(total_unique_words)]
 
-    freqs = [math.ceil(freq_distribution(x + 1)) for x in range(total_unique_words)]
+        def freq_distribution(x):
+            # Hyperbolically decreasing with respect to x
+            return math.ceil((0.7 * total_unique_words) / x)
 
-    json_dict = {word: freq for word, freq in zip(words, freqs)}
-    json_path = os.path.join(root, "summaries", "jsons", "*.json")
-    with open(json_path, "w+") as json_file:
-        json.dump(json_dict, json_file, indent=2)
+        # Create frequencies for the words, according to freq_distribution
+        freqs = [math.ceil(freq_distribution(x + 1)) for x in range(total_unique_words)]
+        topic_txt_directory = os.path.join(root, "topics", "txts")
+
+        # Create a list of words, from the created words and associated frequencies
+        words = random.choices(words, weights=freqs, k=total_words)
+        words_per_line = 10
+        formatted_words = []
+        for start, end in zip(list(range(0, len(words), words_per_line)),
+                              list(range(words_per_line, len(words), words_per_line))):
+            formatted_words.append(" ".join(words[start:end]) + "\n")
+            # Don't forget to add all the words at the end that won't be caught by range()
+            if end + words_per_line >= len(words):
+                formatted_words.append(" ".join(words[end:]) + "\n")
+
+        with open(os.path.join(topic_txt_directory, topic_id + ".txt"), "w+") as file:
+            file.writelines(formatted_words)
+
+    texts_to_jsons(os.path.join(root, "topics"))
+    if graph:
+        json_paths = glob.glob(os.path.join(root, "topics", "summaries", "jsons", "*.json"))
+        for json_path in json_paths:
+            json_to_bar_chart(json_path)
 
 
-def create_test_memo(root="test_files/topics"):
-    return
-    # test_length = 20
-    # word_freqs = {}
-    # topics = glob.glob(f"{root}/summaries/*.json")
-    # topic_wfs = {}
-    # for topic in topics:
-    #     with open(topic, "r") as json_file:
-    #         topic_wfs.update(json.load(json_file))
-    # for word in range(test_length):
-    #
-    #
-    #
-    # pass
+def create_test_corpus(root: str, test_id: str, total_words=300, graph=True):
+    json_paths = glob.glob(os.path.join(root, "topics", "summaries", "jsons", "*.json"))
+    words = []
+    freqs = []
+    for json_path in json_paths:
+        with open(json_path, "r") as jsonfile:
+            data: dict = json.load(jsonfile)
+            words.extend(list(data.keys()))
+            freqs.extend(list(data.values()))
+
+    corpus_txt_directory = os.path.join(root, "corpus", "txts")
+
+    # Create a list of words, from the created words and associated frequencies
+    words = random.choices(words, weights=freqs, k=total_words)
+    words_per_line = 10
+    formatted_words = []
+    for start, end in zip(list(range(0, len(words), words_per_line)),
+                          list(range(words_per_line, len(words), words_per_line))):
+        formatted_words.append(" ".join(words[start:end]) + "\n")
+        # Don't forget to add all the words at the end that won't be caught by range()
+        if end + words_per_line >= len(words):
+            formatted_words.append(" ".join(words[end:]) + "\n")
+
+    with open(os.path.join(corpus_txt_directory, test_id + ".txt"), "w+") as file:
+        file.writelines(formatted_words)
+
+    texts_to_jsons(os.path.join(root, "corpus"))
+    if graph:
+        json_paths = glob.glob(os.path.join(root, "corpus", "summaries", "jsons", "*.json"))
+        for json_path in json_paths:
+            json_to_bar_chart(json_path)
+            json_to_pie_chart(root, json_path)
 
 
 def create_directory_structure(root: str):
@@ -294,18 +348,27 @@ def developement_main() -> None:
     Do not call developement_main() unless you know what you're doing
     :rtype: None
     """
+
     sns.set()
-    root = "FTX1005F"
-    # create_directory_structure("FTX1005F")
+    root = "test_files"
+    create_directory_structure(root)
+    create_test_topics(root,
+                       ["a", "b", "c", "d", "e"],
+                       total_unique_words=50,
+                       total_words=1000,
+                       graph=True)
+    create_test_corpus(root, "test_1", total_words=1000)
+
     # pdfs_to_texts(os.path.join(root, "topics"))
     # texts_to_jsons(os.path.join(root, "topics"))
 
-    json_paths = glob.glob(os.path.join(root, "topics", "summaries", "jsons", "*.json"))
-    for json_path in json_paths:
-        json_to_graph(json_path)
-        # graph_memo_composition(json_path)
+    # json_paths = glob.glob(os.path.join(root, "topics", "summaries", "jsons", "*.json"))
+    # for json_path in json_paths:
+    #     json_to_graph(json_path)
+    #     graph_memo_composition(json_path)
     # for i in range(5):
     #     create_test_topic("test_files", chr(i + ord("a")), total_unique_words=20)
+    print("developement_main() finished.")
 
 
 def main() -> None:
@@ -333,8 +396,8 @@ def main() -> None:
     # Graph the data, saved to root/corpus/summaries/bars/ and root/corpus/summaries/pies/
     memo_json_paths = glob.glob(os.path.join(root, "corpus", "summaries", "*.json"))
     for memo_json_path in memo_json_paths:
-        json_to_graph(memo_json_path)
-        graph_memo_composition(memo_json_path)
+        json_to_bar_chart(memo_json_path)
+        json_to_pie_chart(memo_json_path)
 
 
 if __name__ == '__main__':
