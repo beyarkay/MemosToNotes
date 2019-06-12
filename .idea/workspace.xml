@@ -35,9 +35,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="175" column="31" selection-start-line="175" selection-start-column="31" selection-end-line="175" selection-end-column="31" />
+            <state relative-caret-position="513">
+              <caret line="457" column="86" selection-start-line="457" selection-start-column="86" selection-end-line="457" selection-end-column="86" />
               <folding>
+                <element signature="e#0#11#0" expanded="true" />
                 <element signature="e#334#537#0" />
                 <element signature="e#334#484#1" />
                 <element signature="e#635#2740#0" />
@@ -78,9 +79,6 @@
                 <element signature="e#14583#14800#0" />
                 <element signature="e#14725#14800#0" />
                 <element signature="e#14850#15340#0" />
-                <element signature="e#14962#15340#0" />
-                <element signature="e#14992#15340#0" />
-                <element signature="e#15030#15251#0" />
                 <element signature="e#15380#15667#1" />
                 <element signature="e#16527#17585#0" />
                 <element signature="e#16619#16827#1" />
@@ -90,29 +88,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CSC1015F/topics/txts/Arrays.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="176" column="46" selection-start-line="176" selection-start-column="46" selection-end-line="176" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CSC1015F/stopwords.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2531">
-              <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test_files/regex.txt">
+        <entry file="file://$PROJECT_DIR$/CSC1015F/topics/summaries/jsons/Number Systems.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
-              <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+              <caret line="1" column="12" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CSC1015F/topics/summaries/all_topics.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="700">
+              <caret line="313" column="10" selection-start-line="313" selection-start-column="10" selection-end-line="313" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -128,16 +117,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>nltk</find>
-      <find>word:fre</find>
-      <find>word:</find>
-      <find>json.</find>
-      <find>stopwo</find>
-      <find>already exists</find>
-      <find>topic_</find>
-      <find>_bar_chart</find>
-      <find>with open(</find>
-      <find>No top</find>
       <find>print(&quot;</find>
       <find>print(</find>
       <find>Graphing pie</find>
@@ -157,7 +136,17 @@
       <find>bl od all</find>
       <find>al</find>
       <find>al</find>
+      <find>array</find>
       <find>converting</find>
+      <find>ist</find>
+      <find>&quot;ist&quot;</find>
+      <find>&quot;ive&quot;</find>
+      <find>&quot;pytho&quot;</find>
+      <find>&quot;&lt;list&gt;&quot;</find>
+      <find>&quot;university of cape&quot;</find>
+      <find>&quot;arrays&quot;</find>
+      <find>&quot;ain&quot;</find>
+      <find>&quot;8 university&quot;</find>
     </findStrings>
     <replaceStrings>
       <replace>REGEX_SUBQUESTION</replace>
@@ -197,6 +186,7 @@
         <option value="$PROJECT_DIR$/CSC1015F/topics/txts/Sorting and Searching.txt" />
         <option value="$PROJECT_DIR$/CSC1015F/topics/txts/Software.txt" />
         <option value="$PROJECT_DIR$/CSC1015F/topics/summaries/jsons/all_topics.json" />
+        <option value="$PROJECT_DIR$/CSC1015F/topics/summaries/jsons/Arrays.json" />
         <option value="$PROJECT_DIR$/main.py" />
       </list>
     </option>
@@ -258,6 +248,14 @@
               <item name="MemosToNotes" type="462c0819:PsiDirectoryNode" />
               <item name="CSC1015F" type="462c0819:PsiDirectoryNode" />
               <item name="topics" type="462c0819:PsiDirectoryNode" />
+              <item name="summaries" type="462c0819:PsiDirectoryNode" />
+              <item name="penalties" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MemosToNotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MemosToNotes" type="462c0819:PsiDirectoryNode" />
+              <item name="CSC1015F" type="462c0819:PsiDirectoryNode" />
+              <item name="topics" type="462c0819:PsiDirectoryNode" />
               <item name="txts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -280,19 +278,19 @@
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/CSC1015F/topics/summaries" />
+      <recent name="$PROJECT_DIR$/readme-files" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/topics/pngs" />
+      <recent name="$PROJECT_DIR$/pdfs" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/CSC1015F" />
       <recent name="$PROJECT_DIR$/FTX1005F" />
       <recent name="$PROJECT_DIR$/test_files/corpus/summaries" />
       <recent name="$PROJECT_DIR$/corpus/summaries/pies" />
       <recent name="$PROJECT_DIR$/corpus/pdfs" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/readme-files" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/topics/pngs" />
-      <recent name="$PROJECT_DIR$/pdfs" />
-      <recent name="$PROJECT_DIR$/imgs" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -388,7 +386,7 @@
       <workItem from="1560328854336" duration="20000" />
       <workItem from="1560328902599" duration="7934000" />
       <workItem from="1560366981898" duration="1421000" />
-      <workItem from="1560368499523" duration="8740000" />
+      <workItem from="1560368499523" duration="12151000" />
     </task>
     <task id="LOCAL-00001" summary="Testing git connection">
       <created>1553692047818</created>
@@ -698,11 +696,18 @@
       <option name="project" value="LOCAL" />
       <updated>1560374189384</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="Calculate the frequency of every word / collection of words in every topic">
+      <created>1560377548201</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1560377548201</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111881000" />
+    <option name="totallyTimeSpent" value="115292000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -720,8 +725,8 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" weight="0.23493975" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.17228916" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.29156625" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4988263" weight="0.23614457" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -785,7 +790,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Add simple frequency bar graph" />
     <MESSAGE value="Processed pdfs now get saved in text form" />
     <MESSAGE value="Reformat to process larger datasets easily" />
     <MESSAGE value="Streamlining and pyplot modifications" />
@@ -810,7 +814,8 @@
     <MESSAGE value="Finish method to create test topics" />
     <MESSAGE value="Finish method for creating the testing corpus" />
     <MESSAGE value="Improve text_to_json to better find the important topic words" />
-    <option name="LAST_COMMIT_MESSAGE" value="Improve text_to_json to better find the important topic words" />
+    <MESSAGE value="Calculate the frequency of every word / collection of words in every topic" />
+    <option name="LAST_COMMIT_MESSAGE" value="Calculate the frequency of every word / collection of words in every topic" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -823,7 +828,7 @@
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/MemosToNotes$main.coverage" NAME="main Coverage Results" MODIFIED="1560377308292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MemosToNotes$main.coverage" NAME="main Coverage Results" MODIFIED="1560380500479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
@@ -867,25 +872,6 @@ print(&quot;Done&quot;)</expression-string>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/FTX1005F/topics/summaries/jsons/2 Types of Businesses slides.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="24" column="11" lean-forward="true" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/topics/txts/Testing.txt" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_files/topics/txts/topic_A.txt" />
-    <entry file="file://$PROJECT_DIR$/test_files/stopwords.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/test_files/topics/summaries/test_topic_a.json" />
     <entry file="file://$PROJECT_DIR$/test_files/topics/summaries/test_topic_b.json" />
     <entry file="file://$PROJECT_DIR$/test_files/topics/summaries/test_topic_e.json" />
@@ -1044,13 +1030,6 @@ print(&quot;Done&quot;)</expression-string>
         <state relative-caret-position="-18" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CSC1015F/topics/summaries/jsons/Sorting and Searching.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CSC1015F/topics/summaries/jsons/Hardware.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1061,11 +1040,61 @@ print(&quot;Done&quot;)</expression-string>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test_files/regex.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSC1015F/topics/summaries/all_topics.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="313" column="10" selection-start-line="313" selection-start-column="10" selection-end-line="313" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSC1015F/topics/summaries/jsons/Arrays.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="9" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSC1015F/topics/summaries/penalties/Sorting and Searching.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-638441">
+          <caret line="2" column="11" lean-forward="true" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSC1015F/topics/summaries/jsons/Sorting and Searching.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSC1015F/topics/summaries/penalties/Number Systems.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-305">
+          <caret line="41454" column="16" selection-start-line="41454" selection-start-column="16" selection-end-line="41454" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSC1015F/topics/summaries/penalties/Arrays.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="573450">
+          <caret line="38230" column="10" selection-start-line="38230" selection-start-column="10" selection-end-line="38230" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="175" column="31" selection-start-line="175" selection-start-column="31" selection-end-line="175" selection-end-column="31" />
+        <state relative-caret-position="513">
+          <caret line="457" column="86" selection-start-line="457" selection-start-column="86" selection-end-line="457" selection-end-column="86" />
           <folding>
+            <element signature="e#0#11#0" expanded="true" />
             <element signature="e#334#537#0" />
             <element signature="e#334#484#1" />
             <element signature="e#635#2740#0" />
@@ -1106,9 +1135,6 @@ print(&quot;Done&quot;)</expression-string>
             <element signature="e#14583#14800#0" />
             <element signature="e#14725#14800#0" />
             <element signature="e#14850#15340#0" />
-            <element signature="e#14962#15340#0" />
-            <element signature="e#14992#15340#0" />
-            <element signature="e#15030#15251#0" />
             <element signature="e#15380#15667#1" />
             <element signature="e#16527#17585#0" />
             <element signature="e#16619#16827#1" />
@@ -1117,17 +1143,10 @@ print(&quot;Done&quot;)</expression-string>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CSC1015F/topics/summaries/jsons/all_topics.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_files/regex.txt">
+    <entry file="file://$PROJECT_DIR$/CSC1015F/topics/summaries/jsons/Number Systems.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="3" />
         </state>
       </provider>
     </entry>

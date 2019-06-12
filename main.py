@@ -24,6 +24,13 @@ def get_filename(file_path: str) -> str:
     return file_path.split(os.sep)[-1].split(".")[0]
 
 
+def sorted_dictionary(dictionary: dict) -> dict:
+    sorted_tokens = sorted(zip(list(dictionary.keys()), list(dictionary.values())),
+                           key=lambda x: x[1],
+                           reverse=True)
+    return {key: value for key, value in sorted_tokens}
+
+
 def get_text_from_pdf(root: str, pdf_path: str, verbose: bool = True, reuse=True) -> list:
     """
     Use Tesseract OCR to get the text from filename. PDFs are converted pagewise into
@@ -131,6 +138,8 @@ def texts_to_jsons(root: str, verbose: bool = True) -> None:
 
         # regex replace all whitespace with a single space
         text = re.sub(re.compile(r"\s"), " ", text)
+        # Remove meaningless punctuation
+        text = re.sub(re.compile(r"[.,;:\"@|]+"), " ", text)
         # squash all sequential spaces to just be one space
         text = re.sub(re.compile("[ ]+"), " ", text)
         # convert the text to lowercase
@@ -158,21 +167,14 @@ def texts_to_jsons(root: str, verbose: bool = True) -> None:
             # TODO create a better counting function, that'll do some fuzzy matching with capitals, bad OCR etc
             return haystack.count(needle)
 
-        tokens = list(tokens)
         # Get the frequency of each token
         frequencies = [fancy_count(word, text) for word in tokens]
 
-        # sort the words by their frequency, descending
-        sorted_tokens = sorted(zip(tokens, frequencies), key=lambda x: x[1], reverse=True)
-        clean_words = []
-        frequencies = []
-        for item in sorted_tokens:
-            clean_words.append(item[0])
-            frequencies.append(item[1])
+        # gather the words and frequencies into a dict, then sort it
+        json_dict = sorted_dictionary({word: freq for word, freq in zip(list(tokens), frequencies)})
 
         # write as json file
         json_path = os.path.join(root, "summaries", "jsons", get_filename(txt_file) + ".json")
-        json_dict = {word: freq for word, freq in zip(clean_words, frequencies)}
         with open(json_path, "w") as json_file:
             json.dump(json_dict, json_file, indent=2)
 
@@ -187,19 +189,35 @@ def texts_to_jsons(root: str, verbose: bool = True) -> None:
                 else:
                     all_topics[key] = value
     # sort the words by their frequency, descending
-    sorted_tokens = sorted(zip(list(all_topics.keys()), list(all_topics.values())),
-                           key=lambda x: x[1],
-                           reverse=True)
-    all_topics = {key: value for key, value in sorted_tokens}
+    all_topics = sorted_dictionary(all_topics)
     # write out the cumulative totals of all the topics to JSON
-    all_topics_path = os.path.join(root, "summaries", "jsons", "all_topics.json")
+    all_topics_path = os.path.join(root, "summaries", "all_topics.json")
     with open(all_topics_path, "w") as json_file:
         json.dump(all_topics, json_file, indent=2)
 
+    # Now go through every topic json file, and calculate it's difference from the overall frequencies
+    json_paths = sorted(glob.glob(os.path.join(root, "summaries", "jsons", "*.json")))
+    for i, json_path in enumerate(json_paths, 1):
+        if verbose:
+            print("Creating delta for {} ({} out of {})".format(json_path, i, len(json_paths)))
 
+        offset = {key: -value for key, value in all_topics.items()}
+        with open(json_path, "r") as json_file:
+            delta: dict = json.load(json_file)
 
+        for key, value in delta.items():
+            if key in offset:
+                # Add the value twice, once becuase it's already part of all_topics,
+                # and again so that more frequent words get more weight
+                offset[key] += 2 * value
+            else:
+                offset[key] = value
 
+        delta_path = os.path.join(root, "summaries", "penalties", get_filename(json_path) + ".json")
+        with open(delta_path, "w") as json_file:
+            json.dump(sorted_dictionary(offset), json_file, indent=2)
 
+    # TODO create a bar graph of how often the words in this topic DON'T appear in the other topics
 
 
 def json_to_bar_chart(json_path: str, num_words: int = 50, verbose: bool = True) -> None:
@@ -410,7 +428,7 @@ def create_directory_structure(root: str):
                 os.makedirs(os.path.join(root, l1, l2, "bars"), exist_ok=True)
                 os.makedirs(os.path.join(root, l1, l2, "pies"), exist_ok=True)
                 os.makedirs(os.path.join(root, l1, l2, "jsons"), exist_ok=True)
-                os.makedirs(os.path.join(root, l1, l2, "deltas"), exist_ok=True)
+                os.makedirs(os.path.join(root, l1, l2, "penalties"), exist_ok=True)
             else:
                 os.makedirs(os.path.join(root, l1, l2), exist_ok=True)
 
@@ -437,9 +455,9 @@ def developement_main() -> None:
     # pdfs_to_texts(os.path.join(root, "topics"))
     texts_to_jsons(os.path.join(root, "topics"))
 
-    # json_paths = sorted(glob.glob(os.path.join(root, "topics", "summaries", "jsons", "*.json")))
-    # for json_path in json_paths:
-    #     json_to_bar_chart(json_path, num_words=100)
+    json_paths = sorted(glob.glob(os.path.join(root, "topics", "summaries", "penalties", "*.json")))
+    for json_path in json_paths:
+        json_to_bar_chart(json_path, num_words=100)
     # json_to_pie_chart(root, json_path)
     print("developement_main() finished.")
 
