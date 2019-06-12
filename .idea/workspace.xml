@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="456ae79f-d782-497c-83bd-e877f784e7ca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CSC1015F/regex.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSC1015F/stopwords.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FTX1005F/stopwords.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_files/regex.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuestionPaper.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <ignored path=".idea/" />
@@ -40,8 +35,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="144" selection-start-line="144" selection-end-line="144" />
+            <state relative-caret-position="128">
+              <caret line="175" column="31" selection-start-line="175" selection-start-column="31" selection-end-line="175" selection-end-column="31" />
               <folding>
                 <element signature="e#334#537#0" />
                 <element signature="e#334#484#1" />
@@ -59,23 +54,47 @@
                 <element signature="e#3971#4161#0" />
                 <element signature="e#4229#4564#1" />
                 <element signature="e#4763#4967#0" />
+                <element signature="e#5970#6111#0" />
                 <element signature="e#6535#8007#0" />
+                <element signature="e#6535#6905#1" />
                 <element signature="e#8099#10511#0" />
+                <element signature="e#8099#8420#1" />
+                <element signature="e#8881#9045#0" />
+                <element signature="e#9095#9463#0" />
+                <element signature="e#9381#9463#0" />
+                <element signature="e#10576#10862#0" />
+                <element signature="e#10689#10749#0" />
                 <element signature="e#10961#12885#0" />
+                <element signature="e#10961#11241#1" />
                 <element signature="e#11282#12642#0" />
+                <element signature="e#11518#11624#0" />
+                <element signature="e#12241#12509#0" />
                 <element signature="e#12715#12885#0" />
                 <element signature="e#12990#14800#0" />
+                <element signature="e#13233#13367#0" />
+                <element signature="e#13500#13707#0" />
+                <element signature="e#13551#13707#0" />
+                <element signature="e#14129#14385#0" />
+                <element signature="e#14583#14800#0" />
+                <element signature="e#14725#14800#0" />
+                <element signature="e#14850#15340#0" />
+                <element signature="e#14962#15340#0" />
+                <element signature="e#14992#15340#0" />
+                <element signature="e#15030#15251#0" />
+                <element signature="e#15380#15667#1" />
                 <element signature="e#16527#17585#0" />
+                <element signature="e#16619#16827#1" />
+                <element signature="e#17510#17585#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CSC1015F/topics/txts/Files.txt">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CSC1015F/topics/txts/Arrays.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="170" selection-start-line="169" selection-start-column="18" selection-end-line="170" />
+            <state relative-caret-position="135">
+              <caret line="176" column="46" selection-start-line="176" selection-start-column="46" selection-end-line="176" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -89,7 +108,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test_files/regex.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
@@ -109,20 +128,9 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>ieee</find>
-      <find>EEE</find>
-      <find>corpus</find>
-      <find>&lt;</find>
-      <find>', '</find>
-      <find>summaries</find>
-      <find>.png</find>
-      <find>makedir</find>
-      <find>np</find>
-      <find>WandImage</find>
       <find>nltk</find>
       <find>word:fre</find>
       <find>word:</find>
-      <find>json</find>
       <find>json.</find>
       <find>stopwo</find>
       <find>already exists</find>
@@ -139,6 +147,17 @@
       <find>behaves</find>
       <find>fo</find>
       <find>pa</find>
+      <find>\spa\s</find>
+      <find>rt\s</find>
+      <find>rt</find>
+      <find>json_file</find>
+      <find>json</find>
+      <find>al</find>
+      <find>al</find>
+      <find>bl od all</find>
+      <find>al</find>
+      <find>al</find>
+      <find>converting</find>
     </findStrings>
     <replaceStrings>
       <replace>REGEX_SUBQUESTION</replace>
@@ -175,6 +194,9 @@
         <option value="$PROJECT_DIR$/test_files/regex.txt" />
         <option value="$PROJECT_DIR$/QuestionPaper.py" />
         <option value="$PROJECT_DIR$/CSC1015F/stopwords.txt" />
+        <option value="$PROJECT_DIR$/CSC1015F/topics/txts/Sorting and Searching.txt" />
+        <option value="$PROJECT_DIR$/CSC1015F/topics/txts/Software.txt" />
+        <option value="$PROJECT_DIR$/CSC1015F/topics/summaries/jsons/all_topics.json" />
         <option value="$PROJECT_DIR$/main.py" />
       </list>
     </option>
@@ -366,7 +388,7 @@
       <workItem from="1560328854336" duration="20000" />
       <workItem from="1560328902599" duration="7934000" />
       <workItem from="1560366981898" duration="1421000" />
-      <workItem from="1560368499523" duration="5392000" />
+      <workItem from="1560368499523" duration="8740000" />
     </task>
     <task id="LOCAL-00001" summary="Testing git connection">
       <created>1553692047818</created>
@@ -669,11 +691,18 @@
       <option name="project" value="LOCAL" />
       <updated>1560337071781</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="Improve text_to_json to better find the important topic words">
+      <created>1560374189383</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1560374189384</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108533000" />
+    <option name="totallyTimeSpent" value="111881000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -692,8 +721,8 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" weight="0.2180723" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4988263" visible="true" weight="0.41445783" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" weight="0.23493975" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4988263" weight="0.23614457" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.19036144" />
@@ -756,7 +785,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Streamline text extraction" />
     <MESSAGE value="Add simple frequency bar graph" />
     <MESSAGE value="Processed pdfs now get saved in text form" />
     <MESSAGE value="Reformat to process larger datasets easily" />
@@ -781,7 +809,8 @@
     <MESSAGE value="Updated gitignore to not ignore the test_files folder" />
     <MESSAGE value="Finish method to create test topics" />
     <MESSAGE value="Finish method for creating the testing corpus" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish method for creating the testing corpus" />
+    <MESSAGE value="Improve text_to_json to better find the important topic words" />
+    <option name="LAST_COMMIT_MESSAGE" value="Improve text_to_json to better find the important topic words" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -794,7 +823,7 @@
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/MemosToNotes$main.coverage" NAME="main Coverage Results" MODIFIED="1560373674766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MemosToNotes$main.coverage" NAME="main Coverage Results" MODIFIED="1560377308292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
@@ -838,48 +867,6 @@ print(&quot;Done&quot;)</expression-string>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="540">
-            <caret line="36" selection-start-line="36" selection-end-line="36" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///anaconda3/envs/MemosToNotes3/lib/python3.6/site-packages/wand/resource.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="239" selection-start-line="239" selection-end-line="239" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FTX1005F/stopwords.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" selection-start-column="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///anaconda3/envs/MemosToNotes3/lib/python3.6/site-packages/nltk/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1069">
-          <caret line="146" selection-start-line="146" selection-end-line="146" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FTX1005F/topics/stopwords.txt" />
-    <entry file="file://$PROJECT_DIR$/FTX1005F/topics/summaries/jsons/1 Accounting.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FTX1005F/topics/summaries/jsons/4 Sources of Finance slides.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="47" column="10" selection-start-line="47" selection-end-line="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FTX1005F/topics/summaries/jsons/2 Types of Businesses slides.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="212">
@@ -980,9 +967,6 @@ print(&quot;Done&quot;)</expression-string>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CSC1015F/topics/txts/Arrays.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/CSC1015F/topics/summaries/Basics.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -995,13 +979,6 @@ print(&quot;Done&quot;)</expression-string>
     </entry>
     <entry file="file://$PROJECT_DIR$/CSC1015F/corpus/summaries/bars/2011 June Memo-bar_chart.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_files/regex.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CSC1015F/topics/summaries/Files.json">
       <provider selected="true" editor-type-id="text-editor">
@@ -1027,10 +1004,67 @@ print(&quot;Done&quot;)</expression-string>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/CSC1015F/topics/txts/Files.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="170" selection-start-line="169" selection-start-column="18" selection-end-line="170" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSC1015F/topics/txts/Sorting and Searching.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="62" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSC1015F/topics/txts/Arrays.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="176" column="46" selection-start-line="176" selection-start-column="46" selection-end-line="176" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSC1015F/topics/txts/Software.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="28" column="27" selection-start-line="28" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSC1015F/topics/summaries/jsons/Files.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3045">
+          <caret line="203" column="12" selection-start-line="203" selection-start-column="12" selection-end-line="203" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSC1015F/topics/summaries/jsons/Basics.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-18" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSC1015F/topics/summaries/jsons/Sorting and Searching.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSC1015F/topics/summaries/jsons/Hardware.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSC1015F/topics/summaries/jsons/Software.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="144" selection-start-line="144" selection-end-line="144" />
+        <state relative-caret-position="128">
+          <caret line="175" column="31" selection-start-line="175" selection-start-column="31" selection-end-line="175" selection-end-column="31" />
           <folding>
             <element signature="e#334#537#0" />
             <element signature="e#334#484#1" />
@@ -1048,28 +1082,52 @@ print(&quot;Done&quot;)</expression-string>
             <element signature="e#3971#4161#0" />
             <element signature="e#4229#4564#1" />
             <element signature="e#4763#4967#0" />
+            <element signature="e#5970#6111#0" />
             <element signature="e#6535#8007#0" />
+            <element signature="e#6535#6905#1" />
             <element signature="e#8099#10511#0" />
+            <element signature="e#8099#8420#1" />
+            <element signature="e#8881#9045#0" />
+            <element signature="e#9095#9463#0" />
+            <element signature="e#9381#9463#0" />
+            <element signature="e#10576#10862#0" />
+            <element signature="e#10689#10749#0" />
             <element signature="e#10961#12885#0" />
+            <element signature="e#10961#11241#1" />
             <element signature="e#11282#12642#0" />
+            <element signature="e#11518#11624#0" />
+            <element signature="e#12241#12509#0" />
             <element signature="e#12715#12885#0" />
             <element signature="e#12990#14800#0" />
+            <element signature="e#13233#13367#0" />
+            <element signature="e#13500#13707#0" />
+            <element signature="e#13551#13707#0" />
+            <element signature="e#14129#14385#0" />
+            <element signature="e#14583#14800#0" />
+            <element signature="e#14725#14800#0" />
+            <element signature="e#14850#15340#0" />
+            <element signature="e#14962#15340#0" />
+            <element signature="e#14992#15340#0" />
+            <element signature="e#15030#15251#0" />
+            <element signature="e#15380#15667#1" />
             <element signature="e#16527#17585#0" />
+            <element signature="e#16619#16827#1" />
+            <element signature="e#17510#17585#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CSC1015F/topics/summaries/jsons/Files.json">
+    <entry file="file://$PROJECT_DIR$/CSC1015F/topics/summaries/jsons/all_topics.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2295">
-          <caret line="153" column="13" selection-start-line="153" selection-start-column="3" selection-end-line="153" selection-end-column="13" />
+        <state relative-caret-position="255">
+          <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CSC1015F/topics/txts/Files.txt">
+    <entry file="file://$PROJECT_DIR$/test_files/regex.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="170" selection-start-line="169" selection-start-column="18" selection-end-line="170" />
+        <state relative-caret-position="15">
+          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
         </state>
       </provider>
     </entry>

@@ -136,27 +136,26 @@ def texts_to_jsons(root: str, verbose: bool = True) -> None:
         # convert the text to lowercase
         text = text.lower()
 
-        # Add in all the maybe-important tokens
-        # Also include function calls? of regex types
         tokens = set()
         split_text = [word.strip() for word in text.split(" ")]
 
         for j, word in enumerate(split_text):
-            if not word.isspace() and len(word) > 1:
+            if not word.isspace() and len(word) > 2:
                 tokens.add(word)
+
+            # for debugging in case you find funky things coming through the filters:
+            # if len(word) <= 3 and j + 5 < len(split_text) and j > 5 and word not in stopwords:
+            #     context = " ".join(split_text[j - 5:j + 5])
+            #     print(f"{get_filename(txt_file):<25}{word:<10}{context}")
             if j + 1 < len(split_text):
                 tokens.add(word + " " + split_text[j + 1])
             if j + 2 < len(split_text):
                 tokens.add(word + " " + split_text[j + 1] + " " + split_text[j + 2])
-        # STEP 1: Exclude the useless things
+        # Exclude the stopwords
         tokens -= stopwords
-        # STEP 2: Do fuzzy matching to account for 'close enough' matches
 
         def fancy_count(needle: str, haystack: str) -> int:
             # TODO create a better counting function, that'll do some fuzzy matching with capitals, bad OCR etc
-            # Ignore special characters
-            # Ignore case
-
             return haystack.count(needle)
 
         tokens = list(tokens)
@@ -164,15 +163,43 @@ def texts_to_jsons(root: str, verbose: bool = True) -> None:
         frequencies = [fancy_count(word, text) for word in tokens]
 
         # sort the words by their frequency, descending
-        sorted_words = sorted(zip(tokens, frequencies), key=lambda x: x[1], reverse=True)
-        clean_words = [item[0] for item in sorted_words]
-        frequencies = [item[1] for item in sorted_words]
+        sorted_tokens = sorted(zip(tokens, frequencies), key=lambda x: x[1], reverse=True)
+        clean_words = []
+        frequencies = []
+        for item in sorted_tokens:
+            clean_words.append(item[0])
+            frequencies.append(item[1])
 
         # write as json file
-        json_path = os.path.join(os.path.join(root, "summaries", "jsons"), get_filename(txt_file) + ".json")
+        json_path = os.path.join(root, "summaries", "jsons", get_filename(txt_file) + ".json")
         json_dict = {word: freq for word, freq in zip(clean_words, frequencies)}
-        with open(json_path, "w+") as json_file:
+        with open(json_path, "w") as json_file:
             json.dump(json_dict, json_file, indent=2)
+
+    json_paths = sorted(glob.glob(os.path.join(root, "summaries", "jsons", "*.json")))
+    all_topics = {}
+    for json_path in json_paths:
+        with open(json_path, "r") as json_file:
+            data: dict = json.load(json_file)
+            for key, value in data.items():
+                if key in all_topics:
+                    all_topics[key] += value
+                else:
+                    all_topics[key] = value
+    # sort the words by their frequency, descending
+    sorted_tokens = sorted(zip(list(all_topics.keys()), list(all_topics.values())),
+                           key=lambda x: x[1],
+                           reverse=True)
+    all_topics = {key: value for key, value in sorted_tokens}
+    # write out the cumulative totals of all the topics to JSON
+    all_topics_path = os.path.join(root, "summaries", "jsons", "all_topics.json")
+    with open(all_topics_path, "w") as json_file:
+        json.dump(all_topics, json_file, indent=2)
+
+
+
+
+
 
 
 def json_to_bar_chart(json_path: str, num_words: int = 50, verbose: bool = True) -> None:
@@ -383,6 +410,7 @@ def create_directory_structure(root: str):
                 os.makedirs(os.path.join(root, l1, l2, "bars"), exist_ok=True)
                 os.makedirs(os.path.join(root, l1, l2, "pies"), exist_ok=True)
                 os.makedirs(os.path.join(root, l1, l2, "jsons"), exist_ok=True)
+                os.makedirs(os.path.join(root, l1, l2, "deltas"), exist_ok=True)
             else:
                 os.makedirs(os.path.join(root, l1, l2), exist_ok=True)
 
@@ -412,7 +440,7 @@ def developement_main() -> None:
     # json_paths = sorted(glob.glob(os.path.join(root, "topics", "summaries", "jsons", "*.json")))
     # for json_path in json_paths:
     #     json_to_bar_chart(json_path, num_words=100)
-        # json_to_pie_chart(root, json_path)
+    # json_to_pie_chart(root, json_path)
     print("developement_main() finished.")
 
 
