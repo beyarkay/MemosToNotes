@@ -2,33 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="456ae79f-d782-497c-83bd-e877f784e7ca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test_files/corpus/summaries/bars/test_1_bar_chart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_files/corpus/summaries/jsons/test_1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_files/corpus/txts/test_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_files/stopwords.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_files/topics/summaries/bars/a_bar_chart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_files/topics/summaries/bars/b_bar_chart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_files/topics/summaries/bars/c_bar_chart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_files/topics/summaries/bars/d_bar_chart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_files/topics/summaries/bars/e_bar_chart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_files/topics/summaries/jsons/a.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_files/topics/summaries/jsons/b.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_files/topics/summaries/jsons/c.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_files/topics/summaries/jsons/d.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_files/topics/summaries/jsons/e.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_files/topics/txts/a.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_files/topics/txts/b.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_files/topics/txts/c.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_files/topics/txts/d.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_files/topics/txts/e.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_files/corpus/summaries/pies/test_1_pie_chart.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_files/corpus/summaries/memo_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_files/topics/summaries/test_topic_a.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_files/topics/summaries/test_topic_b.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_files/topics/summaries/test_topic_c.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_files/topics/summaries/test_topic_d.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_files/topics/summaries/test_topic_e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_files/corpus/summaries/bars/test_1_bar_chart.png" beforeDir="false" afterPath="$PROJECT_DIR$/test_files/corpus/summaries/bars/test_1_bar_chart.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_files/corpus/summaries/jsons/test_1.json" beforeDir="false" afterPath="$PROJECT_DIR$/test_files/corpus/summaries/jsons/test_1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_files/corpus/txts/test_1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test_files/corpus/txts/test_1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_files/topics/summaries/bars/a_bar_chart.png" beforeDir="false" afterPath="$PROJECT_DIR$/test_files/topics/summaries/bars/a_bar_chart.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_files/topics/summaries/bars/b_bar_chart.png" beforeDir="false" afterPath="$PROJECT_DIR$/test_files/topics/summaries/bars/b_bar_chart.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_files/topics/summaries/bars/c_bar_chart.png" beforeDir="false" afterPath="$PROJECT_DIR$/test_files/topics/summaries/bars/c_bar_chart.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_files/topics/summaries/bars/d_bar_chart.png" beforeDir="false" afterPath="$PROJECT_DIR$/test_files/topics/summaries/bars/d_bar_chart.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_files/topics/summaries/bars/e_bar_chart.png" beforeDir="false" afterPath="$PROJECT_DIR$/test_files/topics/summaries/bars/e_bar_chart.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_files/topics/summaries/jsons/a.json" beforeDir="false" afterPath="$PROJECT_DIR$/test_files/topics/summaries/jsons/a.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_files/topics/summaries/jsons/b.json" beforeDir="false" afterPath="$PROJECT_DIR$/test_files/topics/summaries/jsons/b.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_files/topics/summaries/jsons/c.json" beforeDir="false" afterPath="$PROJECT_DIR$/test_files/topics/summaries/jsons/c.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_files/topics/summaries/jsons/d.json" beforeDir="false" afterPath="$PROJECT_DIR$/test_files/topics/summaries/jsons/d.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_files/topics/summaries/jsons/e.json" beforeDir="false" afterPath="$PROJECT_DIR$/test_files/topics/summaries/jsons/e.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_files/topics/txts/a.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test_files/topics/txts/a.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_files/topics/txts/b.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test_files/topics/txts/b.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_files/topics/txts/c.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test_files/topics/txts/c.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_files/topics/txts/d.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test_files/topics/txts/d.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_files/topics/txts/e.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test_files/topics/txts/e.txt" afterDir="false" />
     </list>
     <ignored path=".idea/" />
     <ignored path="corpus/pdfs/" />
@@ -60,10 +54,9 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-838">
-              <caret line="246" column="25" lean-forward="true" selection-start-line="246" selection-start-column="25" selection-end-line="246" selection-end-column="25" />
+            <state relative-caret-position="214">
+              <caret line="365" column="34" lean-forward="true" selection-start-line="365" selection-start-column="34" selection-end-line="365" selection-end-column="34" />
               <folding>
-                <element signature="e#0#11#0" expanded="true" />
                 <element signature="e#320#523#0" />
                 <element signature="e#320#470#1" />
                 <element signature="e#621#2726#0" />
@@ -80,16 +73,35 @@
                 <element signature="e#3957#4147#0" />
                 <element signature="e#4215#6241#0" />
                 <element signature="e#4215#4550#1" />
+                <element signature="e#4776#4923#0" />
                 <element signature="e#5100#6241#0" />
+                <element signature="e#6450#7902#0" />
                 <element signature="e#6334#6687#1" />
+                <element signature="e#8012#10482#0" />
                 <element signature="e#7946#8250#1" />
-                <element signature="e#12500#13912#0" />
+                <element signature="e#8743#8897#0" />
+                <element signature="e#8792#9160#0" />
+                <element signature="e#9078#9160#0" />
+                <element signature="e#10498#12124#0" />
+                <element signature="e#10493#10640#1" />
+                <element signature="e#10516#11901#0" />
+                <element signature="e#10629#10677#0" />
+                <element signature="e#11540#11768#0" />
+                <element signature="e#11937#12091#0" />
+                <element signature="e#12535#14316#0" />
+                <element signature="e#12743#12935#0" />
+                <element signature="e#12794#12935#0" />
+                <element signature="e#13357#13613#0" />
+                <element signature="e#13811#14020#0" />
+                <element signature="e#14257#14332#0" />
                 <element signature="e#11300#11790#0" />
                 <element signature="e#11412#11790#0" />
                 <element signature="e#11442#11790#0" />
                 <element signature="e#11480#11701#0" />
-                <element signature="e#12568#13525#0" />
+                <element signature="e#11830#12047#1" />
+                <element signature="e#16075#17131#0" />
                 <element signature="e#12565#12782#1" />
+                <element signature="e#13447#13523#0" />
               </folding>
             </state>
           </provider>
@@ -106,9 +118,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>potatoes</find>
-      <find>20cn</find>
-      <find>4.7*</find>
       <find>name</find>
       <find>.jpg</find>
       <find>oundary</find>
@@ -136,6 +145,9 @@
       <find>No top</find>
       <find>print(&quot;</find>
       <find>print(</find>
+      <find>Graphing pie</find>
+      <find>glob.glob</find>
+      <find>00</find>
     </findStrings>
     <replaceStrings>
       <replace>REGEX_SUBQUESTION</replace>
@@ -211,6 +223,37 @@
               <item name="test_files" type="462c0819:PsiDirectoryNode" />
               <item name="corpus" type="462c0819:PsiDirectoryNode" />
               <item name="summaries" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MemosToNotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MemosToNotes" type="462c0819:PsiDirectoryNode" />
+              <item name="test_files" type="462c0819:PsiDirectoryNode" />
+              <item name="corpus" type="462c0819:PsiDirectoryNode" />
+              <item name="summaries" type="462c0819:PsiDirectoryNode" />
+              <item name="bars" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MemosToNotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MemosToNotes" type="462c0819:PsiDirectoryNode" />
+              <item name="test_files" type="462c0819:PsiDirectoryNode" />
+              <item name="corpus" type="462c0819:PsiDirectoryNode" />
+              <item name="summaries" type="462c0819:PsiDirectoryNode" />
+              <item name="jsons" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MemosToNotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MemosToNotes" type="462c0819:PsiDirectoryNode" />
+              <item name="test_files" type="462c0819:PsiDirectoryNode" />
+              <item name="corpus" type="462c0819:PsiDirectoryNode" />
+              <item name="summaries" type="462c0819:PsiDirectoryNode" />
+              <item name="pies" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MemosToNotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MemosToNotes" type="462c0819:PsiDirectoryNode" />
+              <item name="test_files" type="462c0819:PsiDirectoryNode" />
+              <item name="corpus" type="462c0819:PsiDirectoryNode" />
+              <item name="txts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -333,7 +376,7 @@
       <workItem from="1559394466584" duration="1822000" />
       <workItem from="1559473688998" duration="2973000" />
       <workItem from="1560328854336" duration="20000" />
-      <workItem from="1560328902599" duration="6372000" />
+      <workItem from="1560328902599" duration="7533000" />
     </task>
     <task id="LOCAL-00001" summary="Testing git connection">
       <created>1553692047818</created>
@@ -622,11 +665,18 @@
       <option name="project" value="LOCAL" />
       <updated>1560330044185</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Finish method to create test topics">
+      <created>1560336114157</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1560336114157</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100158000" />
+    <option name="totallyTimeSpent" value="101319000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -638,13 +688,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16595136" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16595136" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.36144578" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.36144578" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4988263" weight="0.35903615" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -694,7 +745,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Add Todos" />
     <MESSAGE value="Implemented pytesseract OCR, it's much better" />
     <MESSAGE value="Streamline text extraction" />
     <MESSAGE value="Add simple frequency bar graph" />
@@ -719,7 +769,8 @@
     <MESSAGE value="Made code work better with separate projects" />
     <MESSAGE value="Refactoring and cleanup" />
     <MESSAGE value="Updated gitignore to not ignore the test_files folder" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated gitignore to not ignore the test_files folder" />
+    <MESSAGE value="Finish method to create test topics" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish method to create test topics" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -732,7 +783,7 @@
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/MemosToNotes$main.coverage" NAME="main Coverage Results" MODIFIED="1560336006874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MemosToNotes$main.coverage" NAME="main Coverage Results" MODIFIED="1560336949188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
@@ -776,27 +827,6 @@ print(&quot;Done&quot;)</expression-string>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/corpus/summaries/2011 June Memo.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="5" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///anaconda3/envs/MemosToNotes3/lib/python3.6/site-packages/numpy/core/numeric.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="537" selection-start-line="537" selection-end-line="537" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///anaconda3/envs/MemosToNotes3/lib/python3.6/site-packages/matplotlib/axes/_axes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="2965" selection-start-line="2965" selection-end-line="2965" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///anaconda3/envs/MemosToNotes3/lib/python3.6/site-packages/matplotlib/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -970,9 +1000,6 @@ print(&quot;Done&quot;)</expression-string>
     <entry file="file://$PROJECT_DIR$/test_files/topics/summaries/bars/a_bar_chart.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_files/corpus/txts/test_1.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/test_files/topics/txts/e.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -991,25 +1018,44 @@ print(&quot;Done&quot;)</expression-string>
     <entry file="file://$PROJECT_DIR$/test_files/topics/summaries/jsons/a.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_files/corpus/summaries/jsons/test_1.json">
+    <entry file="file://$PROJECT_DIR$/test_files/summaries/pies/test_1-pie_chart.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_files/corpus/summaries/pies/test_1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file:///anaconda3/envs/MemosToNotes3/lib/python3.6/random.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+        <state relative-caret-position="456">
+          <caret line="355" column="48" selection-start-line="355" selection-start-column="48" selection-end-line="355" selection-end-column="48" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_files/corpus/summaries/pies/test_1_pie_chart.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/test_files/corpus/summaries/bars/test_1_bar_chart.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_files/summaries/pies/test_1-pie_chart.png">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/test_files/corpus/summaries/jsons/test_1.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="12" lean-forward="true" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_files/corpus/txts/test_1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="53" column="27" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="27" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-838">
-          <caret line="246" column="25" lean-forward="true" selection-start-line="246" selection-start-column="25" selection-end-line="246" selection-end-column="25" />
+        <state relative-caret-position="214">
+          <caret line="365" column="34" lean-forward="true" selection-start-line="365" selection-start-column="34" selection-end-line="365" selection-end-column="34" />
           <folding>
-            <element signature="e#0#11#0" expanded="true" />
             <element signature="e#320#523#0" />
             <element signature="e#320#470#1" />
             <element signature="e#621#2726#0" />
@@ -1026,16 +1072,35 @@ print(&quot;Done&quot;)</expression-string>
             <element signature="e#3957#4147#0" />
             <element signature="e#4215#6241#0" />
             <element signature="e#4215#4550#1" />
+            <element signature="e#4776#4923#0" />
             <element signature="e#5100#6241#0" />
+            <element signature="e#6450#7902#0" />
             <element signature="e#6334#6687#1" />
+            <element signature="e#8012#10482#0" />
             <element signature="e#7946#8250#1" />
-            <element signature="e#12500#13912#0" />
+            <element signature="e#8743#8897#0" />
+            <element signature="e#8792#9160#0" />
+            <element signature="e#9078#9160#0" />
+            <element signature="e#10498#12124#0" />
+            <element signature="e#10493#10640#1" />
+            <element signature="e#10516#11901#0" />
+            <element signature="e#10629#10677#0" />
+            <element signature="e#11540#11768#0" />
+            <element signature="e#11937#12091#0" />
+            <element signature="e#12535#14316#0" />
+            <element signature="e#12743#12935#0" />
+            <element signature="e#12794#12935#0" />
+            <element signature="e#13357#13613#0" />
+            <element signature="e#13811#14020#0" />
+            <element signature="e#14257#14332#0" />
             <element signature="e#11300#11790#0" />
             <element signature="e#11412#11790#0" />
             <element signature="e#11442#11790#0" />
             <element signature="e#11480#11701#0" />
-            <element signature="e#12568#13525#0" />
+            <element signature="e#11830#12047#1" />
+            <element signature="e#16075#17131#0" />
             <element signature="e#12565#12782#1" />
+            <element signature="e#13447#13523#0" />
           </folding>
         </state>
       </provider>

@@ -205,7 +205,7 @@ def json_to_pie_chart(root: str, memo_json_path: str, verbose: bool = True) -> N
     memo_words, memo_freqs = list(data.keys()), list(data.values())
     topic_scores = {}
 
-    json_topic_paths = glob.glob(os.path.join(root, "topics", "summaries", "jsons", "*.json"))
+    json_topic_paths = sorted(glob.glob(os.path.join(root, "topics", "summaries", "jsons", "*.json")))
     # test_files/corpus/summaries/jsons/test_1.json
     if len(json_topic_paths) == 0:
         print("No topic files found that match with '{}'. Graphing failed".format(
@@ -287,20 +287,27 @@ def create_test_topics(root, topic_ids, total_unique_words=10, total_words=50, g
 
     texts_to_jsons(os.path.join(root, "topics"))
     if graph:
-        json_paths = glob.glob(os.path.join(root, "topics", "summaries", "jsons", "*.json"))
+        json_paths = sorted(glob.glob(os.path.join(root, "topics", "summaries", "jsons", "*.json")))
         for json_path in json_paths:
             json_to_bar_chart(json_path)
 
 
-def create_test_corpus(root: str, test_id: str, total_words=300, graph=True):
-    json_paths = glob.glob(os.path.join(root, "topics", "summaries", "jsons", "*.json"))
+def create_test_corpus(root: str, test_id: str, topic_weights=None, total_words=300, graph=True):
+    json_paths = sorted(glob.glob(os.path.join(root, "topics", "summaries", "jsons", "*.json")))
     words = []
     freqs = []
-    for json_path in json_paths:
+
+    # If no topic_weights were given, set all topic_weights to 1
+    if len(topic_weights) != len(json_paths):
+        raise ValueError("len(topic_weights) doesn't equal len(json_paths) ({}!={})".format(len(topic_weights), len(json_paths)))
+    if topic_weights is None:
+        topic_weights = [1] * len(json_paths)
+
+    for i, json_path in enumerate(json_paths):
         with open(json_path, "r") as jsonfile:
             data: dict = json.load(jsonfile)
             words.extend(list(data.keys()))
-            freqs.extend(list(data.values()))
+            freqs.extend([value * topic_weights[i] for value in data.values()])
 
     corpus_txt_directory = os.path.join(root, "corpus", "txts")
 
@@ -320,7 +327,7 @@ def create_test_corpus(root: str, test_id: str, total_words=300, graph=True):
 
     texts_to_jsons(os.path.join(root, "corpus"))
     if graph:
-        json_paths = glob.glob(os.path.join(root, "corpus", "summaries", "jsons", "*.json"))
+        json_paths = sorted(glob.glob(os.path.join(root, "corpus", "summaries", "jsons", "*.json")))
         for json_path in json_paths:
             json_to_bar_chart(json_path)
             json_to_pie_chart(root, json_path)
@@ -357,12 +364,12 @@ def developement_main() -> None:
                        total_unique_words=50,
                        total_words=1000,
                        graph=True)
-    create_test_corpus(root, "test_1", total_words=1000)
+    create_test_corpus(root, "test_1", topic_weights=[0, 1, 2, 3, 4], total_words=1000)
 
     # pdfs_to_texts(os.path.join(root, "topics"))
     # texts_to_jsons(os.path.join(root, "topics"))
 
-    # json_paths = glob.glob(os.path.join(root, "topics", "summaries", "jsons", "*.json"))
+    # json_paths = sorted(glob.glob(os.path.join(root, "topics", "summaries", "jsons", "*.json")))
     # for json_path in json_paths:
     #     json_to_graph(json_path)
     #     graph_memo_composition(json_path)
@@ -394,7 +401,7 @@ def main() -> None:
     texts_to_jsons(os.path.join(root, "topics"))
 
     # Graph the data, saved to root/corpus/summaries/bars/ and root/corpus/summaries/pies/
-    memo_json_paths = glob.glob(os.path.join(root, "corpus", "summaries", "*.json"))
+    memo_json_paths = sorted(glob.glob(os.path.join(root, "corpus", "summaries", "*.json")))
     for memo_json_path in memo_json_paths:
         json_to_bar_chart(memo_json_path)
         json_to_pie_chart(memo_json_path)
