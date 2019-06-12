@@ -1,5 +1,6 @@
-corpus/pdfs/
-corpus/pngs/
-topics/pdfs/
-topics/pngs
+*/corpus/pdfs/
+*/corpus/pngs/
+*/topics/pdfs/
+*/topics/pngs/
+!test_files/
 .idea
