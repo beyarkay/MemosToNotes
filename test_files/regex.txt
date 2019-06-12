@@ -1,0 +1,2 @@
+regex_subquestion="\\([a-z]+\\)\\s+[A-Z]"
+regex_question="(Question [0-9]+\\s)"

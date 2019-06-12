@@ -2,27 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="456ae79f-d782-497c-83bd-e877f784e7ca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test_files/corpus/summaries/pies/test_1_pie_chart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSC1015F/regex.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSC1015F/stopwords.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FTX1005F/stopwords.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_files/regex.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuestionPaper.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_files/corpus/summaries/bars/test_1_bar_chart.png" beforeDir="false" afterPath="$PROJECT_DIR$/test_files/corpus/summaries/bars/test_1_bar_chart.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_files/corpus/summaries/jsons/test_1.json" beforeDir="false" afterPath="$PROJECT_DIR$/test_files/corpus/summaries/jsons/test_1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_files/corpus/txts/test_1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test_files/corpus/txts/test_1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_files/topics/summaries/bars/a_bar_chart.png" beforeDir="false" afterPath="$PROJECT_DIR$/test_files/topics/summaries/bars/a_bar_chart.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_files/topics/summaries/bars/b_bar_chart.png" beforeDir="false" afterPath="$PROJECT_DIR$/test_files/topics/summaries/bars/b_bar_chart.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_files/topics/summaries/bars/c_bar_chart.png" beforeDir="false" afterPath="$PROJECT_DIR$/test_files/topics/summaries/bars/c_bar_chart.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_files/topics/summaries/bars/d_bar_chart.png" beforeDir="false" afterPath="$PROJECT_DIR$/test_files/topics/summaries/bars/d_bar_chart.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_files/topics/summaries/bars/e_bar_chart.png" beforeDir="false" afterPath="$PROJECT_DIR$/test_files/topics/summaries/bars/e_bar_chart.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_files/topics/summaries/jsons/a.json" beforeDir="false" afterPath="$PROJECT_DIR$/test_files/topics/summaries/jsons/a.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_files/topics/summaries/jsons/b.json" beforeDir="false" afterPath="$PROJECT_DIR$/test_files/topics/summaries/jsons/b.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_files/topics/summaries/jsons/c.json" beforeDir="false" afterPath="$PROJECT_DIR$/test_files/topics/summaries/jsons/c.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_files/topics/summaries/jsons/d.json" beforeDir="false" afterPath="$PROJECT_DIR$/test_files/topics/summaries/jsons/d.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_files/topics/summaries/jsons/e.json" beforeDir="false" afterPath="$PROJECT_DIR$/test_files/topics/summaries/jsons/e.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_files/topics/txts/a.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test_files/topics/txts/a.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_files/topics/txts/b.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test_files/topics/txts/b.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_files/topics/txts/c.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test_files/topics/txts/c.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_files/topics/txts/d.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test_files/topics/txts/d.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_files/topics/txts/e.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test_files/topics/txts/e.txt" afterDir="false" />
     </list>
     <ignored path=".idea/" />
     <ignored path="corpus/pdfs/" />
@@ -51,58 +37,63 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="365" column="34" lean-forward="true" selection-start-line="365" selection-start-column="34" selection-end-line="365" selection-end-column="34" />
+            <state relative-caret-position="288">
+              <caret line="144" selection-start-line="144" selection-end-line="144" />
               <folding>
-                <element signature="e#320#523#0" />
-                <element signature="e#320#470#1" />
-                <element signature="e#621#2726#0" />
-                <element signature="e#621#1066#1" />
-                <element signature="e#1072#1127#0" />
-                <element signature="e#1416#2263#0" />
-                <element signature="e#1956#2263#0" />
-                <element signature="e#2465#2706#0" />
-                <element signature="e#2813#4147#0" />
-                <element signature="e#2813#3149#1" />
-                <element signature="e#3292#4147#0" />
-                <element signature="e#3482#3930#0" />
-                <element signature="e#3817#3930#0" />
-                <element signature="e#3957#4147#0" />
-                <element signature="e#4215#6241#0" />
-                <element signature="e#4215#4550#1" />
-                <element signature="e#4776#4923#0" />
-                <element signature="e#5100#6241#0" />
-                <element signature="e#6450#7902#0" />
-                <element signature="e#6334#6687#1" />
-                <element signature="e#8012#10482#0" />
-                <element signature="e#7946#8250#1" />
-                <element signature="e#8743#8897#0" />
-                <element signature="e#8792#9160#0" />
-                <element signature="e#9078#9160#0" />
-                <element signature="e#10498#12124#0" />
-                <element signature="e#10493#10640#1" />
-                <element signature="e#10516#11901#0" />
-                <element signature="e#10629#10677#0" />
-                <element signature="e#11540#11768#0" />
-                <element signature="e#11937#12091#0" />
-                <element signature="e#12535#14316#0" />
-                <element signature="e#12743#12935#0" />
-                <element signature="e#12794#12935#0" />
-                <element signature="e#13357#13613#0" />
-                <element signature="e#13811#14020#0" />
-                <element signature="e#14257#14332#0" />
-                <element signature="e#11300#11790#0" />
-                <element signature="e#11412#11790#0" />
-                <element signature="e#11442#11790#0" />
-                <element signature="e#11480#11701#0" />
-                <element signature="e#11830#12047#1" />
-                <element signature="e#16075#17131#0" />
-                <element signature="e#12565#12782#1" />
-                <element signature="e#13447#13523#0" />
+                <element signature="e#334#537#0" />
+                <element signature="e#334#484#1" />
+                <element signature="e#635#2740#0" />
+                <element signature="e#635#1080#1" />
+                <element signature="e#1086#1141#0" />
+                <element signature="e#1430#2277#0" />
+                <element signature="e#1970#2277#0" />
+                <element signature="e#2479#2720#0" />
+                <element signature="e#2827#4161#0" />
+                <element signature="e#2827#3163#1" />
+                <element signature="e#3306#4161#0" />
+                <element signature="e#3496#3944#0" />
+                <element signature="e#3831#3944#0" />
+                <element signature="e#3971#4161#0" />
+                <element signature="e#4229#4564#1" />
+                <element signature="e#4763#4967#0" />
+                <element signature="e#6535#8007#0" />
+                <element signature="e#8099#10511#0" />
+                <element signature="e#10961#12885#0" />
+                <element signature="e#11282#12642#0" />
+                <element signature="e#12715#12885#0" />
+                <element signature="e#12990#14800#0" />
+                <element signature="e#16527#17585#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CSC1015F/topics/txts/Files.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="170" selection-start-line="169" selection-start-column="18" selection-end-line="170" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CSC1015F/stopwords.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2531">
+              <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_files/regex.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -118,10 +109,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>name</find>
-      <find>.jpg</find>
-      <find>oundary</find>
-      <find>stopwords</find>
       <find>ieee</find>
       <find>EEE</find>
       <find>corpus</find>
@@ -148,6 +135,10 @@
       <find>Graphing pie</find>
       <find>glob.glob</find>
       <find>00</find>
+      <find>semantics</find>
+      <find>behaves</find>
+      <find>fo</find>
+      <find>pa</find>
     </findStrings>
     <replaceStrings>
       <replace>REGEX_SUBQUESTION</replace>
@@ -174,7 +165,6 @@
         <option value="$PROJECT_DIR$/corpus/stopwords.txt" />
         <option value="$PROJECT_DIR$/stopwords.txt" />
         <option value="$PROJECT_DIR$/requirements.txt" />
-        <option value="$PROJECT_DIR$/QuestionPaper.py" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/test_files/corpus/summaries/topic_a.json" />
         <option value="$PROJECT_DIR$/test_files/topics/summaries/topic_c.json" />
@@ -182,6 +172,9 @@
         <option value="$PROJECT_DIR$/test_files/corpus/summaries/memo_1.json" />
         <option value="$PROJECT_DIR$/FTX1005F/stopwords.txt" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/test_files/regex.txt" />
+        <option value="$PROJECT_DIR$/QuestionPaper.py" />
+        <option value="$PROJECT_DIR$/CSC1015F/stopwords.txt" />
         <option value="$PROJECT_DIR$/main.py" />
       </list>
     </option>
@@ -209,51 +202,46 @@
             <path>
               <item name="MemosToNotes" type="b2602c69:ProjectViewProjectNode" />
               <item name="MemosToNotes" type="462c0819:PsiDirectoryNode" />
-              <item name="test_files" type="462c0819:PsiDirectoryNode" />
+              <item name="CSC1015F" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MemosToNotes" type="b2602c69:ProjectViewProjectNode" />
               <item name="MemosToNotes" type="462c0819:PsiDirectoryNode" />
-              <item name="test_files" type="462c0819:PsiDirectoryNode" />
+              <item name="CSC1015F" type="462c0819:PsiDirectoryNode" />
               <item name="corpus" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MemosToNotes" type="b2602c69:ProjectViewProjectNode" />
               <item name="MemosToNotes" type="462c0819:PsiDirectoryNode" />
-              <item name="test_files" type="462c0819:PsiDirectoryNode" />
-              <item name="corpus" type="462c0819:PsiDirectoryNode" />
+              <item name="CSC1015F" type="462c0819:PsiDirectoryNode" />
+              <item name="topics" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MemosToNotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MemosToNotes" type="462c0819:PsiDirectoryNode" />
+              <item name="CSC1015F" type="462c0819:PsiDirectoryNode" />
+              <item name="topics" type="462c0819:PsiDirectoryNode" />
               <item name="summaries" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MemosToNotes" type="b2602c69:ProjectViewProjectNode" />
               <item name="MemosToNotes" type="462c0819:PsiDirectoryNode" />
-              <item name="test_files" type="462c0819:PsiDirectoryNode" />
-              <item name="corpus" type="462c0819:PsiDirectoryNode" />
-              <item name="summaries" type="462c0819:PsiDirectoryNode" />
-              <item name="bars" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MemosToNotes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MemosToNotes" type="462c0819:PsiDirectoryNode" />
-              <item name="test_files" type="462c0819:PsiDirectoryNode" />
-              <item name="corpus" type="462c0819:PsiDirectoryNode" />
+              <item name="CSC1015F" type="462c0819:PsiDirectoryNode" />
+              <item name="topics" type="462c0819:PsiDirectoryNode" />
               <item name="summaries" type="462c0819:PsiDirectoryNode" />
               <item name="jsons" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MemosToNotes" type="b2602c69:ProjectViewProjectNode" />
               <item name="MemosToNotes" type="462c0819:PsiDirectoryNode" />
-              <item name="test_files" type="462c0819:PsiDirectoryNode" />
-              <item name="corpus" type="462c0819:PsiDirectoryNode" />
-              <item name="summaries" type="462c0819:PsiDirectoryNode" />
-              <item name="pies" type="462c0819:PsiDirectoryNode" />
+              <item name="CSC1015F" type="462c0819:PsiDirectoryNode" />
+              <item name="topics" type="462c0819:PsiDirectoryNode" />
+              <item name="txts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MemosToNotes" type="b2602c69:ProjectViewProjectNode" />
               <item name="MemosToNotes" type="462c0819:PsiDirectoryNode" />
               <item name="test_files" type="462c0819:PsiDirectoryNode" />
-              <item name="corpus" type="462c0819:PsiDirectoryNode" />
-              <item name="txts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -264,25 +252,25 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/FTX1005F" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/CSC1015F" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/CSC1015F" />
+      <recent name="$PROJECT_DIR$/FTX1005F" />
+      <recent name="$PROJECT_DIR$/test_files/corpus/summaries" />
+      <recent name="$PROJECT_DIR$/corpus/summaries/pies" />
+      <recent name="$PROJECT_DIR$/corpus/pdfs" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/readme-files" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/topics/pngs" />
       <recent name="$PROJECT_DIR$/pdfs" />
       <recent name="$PROJECT_DIR$/imgs" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/FTX1005F" />
-      <recent name="$PROJECT_DIR$/test_files/corpus/summaries" />
-      <recent name="$PROJECT_DIR$/corpus/summaries/pies" />
-      <recent name="$PROJECT_DIR$/corpus/pdfs" />
-      <recent name="$PROJECT_DIR$/corpus" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -376,7 +364,9 @@
       <workItem from="1559394466584" duration="1822000" />
       <workItem from="1559473688998" duration="2973000" />
       <workItem from="1560328854336" duration="20000" />
-      <workItem from="1560328902599" duration="7533000" />
+      <workItem from="1560328902599" duration="7934000" />
+      <workItem from="1560366981898" duration="1421000" />
+      <workItem from="1560368499523" duration="5392000" />
     </task>
     <task id="LOCAL-00001" summary="Testing git connection">
       <created>1553692047818</created>
@@ -672,11 +662,18 @@
       <option name="project" value="LOCAL" />
       <updated>1560336114157</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Finish method for creating the testing corpus">
+      <created>1560337071781</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1560337071781</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101319000" />
+    <option name="totallyTimeSpent" value="108533000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -690,16 +687,16 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16595136" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1702432" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.36144578" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4988263" weight="0.35903615" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" weight="0.2180723" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4988263" visible="true" weight="0.41445783" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.12048193" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.19036144" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.11566265" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49713877" weight="0.27831325" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5028612" side_tool="true" weight="0.28433734" />
@@ -711,7 +708,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" sideWeight="0.48387095" weight="0.17811158" />
       <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" x="0" y="0" width="310" height="700" id="Documentation" order="5" sideWeight="0.6703297" visible="true" weight="0.26251787" />
+      <window_info anchor="right" x="0" y="0" width="310" height="700" id="Documentation" order="5" sideWeight="0.6703297" side_tool="true" visible="true" weight="0.23891273" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -742,10 +739,23 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Implemented pytesseract OCR, it's much better" />
     <MESSAGE value="Streamline text extraction" />
     <MESSAGE value="Add simple frequency bar graph" />
     <MESSAGE value="Processed pdfs now get saved in text form" />
@@ -770,7 +780,8 @@
     <MESSAGE value="Refactoring and cleanup" />
     <MESSAGE value="Updated gitignore to not ignore the test_files folder" />
     <MESSAGE value="Finish method to create test topics" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish method to create test topics" />
+    <MESSAGE value="Finish method for creating the testing corpus" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish method for creating the testing corpus" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -783,7 +794,7 @@
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/MemosToNotes$main.coverage" NAME="main Coverage Results" MODIFIED="1560336949188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MemosToNotes$main.coverage" NAME="main Coverage Results" MODIFIED="1560373674766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
@@ -827,58 +838,6 @@ print(&quot;Done&quot;)</expression-string>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///anaconda3/envs/MemosToNotes3/lib/python3.6/site-packages/matplotlib/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="1588" selection-start-line="1588" selection-end-line="1588" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/QuestionPaper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///anaconda3/envs/MemosToNotes3/lib/python3.6/site-packages/nltk/corpus/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="242" column="46" selection-start-line="242" selection-start-column="40" selection-end-line="242" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_files/corpus/summaries/topic_a.json" />
-    <entry file="file://$PROJECT_DIR$/test_files/topics/summaries/topic_c.json" />
-    <entry file="file://$PROJECT_DIR$/test_files/topics/summaries/topic_b.json" />
-    <entry file="file:///anaconda3/envs/MemosToNotes3/lib/python3.6/json/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="144" column="58" lean-forward="true" selection-start-line="144" selection-end-line="145" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_topic_`.json" />
-    <entry file="file://$PROJECT_DIR$/test_topic_a.json" />
-    <entry file="file://$PROJECT_DIR$/test_topic_b.json" />
-    <entry file="file://$PROJECT_DIR$/test_topic_c.json" />
-    <entry file="file://$PROJECT_DIR$/topics/summaries/Arrays.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1050">
-          <caret line="70" column="8" selection-start-line="70" selection-start-column="3" selection-end-line="70" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -928,13 +887,7 @@ print(&quot;Done&quot;)</expression-string>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/topics/txts/Testing.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="159" lean-forward="true" selection-start-line="159" selection-end-line="159" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/topics/txts/Testing.txt" />
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -942,48 +895,20 @@ print(&quot;Done&quot;)</expression-string>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_files/topics/txts/topic_A.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="99" selection-start-column="99" selection-end-column="99" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/test_files/topics/txts/topic_A.txt" />
     <entry file="file://$PROJECT_DIR$/test_files/stopwords.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_files/topics/summaries/test_topic_a.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="11" lean-forward="true" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_files/topics/summaries/test_topic_b.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_files/topics/summaries/test_topic_e.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_files/topics/summaries/test_topic_d.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_files/topics/summaries/test_topic_c.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/test_files/topics/summaries/test_topic_a.json" />
+    <entry file="file://$PROJECT_DIR$/test_files/topics/summaries/test_topic_b.json" />
+    <entry file="file://$PROJECT_DIR$/test_files/topics/summaries/test_topic_e.json" />
+    <entry file="file://$PROJECT_DIR$/test_files/topics/summaries/test_topic_d.json" />
+    <entry file="file://$PROJECT_DIR$/test_files/topics/summaries/test_topic_c.json" />
     <entry file="file://$PROJECT_DIR$/test_files/topics/txts/c.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_files/corpus/summaries/memo_1.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_files/topics/summaries/bars/topic_A_bar_chart.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/test_files/corpus/summaries/memo_1.json" />
+    <entry file="file://$PROJECT_DIR$/test_files/topics/summaries/bars/topic_A_bar_chart.png" />
     <entry file="file://$PROJECT_DIR$/test_files/topics/txts/b.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1018,12 +943,8 @@ print(&quot;Done&quot;)</expression-string>
     <entry file="file://$PROJECT_DIR$/test_files/topics/summaries/jsons/a.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_files/summaries/pies/test_1-pie_chart.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_files/corpus/summaries/pies/test_1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/test_files/summaries/pies/test_1-pie_chart.png" />
+    <entry file="file://$PROJECT_DIR$/test_files/corpus/summaries/pies/test_1.png" />
     <entry file="file:///anaconda3/envs/MemosToNotes3/lib/python3.6/random.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
@@ -1051,57 +972,104 @@ print(&quot;Done&quot;)</expression-string>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/QuestionPaper.py" />
+    <entry file="file://$PROJECT_DIR$/CSC1015F/regex.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="37" lean-forward="true" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSC1015F/topics/txts/Arrays.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSC1015F/topics/summaries/Basics.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSC1015F/corpus/txts/2011 June Memo.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="35" column="69" selection-start-line="35" selection-start-column="69" selection-end-line="35" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSC1015F/corpus/summaries/bars/2011 June Memo-bar_chart.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_files/regex.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSC1015F/topics/summaries/Files.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSC1015F/topics/summaries/bars/Files_bar_chart.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSC1015F/stopwords.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2531">
+          <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2019.1/python_stubs/-731821440/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="5060" column="8" selection-start-line="5060" selection-start-column="8" selection-end-line="5060" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="365" column="34" lean-forward="true" selection-start-line="365" selection-start-column="34" selection-end-line="365" selection-end-column="34" />
+        <state relative-caret-position="288">
+          <caret line="144" selection-start-line="144" selection-end-line="144" />
           <folding>
-            <element signature="e#320#523#0" />
-            <element signature="e#320#470#1" />
-            <element signature="e#621#2726#0" />
-            <element signature="e#621#1066#1" />
-            <element signature="e#1072#1127#0" />
-            <element signature="e#1416#2263#0" />
-            <element signature="e#1956#2263#0" />
-            <element signature="e#2465#2706#0" />
-            <element signature="e#2813#4147#0" />
-            <element signature="e#2813#3149#1" />
-            <element signature="e#3292#4147#0" />
-            <element signature="e#3482#3930#0" />
-            <element signature="e#3817#3930#0" />
-            <element signature="e#3957#4147#0" />
-            <element signature="e#4215#6241#0" />
-            <element signature="e#4215#4550#1" />
-            <element signature="e#4776#4923#0" />
-            <element signature="e#5100#6241#0" />
-            <element signature="e#6450#7902#0" />
-            <element signature="e#6334#6687#1" />
-            <element signature="e#8012#10482#0" />
-            <element signature="e#7946#8250#1" />
-            <element signature="e#8743#8897#0" />
-            <element signature="e#8792#9160#0" />
-            <element signature="e#9078#9160#0" />
-            <element signature="e#10498#12124#0" />
-            <element signature="e#10493#10640#1" />
-            <element signature="e#10516#11901#0" />
-            <element signature="e#10629#10677#0" />
-            <element signature="e#11540#11768#0" />
-            <element signature="e#11937#12091#0" />
-            <element signature="e#12535#14316#0" />
-            <element signature="e#12743#12935#0" />
-            <element signature="e#12794#12935#0" />
-            <element signature="e#13357#13613#0" />
-            <element signature="e#13811#14020#0" />
-            <element signature="e#14257#14332#0" />
-            <element signature="e#11300#11790#0" />
-            <element signature="e#11412#11790#0" />
-            <element signature="e#11442#11790#0" />
-            <element signature="e#11480#11701#0" />
-            <element signature="e#11830#12047#1" />
-            <element signature="e#16075#17131#0" />
-            <element signature="e#12565#12782#1" />
-            <element signature="e#13447#13523#0" />
+            <element signature="e#334#537#0" />
+            <element signature="e#334#484#1" />
+            <element signature="e#635#2740#0" />
+            <element signature="e#635#1080#1" />
+            <element signature="e#1086#1141#0" />
+            <element signature="e#1430#2277#0" />
+            <element signature="e#1970#2277#0" />
+            <element signature="e#2479#2720#0" />
+            <element signature="e#2827#4161#0" />
+            <element signature="e#2827#3163#1" />
+            <element signature="e#3306#4161#0" />
+            <element signature="e#3496#3944#0" />
+            <element signature="e#3831#3944#0" />
+            <element signature="e#3971#4161#0" />
+            <element signature="e#4229#4564#1" />
+            <element signature="e#4763#4967#0" />
+            <element signature="e#6535#8007#0" />
+            <element signature="e#8099#10511#0" />
+            <element signature="e#10961#12885#0" />
+            <element signature="e#11282#12642#0" />
+            <element signature="e#12715#12885#0" />
+            <element signature="e#12990#14800#0" />
+            <element signature="e#16527#17585#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSC1015F/topics/summaries/jsons/Files.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2295">
+          <caret line="153" column="13" selection-start-line="153" selection-start-column="3" selection-end-line="153" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSC1015F/topics/txts/Files.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="170" selection-start-line="169" selection-start-column="18" selection-end-line="170" />
         </state>
       </provider>
     </entry>

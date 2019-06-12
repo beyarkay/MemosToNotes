@@ -3,6 +3,7 @@ import json
 import math
 import os
 import random
+import re
 
 import numpy as np
 import pytesseract
@@ -128,16 +129,42 @@ def texts_to_jsons(root: str, verbose: bool = True) -> None:
         with open(txt_file, "r") as txt:
             text = "\n".join(txt.readlines())
 
-        # Remove all duplicates, and make all the words lowercase
-        unique_words = set([word.lower().strip() for word in text.split()])
-        # remove all useless stopwords from the data
-        unique_words = list(unique_words - stopwords)
+        # regex replace all whitespace with a single space
+        text = re.sub(re.compile(r"\s"), " ", text)
+        # squash all sequential spaces to just be one space
+        text = re.sub(re.compile("[ ]+"), " ", text)
+        # convert the text to lowercase
+        text = text.lower()
 
-        # Get the frequency of each word
-        frequencies = [text.count(word) for word in unique_words]
+        # Add in all the maybe-important tokens
+        # Also include function calls? of regex types
+        tokens = set()
+        split_text = [word.strip() for word in text.split(" ")]
+
+        for j, word in enumerate(split_text):
+            if not word.isspace() and len(word) > 1:
+                tokens.add(word)
+            if j + 1 < len(split_text):
+                tokens.add(word + " " + split_text[j + 1])
+            if j + 2 < len(split_text):
+                tokens.add(word + " " + split_text[j + 1] + " " + split_text[j + 2])
+        # STEP 1: Exclude the useless things
+        tokens -= stopwords
+        # STEP 2: Do fuzzy matching to account for 'close enough' matches
+
+        def fancy_count(needle: str, haystack: str) -> int:
+            # TODO create a better counting function, that'll do some fuzzy matching with capitals, bad OCR etc
+            # Ignore special characters
+            # Ignore case
+
+            return haystack.count(needle)
+
+        tokens = list(tokens)
+        # Get the frequency of each token
+        frequencies = [fancy_count(word, text) for word in tokens]
 
         # sort the words by their frequency, descending
-        sorted_words = sorted(zip(unique_words, frequencies), key=lambda x: x[1], reverse=True)
+        sorted_words = sorted(zip(tokens, frequencies), key=lambda x: x[1], reverse=True)
         clean_words = [item[0] for item in sorted_words]
         frequencies = [item[1] for item in sorted_words]
 
@@ -247,6 +274,18 @@ def json_to_pie_chart(root: str, memo_json_path: str, verbose: bool = True) -> N
     plt.savefig(pie_path)
 
 
+def split_into_questions(root: str, text_file_path: str):
+    lines = []
+    with open(text_file_path, "r") as text_file:
+        lines = text_file.readlines()
+
+    pass
+
+    # self.text = self.text.replace('\n', ' ').replace('\r', '')
+    # self.text = re.sub(re.compile("_{3,}"), "\n", self.text)
+    # end_of_question_pattern = re.compile("\\?")
+
+
 def create_test_topics(root, topic_ids, total_unique_words=10, total_words=50, graph=True):
     """
     Create dummy text files, json files, and bar graphs with a regular and manipulable
@@ -299,7 +338,8 @@ def create_test_corpus(root: str, test_id: str, topic_weights=None, total_words=
 
     # If no topic_weights were given, set all topic_weights to 1
     if len(topic_weights) != len(json_paths):
-        raise ValueError("len(topic_weights) doesn't equal len(json_paths) ({}!={})".format(len(topic_weights), len(json_paths)))
+        raise ValueError(
+            "len(topic_weights) doesn't equal len(json_paths) ({}!={})".format(len(topic_weights), len(json_paths)))
     if topic_weights is None:
         topic_weights = [1] * len(json_paths)
 
@@ -357,24 +397,22 @@ def developement_main() -> None:
     """
 
     sns.set()
-    root = "test_files"
+    root = "CSC1015F"
     create_directory_structure(root)
-    create_test_topics(root,
-                       ["a", "b", "c", "d", "e"],
-                       total_unique_words=50,
-                       total_words=1000,
-                       graph=True)
-    create_test_corpus(root, "test_1", topic_weights=[0, 1, 2, 3, 4], total_words=1000)
+    # create_test_topics(root,
+    #                    ["a", "b", "c", "d", "e"],
+    #                    total_unique_words=50,
+    #                    total_words=1000,
+    #                    graph=True)
+    # create_test_corpus(root, "test_1", topic_weights=[0, 1, 2, 3, 4], total_words=1000)
 
     # pdfs_to_texts(os.path.join(root, "topics"))
-    # texts_to_jsons(os.path.join(root, "topics"))
+    texts_to_jsons(os.path.join(root, "topics"))
 
     # json_paths = sorted(glob.glob(os.path.join(root, "topics", "summaries", "jsons", "*.json")))
     # for json_path in json_paths:
-    #     json_to_graph(json_path)
-    #     graph_memo_composition(json_path)
-    # for i in range(5):
-    #     create_test_topic("test_files", chr(i + ord("a")), total_unique_words=20)
+    #     json_to_bar_chart(json_path, num_words=100)
+        # json_to_pie_chart(root, json_path)
     print("developement_main() finished.")
 
 
@@ -387,7 +425,7 @@ def main() -> None:
     """
     # Initialise the pretty graph maker
     sns.set()
-    root = "CSC1015F"
+    root = "test_files"
 
     # Ensure there is a directory structure to work in
     create_directory_structure(root)
