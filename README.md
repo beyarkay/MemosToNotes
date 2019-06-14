@@ -8,8 +8,8 @@ MemosToNotes then analyses the exams and lecture notes, giving the users useful 
 
 MemosToNotes also will search through the all the lecture notes given, and figure out which words or groups of words occur very frequently in one topic, but not very often in other topics:
 
-![My image](readme-files/rewards_recursion.png) ![My image](readme-files/rewards_selection.png)
-![My image](readme-files/rewards_files.png) ![My image](readme-files/rewards_hardware.png)
+![My image](readme-files/rewards_recursion.png) 
+![My image](readme-files/rewards_files.png)
 
 
 
